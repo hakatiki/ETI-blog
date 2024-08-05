@@ -4,94 +4,120 @@ date: "2024-08-10"
 description: "Diákhitelek és befektetések kapcsolata Magyarországon"
 ---
 
-A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálhatnak a tudatos hallgatók számára. Ez a bejegyzés részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Az ROI (Return on Investment) és ROE (Return on Equity) pénzügyi mutatók elemzése segít megérteni, hogyan lehet a hitel révén a lehető legtöbb hasznot elérni.
+A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálhatnak a tudatos hallgatók számára. Ez a bejegyzés részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. A cél, hogy a leleményes hallgatóknak segítsen az életben való elindulásban és betekintést adjon a pénzügyek világába. A cikk feltételezi, hogy az olvasónak nincsen szüksége a diákhitelre, hogy megéljen így befektetésként tudja használni. Egy excel táblát is mellékelünk az oldal alján amit letöltve szabadon reprodukálni lehet a számításainkat. Fontos megjegyezni, hogy ez nem befektetési tanács csak a mi gondolataink és tapasztalataink összegzése. Használd bölcsen az információt.
 
-## Diákhitel Típusok Magyarországon
+# Diákhitelek Magyarországon
+
+A magyarországi diákhitelek célja, hogy segítsenek a hallgatóknak fedezni a felsőoktatással járó költségeket. Ezek a hitelek nemcsak az oktatás finanszírozására, hanem a hallgatók személyes és pénzügyi helyzetének javítására is alkalmasak lehetnek. Az alábbiakban bemutatjuk a diákhitel típusait, az igénylés feltételeit, a törlesztési lehetőségeket, és a hozzájuk kapcsolódó kedvezményeket. 
+
+## Diákhitel Típusok
 
 ### Diákhitel 1
 
-A Diákhitel 1 szabad felhasználású hitel, amelyet a hallgatók bármilyen célra felhasználhatnak, például lakhatásra vagy technológiai eszközök beszerzésére. Jelenlegi kamatlába 7,99%, amely 2024 júliusában emelkedett a korábbi 4,99%-ról&#8203;:citation[oaicite:9]{index=9}&#8203;&#8203;:citation[oaicite:8]{index=8}&#8203;. Az igényelhető maximális összeg félévente 750 000 Ft&#8203;:citation[oaicite:7]{index=7}&#8203;.
+A Diákhitel 1 szabad felhasználású hitel, amelyet a hallgatók bármilyen célra felhasználhatnak, például lakhatásra, mindennapi kiadásokra, vagy technológiai eszközök vásárlására. [Forrás: Diákhitel Központ](https://www.diakhitel.hu/diakhitel1)
+
+- **Igényelhető összeg:** Havi 15 000 Ft-tól 150 000 Ft-ig, vagy félévente maximum 750 000 Ft. 
+- **Kamat:** 7,99% (2024 júliusától). 
+- **Törlesztés:** A hallgatói jogviszony megszűnését követő negyedik hónaptól kezdődik, és a törlesztőrészlet a jövedelem 6%-a. 
+- **Kedvezmények:** Gyermekvállalás esetén az első gyermeknél három évig, a második gyermeknél szintén három évig, a harmadik gyermeknél pedig teljes mértékben elengedik a hiteltartozást. 
 
 ### Diákhitel 2
 
-A Diákhitel 2 kifejezetten a tandíj finanszírozására szolgál, kamatmentes, így közvetlenül az egyetemnek vagy főiskolának kerül kifizetésre. Ez a típus ideális azok számára, akik nem állami finanszírozású képzéseken vesznek részt&#8203;:citation[oaicite:6]{index=6}&#8203;.
+A Diákhitel 2 kifejezetten a tandíj finanszírozására szolgál, és kamatmentes. Az összeg közvetlenül az egyetem vagy főiskola számlájára kerül átutalásra. [Forrás: Diákhitel Központ](https://www.diakhitel.hu/diakhitel1)
+
+- **Igényelhető összeg:** Az intézmény által meghatározott tandíj összegét fedezi.
+- **Kamat:** Kamatmentes. 
+- **Törlesztés:** A hallgatói jogviszony megszűnését követően kezdődik, a jövedelem 6%-a alapján. 
+- **Kedvezmények:** Gyermekvállalási kedvezmények azonosak a Diákhitel 1-nél elérhetőekkel. 
+
+## Maximális Felvehető Hitelösszegek
+
+Ha a Diákhitel 1-et és Diákhitel 2-t is felveszed az alapképzés és mesterképzés teljes idejére, ami 5 év (10 félév):
+
+- **Diákhitel 1 összesen:** 7 500 000 Ft (5 év alatt, félévente 750 000 Ft). 
+- **Diákhitel 2 összesen:** A felvett összeg a tandíj mértékétől függ. 
+
+### Csak Diákhitel 1
+
+- **Összesen:** 7 500 000 Ft (10 félév alatt). 
+
+## Törlesztési Példák
+
+A törlesztőrészlet mértéke a jövedelemtől függően változik, és a felvett hitel összegétől is függ.
+
+- **Diákhitel 1:** Ha 7 500 000 Ft-ot vettél fel és havi 300 000 Ft a jövedelmed, akkor a havi törlesztőrészlet 18 000 Ft lenne. 
+- **Diákhitel 2:** Az összeg kamatmentes, de a jövedelemarányos törlesztés havi 18 000 Ft lenne ugyanazon jövedelem esetén. 
+
+## További Kedvezmények és Lehetőségek
+
+- **Előtörlesztés:** Lehetőség van előtörlesztésre vagy végtörlesztésre külön díj nélkül. 
+- **Online Ügyintézés:** A hitel felvétele teljesen online is intézhető.
+Az igényléshez szükséges aktív hallgatói jogviszony, és a pontos feltételek a Diákhitel Központ weboldalán találhatók. Javasolt a weboldalon elérhető törlesztéskalkulátor használata, hogy személyre szabott információkat kapj a törlesztés részleteiről.
+- **Gyermekek után járó támogatás:**
+  - **1 Gyermek esetében:** Kérheted a törlesztési kötelezettség szüneteltetését a várandósság 91. napjától. Kamattámogatás is jár, ami azt jelenti, hogy ez idő alatt az ügyleti kamatok nem növelik az egyenlegedet. Továbbá, ha még nem töltötted be a 30. életévedet, és a tanulmányaid alatt vagy azok sikeres befejezését követő két éven belül gyermeked lesz, a fennálló diákhiteled 100%-át elengedjük. 
+  - **2 Gyermek esetében:**  Az anyák esetében a tartozás felét elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény. 
+  - **3 Gyermek esetében:**  Az anyák esetében a teljes tartozást elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény.
+
+
 
 ## Befektetési Stratégiák Diákhitellel
 
+Érdemes kiemelni, hogy a cikk írásának a pillanatában a Diákhitel 1 kamata és az állampapír hozamok egy szintent vannak így kockázatmentes hozamot nem lehet elérni. Azonban ha visszatekintünk az időben ilyenre akad példa. 2022-ben a COVID után megemelték a Diákhitel 1 kamatját az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP+-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról amik 18% körüli hozamot biztosítottak. Alapvetően a diákhitel egy kedvezményes hitel ami a hallgatók boldogulását segíti, így az várható, hogy a kamata ismét lemegy az inflációs helyzet rendeződésével. Azonban ez csak a mi magánvéleményünk.
+
 ### Stratégia 1: Diákhitel 1 Befektetése
 
-A Diákhitel 1 által felvett összeget befektethetjük állampapírokba vagy részvényekbe, például az S&P 500 indexbe. Az állampapírok jelenlegi hozama körülbelül 7%, ami közel áll a hitel kamatlábához&#8203;:citation[oaicite:5]{index=5}&#8203;. A cél az, hogy a befektetés hozama meghaladja a hitel kamatát, ezáltal jövedelmező lehetőséget teremtve.
+A Diákhitel 1 által felvett összeget befektethetjük állampapírokba, részvényekbe vagy ETF-ekbe, például az S&P 500 indexbe. Az állampapírok jelenlegi hozama körülbelül 7%, ami közel áll a diákhitel kamatlábához. A cél az, hogy a befektetés hozama meghaladja a hitel kamatát, ezáltal profitot termelve a hallgatónak.
 
 #### Előnyök
 - Potenciális jövedelem a kamatkülönbözetből.
 - Hosszú távú növekedési lehetőségek a tőkepiacon.
+- Nem kell készpénzt befeketetni, az ügylethez nem kell semmi önrész. 
+- Ha a hallgató állampapírt vásárol és annak a hozama magasabb mint a diákhitel kamata, kockázatmentes profitot tud elérni.
 
 #### Kockázatok
-- Piaci volatilitás befolyásolhatja a hozamokat.
-- Veszteségek kockázata, ha a befektetés nem hozza a várt eredményeket.
+- Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan mendzselt részvényportfolói esetén.
 
 ### Stratégia 2: Diákhitel 2 Felhasználása és Készpénz Befektetése
-
-Ebben a stratégiában a tandíjat Diákhitel 2-ből finanszírozzuk, miközben saját készpénzünket hosszú távú befektetésekbe helyezzük. A Diákhitel 1 is felhasználható a befektetések növelésére.
+Ez a stratégia azoknak a hallgatóknak működhet akiket nem vettek fel államilag támogatott képzésre és a családja elég tehetős, hogy megfizesse a tandíjat. Ha ez fennáll akkor a jó stratégia a szülőktől elkérni a tandíjat majd kifizetni az egyetemet a diákhitelből. Az adott pillanatban 0 forintunk van mert ami megjelent nálunk készpénz azt ellensúlyozza a hiteltartozásunk. Azonban a készpénzünket be tudjuk fektetni a tőkepiacokon, ezzel pozitív hozamot tudunk elérni. A stratégia természetesen kombinálható az előző stratégiával.
 
 #### Előnyök
 - A készpénz megtartása és annak befektetése hosszú távon növeli a potenciális hozamokat.
 - Az oktatási költségek fedezése kamatmentesen.
+- Magas tandíjak esetében mint álltalános orvos képzés esetén a portfólió értéke elérheti a tízmilliós nagyságrendet is.
 
 #### Kockázatok
-- A befektetések hozama esetleg nem éri el a várt szintet.
-- Kockázat a piaci ingadozások miatt.
+- Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan mendzselt részvényportfolói esetén.
+
+
+### Stratégia 3: A kamatok jelenértékre váltása
+
+Ezt talán a legrosszabb stratégia de mégis szeretnénk megemlíteni. Arra épül, hogy a felvett hitelnek csak egy részét fektetjük be, pont annyit, hogy 5 évig kamatoztatva ugyan annyi legyen az értéke a portfóliónak mint a hiteltartozásunknak. Ehhez az kell, hogy az állampapír hozamok magasabbak legyenek a Diákhitel 1 kamatánál. A másik felét a felvett hitelnek azonnal el tudjuk költeni miküzben tudjuk, hogy 5 év mulva csak eladjuk a papírjainkat és végtörlesztjük a tartozásunkat.
+
+#### Előnyök
+- Ha rászorulsz a pénzre de nem akarsz nagy tartozást felhalmozni előnyös lehet.
+#### Kockázatok
+- A portfólió hozama meg kell, hogy egyezzen a hitel kamatozásával. Ezt nehéz elérni változó kamatok mellett.
+
+
 
 ## Adózási Szempontok
 
 ### Tartós Befektetési Számla (TBSZ) Előnyei
 
-A TBSZ egy kedvezményes befektetési forma, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására&#8203;:citation[oaicite:4]{index=4}&#8203;&#8203;:citation[oaicite:3]{index=3}&#8203;. Az adóelőnyök a következők:
+A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magyarországon, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására. Ez különösen előnyös lehet hosszú távú befektetők számára, akik állampapírokba, részvényekbe, vagy más pénzügyi eszközökbe fektetnek be.
 
-- **3 év után**: A kamatadó 10%-ra csökken.
-- **5 év után**: Teljes adómentesség a kamat- és árfolyamnyereség-adóra.
-- **Szociális hozzájárulási adó (szocho) mentesség**&#8203;:citation[oaicite:2]{index=2}&#8203;.
+#### Adóelőnyök:
+
+- **3 év után:** A kamatadó 15%-ról 10%-ra csökken. Ez az időszak jelentős adómegtakarítást eredményezhet a befektetők számára.
+- **5 év után:** Teljes adómentesség a kamat- és árfolyamnyereség-adóra. Ekkor a befektetők mentesülnek minden adófizetési kötelezettség alól a számlán keletkezett nyereség tekintetében.
+- **Szociális hozzájárulási adó (szocho) mentesség:** A TBSZ-en elért hozamok mentesülnek a szociális hozzájárulási adó alól, ami további pénzügyi előnyöket biztosít.
 
 ### Adóügyi Implikációk
 
-A TBSZ használata hosszú távon jelentős hozamnövekedést eredményezhet, különösen állampapírok és részvények esetében. Az adókedvezmények maximalizálása érdekében érdemes legalább 3-5 éves befektetési időtávot tervezni&#8203;:citation[oaicite:1]{index=1}&#8203;.
+A TBSZ használata hosszú távon jelentős hozamnövekedést eredményezhet, különösen állampapírok és részvények esetében. Az adókedvezmények maximalizálása érdekében érdemes legalább 3-5 éves befektetési időtávot tervezni. Ez az időszak lehetővé teszi, hogy a befektetők kihasználják a teljes adómentességet és minimalizálják a befektetésekkel kapcsolatos költségeket.
 
-## Pénzügyi Mutatók Elemzése: ROI és ROE
+- **Hosszú távú befektetési stratégia:** A TBSZ különösen előnyös azok számára, akik hosszú távú befektetési stratégiát követnek. Az adómentesség miatt az elért hozamok újrabefektethetők, növelve ezzel a befektetés összértékét az idő múlásával.
+- **Optimális eszközallokáció:** A TBSZ lehetőséget nyújt a különböző eszközosztályok közötti rugalmas allokációra, mivel a befektetett eszközök közötti átrendezés adóhatás nélkül valósulhat meg.
 
-### ROI (Return on Investment)
+A Tartós Befektetési Számla hatékony eszköz az adók minimalizálására és a befektetési hozamok maximalizálására. Érdemes mérlegelni a TBSZ nyitásának lehetőségét, különösen hosszú távú befektetési célok esetén.
 
-A ROI méri a befektetés hatékonyságát:
-
-$$
-\text{ROI} = \left(\frac{\text{Nettó nyereség}}{\text{Befektetés költsége}}\right) \times 100
-$$
-
-Amennyiben a befektetés hozama meghaladja a hitel kamatát, az ROI pozitív lesz, és a befektetés jövedelmező.
-
-### ROE (Return on Equity)
-
-A ROE a saját tőkére vetített megtérülés mutatója:
-
-$$
-\text{ROE} = \left(\frac{\text{Nettó jövedelem}}{\text{Saját tőke}}\right) \times 100
-$$
-
-Diákhitel esetén, ahol a kezdeti saját tőke nulla, bármilyen nettó nyereség elméletileg végtelen ROE-t eredményezhet. Ez az előny azonban elméleti, és a gyakorlati kockázatokat is figyelembe kell venni.
-
-## Kockázatok és Megfontolások
-
-- **Piaci Kockázatok**: A tőzsdék és más befektetések volatilitása befolyásolhatja a befektetés megtérülését.
-- **Kamatkockázat**: Ha a diákhitel kamatlábai emelkednek, a stratégia hatékonysága csökkenhet.
-- **Adózási Szabályok**: Fontos naprakésznek lenni a magyar adózási szabályokkal kapcsolatban, hogy a lehető legtöbbet lehessen kihozni az adókedvezményekből&#8203;:citation[oaicite:0]{index=0}&#8203;.
-
-## Következtetések
-
-A magyar diákhitelrendszer nemcsak a tanulmányok finanszírozására szolgálhat, hanem a pénzügyi stratégia és tudatosság révén jelentős befektetési lehetőséget is nyújthat. A TBSZ és más befektetési formák segítségével a hallgatók optimalizálhatják a megtérülést, miközben a piaci kockázatokkal és adózási szempontokkal is foglalkozniuk kell.
-
-## Hivatkozások és Források
-
-- [Budapest Business Journal](https://bbj.hu/economy/finance/banking/rate-on-general-purpose-diakhitel-loans-to-rise-to-7-99)
-- [Blikk](https://www.blikk.hu)
-- [Bankmonitor](https://bankmonitor.hu)
-- [Money.hu](https://www.money.hu)
-- [Bank360](https://www.bank360.hu)

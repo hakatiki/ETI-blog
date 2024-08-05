@@ -11,13 +11,16 @@ module.exports = {
   siteMetadata: {
     title: `ETI Blog`,
     author: {
-      name: `Egri Máté & Takáts Bálint`,
-      summary: `Budapesti Kvantitatív elemzők vagyunk`,
+      name:`Takáts Bálint és Egri Máté`,
+      namebalint: `Takáts Bálint`,
+      namemate: ``,
+      summary: `Kvantitatív elemzők vagyunk itt Budapesten. Máté matematikus, biztosítási és kvantitatív elemzői képzésekkel rendelkezik. Bálint informatikus és a statégaként dolgozik.`,
     },
-    description: `Minden ami minket érdekel.`,
+    description: `Minden ami minket érdekel: pénzügyek, befektetések, matematika és informatika.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `hakatiki1`,
+      twitter2: `egrimate1`,
     },
   },
   plugins: [

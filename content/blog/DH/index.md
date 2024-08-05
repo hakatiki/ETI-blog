@@ -4,7 +4,7 @@ date: "2024-08-10"
 description: "Diákhitelek és befektetések kapcsolata Magyarországon"
 ---
 
-A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálhatnak a tudatos hallgatók számára. Ez a bejegyzés részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. A cél, hogy a leleményes hallgatóknak segítsen az életben való elindulásban és betekintést adjon a pénzügyek világába. A cikk feltételezi, hogy az olvasónak nincsen szüksége a diákhitelre, hogy megéljen így befektetésként tudja használni. Egy excel táblát is mellékelünk az oldal alján amit letöltve szabadon reprodukálni lehet a számításainkat. Fontos megjegyezni, hogy ez nem befektetési tanács csak a mi gondolataink és tapasztalataink összegzése. Használd bölcsen az információt.
+A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálhatnak a tudatos hallgatók számára. Ez a bejegyzés részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. A cél, hogy a leleményes hallgatóknak segítsen az életben való elindulásban és betekintést adjon a pénzügyek világába. A cikk feltételezi, hogy az olvasónak nincsen szüksége a diákhitelre, hogy megéljen így befektetésként tudja használni. Egy Excel táblát is mellékelünk az oldal alján, amit letöltve szabadon reprodukálni lehet a számításainkat. Fontos megjegyezni, hogy ez nem befektetési tanács csak a mi gondolataink és tapasztalataink összegzése. Használd bölcsen az információt.
 
 # Diákhitelek Magyarországon
 
@@ -59,10 +59,9 @@ Az igényléshez szükséges aktív hallgatói jogviszony, és a pontos feltéte
   - **3 Gyermek esetében:**  Az anyák esetében a teljes tartozást elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény.
 
 
-
 ## Befektetési Stratégiák Diákhitellel
 
-Érdemes kiemelni, hogy a cikk írásának a pillanatában a Diákhitel 1 kamata és az állampapír hozamok egy szintent vannak így kockázatmentes hozamot nem lehet elérni. Azonban ha visszatekintünk az időben ilyenre akad példa. 2022-ben a COVID után megemelték a Diákhitel 1 kamatját az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP+-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról amik 18% körüli hozamot biztosítottak. Alapvetően a diákhitel egy kedvezményes hitel ami a hallgatók boldogulását segíti, így az várható, hogy a kamata ismét lemegy az inflációs helyzet rendeződésével. Azonban ez csak a mi magánvéleményünk.
+Érdemes kiemelni, hogy a cikk írásának a pillanatában a Diákhitel 1 kamata és az állampapír hozamok egy szinten vannak így kockázatmentes hozamot nem lehet elérni. Azonban, ha visszatekintünk az időben ilyenre akad példa. 2022-ben a COVID után megemelték a Diákhitel 1 kamatját az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP+-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról, amik 18% körüli hozamot biztosítottak. Alapvetően a diákhitel egy kedvezményes hitel, ami a hallgatók boldogulását segíti, így az várható, hogy a kamata ismét lemegy az inflációs helyzet rendeződésével. Azonban ez csak a mi magánvéleményünk.
 
 ### Stratégia 1: Diákhitel 1 Befektetése
 
@@ -71,33 +70,31 @@ A Diákhitel 1 által felvett összeget befektethetjük állampapírokba, részv
 #### Előnyök
 - Potenciális jövedelem a kamatkülönbözetből.
 - Hosszú távú növekedési lehetőségek a tőkepiacon.
-- Nem kell készpénzt befeketetni, az ügylethez nem kell semmi önrész. 
-- Ha a hallgató állampapírt vásárol és annak a hozama magasabb mint a diákhitel kamata, kockázatmentes profitot tud elérni.
+- Nem kell készpénzt befektetni, az ügylethez nem kell semmi önrész. 
+- Ha a hallgató állampapírt vásárol és annak a hozama magasabb, mint a diákhitel kamata, kockázatmentes profitot tud elérni.
 
 #### Kockázatok
-- Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan mendzselt részvényportfolói esetén.
+- Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan menedzselt részvényportfolió esetén.
 
 ### Stratégia 2: Diákhitel 2 Felhasználása és Készpénz Befektetése
-Ez a stratégia azoknak a hallgatóknak működhet akiket nem vettek fel államilag támogatott képzésre és a családja elég tehetős, hogy megfizesse a tandíjat. Ha ez fennáll akkor a jó stratégia a szülőktől elkérni a tandíjat majd kifizetni az egyetemet a diákhitelből. Az adott pillanatban 0 forintunk van mert ami megjelent nálunk készpénz azt ellensúlyozza a hiteltartozásunk. Azonban a készpénzünket be tudjuk fektetni a tőkepiacokon, ezzel pozitív hozamot tudunk elérni. A stratégia természetesen kombinálható az előző stratégiával.
+Ez a stratégia azoknak a hallgatóknak működhet, akiket nem vettek fel államilag támogatott képzésre és a családja elég tehetős, hogy megfizesse a tandíjat. Ha ez fennáll akkor a jó stratégia a szülőktől elkérni a tandíjat majd kifizetni az egyetemet a diákhitelből. Az adott pillanatban 0 forintunk van mert ami megjelent nálunk készpénz azt ellensúlyozza a hiteltartozásunk. Azonban a készpénzünket be tudjuk fektetni a tőkepiacokon, ezzel pozitív hozamot tudunk elérni. A stratégia természetesen kombinálható az előző stratégiával.
 
 #### Előnyök
 - A készpénz megtartása és annak befektetése hosszú távon növeli a potenciális hozamokat.
 - Az oktatási költségek fedezése kamatmentesen.
-- Magas tandíjak esetében mint álltalános orvos képzés esetén a portfólió értéke elérheti a tízmilliós nagyságrendet is.
+- Magas tandíjak esetében, mint álltalános orvosképzés esetén a portfólió értéke elérheti a tízmilliós nagyságrendet is.
 
 #### Kockázatok
-- Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan mendzselt részvényportfolói esetén.
-
+- Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan menedzselt részvényportfolió esetén.
 
 ### Stratégia 3: A kamatok jelenértékre váltása
 
-Ezt talán a legrosszabb stratégia de mégis szeretnénk megemlíteni. Arra épül, hogy a felvett hitelnek csak egy részét fektetjük be, pont annyit, hogy 5 évig kamatoztatva ugyan annyi legyen az értéke a portfóliónak mint a hiteltartozásunknak. Ehhez az kell, hogy az állampapír hozamok magasabbak legyenek a Diákhitel 1 kamatánál. A másik felét a felvett hitelnek azonnal el tudjuk költeni miküzben tudjuk, hogy 5 év mulva csak eladjuk a papírjainkat és végtörlesztjük a tartozásunkat.
+Ezt talán a legrosszabb stratégia, de mégis szeretnénk megemlíteni. Arra épül, hogy a felvett hitelnek csak egy részét fektetjük be, pont annyit, hogy 5 évig kamatoztatva ugyan annyi legyen az értéke a portfóliónak, mint a hiteltartozásunknak. Ehhez az kell, hogy az állampapír hozamok magasabbak legyenek a Diákhitel 1 kamatánál. A másik felét a felvett hitelnek azonnal el tudjuk költeni miközben tudjuk, hogy 5 év mulva csak eladjuk a papírjainkat és vég törlesztjük a tartozásunkat.
 
 #### Előnyök
-- Ha rászorulsz a pénzre de nem akarsz nagy tartozást felhalmozni előnyös lehet.
+- Ha rászorulsz a pénzre, de nem akarsz nagy tartozást felhalmozni előnyös lehet.
 #### Kockázatok
 - A portfólió hozama meg kell, hogy egyezzen a hitel kamatozásával. Ezt nehéz elérni változó kamatok mellett.
-
 
 
 ## Adózási Szempontok
@@ -116,8 +113,9 @@ A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magya
 
 A TBSZ használata hosszú távon jelentős hozamnövekedést eredményezhet, különösen állampapírok és részvények esetében. Az adókedvezmények maximalizálása érdekében érdemes legalább 3-5 éves befektetési időtávot tervezni. Ez az időszak lehetővé teszi, hogy a befektetők kihasználják a teljes adómentességet és minimalizálják a befektetésekkel kapcsolatos költségeket.
 
-- **Hosszú távú befektetési stratégia:** A TBSZ különösen előnyös azok számára, akik hosszú távú befektetési stratégiát követnek. Az adómentesség miatt az elért hozamok újrabefektethetők, növelve ezzel a befektetés összértékét az idő múlásával.
+- **Hosszú távú befektetési stratégia:** A TBSZ különösen előnyös azok számára, akik hosszú távú befektetési stratégiát követnek. Az adómentesség miatt az elért hozamok újra befektethetők, növelve ezzel a befektetés összértékét az idő múlásával.
 - **Optimális eszközallokáció:** A TBSZ lehetőséget nyújt a különböző eszközosztályok közötti rugalmas allokációra, mivel a befektetett eszközök közötti átrendezés adóhatás nélkül valósulhat meg.
 
 A Tartós Befektetési Számla hatékony eszköz az adók minimalizálására és a befektetési hozamok maximalizálására. Érdemes mérlegelni a TBSZ nyitásának lehetőségét, különösen hosszú távú befektetési célok esetén.
+
 

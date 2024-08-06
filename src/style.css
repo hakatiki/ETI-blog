@@ -1,6 +1,8 @@
 /* CSS Custom Properties Definitions */
 
 :root {
+  text-align: justify;
+  text-justify: inter-word;
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
   --maxWidth-sm: 24rem;
@@ -95,7 +97,6 @@
   font-family: var(--font-body);
 }
 
-
 .custom-text-box h3 {
   color: #335574; /* Morgan Stanley blue */
   font-family: var(--font-heading);
@@ -104,6 +105,30 @@
 }
 
 .custom-text-box p {
+  margin: var(--spacing-0);
+  line-height: var(--lineHeight-relaxed);
+}
+.custom-text-box-elmeleti {
+  border: 2px solid #070e3c; /* Morgan Stanley blue */
+  background-color: #D1E4F1;
+  padding: var(--spacing-4); /* Adjusted padding for all screen sizes */
+  border-radius: var(--spacing-2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: var(--maxWidth-full);
+  width: auto; /* Ensures it does not force larger than the screen */
+  margin: var(--spacing-4) auto; /* Centralized margin */
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+.custom-text-box-elmeleti h3 {
+  color: #335574; /* Morgan Stanley blue */
+  font-family: var(--font-heading);
+  font-size: var(--fontSize-2); /* Use font size from the stylesheet */
+  margin-top: var(--spacing-0);
+}
+
+.custom-text-box-elmeleti p {
   margin: var(--spacing-0);
   line-height: var(--lineHeight-relaxed);
 }
@@ -188,7 +213,9 @@ hr {
 
 /* Heading */
 
-h1,
+h1 {
+  text-align: left;
+}
 h2,
 h3,
 h4,

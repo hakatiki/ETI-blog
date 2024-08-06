@@ -33,6 +33,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+          plugins: [
+              'gatsby-remark-draw'
+          ]
+      }
+  },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

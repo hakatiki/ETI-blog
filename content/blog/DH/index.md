@@ -13,7 +13,7 @@ A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására s
 **Az cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelebe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
 
-<div style="border: 2px solid #187ABA; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 20px auto;">
+<!-- <div style="border: 2px solid #187ABA; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 20px auto;">
     <h5 style="color: #187ABA; margin-top: 0;">Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h5>
     <p style="line-height:150%; margin: 0; color: #333;">
         Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?<br><br>
@@ -22,15 +22,15 @@ A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására s
      <p style="line-height:150%; margin: 0; color: #333;">
         Tanár: Érdekes. Amikor ezt mérnökhallgatóktól kérdeztem, mindenki feltette a kezét.Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
     </p>
-</div>
+</div> -->
 
 <div class="custom-text-box">
-    <h3>Egy Corvinusos tanteremben hangzott el pénzügyi matematikusok képzése során:</h3>
+    <h3>Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h3>
     <p>
         Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?
         <br><br>
         <em> senki sem jelentkezik </em><br><br>
-        Tanár: Furcsa, amikor ezt mérnökhallgatóktól kérdeztem, a kétharmaduk feltette a kezét.
+        Tanár: Érdekes. Amikor ezt mérnökhallgatóktól kérdeztem, mindenki feltette a kezét.
         Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
     </p>
 </div>
@@ -90,7 +90,7 @@ Feltételek:
 
 <div class="custom-text-box">
     <h3>5 éves visszatekintés a diákhitel stratégiákra:</h3>
-    <p>Az évek során a diákhitel 1 feltételei gyakran változtak. Például a COVID válság ideén, a felvehető maximális hitelösszeg 70.000 forintról 150.000 forintra nőtt, hogy segítsenek a hallgatóknak átvészelni az időszakot. A kamatok is hasonlóan dinamikusan alakultak, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni kűzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatját majd 2023-ban 7.99%-ra, ahol áll a cikk írásának a pillanatában. Az utóbbi 5 évről elmondható, hogy a kamat alacsonyabb volt mint a lakossági állampapírok hozama.
+    <p>Az évek során a Diákhitel 1 feltételei gyakran változtak. Például a Covid-19 válság ideén, a felvehető maximális hitelösszeg 70.000 forintról 150.000 forintra nőtt, hogy segítsenek a hallgatóknak átvészelni az időszakot. A kamatok is hasonlóan dinamikusan alakultak, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni küzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatát, majd 2023-ban 7.99%-ra, ahol e cikk írásának a pillanatában áll. Az utóbbi 5 évről általánosan elmondható, hogy a kamat alacsonyabb volt mint a lakossági állampapírok hozama.
     </p>
 </div>
 

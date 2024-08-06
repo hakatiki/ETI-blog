@@ -6,10 +6,10 @@
   --maxWidth-sm: 24rem;
   --maxWidth-md: 28rem;
   --maxWidth-lg: 32rem;
-  --maxWidth-xl: 36rem;
-  --maxWidth-2xl: 48rem;
-  --maxWidth-3xl: 50rem;
-  --maxWidth-4xl: 58rem;
+  --maxWidth-xl: 40rem;
+  --maxWidth-2xl: 55rem;
+  --maxWidth-3xl: 58rem;
+  --maxWidth-4xl: 60rem;
   --maxWidth-full: "100%";
   --maxWidth-wrapper: var(--maxWidth-2xl);
   --spacing-px: "1px";
@@ -99,7 +99,7 @@
 .custom-text-box h3 {
   color: #335574; /* Morgan Stanley blue */
   font-family: var(--font-heading);
-  font-size: var(--fontSize-3); /* Use font size from the stylesheet */
+  font-size: var(--fontSize-2); /* Use font size from the stylesheet */
   margin-top: var(--spacing-0);
 }
 

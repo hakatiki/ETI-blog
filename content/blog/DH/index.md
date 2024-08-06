@@ -3,24 +3,21 @@ title: "Magyar Diákhitelek és Befektetési Stratégiák: Részletes Pénzügyi
 date: "2024-08-10"
 description: "Diákhitelek és befektetések kapcsolata Magyarországon"
 ---
-A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
+A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitelek típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak segítsünk az anyagi életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
 \
-**Fontos**: a diákhitelt befektetési eszözként szerentnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre a megélhetési költségek fedezésére.
+**Fontos**: a diákhitelt befektetési eszözként szerentnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
 
-**Az cikk tájékoztató jellegű, az közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelebe az olvasó egyéni anyagi vagy jogi körülményeit.**
+**Az cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelebe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
 
-<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 20px auto;">
-    <h3 style="color: #4CAF50; margin-top: 0;">Custom Text Box</h3>
-    <p style="margin: 0; color: #333;">
-        Egy Corvinusos tanteremben hangzott el pénzügyi matematikusok képzése során:
-
-        Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?\
-
-        senki sem jelentkezik
-
-        Tanár: Furcsa, amikor ezt mérnökhallgatóktól kérdeztem, a kétharmaduk feltette a kezét.
-       
+<div style="border: 2px solid #187ABA; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 20px auto;">
+    <h5 style="color: #187ABA; margin-top: 0;">Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h5>
+    <p style="line-height:150%; margin: 0; color: #333;">
+        Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?<br><br>
+    <p style="text-align:center; line-height:120%; margin: 0; color: #333;">
+       <em> senki sem jelentkezik </em><br><br>
+     <p style="line-height:150%; margin: 0; color: #333;">
+        Tanár: Érdekes. Amikor ezt mérnökhallgatóktól kérdeztem, mindenki feltette a kezét.
         Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
 </div>
 
@@ -101,25 +98,24 @@ Ezek a két hitel esetén azonosak.
 Feltételek:
 - aktív hallgatói jogviszony
 - magyar állampolgárság
-- 45-nél kisebb életkor
+- 45 évnél alacsonyabb életkor
 - bejelentett lakcím.
 
  A hitel felvétele teljesen online intézhető, Neptunban az Ügyintézés/Diákhitel igénylés menüpont alatt.
  \
- A törlesztést a Diákhitel honlapján tehetjük meg, belépés után bankkártyás fizetéssel. Fontos, hogy lehetőség van előtörlesztésre vagy végtörlesztésre külön díj nélkül. De erről még később.
+ A törlesztést a Diákhitel honlapján tehetjük meg, belépés után bankkártyás fizetéssel. Fontos, hogy lehetőség van előtörlesztésre vagy végtörlesztésre külön költség nélkül. De erről még később.
 
 
 
 
 ## Befektetési Stratégiák Diákhitellel
 
-Érdemes kiemelni, hogy a cikk írásának a pillanatában a Diákhitel 1 kamata és az állampapír hozamok egy szinten vannak így kockázatmentes hozamot nem lehet elérni. Azonban, ha visszatekintünk az időben ilyenre akad példa. 2022-ben a COVID után megemelték a Diákhitel 1 kamatját az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP+-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról, amik 18% körüli hozamot biztosítottak. Alapvetően a diákhitel egy kedvezményes hitel, ami a hallgatók boldogulását segíti, így az várható, hogy a kamata ismét lemegy az inflációs helyzet rendeződésével. Azonban ez csak a mi magánvéleményünk.
+Érdemes kiemelni, hogy a cikk írásának a pillanatában a Diákhitel 1 kamata és az állampapír hozamok egy szinten vannak, így kockázatmentes hozamot nem lehet elérni. Azonban, ha visszatekintünk az időben ilyenre akad példa. 2022-ben a COVID után megemelték a Diákhitel 1 kamatját az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP+-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról, amik 18% körüli hozamot biztosítottak. Alapvetően a diákhitel egy kedvezményes hitel, ami a hallgatók boldogulását segíti, így az várható, hogy a kamata ismét lemegy az inflációs helyzet rendeződésével. Azonban ez csak a mi magánvéleményünk.
 
-<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 20px auto;">
-    <h3 style="color: #4CAF50; margin-top: 0;">Custom Text Box</h3>
-    <p style="margin: 0; color: #333;">
-        This is an example of a text box with a unique style. You can customize the colors, borders, and other properties to suit your design needs.
-    </p>
+<div style="border: 2px solid #187ABA; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 20px auto;">
+    <h3 style="color: #187ABA; margin-top: 0;">Példa: Koronavírus</h3>
+    <p style="line-height:150%; margin: 0; color: #333;">
+          2022-ben, a Covid-19 járvány után megemelték a Diákhitel 1 kamatát az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP Plusz-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról, amik 18% körüli hozamot biztosítottak.
 </div>
 
 ### Stratégia 1: Diákhitel 1 Befektetése
@@ -141,7 +137,7 @@ Ez a stratégia azoknak a hallgatóknak működhet, akiket nem vettek fel állam
 #### Előnyök
 - A készpénz megtartása és annak befektetése hosszú távon növeli a potenciális hozamokat.
 - Az oktatási költségek fedezése kamatmentesen.
-- Magas tandíjak esetében, mint álltalános orvosképzés esetén a portfólió értéke elérheti a tízmilliós nagyságrendet is.
+- Magas tandíjak esetében, mint általános orvosképzés esetén a portfólió értéke elérheti a tízmilliós nagyságrendet is.
 
 #### Kockázatok
 - Piaci volatilitás befolyásolhatja a hozamokat, ez különösen veszélyes aktívan menedzselt részvényportfolió esetén.

@@ -59,7 +59,27 @@
   --color-heading-black: black;
   --color-accent: #d1dce5;
 }
+/*CSS for download buttons*/
 
+.download-button {
+  display: inline-block;
+  padding: var(--spacing-2) var(--spacing-4);
+  font-size: var(--fontSize-2);
+  color: #ffffff; /* White text color */
+  background-color: #335574; /* Morgan Stanley blue */
+  border-radius: var(--spacing-2);
+  text-align: center;
+  text-decoration: none; /* Removes underline */
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Adding some box shadow for better button aesthetics */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.download-button:hover, .download-button:focus {
+  background-color: #27496d; /* Darken blue on hover for interactive feel */
+  color: #e0e0e0; /* Slightly lighter text on hover */
+}
 /* CSS for Custom Text Box */
 .custom-text-box {
   border: 2px solid #335574; /* Morgan Stanley blue */

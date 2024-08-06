@@ -3,6 +3,9 @@ title: "Magyar Diákhitelek és Befektetési Stratégiák: Részletes Pénzügyi
 date: "2024-08-10"
 description: "Diákhitelek és befektetések kapcsolata Magyarországon"
 ---
+<style>
+</style>
+<a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
 
 A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
 \
@@ -27,10 +30,6 @@ A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására s
 Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét.
 
 ## Diákhitel Típusok
-
-<style>
-  
-</style>
 
 <div class="table-container">
   <table class="custom-table">
@@ -80,6 +79,11 @@ Feltételek:
  \
  A törlesztést a Diákhitel honlapján tehetjük meg, belépés után bankkártyás fizetéssel. Fontos, hogy lehetőség van előtörlesztésre vagy végtörlesztésre külön díj nélkül. De erről még később.
 
+<div class="custom-text-box">
+    <h3>5 éves visszatekintés a diákhitel stratégiákra:</h3>
+    <p>Az évek során a diákhitel 1 feltételei gyakran változtak. Például a COVID válság ideén, a felvehető maximális hitelösszeg 70.000 forintról 150.000 forintra nőtt, hogy segítsenek a hallgatóknak átvészelni az időszakot. A kamatok is hasonlóan dinamikusan alakultak, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni kűzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatját majd 2023-ban 7.99%-ra, ahol áll a cikk írásának a pillanatában. Az utóbbi 5 évről elmondható, hogy a kamat alacsonyabb volt mint a lakossági állampapírok hozama.
+    </p>
+</div>
 
 
 

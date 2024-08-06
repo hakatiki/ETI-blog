@@ -29,10 +29,8 @@ A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására s
     <p>
         Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?
         <br><br>
-        senki sem jelentkezik
-        <br><br>
+        <em> senki sem jelentkezik </em><br><br>
         Tanár: Furcsa, amikor ezt mérnökhallgatóktól kérdeztem, a kétharmaduk feltette a kezét.
-        <br><br>
         Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
     </p>
 </div>

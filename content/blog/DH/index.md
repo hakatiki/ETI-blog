@@ -3,7 +3,10 @@ title: "Magyar Diákhitelek és Befektetési Stratégiák: Részletes Pénzügyi
 date: "2024-08-10"
 description: "Diákhitelek és befektetések kapcsolata Magyarországon"
 ---
-A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitelek típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak segítsünk az anyagi életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
+
+<a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
+
+A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
 \
 **Fontos**: a diákhitelt befektetési eszözként szerentnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
 
@@ -17,40 +20,27 @@ A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására s
     <p style="text-align:center; line-height:120%; margin: 0; color: #333;">
        <em> senki sem jelentkezik </em><br><br>
      <p style="line-height:150%; margin: 0; color: #333;">
-        Tanár: Érdekes. Amikor ezt mérnökhallgatóktól kérdeztem, mindenki feltette a kezét.
+        Tanár: Érdekes. Amikor ezt mérnökhallgatóktól kérdeztem, mindenki feltette a kezét.Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
+    </p>
+</div>
+
+<div class="custom-text-box">
+    <h3>Egy Corvinusos tanteremben hangzott el pénzügyi matematikusok képzése során:</h3>
+    <p>
+        Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?
+        <br><br>
+        senki sem jelentkezik
+        <br><br>
+        Tanár: Furcsa, amikor ezt mérnökhallgatóktól kérdeztem, a kétharmaduk feltette a kezét.
+        <br><br>
         Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
+    </p>
 </div>
 
 # Diákhitelek Magyarországon
 Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét.
 
 ## Diákhitel Típusok
-
-<style>
-  /* Styles specific to the table with the class 'custom-table' */
-  .custom-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-    text-align: left;
-  }
-  .custom-table th, .custom-table td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-  }
-  .custom-table th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-  }
-  .custom-table tr:hover {
-    background-color: #f1f1f1;
-  }
-  .custom-table .important {
-    font-weight: bold;
-    color: #335574;
-  }
-</style>
 
 <div class="table-container">
   <table class="custom-table">
@@ -83,11 +73,6 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
       <td>A <span class="important">jövedelem 6%</span>-a</td>
       <td>A <span class="important">jövedelem 4-6%</span>-a, attól függően, hogy mekkora összegű Diákhitel 2-t vett fel</td>
     </tr>
-    <!-- <tr>
-      <td><strong>Kedvezmények</strong></td>
-      <td><span class="important">Gyermekvállalás</span> esetén: első gyermeknél három évig, második gyermeknél három évig, harmadik gyermeknél teljes elengedés</td>
-      <td><span class="important">Nem vonatkozik</span></td>
-    </tr> -->
   </table>
 </div>
 
@@ -105,6 +90,11 @@ Feltételek:
  \
  A törlesztést a Diákhitel honlapján tehetjük meg, belépés után bankkártyás fizetéssel. Fontos, hogy lehetőség van előtörlesztésre vagy végtörlesztésre külön költség nélkül. De erről még később.
 
+<div class="custom-text-box">
+    <h3>5 éves visszatekintés a diákhitel stratégiákra:</h3>
+    <p>Az évek során a diákhitel 1 feltételei gyakran változtak. Például a COVID válság ideén, a felvehető maximális hitelösszeg 70.000 forintról 150.000 forintra nőtt, hogy segítsenek a hallgatóknak átvészelni az időszakot. A kamatok is hasonlóan dinamikusan alakultak, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni kűzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatját majd 2023-ban 7.99%-ra, ahol áll a cikk írásának a pillanatában. Az utóbbi 5 évről elmondható, hogy a kamat alacsonyabb volt mint a lakossági állampapírok hozama.
+    </p>
+</div>
 
 
 
@@ -117,6 +107,7 @@ Feltételek:
     <p style="line-height:150%; margin: 0; color: #333;">
           2022-ben, a Covid-19 járvány után megemelték a Diákhitel 1 kamatát az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP Plusz-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról, amik 18% körüli hozamot biztosítottak.
 </div>
+
 
 ### Stratégia 1: Diákhitel 1 Befektetése
 

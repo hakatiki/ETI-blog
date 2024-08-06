@@ -60,6 +60,81 @@
   --color-accent: #d1dce5;
 }
 
+/* CSS for Custom Text Box */
+.custom-text-box {
+  border: 2px solid #335574; /* Morgan Stanley blue */
+  background-color: #f9f9f9;
+  padding: var(--spacing-4); /* Adjusted padding for all screen sizes */
+  border-radius: var(--spacing-2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: var(--maxWidth-full);
+  width: auto; /* Ensures it does not force larger than the screen */
+  margin: var(--spacing-4) auto; /* Centralized margin */
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+
+.custom-text-box h3 {
+  color: #335574; /* Morgan Stanley blue */
+  font-family: var(--font-heading);
+  font-size: var(--fontSize-4); /* Use font size from the stylesheet */
+  margin-top: var(--spacing-0);
+}
+
+.custom-text-box p {
+  margin: var(--spacing-0);
+  line-height: var(--lineHeight-relaxed);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .custom-text-box {
+    padding: var(--spacing-3); /* Adjust padding for mobile */
+    margin: var(--spacing-1); /* Adjust margin for mobile */
+  }
+  .custom-text-box h3 {
+    font-size: var(--fontSize-3); /* Smaller font size for mobile */
+  }
+  .custom-text-box p {
+    font-size: var(--fontSize-1); /* Adjust text size for readability */
+  }
+}
+
+
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-4) auto; /* Centered margin for all screen sizes */
+  font-size: var(--fontSize-1);
+  text-align: left;
+  overflow-x: auto; /* Allows scrolling on x-axis if table is wider than screen */
+  display: block; /* Allows horizontal scrolling */
+}
+
+.custom-table th, .custom-table td {
+  padding: var(--spacing-2);
+  border-bottom: 1px solid var(--color-accent);
+}
+
+.custom-table th {
+  background-color: var(--color-accent);
+  font-weight: var(--fontWeight-bold);
+  font-family: var(--font-heading);
+}
+
+.custom-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.custom-table .important {
+  font-weight: var(--fontWeight-bold);
+  color: #335574;
+}
+
+
 /* HTML elements */
 
 *,

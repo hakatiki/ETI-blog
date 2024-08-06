@@ -3,25 +3,24 @@ title: "Magyar Diákhitelek és Befektetési Stratégiák: Részletes Pénzügyi
 date: "2024-08-10"
 description: "Diákhitelek és befektetések kapcsolata Magyarországon"
 ---
+
 A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
 \
 **Fontos**: a diákhitelt befektetési eszözként szerentnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre a megélhetési költségek fedezésére.
 
 **Az cikk tájékoztató jellegű, az közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelebe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
-
-<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 20px auto;">
-    <h3 style="color: #4CAF50; margin-top: 0;">Custom Text Box</h3>
-    <p style="margin: 0; color: #333;">
-        Egy Corvinusos tanteremben hangzott el pénzügyi matematikusok képzése során:
-
-        Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?\
-
+<div class="custom-text-box">
+    <h3>Egy Corvinusos tanteremben hangzott el pénzügyi matematikusok képzése során:</h3>
+    <p>
+        Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?
+        <br><br>
         senki sem jelentkezik
-
+        <br><br>
         Tanár: Furcsa, amikor ezt mérnökhallgatóktól kérdeztem, a kétharmaduk feltette a kezét.
-       
+        <br><br>
         Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
+    </p>
 </div>
 
 # Diákhitelek Magyarországon
@@ -30,29 +29,7 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
 ## Diákhitel Típusok
 
 <style>
-  /* Styles specific to the table with the class 'custom-table' */
-  .custom-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-    text-align: left;
-  }
-  .custom-table th, .custom-table td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-  }
-  .custom-table th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-  }
-  .custom-table tr:hover {
-    background-color: #f1f1f1;
-  }
-  .custom-table .important {
-    font-weight: bold;
-    color: #335574;
-  }
+  
 </style>
 
 <div class="table-container">
@@ -86,11 +63,6 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
       <td>A <span class="important">jövedelem 6%</span>-a</td>
       <td>A <span class="important">jövedelem 4-6%</span>-a, attól függően, hogy mekkora összegű Diákhitel 2-t vett fel</td>
     </tr>
-    <!-- <tr>
-      <td><strong>Kedvezmények</strong></td>
-      <td><span class="important">Gyermekvállalás</span> esetén: első gyermeknél három évig, második gyermeknél három évig, harmadik gyermeknél teljes elengedés</td>
-      <td><span class="important">Nem vonatkozik</span></td>
-    </tr> -->
   </table>
 </div>
 
@@ -114,13 +86,6 @@ Feltételek:
 ## Befektetési Stratégiák Diákhitellel
 
 Érdemes kiemelni, hogy a cikk írásának a pillanatában a Diákhitel 1 kamata és az állampapír hozamok egy szinten vannak így kockázatmentes hozamot nem lehet elérni. Azonban, ha visszatekintünk az időben ilyenre akad példa. 2022-ben a COVID után megemelték a Diákhitel 1 kamatját az infláció miatt, azonban az új állampapírok még nem jelentek meg a piacon, hogy lecseréljék az akkoriban népszerű MÁP+-t. Emiatt sokan végtörlesztettek és lemaradtak az inflációkövető papírokról, amik 18% körüli hozamot biztosítottak. Alapvetően a diákhitel egy kedvezményes hitel, ami a hallgatók boldogulását segíti, így az várható, hogy a kamata ismét lemegy az inflációs helyzet rendeződésével. Azonban ez csak a mi magánvéleményünk.
-
-<div style="border: 2px solid #4CAF50; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 20px auto;">
-    <h3 style="color: #4CAF50; margin-top: 0;">Custom Text Box</h3>
-    <p style="margin: 0; color: #333;">
-        This is an example of a text box with a unique style. You can customize the colors, borders, and other properties to suit your design needs.
-    </p>
-</div>
 
 ### Stratégia 1: Diákhitel 1 Befektetése
 

@@ -97,7 +97,8 @@
   font-family: var(--font-body);
 }
 
-.custom-text-box h3 {
+.custom-text-box h2 {
+  text-align: left;
   color: #335574; /* Morgan Stanley blue */
   font-family: var(--font-heading);
   font-size: var(--fontSize-2); /* Use font size from the stylesheet */
@@ -121,7 +122,8 @@
   color: var(--color-text);
   font-family: var(--font-body);
 }
-.custom-text-box-elmeleti h3 {
+.custom-text-box-elmeleti h2 {
+  text-align: left;
   color: #335574; /* Morgan Stanley blue */
   font-family: var(--font-heading);
   font-size: var(--fontSize-2); /* Use font size from the stylesheet */
@@ -213,10 +215,12 @@ hr {
 
 /* Heading */
 
-h1 {
-  text-align: left;
+h1{
+  text-align: "left" !important;
 }
-h2,
+h2{
+  text-align: "left" !important;
+}
 h3,
 h4,
 h5,

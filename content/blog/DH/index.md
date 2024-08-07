@@ -32,7 +32,7 @@ Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is
 </div> -->
 
 <div class="custom-text-box">
-    <h3>Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h3>
+    <h2>Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h2>
     <p>
         Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?
         <br><br>
@@ -102,36 +102,34 @@ Feltételek:
 Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogyan lehetne befektetésként hasznosítani őket. Kezdjük a Diákhitel1-gyel, hiszen ezt veheti fel a legtöbb hallgató. Annak érdekében, hogy pontos becsléseket tudjunk mondani, készítettünk egy Excel táblázatot ami letölthető az oldal alján. A stratégia nagyon egyszerű: felvesszük a hitelt, majd befektetjük. 
 
 <div class="custom-text-box-elmeleti">
-    <h3>Mi az az arbitrázs?</h3>
+    <h2>Mi az az arbitrázs?</h2>
     <p>
         Az arbitrázs olyan, legtöbbször félreárazásból származó <b>kockázatmentes</b> nyereség, amely pénzügyi termékek több piacon történő azonnali vételével és/vagy eladásával realizálható. Arbitrázs lehetőségek legtöbbször a piaci hatékonyság átmeneti hiányából következnek.
     </p>
 </div>
 
-### Diákhitel2 Befektetése
-
+### Diákhitel2 Befektetése          
 - A Diákhitel2 kamatmentessége alapján rögtön tehetünk egy egyértelmű megállapítást: ha **önköltséges képzésen tanulunk, mindenképp megéri felvenni a Diákhitel2-t**. A pénzt így is, úgy is elköltöttünk volna a tandíjra, az erre szánt összeget kockázatmentes befektetésként felhasználhatjuk, és garantáltan pozitív hozamot érhetünk el, majd abból visszafizetve a (kamatmentes) hitelt **mindenképp** nyereséget érünk el.
 
 
-### Diákhitel1 Befektetése
-
-- **Ha az állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
+### Diákhitel1 Befektetése                       
+-  Ha az **állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
     - Az egész összeget állampapírra költjük, a törlesztés végén a hozamok fedezik a diákhitel kamatát, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és végtörlesztéskor jelentősek lesznek a profitjaink.
     - A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
   Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, viszont van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat.
 
-- A másik lehetőség, hogy a kamat minden állampapír hozamánál nagyobb. Ekkor is van lehetőségünk felvenni a Diákhitel1-et, csak ekkor meg kell próbálnunk a kamatot kockázatosabb termék(ek) vételével meghaladni, ha profitot akarunk elérni. Ezt csak **vállalkozóbb szellemű** olvasóinknak javasoljuk, mert ez akár komoly pénzügyi kockázatokkal is járhat, ha nem vagyunk elég óvatosak. 
+-  A másik lehetőség, hogy a kamat minden állampapír hozamánál nagyobb. Ekkor is van lehetőségünk felvenni a Diákhitel1-et, csak ekkor meg kell próbálnunk a kamatot kockázatosabb termék(ek) vételével meghaladni, ha profitot akarunk elérni. Ezt csak **vállalkozóbb szellemű** olvasóinknak javasoljuk, mert ez akár komoly pénzügyi kockázatokkal is járhat, ha nem vagyunk elég óvatosak. 
 
 Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, historikusan nem ez volt a jellemző, hanem hogy általában jelentősen alacsonyabb. Mivel a diákhitel célja a magyar egyetemisták tanulányaikban való támogatása kedvezményes hitelfelvétellel, a szerzők véleménye szerint várható, hogy a közeljövőben ismét az államkötvényhozamok alá fog csökkenni, ezzel kockázatmentes nyereség lehetőségét adva.
 
 <div class="custom-text-box">
-    <h3>Példa: Koronavírus</h3>
+    <h2>Példa: Koronavírus</h2>
     <p>Ha visszatekintünk az időben, a fentire akad példa. 2022-ben, a Covid-19 járvány okozta infláció után megemelték a Diákhitel1 kamatát, emiatt sok diák végtörlesztette tartozását. Akkoriban a legnépszerűbb államkötvény a MÁP Plusz volt, viszont nem sokkal később új inflációkövető állampapírok jelentek meg a piacon.  Akik végtörlesztettek, lemaradtak ezekről, pedig évi 18%(!) körüli hozamot biztosítottak.
     </p>
 </div>
 
 <div class="custom-text-box">
-    <h3>Visszatekintés a diákhitel közelmúltjára:</h3>
+    <h2>Visszatekintés a diákhitel közelmúltjára:</h2>
     <p>Gyakran változó feltételek jellemezték a Diákhitel1 elmúlt 5 évét. A Covid-19 válság idején a felvehető havi maximális hitelösszeg 70.000 forintról 150.000 forintra emelkedett, segítve a hallgatóknak átvészelni a pandémia időszakát. A kamat is hasonlóan dinamikusan alakult, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni küzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatrátát, majd 2023-ban 7.99%-ra, ahol jelen cikk írásának pillanatában is áll. Az utóbbi 5 évről általánosan elmondható, hogy a kamat alacsonyabb volt, mint a lakossági állampapírok hozama. Érdemes megemlíteni, hogy jelenleg a kockázatmentes hozam a diákhitel kamatának környékén van.
     </p>
 </div>

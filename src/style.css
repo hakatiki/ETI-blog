@@ -181,7 +181,28 @@
   color: #335574;
 }
 
+/*svg képek*/
+.svg-container {
+  width: 100%; /* Full width of the parent container */
+  max-width: var(--maxWidth-full);
+  margin: 0 auto; /* Center the container */
+  /* padding: 0.5rem; */
+}
 
+.dynamic-svg {
+  width: 100%; /* Make SVG responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove bottom spacing */
+}
+.svg-caption {
+  margin-top: 0.5rem; /* Space between image and caption */
+  font-size: var(--fontSize-1);
+  color: var(--color-text-light); /* Use a light text color for captions */
+  font-style: italic; /* Optional: make the caption italic for distinction */
+  text-align: center; /* Ensure caption text is centered */
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
 /* HTML elements */
 
 *,

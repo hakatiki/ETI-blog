@@ -4,9 +4,11 @@ date: "2024-08-10"
 description: "Áttekintés a magyarországi diákhitelek nyújtotta lehetőségekről és felhasználási stratégiáikról kvantitatív elemzői szemmel."
 ---
 
+<div class="svg-container">
+  <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
+  <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
 
-<!-- ![Chinese Salty Egg](./test.svg)
-![Chinese Salty Egg](/test.svg) -->
+</div>
 
 <a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
 
@@ -116,7 +118,7 @@ Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogy
 -  Ha az **állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
     - Az egész összeget állampapírra költjük, a törlesztés végén a hozamok fedezik a diákhitel kamatát, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és végtörlesztéskor jelentősek lesznek a profitjaink.
     - A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
-  Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, viszont van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat.
+  Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, de van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat. **A magyar állampapírok általában 1%-os díjért szabadon visszaválthatók**.
 
 -  A másik lehetőség, hogy a kamat minden állampapír hozamánál nagyobb. Ekkor is van lehetőségünk felvenni a Diákhitel1-et, csak ekkor meg kell próbálnunk a kamatot kockázatosabb termék(ek) vételével meghaladni, ha profitot akarunk elérni. Ezt csak **vállalkozóbb szellemű** olvasóinknak javasoljuk, mert ez akár komoly pénzügyi kockázatokkal is járhat, ha nem vagyunk elég óvatosak. 
 

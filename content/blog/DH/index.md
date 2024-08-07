@@ -132,6 +132,10 @@ Annak ellenére, hogy az olvasók változatos hátérrel és lehetőségekkel re
   <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
 </div>
+<div class="svg-container">
+  <img src="/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
+  <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
+</div>
 
 
 <a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>

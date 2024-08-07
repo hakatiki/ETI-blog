@@ -134,6 +134,12 @@
   margin: var(--spacing-0);
   line-height: var(--lineHeight-relaxed);
 }
+.custom-text-box-elmeleti .source {
+  font-style: italic; /* Italics for the source text */
+  text-align: right; /* Align the source text to the right */
+  margin-top: var(--spacing-1); /* Add space above the source line */
+  font-size: var(--fontSize-1); /* Use font size from the stylesheet */
+}
 
 /* Responsive Design */
 @media (max-width: 600px) {

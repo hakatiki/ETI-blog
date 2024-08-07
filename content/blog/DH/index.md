@@ -3,16 +3,6 @@ title: "Diákhitel, mint befektetés egyetemi hallgatóknak"
 date: "2024-08-10"
 description: "Áttekintés a magyarországi diákhitelek nyújtotta lehetőségekről és felhasználási stratégiáikról kvantitatív elemzői szemmel."
 ---
-
-<div class="svg-container">
-  <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
-  <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
-
-</div>
-
-<a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
-
-
 **Megéri diákhitelt felvennem akkor is, ha nem szorulok rá?** Mennyire kockázatos vállalkozás? Melyik diákhitelre van szükségem? Mekkora várható profitot tudok elérni? 
 **Kezdjük az elsővel röviden: igen, megéri.**
 Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is közöljük. A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
@@ -20,18 +10,6 @@ Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is
 **Fontos**: a diákhitelt befektetési eszözként szerentnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
 
 **Az cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
-
-
-<!-- <div style="border: 2px solid #187ABA; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 20px auto;">
-    <h5 style="color: #187ABA; margin-top: 0;">Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h5>
-    <p style="line-height:150%; margin: 0; color: #333;">
-        Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?<br><br>
-    <p style="text-align:center; line-height:120%; margin: 0; color: #333;">
-       <em> senki sem jelentkezik </em><br><br>
-     <p style="line-height:150%; margin: 0; color: #333;">
-        Tanár: Érdekes. Amikor ezt mérnökhallgatóktól kérdeztem, mindenki feltette a kezét.Azt hinné az ember, pénzügyesek nem hagynák ki. Gyakorlatilag ingyen pénz.
-    </p>
-</div> -->
 
 <div class="custom-text-box">
     <h2>Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h2>
@@ -96,12 +74,13 @@ Feltételek:
 
  A hitel felvétele teljesen online intézhető, Neptunban az Ügyintézés/Diákhitel igénylés menüpont alatt.
  \
- A törlesztést a Diákhitel honlapján tehetjük meg, belépés után bankkártyás fizetéssel. Fontos, hogy lehetőség van előtörlesztésre vagy végtörlesztésre külön költség nélkül. De erről még később.
+ A törlesztést a Diákhitel honlapján tehetjük meg, belépés után bankkártyás fizetéssel. Fontos, hogy lehetőség van előtörlesztésre vagy végtörlesztésre külön költség nélkül. 
+ <!-- De erről még később. -->
 
 
 ## Befektetési Stratégiák Diákhitellel
 
-Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogyan lehetne befektetésként hasznosítani őket. Kezdjük a Diákhitel1-gyel, hiszen ezt veheti fel a legtöbb hallgató. Annak érdekében, hogy pontos becsléseket tudjunk mondani, készítettünk egy Excel táblázatot ami letölthető az oldal alján. A stratégia nagyon egyszerű: felvesszük a hitelt, majd befektetjük. 
+Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogyan lehetne befektetésként hasznosítani őket.  A stratégia nagyon egyszerű: felvesszük a hitelt, majd befektetjük. Továbbá, annak érdekében, hogy pontos becsléseket tudjunk mondani, készítettünk egy Excel táblázatot ami letölthető az oldal alján.
 
 <div class="custom-text-box-elmeleti">
     <h2>Mi az az arbitrázs?</h2>
@@ -116,7 +95,7 @@ Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogy
 
 ### Diákhitel1 Befektetése                       
 -  Ha az **állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
-    - Az egész összeget állampapírra költjük, a törlesztés végén a hozamok fedezik a diákhitel kamatát, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és végtörlesztéskor jelentősek lesznek a profitjaink.
+    - Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
     - A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
   Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, de van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat. **A magyar állampapírok általában 1%-os díjért szabadon visszaválthatók**.
 
@@ -135,6 +114,27 @@ Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, 
     <p>Gyakran változó feltételek jellemezték a Diákhitel1 elmúlt 5 évét. A Covid-19 válság idején a felvehető havi maximális hitelösszeg 70.000 forintról 150.000 forintra emelkedett, segítve a hallgatóknak átvészelni a pandémia időszakát. A kamat is hasonlóan dinamikusan alakult, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni küzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatrátát, majd 2023-ban 7.99%-ra, ahol jelen cikk írásának pillanatában is áll. Az utóbbi 5 évről általánosan elmondható, hogy a kamat alacsonyabb volt, mint a lakossági állampapírok hozama. Érdemes megemlíteni, hogy jelenleg a kockázatmentes hozam a diákhitel kamatának környékén van.
     </p>
 </div>
+
+## Modellezése a Stratégiának
+
+A számításaink során éltünk pár egyszerűsítő feltevéssel. Először is, feltételezzük, hogy az olvasó teljesít egy BSc és MSc képzést is, így 10 félévet tölt az egyetemen és a felvehető maximális hitelösszeg nem változik. Továbbá azzal az egyszerűsítéssel is élünk, hogy az egyetemi képzés után még 5 évig nem végtörleszt, így a portfóliót TBSZ számlán tudja tartani, tehát 0%-os adót fizet befektetési eszköztől függetlenül. Ezeken túl modellezük az alternatív költségeket is, ami rendkívül fontos, hiszen a törlesztőre szánt pénzt akár másra is használhatnánk: ingatlan, részvény vagy egyéb befektetésekre. Az inflációt és a változó kamatkörnyezetet nem tartalmazza a modell, a kalkulációkat nominálisan kell értelmezni.
+
+<div class="custom-text-box-elmeleti">
+    <h2>Alternatív költség</h2>
+    <p>Egy tevékenység alternatív költsége, más néven opportunity cost, vagy lehetőségköltség egy másik lehetőség feláldozott alternatív haszna, jövedelme. Számításakor mindig a lehető legjobb kieső alternatívát kell figyelembe venni.
+    </p>
+    <p class="source">Wikipedia</p> 
+</div>
+
+Annak ellenére, hogy az olvasók változatos hátérrel és lehetőségekkel rendelkezhetnek a cikk megpróbál két számítás prezentálni, ami reméljük sok hallgató körülményeit lefedi. Fontos, hogy elérhetővé tettük az Excel-t az oldal alján azok számára, akik szeretnék a számításokat újra elvégezni és/vagy megbizonyosodni a helyességükről.
+
+<div class="svg-container">
+  <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
+  <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
+</div>
+
+
+<a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
 
 ## Adózási Szempontok
 

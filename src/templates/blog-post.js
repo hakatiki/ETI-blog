@@ -11,6 +11,31 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+  const monthNames = [
+    "január", // January
+    "február", // February
+    "március", // March
+    "április", // April
+    "május", // May
+    "június", // June
+    "július", // July
+    "augusztus", // August
+    "szeptember", // September
+    "október", // October
+    "november", // November
+    "december", // December
+  ];
+
+  // Function to convert date string to Hungarian format
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const day = date.getDate();
+    const monthIndex = date.getMonth(); // 0-11 index for months
+    const year = date.getFullYear();
+    return `${year}. ${monthNames[monthIndex]} ${day}.`;
+  };
+
+  const formattedDate = formatDate(post.frontmatter.date);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -21,7 +46,7 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{formattedDate}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}

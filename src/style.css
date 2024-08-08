@@ -241,7 +241,9 @@ hr {
 }
 
 /* Heading */
-
+header {
+  text-align: left !important;
+}
 h1{
   text-align: "left" !important;
 }

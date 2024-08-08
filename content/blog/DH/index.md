@@ -60,7 +60,7 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
     </tr>
      <tr>
       <td ><strong>Egyéb kedvezmények</strong></td>
-      <td colspan="2">Gyermekvállalás esetén a tartozás felét vagy akár egészét is elengedik egyéb kedvezmények mellett.</span></td>
+      <td colspan="2">Gyermekvállalás esetén nőknek a tartozás felét vagy akár egészét is elengedik egyéb kedvezmények mellett.</span></td>
     </tr>
   </table>
 </div>
@@ -122,6 +122,13 @@ Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, 
     <h2>Visszatekintés a diákhitel közelmúltjára:</h2>
     <p>Gyakran változó feltételek jellemezték a Diákhitel1 elmúlt 5 évét. A Covid-19 válság idején a felvehető havi maximális hitelösszeg 70.000 forintról 150.000 forintra emelkedett, segítve a hallgatóknak átvészelni a pandémia időszakát. A kamat is hasonlóan dinamikusan alakult, 2018-ban a kamatláb 2.3% volt, majd 2019-ben a 2% alá csökkent. Az inflációs válság elleni küzdelemben az emelkedő kamatok mellett a diákhitel sem maradhatott le, előbb 4.99%-ra emelték a kamatrátát, majd 2023-ban 7.99%-ra, ahol jelen cikk írásának pillanatában is áll. Az utóbbi 5 évről általánosan elmondható, hogy a kamat alacsonyabb volt, mint a lakossági állampapírok hozama. Érdemes megemlíteni, hogy jelenleg a kockázatmentes hozam a diákhitel kamatának környékén van.
     </p>
+</div>
+<div class="custom-text-box-elmeleti">
+    <h2>Kockázatmentes hozam</h2>
+    <p>A kockázatmentes hozam a legbiztonságosabbnak tekintett pénzpiaci nyereség, amely adott pénz- és tőkepiaci referenciaértékeként szolgál.
+    </p>
+    <p class="source">Hold Blog</p> 
+
 </div>
 
 ## A Stratégia Modellezése

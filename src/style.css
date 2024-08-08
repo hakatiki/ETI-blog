@@ -10,8 +10,8 @@
   --maxWidth-lg: 32rem;
   --maxWidth-xl: 40rem;
   --maxWidth-2xl: 55rem;
-  --maxWidth-3xl: 58rem;
-  --maxWidth-4xl: 60rem;
+  --maxWidth-3xl: 60rem;
+  --maxWidth-4xl: 80rem;
   --maxWidth-full: "100%";
   --maxWidth-wrapper: var(--maxWidth-2xl);
   --spacing-px: "1px";

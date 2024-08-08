@@ -58,9 +58,17 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
       <td>A <span class="important">jövedelem 6%</span>-a</td>
       <td>A <span class="important">jövedelem 4-6%</span>-a, attól függően, hogy mekkora összegű Diákhitel2-t vett fel</td>
     </tr>
+     <tr>
+      <td ><strong>Egyéb kedvezmények</strong></td>
+      <td colspan="2">Gyermekvállalás esetén a tartozás felét vagy akár egészét is elengedik egyéb kedvezmények mellett.</span></td>
+    </tr>
   </table>
 </div>
 
+<!-- - **Gyermekek után járó támogatás:**
+  - **1 Gyermek esetében:** Kérheted a törlesztési kötelezettség szüneteltetését a várandósság 91. napjától. Kamattámogatás is jár, ami azt jelenti, hogy ez idő alatt az ügyleti kamatok nem növelik az egyenlegedet. Továbbá, ha még nem töltötted be a 30. életévedet, és a tanulmányaid alatt vagy azok sikeres befejezését követő két éven belül gyermeked lesz, a fennálló diákhiteled 100%-át elengedjük. 
+  - **2 Gyermek esetében:**  Az anyák esetében a tartozás felét elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény. 
+  - **3 Gyermek esetében:**  Az anyák esetében a teljes tartozást elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény. -->
 
 ## Feltételek és Ügyintézés
 
@@ -95,11 +103,12 @@ Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogy
 
 ### Diákhitel1 Befektetése                       
 -  Ha az **állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
-    - Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
-    - A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
-  Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, de van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat. **A magyar állampapírok általában 1%-os díjért szabadon visszaválthatók**.
+    - **Stratégia 1:** Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
+    - **Stratégia 2:** A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
+  Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, de van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat. Ha nincs ilyen, akkor csak likvidáljuk az egész pozíciónkat az állampapírok visszaváltásával és a hitel végtörlesztésével. **A magyar állampapírok általában 1%-os díjért szabadon visszaválthatók**. 
 
--  A másik lehetőség, hogy a kamat minden állampapír hozamánál nagyobb. Ekkor is van lehetőségünk felvenni a Diákhitel1-et, csak ekkor meg kell próbálnunk a kamatot kockázatosabb termék(ek) vételével meghaladni, ha profitot akarunk elérni. Ezt csak **vállalkozóbb szellemű** olvasóinknak javasoljuk, mert ez akár komoly pénzügyi kockázatokkal is járhat, ha nem vagyunk elég óvatosak. 
+-  A másik eset, hogy a kamat minden állampapír hozamánál nagyobb. Ekkor is van lehetőségünk felvenni a Diákhitel1-et, de ezt csak **vállalkozóbb szellemű** olvasóinknak javasoljuk, mert ez akár komoly pénzügyi kockázatokkal is járhat:
+    - **Stratégia 3:** A hitelt felvesszük és kockázatos termékekbe fektetjük, ezzel próbálva meg a diákhitel kamatánál magasabb hozamot elérni.
 
 Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, historikusan nem ez volt a jellemző, hanem hogy általában jelentősen alacsonyabb. Mivel a diákhitel célja a magyar egyetemisták tanulányaikban való támogatása kedvezményes hitelfelvétellel, a szerzők véleménye szerint várható, hogy a közeljövőben ismét az államkötvényhozamok alá fog csökkenni, ezzel kockázatmentes nyereség lehetőségét adva.
 
@@ -115,27 +124,31 @@ Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, 
     </p>
 </div>
 
-## Modellezése a Stratégiának
+## A Stratégia Modellezése
 
 A számításaink során éltünk pár egyszerűsítő feltevéssel. Először is, feltételezzük, hogy az olvasó teljesít egy BSc és MSc képzést is, így 10 félévet tölt az egyetemen és a felvehető maximális hitelösszeg nem változik. Továbbá azzal az egyszerűsítéssel is élünk, hogy az egyetemi képzés után még 5 évig nem végtörleszt, így a portfóliót TBSZ számlán tudja tartani, tehát 0%-os adót fizet befektetési eszköztől függetlenül. Ezeken túl modellezük az alternatív költségeket is, ami rendkívül fontos, hiszen a törlesztőre szánt pénzt akár másra is használhatnánk: ingatlan, részvény vagy egyéb befektetésekre. Az inflációt és a változó kamatkörnyezetet nem tartalmazza a modell, a kalkulációkat nominálisan kell értelmezni.
 
 <div class="custom-text-box-elmeleti">
     <h2>Alternatív költség</h2>
-    <p>Egy tevékenység alternatív költsége, más néven opportunity cost, vagy lehetőségköltség egy másik lehetőség feláldozott alternatív haszna, jövedelme. Számításakor mindig a lehető legjobb kieső alternatívát kell figyelembe venni.
+    <p>Egy tevékenység alternatív költsége, más néven "opportunity cost", vagy lehetőségköltség egy másik lehetőség feláldozott alternatív haszna, jövedelme. Számításakor mindig a lehető legjobb kieső alternatívát kell figyelembe venni.
     </p>
-    <p class="source">Wikipedia</p> 
+    <p class="source">Wikipédia</p> 
 </div>
 
-Annak ellenére, hogy az olvasók változatos hátérrel és lehetőségekkel rendelkezhetnek a cikk megpróbál két számítás prezentálni, ami reméljük sok hallgató körülményeit lefedi. Fontos, hogy elérhetővé tettük az Excel-t az oldal alján azok számára, akik szeretnék a számításokat újra elvégezni és/vagy megbizonyosodni a helyességükről.
+Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel rendelkezhetnek, a cikk megpróbál két számítást prezentálni, ami reméljük, sok hallgató körülményeit lefedi. Az oldal alján elérhetővé tettük a felhasznált **Excel táblázatot** azok számára, akik szeretnék a számításokat újra elvégezni és/vagy megbizonyosodni helyességükről. **Itt minden paraméter szabadon állítható**, hogy saját körülményeidre tudjad szabni. 
+
+
 
 <div class="svg-container">
   <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
-  <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
+  <figcaption class="svg-caption">1. Ábra: Tandíj 0 Ft, Diákhitel kamata 4%, Elért hozamunk: 8%, Félévek száma: 10.</figcaption>
 </div>
+Mennyit kereshet egy Corvinusos hallgató akit nem vettek fel államilag támogatott képzésre?
 <div class="svg-container">
-  <img src="/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
-  <figcaption class="svg-caption">Figure 1: Description of the financial data chart.</figcaption>
+  <img src="/Financial_Data_Chart_Ricky.svg" alt="Számításaink2" class="dynamic-svg" />
+  <figcaption class="svg-caption">2. Ábra: Tandíj 500.000 Ft, Diákhitel kamata 4%, Kockázatos eszközök hozama: 10%, Félévek száma: 10.</figcaption>
 </div>
+
 
 
 <a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
@@ -144,25 +157,54 @@ Annak ellenére, hogy az olvasók változatos hátérrel és lehetőségekkel re
 
 ### Tartós Befektetési Számla (TBSZ) Előnyei
 
-A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magyarországon, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására. Ez különösen előnyös lehet hosszú távú befektetők számára, akik állampapírokba, részvényekbe, vagy más pénzügyi eszközökbe fektetnek be.
+A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magyarországon, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására. Ez különösen előnyös lehet hosszú távú befektetők számára, akik részvényekbe vagy más pénzügyi eszközökbe fektetnek be.
 
-#### Adóelőnyök:
+- **Gyűjtőév:** Kezdetnek legalább 20.000 forintot kell elhelyeni a számlán és egy évünk van, hogy ezen felül további pénzt helyezzünk el rajta. A gyűjtőév után kezdődik az 3-5 év várakozás. A félreértések elkerülése végett kiemelendő, hogy **a pénzünket bármikor ki tudjuk venni, akkor azonban be kell fizetnünk az adót**.
+- **3 év után:** A személyi jövedelemadó 15%-ról 10%-ra csökken.
+- **5 év után:** Teljes adómentesség a kamat- és árfolyamnyereségre. Ekkor a befektetők mentesülnek minden adófizetési kötelezettség alól a számlán keletkezett nyereség tekintetében.
 
-- **3 év után:** A kamatadó 15%-ról 10%-ra csökken. Ez az időszak jelentős adómegtakarítást eredményezhet a befektetők számára.
-- **5 év után:** Teljes adómentesség a kamat- és árfolyamnyereség-adóra. Ekkor a befektetők mentesülnek minden adófizetési kötelezettség alól a számlán keletkezett nyereség tekintetében.
-- **Szociális hozzájárulási adó (szocho) mentesség:** A TBSZ-en elért hozamok mentesülnek a szociális hozzájárulási adó alól, ami további pénzügyi előnyöket biztosít.
-
-### Adóügyi Implikációk
-
-A TBSZ használata hosszú távon jelentős hozamnövekedést eredményezhet, különösen állampapírok és részvények esetében. Az adókedvezmények maximalizálása érdekében érdemes legalább 3-5 éves befektetési időtávot tervezni. Ez az időszak lehetővé teszi, hogy a befektetők kihasználják a teljes adómentességet és minimalizálják a befektetésekkel kapcsolatos költségeket.
-
-- **Hosszú távú befektetési stratégia:** A TBSZ különösen előnyös azok számára, akik hosszú távú befektetési stratégiát követnek. Az adómentesség miatt az elért hozamok újra befektethetők, növelve ezzel a befektetés összértékét az idő múlásával.
-- **Optimális eszközallokáció:** A TBSZ lehetőséget nyújt a különböző eszközosztályok közötti rugalmas allokációra, mivel a befektetett eszközök közötti átrendezés adóhatás nélkül valósulhat meg.
-
-A Tartós Befektetési Számla hatékony eszköz az adók minimalizálására és a befektetési hozamok maximalizálására. Érdemes mérlegelni a TBSZ nyitásának lehetőségét, különösen hosszú távú befektetési célok esetén.
+<!-- Végül tennénk pár szót az adóbevallásról is. Általában májusig kell leadni és a NAV mindenki számára elkészíti az "ellenőrzött tőkepiaci ügyletek" utáni bevallását. A mi dolgunk csak annyi, hogy bankkártyás fizetéssel kifizessük ezt.  -->
 
 
-- **Gyermekek után járó támogatás:**
-  - **1 Gyermek esetében:** Kérheted a törlesztési kötelezettség szüneteltetését a várandósság 91. napjától. Kamattámogatás is jár, ami azt jelenti, hogy ez idő alatt az ügyleti kamatok nem növelik az egyenlegedet. Továbbá, ha még nem töltötted be a 30. életévedet, és a tanulmányaid alatt vagy azok sikeres befejezését követő két éven belül gyermeked lesz, a fennálló diákhiteled 100%-át elengedjük. 
-  - **2 Gyermek esetében:**  Az anyák esetében a tartozás felét elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény. 
-  - **3 Gyermek esetében:**  Az anyák esetében a teljes tartozást elengedik, ha több szerződésed van, az általad választott szerződésre vonatkozik ez a kedvezmény.
+
+<div class="custom-text-box">
+    <h2>Jó, de hol nyissak számlát? Hogyan tudom ezeket megvenni?</h2>
+    <p>A legnépszerűbb magyar bankok mind rendelkeznek ezzel a konstrukcióval, azonban a díjaik és a termékkínálatuk nagyban eltérhet. A szerzők kezdőknek az <b>Erste Bank</b>-ot ajánlják: rendkívül sok termék, alacsony díjakkal és egyszerű adminisztációval. A felhasználói felületük elavult cserébe egyszerű használni. A vállalkozóbb szellemű olvasóknak <b>Interactive Brokers</b>-t tudjuk ajánlani, itt lehet opciókkal, devizával, kötvényekkel és sok más termékkel kereskedni. 
+    </p>
+</div>
+
+### Stratégiaválasztás
+
+<div class="svg-container">
+  <img src="/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
+  <figcaption class="svg-caption">3. Ábra: Stratégiaválasztás</figcaption>
+</div>
+
+### Útmutató
+
+Elsőre soknak tűnhet, de egyszerű lépésekre bontható az egész folyamat. Az olvasó eligazodását támogatja a 3. Ábra, ami egy folyamatábrán illusztálja a döntési folyamatot. Ezen felül, készítettünk egy részletes tervet linkekkel és jótanácsokkal:
+
+1. Stratégiaválasztás a fenti folyamatábra alapján. Ehhez felhasználhatjuk:
+    - [Diákhitel](https://diakhitel.hu)-t a feltételekhez
+    - [Magyar Állampapír](https://www.allampapir.hu)-t a az állampapírhozamokhoz
+2. Diákhitel felvétele Neptunban a Ügyintézés/Diákhitel igénylés menüpontban. 
+3. Bróker kiválasztása és értékpapírszámla-nyitás. Például:
+    - [Erste](https://www.erstebroker.hu/hu/netbroker_szamlanyitas.html)
+    - [Interactive Brokers](https://www.interactivebrokers.ie/hu/home.php)
+4. A pénz befektetése a brókerjénél. 
+5. Változó piaci kondíciók esetén a portfolió újrasúlyozása.
+
+
+
+
+  <!-- Források:
+  [salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+
+  https://diakhitel.hu
+  https://www.mnb.hu/fogyasztovedelem/befektetes-megtakaritas/megtakaritastipusok/tartos-befektetesi-szamla
+  https://www.allampapir.hu
+  https://www.portfolio.hu/befektetes/20240529/megjelent-az-uj-szuperallampapir-kiszamoltuk-mikor-eri-meg-ebbe-fektetni-688723
+  https://diakhitel.hu/aktualitasok/a-szabad-felhasznalasu-diakhitel-kamata-megnott-ugyan-de-igy-is-vonzo-maradt/
+  https://telex.hu/gazdasag/2023/03/07/hitelbol-is-megerheti-allampapirt-venni-mert-most-a-semmibol-is-lehet-milliokat-csinalni
+  https://24.hu/fn/gazdasag/2023/03/29/diakhitel-felvenni-kolcson-allampapir-befektetes-kamatok-ingyenpenz-bank360/
+   -->

@@ -21,14 +21,17 @@ const BlogIndex = ({ data, location }) => {
       </Layout>
     )
   }
-
+ 
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-
+          const released = post.frontmatter?.released || `No`
+          if (released ===`No`){
+            return ""
+          }
           return (
             <li key={post.fields.slug}>
               <article
@@ -87,6 +90,7 @@ export const pageQuery = graphql`
           date(formatString: "YYYY/MM/DD")
           title
           description
+          released
         }
       }
     }

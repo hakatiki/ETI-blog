@@ -10,6 +10,8 @@ const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
+  const released = site.siteMetadata?.released || `No`
+  
   const siteTitle = site.siteMetadata?.title || `Title`
   const monthNames = [
     "január", // January
@@ -117,6 +119,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        released
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

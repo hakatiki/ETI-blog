@@ -1,8 +1,5 @@
-/* CSS Custom Properties Definitions */
 
 :root {
-  text-align: justify;
-  text-justify: inter-word;
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
   --maxWidth-sm: 24rem;
@@ -241,6 +238,15 @@ hr {
 }
 
 /* Heading */
+/* CSS Custom Properties Definitions */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+ul {
+  text-align: justify;
+  text-justify: inter-word;
+}
 header {
   text-align: left !important;
 }

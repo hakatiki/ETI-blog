@@ -32,38 +32,9 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      {/* <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/mate.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      /><StaticImage
-      className="bio-avatar"
-      layout="fixed"
-      formats={["auto", "webp", "avif"]}
-      src="../images/mate.png"
-      width={50}
-      height={50}
-      quality={100}
-      alt="Profile picture"
-    /> */}
       {author?.name && (
         <p>
           A blogot <strong>{author.name}</strong> írta. {author?.summary || null}
-          {` `}Kövesd be{` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-             Bálintot  
-          </a>
-          {` `}és{` `}
-          <a href={`https://twitter.com/${social?.twitter2 || ``}`}>
-            Mátét
-          </a>
-          {` `}
-          Twitteren!
         </p>
       )}
     </div>

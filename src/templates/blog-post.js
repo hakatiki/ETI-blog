@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -46,9 +45,11 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{formattedDate}</p>
+        <header style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div>
+            <h1 itemProp="headline">{post.frontmatter.title}</h1>
+            <p>{formattedDate}</p>
+          </div>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -56,7 +57,7 @@ const BlogPostTemplate = ({
         />
         <hr />
         <footer>
-       
+          <Bio />
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -86,15 +87,6 @@ const BlogPostTemplate = ({
         </ul>
       </nav>
     </Layout>
-  )
-}
-
-export const Head = ({ data: { markdownRemark: post } }) => {
-  return (
-    <Seo
-      title={post.frontmatter.title}
-      description={post.frontmatter.description || post.excerpt}
-    />
   )
 }
 

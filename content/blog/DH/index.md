@@ -8,7 +8,7 @@ released: "Yes"
 **Kezdjük az elsővel röviden: igen, megéri.**
 Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is közöljük. A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
 
-**Fontos**: a diákhitelt befektetési eszözként szerentnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
+**Fontos**: a diákhitelt befektetési eszközként szeretnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
 
 **Az cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
@@ -42,7 +42,7 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
     </tr>
     <tr>
       <td><strong>Igényelhető összeg</strong></td>
-      <td>Havi <span class="important">15 000 Ft</span>-tól <span class="important">150 000 Ft</span>-ig, vagy félévente maximum <span class="important">750 000 Ft</span></td>
+      <td>Havi <span class="important">15 000 Ft</span>-tól <span class="important">150 000 Ft</span>-ig, vagy félévenként maximum <span class="important">750 000 Ft</span></td>
       <td>A <span class="important">tandíj teljes összege</span>, közvetlenül az intézmény számlájára</td>
     </tr>
     <tr>
@@ -89,7 +89,7 @@ Feltételek:
 
 ## Befektetési Stratégiák Diákhitellel
 
-Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogyan lehetne befektetésként hasznosítani őket.  A stratégia nagyon egyszerű: felvesszük a hitelt, majd befektetjük. Továbbá, annak érdekében, hogy pontos becsléseket tudjunk mondani, készítettünk egy Excel táblázatot ami letölthető az oldal alján.
+Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogyan lehetne befektetésként hasznosítani őket.  A stratégia nagyon egyszerű: felvesszük a hitelt, majd befektetjük. Továbbá, annak érdekében, hogy pontos becsléseket tudjunk mondani, készítettünk egy Excel táblázatot, ami letölthető az oldal alján.
 
 <div class="custom-text-box-elmeleti">
     <h2>Mi az az arbitrázs?</h2>
@@ -111,7 +111,7 @@ Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogy
 -  A másik eset, hogy a kamat minden állampapír hozamánál nagyobb. Ekkor is van lehetőségünk felvenni a Diákhitel1-et, de ezt csak **vállalkozóbb szellemű** olvasóinknak javasoljuk, mert ez akár komoly pénzügyi kockázatokkal is járhat:
     - **Stratégia 3:** A hitelt felvesszük és kockázatos termékekbe fektetjük, ezzel próbálva meg a diákhitel kamatánál magasabb hozamot elérni.
 
-Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, historikusan nem ez volt a jellemző, hanem hogy általában jelentősen alacsonyabb. Mivel a diákhitel célja a magyar egyetemisták tanulányaikban való támogatása kedvezményes hitelfelvétellel, a szerzők véleménye szerint várható, hogy a közeljövőben ismét az államkötvényhozamok alá fog csökkenni, ezzel kockázatmentes nyereség lehetőségét adva.
+Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, historikusan nem ez volt a jellemző, hanem hogy általában jelentősen alacsonyabb. Mivel a diákhitel célja a magyar egyetemisták tanulmányaikban való támogatása kedvezményes hitelfelvétellel, a szerzők véleménye szerint várható, hogy a közeljövőben ismét az államkötvényhozamok alá fog csökkenni, ezzel kockázatmentes nyereség lehetőségét adva.
 
 <div class="custom-text-box">
     <h2>Példa: Koronavírus</h2>
@@ -151,10 +151,12 @@ Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel r
   <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">1. Ábra: Tandíj 0 Ft, Diákhitel kamata 4%, Elért hozamunk: 8%, Félévek száma: 10.</figcaption>
 </div>
-Mennyit kereshet egy Corvinusos hallgató akit nem vettek fel államilag támogatott képzésre?
+
+Mennyit kereshet egy Corvinusos hallgató, akit nem vettek fel államilag támogatott képzésre? Tegyük fel, hogy 500 ezer forint a tandíja, viszont kockázatos befektetésekkel 10% hozamot ér el évente a portfóiója.
+
 <div class="svg-container">
   <img src="/Financial_Data_Chart_Ricky.svg" alt="Számításaink2" class="dynamic-svg" />
-  <figcaption class="svg-caption">2. Ábra: Tandíj 500.000 Ft, Diákhitel kamata 4%, Kockázatos eszközök hozama: 10%, Félévek száma: 10.</figcaption>
+  <figcaption class="svg-caption">2. Ábra: Tandíj 500.000 Ft, Diákhitel kamata 4%, Elért hozam: 10%, Félévek száma: 10.</figcaption>
 </div>
 
 
@@ -163,11 +165,9 @@ Mennyit kereshet egy Corvinusos hallgató akit nem vettek fel államilag támoga
 
 ## Adózási Szempontok
 
-### Tartós Befektetési Számla (TBSZ) Előnyei
-
 A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magyarországon, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására. Ez különösen előnyös lehet hosszú távú befektetők számára, akik részvényekbe vagy más pénzügyi eszközökbe fektetnek be.
 
-- **Gyűjtőév:** Kezdetnek legalább 20.000 forintot kell elhelyeni a számlán és egy évünk van, hogy ezen felül további pénzt helyezzünk el rajta. A gyűjtőév után kezdődik az 3-5 év várakozás. A félreértések elkerülése végett kiemelendő, hogy **a pénzünket bármikor ki tudjuk venni, akkor azonban be kell fizetnünk az adót**.
+- **Gyűjtőév:** Kezdetnek legalább 20.000 forintot kell elhelyezni a számlán és egy évünk van, hogy ezen felül további pénzt helyezzünk el rajta. A gyűjtőév után kezdődik az 3-5 év várakozás. A félreértések elkerülése végett kiemelendő, hogy **a pénzünket bármikor ki tudjuk venni, akkor azonban be kell fizetnünk az adót**.
 - **3 év után:** A személyi jövedelemadó 15%-ról 10%-ra csökken.
 - **5 év után:** Teljes adómentesség a kamat- és árfolyamnyereségre. Ekkor a befektetők mentesülnek minden adófizetési kötelezettség alól a számlán keletkezett nyereség tekintetében.
 
@@ -177,7 +177,7 @@ A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magya
 
 <div class="custom-text-box">
     <h2>Jó, de hol nyissak számlát? Hogyan tudom ezeket megvenni?</h2>
-    <p>A legnépszerűbb magyar bankok mind rendelkeznek ezzel a konstrukcióval, azonban a díjaik és a termékkínálatuk nagyban eltérhet. A szerzők kezdőknek az <b>Erste Bank</b>-ot ajánlják: rendkívül sok termék, alacsony díjakkal és egyszerű adminisztációval. A felhasználói felületük elavult cserébe egyszerű használni. A vállalkozóbb szellemű olvasóknak <b>Interactive Brokers</b>-t tudjuk ajánlani, itt lehet opciókkal, devizával, kötvényekkel és sok más termékkel kereskedni. 
+    <p>A legnépszerűbb magyar bankok mind rendelkeznek ezzel a konstrukcióval, azonban a díjaik és a termékkínálatuk nagyban eltérhet. A szerzők kezdőknek az <b>Erste Bank</b>-ot ajánlják: rendkívül sok termék, alacsony díjakkal és egyszerű adminisztrációval. A felhasználói felületük elavult cserébe egyszerű használni. A vállalkozóbb szellemű olvasóknak <b>Interactive Brokers</b>-t tudjuk ajánlani, itt lehet opciókkal, devizával, kötvényekkel és sok más termékkel kereskedni. 
     </p>
 </div>
 
@@ -190,18 +190,19 @@ A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magya
 
 ### Útmutató
 
-Elsőre soknak tűnhet, de egyszerű lépésekre bontható az egész folyamat. Az olvasó eligazodását támogatja a 3. Ábra, ami egy folyamatábrán illusztálja a döntési folyamatot. Ezen felül, készítettünk egy részletes tervet linkekkel és jótanácsokkal:
+Elsőre soknak tűnhet, de egyszerű lépésekre bontható az egész folyamat. Az olvasó eligazodását támogatja a 3. Ábra, ami egy folyamatábrán illusztrálja a döntési folyamatot. Ezen felül, készítettünk egy részletes tervet linkekkel és jótanácsokkal:
+
 
 1. Stratégiaválasztás a fenti folyamatábra alapján. Ehhez felhasználhatjuk:
     - [Diákhitel](https://diakhitel.hu)-t a feltételekhez
     - [Magyar Állampapír](https://www.allampapir.hu)-t a az állampapírhozamokhoz
-2. Diákhitel felvétele Neptunban a Ügyintézés/Diákhitel igénylés menüpontban. 
+2. Diákhitel felvétele Neptunban az Ügyintézés/Diákhitel igénylés menüpontban. 
 3. Bróker kiválasztása és értékpapírszámla-nyitás. Például:
     - [Erste](https://www.erstebroker.hu/hu/netbroker_szamlanyitas.html)
     - [Interactive Brokers](https://www.interactivebrokers.ie/hu/home.php)
 4. A pénz befektetése a brókerjénél. 
-5. Változó piaci kondíciók esetén a portfolió újrasúlyozása.
-
+5. Változó piaci feltételek esetén vissza az 1. lépéshez.
+6. Törlesztés
 
 
 

@@ -1,9 +1,12 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import EmailCopyButton from "../components/emailcopy"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { FaTwitter, FaEnvelope } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -24,6 +27,57 @@ const BlogIndex = ({ data, location }) => {
  
   return (
     <Layout location={location} title={siteTitle}>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          right: 0,
+          display: "flex",
+          gap: "1rem",
+          padding: "1rem",
+
+        }}
+      >
+        <a
+          href={`https://x.com/hakatiki1`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+            backgroundColor: "#000000",
+            color: "white",
+            padding: "0.5rem 1rem",
+            borderRadius: "4px",
+            transition: "background-color 0.3s",
+          }}
+        >
+          Bálint
+          <RiTwitterXFill style={{ marginLeft: "0.5rem" }} />
+        </a>
+        <a
+          href={`https://x.com/egrimate1`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+            backgroundColor: "#000000",
+            color: "white",
+            padding: "0.5rem 1rem",
+            borderRadius: "4px",
+            transition: "background-color 0.3s",
+          }}
+        >
+          Máté
+          <RiTwitterXFill style={{ marginLeft: "0.5rem" }} />
+        </a>
+        <EmailCopyButton />
+      </div>
+      
+      
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

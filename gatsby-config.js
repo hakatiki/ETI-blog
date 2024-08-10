@@ -14,7 +14,7 @@ module.exports = {
       name:`Takáts Bálint és Egri Máté`,
       namebalint: `Takáts Bálint`,
       namemate: ``,
-      summary: `Kvantitatív elemzők vagyunk itt Budapesten. Máté matematikus, biztosítási és kvantitatív elemzői képzésekkel rendelkezik. Bálint informatikus és a statégaként dolgozik.`,
+      summary: `A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és kvantitatív elemző, Bálint informatikus. Érdekel minket a gazdaság, a befektetések és a piacok.`,
     },
     description: `Minden ami minket érdekel: pénzügyek, befektetések, matematika és informatika.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,

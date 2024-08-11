@@ -13,10 +13,12 @@ released: "Yes"
     <style>
         h2 {
             border-bottom: 1px solid #ddd;
+            text-align: left;
         }
         h3 {
             margin-top: 15px;
             margin-bottom: 5px;
+            text-align: left;
         }
         .section {
             margin-bottom: 20px;
@@ -33,9 +35,11 @@ released: "Yes"
         }
         .job-title, .degree-title {
             font-weight: bold;
+            text-align: left;
         }
         .location {
             font-style: italic;
+            text-align: left;
         }
         .period {
             float: right;
@@ -52,7 +56,7 @@ released: "Yes"
             <h2>Tanulmányok</h2>
             <ul>
                 <li>
-                    <div class="degree-title">MSc, Számítástechnika, Kitüntetéssel Végzett</div>
+                    <div class="degree-title">MSc, Számítástechnika</div>
                     <div class="location">Budapesti Műszaki és Gazdaságtudományi Egyetem</div>
                     <span class="period">2022 - 2024</span>
                     <!-- <div class="details">Átlag: 4.73/5</div> -->
@@ -63,7 +67,7 @@ released: "Yes"
                     <span class="period">2021</span>
                 </li> -->
                 <li>
-                    <div class="degree-title">BSc, Számítástechnika, Kitüntetéssel Végzett</div>
+                    <div class="degree-title">BSc, Számítástechnika</div>
                     <div class="location">Budapesti Műszaki és Gazdaságtudományi Egyetem</div>
                     <span class="period">2018 - 2022</span>
                     <!-- <div class="details">Átlag: 4.91/5</div> -->

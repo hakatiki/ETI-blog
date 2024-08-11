@@ -1,7 +1,7 @@
 ---
 title: "Diákhitel, mint befektetés egyetemi hallgatóknak"
 date: "2024-08-10"
-description: "Megéri diákhitelt felvennem akkor is, ha nem szorulok rá? Mennyire kockázatos vállalkozás? Melyik diákhitelre van szükségem? Mekkora várható profitot tudok elérni? Kezdjük az elsővel röviden: igen, megéri. Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is közöljük. A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába."
+description: "Megéri diákhitelt felvennem akkor is, ha nem szorulok rá? Mennyire kockázatos vállalkozás? Melyik diákhitelre van szükségem? Mekkora várható profitot tudok elérni? Kezdjük az elsővel röviden: igen, megéri. A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára."
 released: "Yes"
 ---
 
@@ -66,6 +66,9 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
       <td colspan="2">Gyermekvállalás esetén nőknek a tartozás felét vagy akár egészét is elengedik egyéb kedvezmények mellett.</span></td>
     </tr>
   </table>
+<p style="text-align: right;">
+    <a href="https://diakhitel.hu" target="_blank" style="text-decoration: none; color: inherit; font-style: italic;">Diákhitel</a>
+</p>
 </div>
 
 <!-- - **Gyermekek után járó támogatás:**
@@ -128,9 +131,8 @@ Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, 
 </div>
 <div class="custom-text-box-elmeleti">
     <h2>Kockázatmentes hozam</h2>
-    <p>A kockázatmentes hozam a legbiztonságosabbnak tekintett pénzpiaci nyereség, amely adott pénz- és tőkepiaci referenciaértékeként szolgál.
+    <p>Olyan kamatot jelent, amelyet egy befektető elvárna egy teljesen kockázatmentes befektetéstől egy meghatározott időszak alatt. A cikkben a lakossági állampapírokat kockázatmentesnek tekintjük.
     </p>
-    <p class="source">Hold Blog</p> 
 
 </div>
 
@@ -142,7 +144,11 @@ A számításaink során éltünk pár egyszerűsítő feltevéssel. Először i
     <h2>Alternatív költség</h2>
     <p>Egy tevékenység alternatív költsége, más néven "opportunity cost", vagy lehetőségköltség egy másik lehetőség feláldozott alternatív haszna, jövedelme. Számításakor mindig a lehető legjobb kieső alternatívát kell figyelembe venni.
     </p>
-    <p class="source">Wikipédia</p> 
+<p class="source" style="text-align: right;">
+    <a href="https://hu.wikipedia.org/wiki/Alternatív_költség" target="_blank" style="text-decoration: none; color: inherit; font-style: italic;">
+        Wikipédia
+    </a>
+</p>
 </div>
 
 Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel rendelkezhetnek, a cikk megpróbál két számítást prezentálni, ami reméljük, sok hallgató körülményeit lefedi. Az oldal alján elérhetővé tettük a felhasznált **Excel táblázatot** azok számára, akik szeretnék a számításokat újra elvégezni és/vagy megbizonyosodni helyességükről. **Itt minden paraméter szabadon állítható**, hogy saját körülményeidre tudjad szabni. 

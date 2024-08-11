@@ -56,18 +56,18 @@ released: "Yes"
             <h2>Tanulmányok</h2>
             <ul>
                 <li>
-                    <div class="degree-title">MSc, Számítástechnika</div>
+                    <div class="degree-title">MSc, Mérnökinformatikus</div>
                     <div class="location">Budapesti Műszaki és Gazdaságtudományi Egyetem</div>
                     <span class="period">2022 - 2024</span>
                     <!-- <div class="details">Átlag: 4.73/5</div> -->
                 </li>
                 <!-- <li>
-                    <div class="degree-title">BSc, Számítástechnika, Tavaszi Félév</div>
+                    <div class="degree-title">BSc, Mérnökinformatikus, Tavaszi Félév</div>
                     <div class="location">Twente Egyetem (ERASMUS Csereprogram)</div>
                     <span class="period">2021</span>
                 </li> -->
                 <li>
-                    <div class="degree-title">BSc, Számítástechnika</div>
+                    <div class="degree-title">BSc, Mérnökinformatikus</div>
                     <div class="location">Budapesti Műszaki és Gazdaságtudományi Egyetem</div>
                     <span class="period">2018 - 2022</span>
                     <!-- <div class="details">Átlag: 4.91/5</div> -->
@@ -84,7 +84,7 @@ released: "Yes"
             <h2>Tapasztalat</h2>
             <ul>
                 <li>
-                    <div class="job-title">Kvantitatív Stratégiai Gyakornok</div>
+                    <div class="job-title">Kvantitatív Gyakornok</div>
                     <div class="location">Morgan Stanley, Budapest, Magyarország</div>
                     <span class="period">2022 - Jelenleg</span>
                 </li>
@@ -101,7 +101,7 @@ released: "Yes"
     <h2>Tanulmányok</h2>
     <ul>
         <li>
-            <div class="degree-title">MSc, Aktuárius és Pénzügyi Matematikus-Közgazdász</div>
+            <div class="degree-title">MSc, Biztosítási és pénzügyi matematika</div>
             <div class="location">ELTE – BCE, Budapest, Magyarország</div>
             <span class="period">2022 - 2024</span>
         </li>
@@ -123,7 +123,7 @@ released: "Yes"
         <li>
             <div class="job-title">Modell Kockázatkezelési Gyakornok</div>
             <div class="location">Morgan Stanley, Budapest, Magyarország</div>
-            <span class="period">2022 szeptember - Jelenleg</span>
+            <span class="period">2022 - Jelenleg</span>
         </li>
     </ul>
 </div>

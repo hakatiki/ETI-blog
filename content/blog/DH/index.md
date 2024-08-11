@@ -1,6 +1,6 @@
 ---
 title: "Diákhitel, mint befektetés egyetemi hallgatóknak"
-date: "2024-08-10"
+date: "2024-08-11"
 description: "Megéri diákhitelt felvennem akkor is, ha nem szorulok rá? Mennyire kockázatos vállalkozás? Melyik diákhitelre van szükségem? Mekkora várható profitot tudok elérni? Kezdjük az elsővel röviden: igen, megéri. A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára."
 released: "Yes"
 ---

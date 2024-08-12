@@ -153,18 +153,18 @@ A számításaink során éltünk pár egyszerűsítő feltevéssel. Először i
 
 Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel rendelkezhetnek, a cikk megpróbál két számítást prezentálni, ami reméljük, sok hallgató körülményeit lefedi. Az oldal alján elérhetővé tettük a felhasznált **Excel táblázatot** azok számára, akik szeretnék a számításokat újra elvégezni és/vagy megbizonyosodni helyességükről. **Itt minden paraméter szabadon állítható**, hogy saját körülményeidre tudjad szabni. 
 
-
+Mennyit kereshet egy (a kezét feltevő:) mérnökhallgató, aki államilag támogatott képzésen tanul? Tegyük fel, hogy 8% hozamú  állampapírba tudja fektetni a pénzét, míg a diákhitel kamata csak 4%.
 
 <div class="svg-container">
   <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
-  <figcaption class="svg-caption">1. Ábra: Tandíj 0 Ft, Diákhitel kamata 4%, Elért hozamunk: 8%, Félévek száma: 10.</figcaption>
+  <figcaption class="svg-caption">1. Ábra: 1. Stratégia, Tandíj: 0 Ft, Diákhitel kamata: 4%, Elért hozamunk: 8%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
 Mennyit kereshet egy Corvinusos hallgató, akit nem vettek fel államilag támogatott képzésre? Tegyük fel, hogy 500 ezer forint a tandíja, viszont kockázatos befektetésekkel 10% hozamot ér el évente a portfóiója.
 
 <div class="svg-container">
   <img src="/Financial_Data_Chart_Risky.svg" alt="Számításaink2" class="dynamic-svg" />
-  <figcaption class="svg-caption">2. Ábra: Tandíj 500.000 Ft, Diákhitel kamata 4%, Elért hozam: 10%, Félévek száma: 10.</figcaption>
+  <figcaption class="svg-caption">2. Ábra: 3. Stratégia, Tandíj: 500.000 Ft, Diákhitel kamata: 4%, Elért hozam: 10%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
 

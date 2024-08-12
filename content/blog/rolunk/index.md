@@ -65,23 +65,12 @@ A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és
                     <span class="period">2022 - 2024</span>
                     <!-- <div class="details">Átlag: 4.73/5</div> -->
                 </li>
-                <!-- <li>
-                    <div class="degree-title">BSc, Mérnökinformatikus, Tavaszi Félév</div>
-                    <div class="location">Twente Egyetem (ERASMUS Csereprogram)</div>
-                    <span class="period">2021</span>
-                </li> -->
                 <li>
                     <div class="degree-title">BSc, Mérnökinformatikus</div>
                     <div class="location">Budapesti Műszaki és Gazdaságtudományi Egyetem</div>
                     <span class="period">2018 - 2022</span>
                     <!-- <div class="details">Átlag: 4.91/5</div> -->
                 </li>
-                <!-- <li>
-                    <div class="degree-title">Középiskola, Kiválóan Végzett Öt Tárgyból</div>
-                    <div class="location">ELTE Bolyai Gimnázium</div>
-                    <span class="period">2006 - 2018</span>
-                    <!-- <div class="details">Átlag: 5.00/5</div> -->
-                <!-- </li>  -->
             </ul>
         </div>
         <div class="section experience">

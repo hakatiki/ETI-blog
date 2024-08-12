@@ -45,8 +45,12 @@ released: "Yes"
             float: right;
             font-style: italic;
         }
+        .spacing {
+          margin:8rem;
+        }
     </style>
 </head>
+A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és kvantitatív elemző, Bálint informatikus. Érdekel minket a gazdaság, a befektetések és a piacok.
 <body>
     <div class="container">
         <div class="contact-info">
@@ -96,13 +100,14 @@ released: "Yes"
             </ul>
         </div>
     </div>
+    <div   class="spacing">    </div>
     <h1>Egri Máté</h1>
 <div class="section education">
     <h2>Tanulmányok</h2>
     <ul>
         <li>
             <div class="degree-title">MSc, Biztosítási és pénzügyi matematika</div>
-            <div class="location">ELTE – BCE, Budapest, Magyarország</div>
+            <div class="location">Eötvös Loránd Tudományegyetem – Budapesti Corvinus Egyetem</div>
             <span class="period">2022 - 2024</span>
         </li>
         <li>
@@ -121,7 +126,7 @@ released: "Yes"
     <h2>Tapasztalat</h2>
     <ul>
         <li>
-            <div class="job-title">Modell Kockázatkezelési Gyakornok</div>
+            <div class="job-title">Modell Kockázatkezelő Gyakornok</div>
             <div class="location">Morgan Stanley, Budapest, Magyarország</div>
             <span class="period">2022 - Jelenleg</span>
         </li>

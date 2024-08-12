@@ -29,12 +29,12 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <div
         style={{
-          position: "absolute",
-          top: 0,
+          // position: "absolute",
+          // top: 0,
           right: 0,
           display: "flex",
           gap: "1rem",
-          padding: "1rem",
+          paddingBottom: "1rem",
 
         }}
       >

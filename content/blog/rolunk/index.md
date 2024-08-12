@@ -104,11 +104,6 @@ A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és
             <div class="location">University of Cambridge, Churchill College</div>
             <span class="period">2018 - 2021</span>
         </li>
-        <!-- <li>
-            <div class="degree-title">Magyar Érettségi</div>
-            <div class="location">ELTE Bolyai Általános és Középiskola, Szombathely, Magyarország</div>
-            <span class="period">2006 - 2018</span>
-        </li> -->
     </ul>
 </div>
 <div class="section experience">

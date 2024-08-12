@@ -15,7 +15,7 @@ Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is
 **Az cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
 <div class="custom-text-box">
-    <h2>Egy Corvinus tanteremben hangzott el pénzügyi matematikusok képzése során:</h2>
+    <h2>A Corvinus tantermében hangzott el pénzügyi matematikusok képzése során:</h2>
     <p>
         Tanár: Hányan csináljátok, hogy diákhitelből vesztek állampapírt?
         <br><br>
@@ -80,7 +80,7 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
 
 Ezek a két hitel esetén azonosak.
 
-Feltételek:
+A cikk írásának pillanatában a feltételek:
 - aktív hallgatói jogviszony
 - magyar állampolgárság
 - 45 évnél alacsonyabb életkor
@@ -138,9 +138,17 @@ Ugyan jelenleg a Diákhitel1 kamata magasabb a lakossági állampapírokénál, 
 
 ## A Stratégia Modellezése
 
-A számításaink során éltünk pár egyszerűsítő feltevéssel. Először is, feltételezzük, hogy az olvasó teljesít egy BSc és MSc képzést is, így 10 félévet tölt az egyetemen és a felvehető maximális hitelösszeg nem változik. Továbbá azzal az egyszerűsítéssel is élünk, hogy az egyetemi képzés után még 5 évig nem végtörleszt, így a portfóliót TBSZ számlán tudja tartani, tehát 0%-os adót fizet befektetési eszköztől függetlenül. Ezeken túl modellezük az alternatív költségeket is, ami rendkívül fontos, hiszen a törlesztőre szánt pénzt akár másra is használhatnánk: ingatlan, részvény vagy egyéb befektetésekre. Az inflációt és a változó kamatkörnyezetet nem tartalmazza a modell, a kalkulációkat nominálisan kell értelmezni.
+Most nézzük meg néhány példán, mennyit is tudunk keresni a különböző stratégiákkal különböző feltételek mellett. 
 
 <div class="custom-text-box-elmeleti">
+    <h2>Technikai információk</h2>
+    <p>Az inflációt és a változó kamatkörnyezetet nem tartalmazza a modell, a kalkulációkat nominálisan kell értelmezni. Stratégia 2 esetén a képzés befejezésével rögtön végtörlesztünk. Stratégia 3 modellezésénél normális eloszlású véletlen hozamokat feltételezünk és az hozam várható értékét és szórását adhatjuk meg.
+    </p>
+</div>
+
+
+
+<!-- <div class="custom-text-box-elmeleti">
     <h2>Alternatív költség</h2>
     <p>Egy tevékenység alternatív költsége, más néven "opportunity cost", vagy lehetőségköltség egy másik lehetőség feláldozott alternatív haszna, jövedelme. Számításakor mindig a lehető legjobb kieső alternatívát kell figyelembe venni.
     </p>
@@ -149,27 +157,27 @@ A számításaink során éltünk pár egyszerűsítő feltevéssel. Először i
         Wikipédia
     </a>
 </p>
-</div>
+</div> -->
 
 Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel rendelkezhetnek, alább két olyan számítást prezentálunk, ami reméljük, sok hallgató körülményeit lefedi. Az oldal alján elérhetővé tettük a felhasznált **Excel táblázatot** azok számára, akik szeretnék a számításokat újra elvégezni és/vagy megbizonyosodni helyességükről. **Itt minden paraméter szabadon állítható**, hogy saját körülményeidre tudjad szabni. 
 
-Mennyit kereshet egy (a kezét feltevő:) mérnökhallgató, aki államilag támogatott képzésen tanul? Tegyük fel, hogy 8% hozamú  állampapírba tudja fektetni a pénzét, míg a diákhitel kamata csak 4%.
+Mennyit kereshet egy (a kezét feltevő:) mérnökhallgató, aki államilag támogatott képzésen tanul? Tegyük fel, hogy 8% hozamú  állampapírba tudja fektetni a pénzét, míg a diákhitel kamata csak 4% és 10 év múlva végtörleszti adósságát.
 
 <div class="svg-container">
   <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">1. Ábra: 1. Stratégia, Tandíj: 0 Ft, Diákhitel kamata: 4%, Elért hozamunk: 8%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
-Mennyit kereshet egy corvinusos hallgató, akit nem vettek fel államilag támogatott képzésre? Tegyük fel, hogy 500 ezer forint a tandíja, viszont kockázatos befektetésekkel 10% hozamot ér el évente a portfóiója.
+Mennyit kereshet egy corvinusos hallgató, akit nem vettek fel államilag támogatott képzésre? Tegyük fel, hogy 500 ezer forint a tandíja, viszont kockázatos befektetésekkel 10% hozamot ér el évente a portfóiója és 10 év múlva végtörleszti adósságát.
 
 <div class="svg-container">
   <img src="/Financial_Data_Chart_Risky.svg" alt="Számításaink2" class="dynamic-svg" />
-  <figcaption class="svg-caption">2. Ábra: 3. Stratégia, Tandíj: 500.000 Ft, Diákhitel kamata: 4%, Elért hozam: 10%, Képzés féléveinek száma: 10.</figcaption>
+  <figcaption class="svg-caption">2. Ábra: 3. Stratégia, Tandíj: 500.000 Ft, Diákhitel kamata: 4%, Átlagos hozam: 10%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
 
 
-<a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
+<a href="/calculations.xlsx" class="download-button" download>Excel táblázat letöltése</a>
 
 ## Adózási Szempontok
 
@@ -230,13 +238,12 @@ Elsőre soknak tűnhet, de egyszerű lépésekre bontható az egész folyamat. A
             <h2>5. Változó piaci feltételek esetén vissza az 1. lépéshez.</h2>
         </li>
         <li class="strategy-step">
-            <h2>6. Törlesztés.</h2>
+            <h2>6. Törlesztés a <a href="https://www.diakhiteldirekt.hu" target="_blank" class="strategy-link"> Diákhitel Direkt</a> weboldalán.</h2>
         </li>
     </ol>
 </div>
 
-
-<a href="/calculations.xlsx" class="download-button" download>Excel letöltése</a>
+<a href="/calculations.xlsx" class="download-button" download>Excel táblázat letöltése</a>
 
 
 <!-- 

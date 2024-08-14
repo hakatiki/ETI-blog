@@ -109,7 +109,7 @@ Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogy
 
 ### Diákhitel1 Befektetése                       
 -  Ha az **állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
-    - **Stratégia 1:** Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
+    - **Stratégia 1:** Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülönbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
     - **Stratégia 2:** A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
   Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, de van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat. Ha nincs ilyen, akkor csak likvidáljuk az egész pozíciónkat az állampapírok visszaváltásával és a hitel végtörlesztésével. **A magyar állampapírok általában 1%-os díjért szabadon visszaválthatók**. 
 

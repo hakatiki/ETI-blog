@@ -164,14 +164,14 @@ Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel r
 Mennyit kereshet egy (a kezét feltevő:) mérnökhallgató, aki államilag támogatott képzésen tanul? Tegyük fel, hogy 8% hozamú  állampapírba tudja fektetni a pénzét, míg a diákhitel kamata csak 4% és 10 év múlva végtörleszti adósságát.
 
 <div class="svg-container">
-  <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
+  <img src="/DH/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">1. Ábra: 1. Stratégia, Tandíj: 0 Ft, Diákhitel kamata: 4%, Elért hozamunk: 8%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
 Mennyit kereshet egy corvinusos hallgató, akit nem vettek fel államilag támogatott képzésre? Tegyük fel, hogy 500 ezer forint a tandíja, viszont kockázatos befektetésekkel 10% hozamot ér el évente a portfóiója és 10 év múlva végtörleszti adósságát.
 
 <div class="svg-container">
-  <img src="/Financial_Data_Chart_Risky.svg" alt="Számításaink2" class="dynamic-svg" />
+  <img src="/DH/Financial_Data_Chart_Risky.svg" alt="Számításaink2" class="dynamic-svg" />
   <figcaption class="svg-caption">2. Ábra: 3. Stratégia, Tandíj: 500.000 Ft, Diákhitel kamata: 4%, Átlagos hozam: 10%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
@@ -184,7 +184,7 @@ Mennyit kereshet egy corvinusos hallgató, akit nem vettek fel államilag támog
 A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magyarországon, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására. Ez különösen előnyös lehet hosszú távú befektetők számára, akik részvényekbe vagy más pénzügyi eszközökbe fektetnek be.
 
 <div class="svg-container">
-  <img src="/tbsz_infograph.svg" alt="Számításaink" class="dynamic-svg" />
+  <img src="/DH/tbsz_infograph.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">3. Ábra: A TBSZ működése. Forrás:
     <a href="https://www.erstemarket.hu/oldalak/tbsz-szamla-nyitas" target="_blank" rel="noopener noreferrer">Erste</a>
   </figcaption>
@@ -208,7 +208,7 @@ A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magya
 ### Stratégiaválasztás
 
 <div class="svg-container">
-  <img src="/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
+  <img src="/DH/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption>
 </div>
 

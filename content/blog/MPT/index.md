@@ -13,8 +13,16 @@ ffmpeg -i input.gif -i palette.png -lavfi "paletteuse=dither=bayer:bayer_scale=3
 
 
 
+A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait "Portfolio Selection" című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára.
 
-A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait "Portfolio Selection" című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára. A portfólióelmélet célja, hogy segítséget nyújtson a befektetőknek abban, hogyan állítsanak össze optimális portfóliókat, amelyek minimalizálják a kockázatot adott hozam mellett, vagy maximalizálják a hozamot adott kockázati szint mellett. 
+<div class="responsive-image">
+  <img src="/MPT/Harry-Markowitz.jpg" alt="Description of the image" />
+    <figcaption class="svg-caption">1. Ábra: Harry Markowitz (1927 -2023)</figcaption>
+</div>
+
+ A portfólióelmélet célja, hogy segítséget nyújtson a befektetőknek abban, hogyan állítsanak össze optimális portfóliókat, amelyek minimalizálják a kockázatot adott hozam mellett, vagy maximalizálják a hozamot adott kockázati szint mellett. 
+
+
 
 Markowitz úttörő felismerése volt, hogy a befektetések közötti korreláció figyelembevétele kulcsfontosságú a portfóliók összetételének optimalizálásában. Korábban a befektetők egyedi részvények kockázatára összpontosítottak, de Markowitz rámutatott, hogy a portfóliók teljes kockázata nem pusztán az egyedi befektetések kockázatainak összessége, hanem a befektetések közötti korrelációk is jelentős hatással vannak. Ez a diverzifikáció alapelve, amely szerint a különböző eszközökbe történő befektetés csökkenti a portfólió kockázatát.
 
@@ -59,7 +67,7 @@ $$
 \hat{\sigma}_{ij} = \frac{1}{T-1} \sum_{t=1}^T (r_i^t - \hat{\mu}_i)(r_j^t - \hat{\mu}_j),
 $$
 
-ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapaszttalati szórást használ. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
+ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapasztalati szórást használ. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
 
 <!-- <video width="600" controls>
   <source src="/Diversification.mp4" type="video/mp4">
@@ -91,7 +99,7 @@ De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan egy
 Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
 <div class="custom-text-box">
     <h2>Ipari szegmensek és korreláció</h2>
-    <p>Az ugyanazon iparágban működő cégek árfolyamai gyakran együtt mozognak. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni, mivel ezek árfolyamai általában korrelálnak. Ilyen helyzetben szükségessé válik más szektorokba történő befektetés. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függnek az olajáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételei minimálisan függenek az olaj áringadozásaitól, például gyógyszeripari cégeket, félvezetőgyártókat vagy szoftvercégeket. Bár ezek csak általános irányelvek, az optimális portfólió allokáció érdekében érdemes matematikai módszereket alkalmazni. 
+    <p>Az ugyanazon iparágban működő cégek árfolyamai gyakran együtt mozognak. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni, mivel ezek árfolyamai általában korrelálnak. Ilyen helyzetben szükségessé válik más szektorokba történő befektetés. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függnek az olajáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételei minimálisan függenek az olaj ár ingadozásaitól, például gyógyszeripari cégeket, félvezetőgyártókat vagy szoftvercégeket. Bár ezek csak általános irányelvek, az optimális portfólió allokáció érdekében érdemes matematikai módszereket alkalmazni. 
     </p>
 </div>
 
@@ -141,7 +149,7 @@ Fontos, hogy egy portfólió ábrán felvett helyzete nem mond el semmit a súly
 
 Mi van, ha megfordítjuk a feladatot, és adott szórásnégyzet mellett maximalizáljuk a hozamot? 
 
-A feladat az, hogy egy adott célzott szórásnégyzet ($\sigma^*$) mellett maximalizáljuk a portfólió várhazó hozamát, amit a következő optimalizálási probléma segítségével fejezhetünk ki:
+A feladat az, hogy egy adott célzott szórásnégyzet ($\sigma^*$) mellett maximalizáljuk a portfólió várható hozamát, amit a következő optimalizálási probléma segítségével fejezhetünk ki:
 
 <p style="text-align: center; margin-bottom: 0px;">Maximalizálandó:</p>
 
@@ -165,6 +173,13 @@ A hiperbola csúcsán van a **minimális variancia portfólió**. Az ennél nagy
  ## Portfóliók kockázatmentes eszközzel
 
 Mostantól fogva $n$ helyett legyen $n+1$ darab eszközünk, amiből a $0.$ eszköz a kockázatmentes befektetés, aminek hozama $r_f$ konstans: $\text{Var}(r_f)=0$. A portfóliónkat mostantól eközött az $n+1$ eszköz között osztjuk el: $\sum_{i=0}^n w_i=1$.
+
+<div class="custom-text-box">
+    <h2>Hitelezés és tőkeáttét</h2>
+    <p>
+A kockázatmentes eszköz, gyakran államkötvények formájában, alapvető szerepet játszik a portfólióelméletben, mivel lehetővé teszi a befektetők számára, hogy a kockázatot és hozamot egyensúlyozzák. A <strong>kockázatmentes eszköz eladása</strong>, azaz a shortolás, a <strong>tőkeáttételhez hasonlítható</strong>, a befektetők a kockázatmentes kamatlábon keresztül hitelt vesznek fel, hogy kockázatosabb eszközökbe fektessenek, növelve a potenciális hozamokat és a kockázatot. Ezzel szemben a <strong>kockázatmentes eszköz vásárlása</strong> a hitelezéshez hasonlít, amikor a befektetők <strong>pénzt kölcsönöznek az államnak</strong>, csökkentve ezzel portfóliójuk volatilitását.
+    </p>
+</div>
 
 Legyen $P$ egy kockázatos eszközökből álló portfólió $r_P$ hozammal, $\mu_P$ várható hozammal és $\sigma_P$ szórással. Állítsunk össze egy olyan $Q$ portfóliót, amiben $P$-be $\alpha$, a kockázatmentes eszközbe $1-\alpha$ arányban tesszük a pénzünket. Ekkor ennek várható hozama és szórása:
 $$

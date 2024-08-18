@@ -1,5 +1,5 @@
 ---
-title: "Modern Portfólióelmélet"
+title: "Modern Portfólióelmélet és a CAPM"
 date: "2024-08-11"
 description: ""
 released: "No"
@@ -17,7 +17,7 @@ A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amer
 
 <div class="responsive-image">
   <img src="/MPT/Harry-Markowitz.jpg" alt="Description of the image" />
-    <figcaption class="svg-caption">1. Ábra: Harry Markowitz (1927 -2023)</figcaption>
+    <figcaption class="svg-caption">Harry Markowitz (1927 -2023)</figcaption>
 </div>
 
  A portfólióelmélet célja, hogy segítséget nyújtson a befektetőknek abban, hogyan állítsanak össze optimális portfóliókat, amelyek minimalizálják a kockázatot adott hozam mellett, vagy maximalizálják a hozamot adott kockázati szint mellett. 
@@ -26,12 +26,29 @@ A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amer
 
 Markowitz úttörő felismerése volt, hogy a befektetések közötti korreláció figyelembevétele kulcsfontosságú a portfóliók összetételének optimalizálásában. Korábban a befektetők egyedi részvények kockázatára összpontosítottak, de Markowitz rámutatott, hogy a portfóliók teljes kockázata nem pusztán az egyedi befektetések kockázatainak összessége, hanem a befektetések közötti korrelációk is jelentős hatással vannak. Ez a diverzifikáció alapelve, amely szerint a különböző eszközökbe történő befektetés csökkenti a portfólió kockázatát.
 
-<!-- Ez az elmélet a diverzifikáció fogalmának formális kiterjesztése a befektetések területén, mely szerint különböző típusú pénzügyi eszközök birtoklása kevésbé kockázatos, mint csak egyetlen típusú eszköz birtoklása. Az elmélet kulcsfontosságú meglátása az, hogy egy eszköz kockázatát és hozamát nem önmagában kell értékelni, hanem az alapján, hogy miként járul hozzá a portfólió teljes kockázatához és hozamához. A hozam szórását használják a kockázat mérésére, mivel ez kézzelfogható, amikor az eszközöket portfóliókba kombinálják. Gyakran a hozamok történelmi szórását és kovarianciáját használják ezen mennyiségek jövőbeli változatainak helyettesítőjeként, de más, kifinomultabb módszerek is rendelkezésre állnak. -->
+
+<div class="responsive-image-left">
+  <img src="/MPT/William_sharpe_2007.jpg" alt="Description of the image" />
+    <figcaption class="svg-caption">William F. Sharpe (1934 -)</figcaption>
+</div>
+
+
+William Sharpe továbbfejlesztette a portfólióelméletet azáltal, hogy kidolgozta a Capital Asset Pricing Model (CAPM) modellt, amely megmutatja, hogyan lehet az egyes eszközök várható hozamát meghatározni a piaci kockázat figyelembevételével. Sharpe modellje arra tanítja a befektetőket, hogy ne csak az egyes eszközök önmagukban vett kockázatát vegyék figyelembe, hanem azt is, hogy ezek az eszközök miként hatnak a teljes portfólió kockázatára és hozamára. Ezzel Sharpe elmélyítette a diverzifikáció fontosságát, és lehetővé tette, hogy a befektetők hatékonyabban alakítsák ki portfólióikat, optimalizálva a hozam-kockázat arányt.
+
+<br/><br/>
 
 ## Feltételezések
+Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelmélet keretrendszerét.
+
+1. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy időintervallumon.
+2. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
+3. A befektetők kockázatkerülők, tehát a várható hasznosság a szórásban csökkenő.
+4. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
+5. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
+6. A piacon lehet eszközöket rövidre eladni (shortolni) és hitelt felvenni.
 
 
- ## Portfóliók csak kockázatos eszközökből
+## Portfóliók csak kockázatos eszközökből
 
 <div class="custom-text-box">
     <h2>Mit jelent ez?</h2>
@@ -140,16 +157,23 @@ Minden portfóliót ábrázolhatunk hozamának várható értéke és szórása 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/MPT/Markowitz.gif" alt="Markowitz" style="max-width: 100%; height: auto;" />    
-    <figcaption class="svg-caption">2. Ábra: Random portfóliók szimulációja felfedi a piac hatékony portfólióit. Az elkészítéséhez az Apple, Google, Microsoft és az Amazon 2023 és 2024 közötti részvényárfolyamát használtuk. Ezekből az adatokból becsüljük a kovarianciamátrixot és a várható hozamot.</figcaption>
+    <figcaption class="svg-caption">2. Ábra: Portfóliók véletlen szimulációja felfedi a piac határportfólióit. Az elkészítéséhez az Apple, Google, Microsoft és az Amazon 2023 és 2024 közötti részvényárfolyamát használtuk. Ezekből az adatokból becsüljük a kovarianciamátrixot és a várható hozamot.</figcaption>
 </div>
 
 Fontos, hogy egy portfólió ábrán felvett helyzete nem mond el semmit a súlyairól, azaz arról, hogy milyen arányban szerepelnek benne az eszközök, csak azt, hogy mennyi a várható hozama és szórása.
 
+Vizsgáljuk meg, hogy hol helyezkednek el a portfóliók terében az egyedi részvények. Az alábbi ábrán látható négy cég mind a hatékony portfóliók belső határán tartózkodnak. A legnagyobb Sharpe-rátájú portfóliót nem lehet elérni csakis egy eszköz tartásával ebben az esetben. 
+
+<div class="svg-container">
+  <img src="/MPT/MPT4.svg" alt="Részvények a szimulációk között" class="dynamic-svg" />
+  <figcaption class="svg-caption">4. Ábra: MSFT, APPL, GOOGL és AMZN a lehetséges portfóliók terében.</figcaption>
+</div>
+
 ### Hozammaximalizálás
 
-Mi van, ha megfordítjuk a feladatot, és adott szórásnégyzet mellett maximalizáljuk a hozamot? 
+Mi van, ha megfordítjuk a feladatot, és adott szórás mellett maximalizáljuk a hozamot? 
 
-A feladat az, hogy egy adott célzott szórásnégyzet ($\sigma^*$) mellett maximalizáljuk a portfólió várható hozamát, amit a következő optimalizálási probléma segítségével fejezhetünk ki:
+A feladat az, hogy egy adott célzott szórás ($\sigma^*$) mellett maximalizáljuk a portfólió várható hozamát, amit a következő optimalizálási probléma segítségével fejezhetünk ki:
 
 <p style="text-align: center; margin-bottom: 0px;">Maximalizálandó:</p>
 
@@ -160,7 +184,7 @@ $$
 <p style="text-align: center; margin-bottom: 0px;">Feltéve, hogy:</p>
 
 $$
-\frac{1}{2} \underline{w}^T \Sigma \underline{w} = \sigma^*
+\frac{1}{2} \underline{w}^T \Sigma \underline{w} = (\sigma^*)^2
 $$
 $$
 \sum_{i=1}^n w_i=1
@@ -169,6 +193,11 @@ $$
 Ugyanazt a halmazt kapjuk vissza? Majdnem. Megfigyelhetjük, hogy a fenti hiperbolán egy adott szóráshoz két különböző várható hozamú portfólió is határportfólió. Persze semmi értelme a kisebbet választani, ennek a hiperbolának a felső felét kapjuk vissza a hozammaximalizálási problémából, ezt hívjuk a **hatékony portfóliók** halmazának.
 
 A hiperbola csúcsán van a **minimális variancia portfólió**. Az ennél nagyobb várható hozamú határportfóliók a hatékony portfóliók.
+
+<div class="svg-container">
+  <img src="/MPT/MPT3.svg" alt="Határportfóliók" class="dynamic-svg" />
+  <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
+</div>
 
  ## Portfóliók kockázatmentes eszközzel
 
@@ -195,14 +224,18 @@ Ez a $P$ portfólióhoz tartozó **tőkeallokációs egyenest**, azaz **Capital 
   <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
 </div>
 
-Vegyük észre, hogy egy portfólióhoz tartozó tőkeallokációs egyenes áthalad a portfólión és az x tengelyt $r_f$-ben metszi. Ez a két eset rendre $\alpha=1$-hez és $\alpha=0$-hoz tartozik, azaz, ha csak a portfólióba, vagy csak a kockázatos eszközbe fektetünk. Vegyük továbbá észre, hogy a CAL túlhalad mindkettőn, hiszen a portfóliót és a kockázatmentes eszközt is tudjuk rövidre eladni (shortolni).
+Vegyük észre, hogy egy portfólióhoz tartozó tőkeallokációs egyenes áthalad a portfólión és az x tengelyt $r_f$-ben metszi. Ez a két eset rendre $\alpha=1$-hez és $\alpha=0$-hoz tartozik, azaz, ha csak a portfólióba, vagy csak a kockázatos eszközbe fektetünk. Vegyük továbbá észre, hogy a CAL túlhalad a portfólión, hiszen a kockázatmentes eszközt is tudjuk rövidre eladni, azaz hitelt felvenni.
 
+Mit mond meg a Sharpe ráta? A $\mu_P-r_f$ értéket hívjuk **kockázati prémiumnak**, azaz, hogy a kockázatmentes kamatlábnál mennyivel tudunk magasabb várható hozamot elérni a kockázatos portfólióval. Mivel a befektetők kockázatkerülők, ezért nyilván csak nagyobbat fogadnak el, tehát a kockázati prémium pozitív. Így a Sharpe-ráta ($\frac{\mu_P-r_f}{\sigma_P}$) megadja az egységnyi szórásra jutó kockázati prémiumot. Ez a portfólió teljesítményének egy logikus mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért.
 
-**Capital Market Line (CML)**
-**Security Market Line (SML)**
-**érintési portfólió**
-**piaci portfólió**
+Hogyan maximalizáljuk a Sharpe-rátát? Ezt az a portfólió maximalizálja, amelyhez tartozó CAL a legmeredekebb mind közül. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
+
 <div class="svg-container">
   <img src="/MPT/MPT2.svg" alt="fgdsg" class="dynamic-svg" />
   <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
 </div>
+
+## Capital Asset Pricing Model (CAPM)
+
+**Security Market Line (SML)**
+**piaci portfólió**

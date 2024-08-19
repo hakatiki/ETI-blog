@@ -22,6 +22,7 @@ const EmailCopyButton = () => {
         <div>
             <button onClick={copyToClipboard} style={{
                 display: "flex",
+                height: "40px",
                 alignItems: "center",
                 textDecoration: "none",
                 backgroundColor: "#D44638",
@@ -31,7 +32,7 @@ const EmailCopyButton = () => {
                 border: "none",
                 cursor: "pointer",
                 width: "100%", // Makes the button fill the div horizontally
-                height:"100%"
+                // height:"100%"
             }}>
                 Email
                 <FaEnvelope style={{ marginLeft: "0.5rem" }} />

@@ -7,6 +7,7 @@ import "./src/normalize.css"
 import "./src/style.css"
 import "./src/sidebar.css"
 import "./src/responsive.css"
+import "./src/article.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"

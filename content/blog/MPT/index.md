@@ -56,7 +56,7 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 </div>
 <div class="custom-text-box">
     <h2>Kilátáselmélet</h2>
-    <p>Tudat alatt valóban minden befektető egy konkáv hasznossági függvény várható értéklét maximalizálja? Erre a feltételezésre épült a modern közgazdaságtan, viszont <b>Daniel Kahneman</b> és <b>Amos Tversky</b> 1979-ben ellenőrzött pszichológiai kísérlettekkel cáfolta a hasznossági függvény létezését, többek között asszimetriát fedezve fel az elszenvedett veszteségek okozta fájdalom és a megszerzett nyereségek okozta öröm között. Elméletük összetettebb rendszerbe foglalja az emberek viselkedését és viszonyát a pénzhez.
+    <p>Tudat alatt valóban minden befektető egy konkáv hasznossági függvény várható értéklét maximalizálja? Erre a feltételezésre épült a modern közgazdaságtan, viszont <b>Daniel Kahneman</b> és <b>Amos Tversky</b> 1979-ben ellenőrzött pszichológiai kísérletekkel cáfolta a hasznossági függvény létezését, többek között aszimmetriát fedezve fel az elszenvedett veszteségek okozta fájdalom és a megszerzett nyereségek okozta öröm között. Elméletük összetettebb rendszerbe foglalja az emberek viselkedését és viszonyát a pénzhez.
     </p>
 </div>
 
@@ -263,16 +263,45 @@ Hogyan maximalizáljuk a Sharpe-rátát a kockázatos portfóliók között? Ezt
 
 Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincsen azonos szórású, nagyobb várható hozamú (azaz az ábrán nincsen felette) portfólió. Ebből könnyen leolvasható, hogy **a hatékony portfóliók halmaza maga a tőkepiaci egyenes (CML)**.
 
+Legyen T az érintési portfólió, legyen $r_T$ annak hozama, $\mu_T$ várható hozama, $\sigma_T$ pedig szórása. Legyen továbbá 
+$$
+\beta_P:=\frac{\text{Cov}(r_P,r_T)}{\sigma^2_T}
+$$
+
+valamely tetszőleges P portfólió **bétája**. Ekkor igaz az alábbi összefüggés:
+$$
+\mu_P=\beta_P\cdot(\mu_T-r_f)+r_f,
+$$
+azaz egy portfólió várható hozama megegyezik azzal, ha a kockázatmentes hozamhoz hozzáadjuk a kockázati prémiumot, felszorozva a portfólió bétájával. Ez az **értékpapírpiaci egyenes**, azaz a **Security Market Line (SML)** egyenlete.
+
+
 ## Capital Asset Pricing Model (CAPM)
 
-Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti.
+Az alábbiakban a Tőkepiaci Árfolyamok Modelljét (CAPM) tárgyaljuk.
+
+Képzeljünk el eddig kiépített keretrendszerben (kockázatmentes eszközzel) kereskedő $N$ befektetőt. A piac egyensúlyban van, ha minden befektető olyan portfóliót alakított ki, amely számára optimális, továbbá az egyes értékpapírok iránti összkereslet megegyezik azok kínálatával. Bizonyítható, hogy az egyensúly létezik.
+
+Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti. Nevezzük ezt **piaci portfólió-nak**, és legyen ennek hozama $r_M$, várható hozama $\mu_M$, szórása pedig $\sigma_M$.
 
 <div class="custom-text-box">
     <h2>Proxy</h2>
-    <p>A valóságban nehezen lenne megvalósítható a világ összes cégébe befektetni, ezért a gyakorlatban a piaci portfóliót csak egy közelítő portfólióval (proxy) helyettesítjük. Erre általában olyan indexportfóliók alkalmasak, amelyekben szerepelnek a piac legnagyobb piaci kapitalizációjú cégei annak arányában. Erre leggyakrabban a Standard & Poor's 500 indexet használják.</p>
+    <p>A valóságban nehezen lenne megvalósítható a világ összes cégébe befektetni, ezért a gyakorlatban a piaci portfóliót csak egy közelítő portfólióval (proxy) helyettesítjük. Erre általában olyan indexportfóliók alkalmasak, amelyekben szerepelnek a piac legnagyobb piaci kapitalizációjú cégei annak arányában. Leggyakrabban a Standard & Poor's 500 (S&P500) indexet használják.</p>
 </div>
 
-**A CAPM fő állítása: egyensúlyban a piaci portfólió hatékony.** Mivel a piaci portfólió tisztán kockázatos eszközökből áll, ebből következik, hogy egyensúlyban a **piaci portfólió az érintési portfólió**.
+**A CAPM fő állítása: egyensúlyban a piaci portfólió hatékony.** Mivel a piaci portfólió tisztán kockázatos eszközökből áll, ebből következik, hogy **egyensúlyban a piaci portfólió az érintési portfólió**.
 
-**Security Market Line (SML)**
-**piaci portfólió**
+
+Így viszont tudjuk, hogy a piaci portfólió és a kockázatmentes eszközből elkészíthető portfóliók halmaza maga a CML, tehát bármely hatékony portfólió előáll ebben a formában. Tehát **egyensúlyban minden befektetőnek csak a piaci portfólióba érdemes befektetni**, hasznossági függvényét pedig csak az reprezentálja, vagyonának mekkora részét fekteti be (akár tőkeáttéttel).
+
+A CAPM leghíresebb egyenletét kapjuk vissza, ha az SML egyenletébe behelyettesítjük a piaci portfóliót:
+
+$$
+\boxed{\mu_P=\beta_P\cdot(\mu_M-r_f)+r_f},
+$$
+
+ahol $\beta_P=\frac{\text{Cov}(r_P,r_M)}{\sigma^2_T}$.
+
+<div class="custom-text-box">
+    <h2>Béta</h2>
+    <p>Egy portfólió bétája azt fejezi ki, mennyire mozog együtt a piaci portfólióval, tágabb értelemben a piaccal. Az egyenletből kiolvasható, hogy a piaci portfólió bétája 1.</p>
+</div>

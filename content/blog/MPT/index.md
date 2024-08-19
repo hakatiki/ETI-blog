@@ -12,11 +12,12 @@ ffmpeg -i input.gif -vf "palettegen=max_colors=32:stats_mode=diff" -y palette.pn
 ffmpeg -i input.gif -i palette.png -lavfi "paletteuse=dither=bayer:bayer_scale=3" -b:v 300k output.gif 
 
 -->
+
 A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait "Portfolio Selection" című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára.
 
 <div class="responsive-image">
   <img src="/MPT/Harry-Markowitz.jpg" alt="Description of the image" />
-    <figcaption class="svg-caption">Harry Markowitz (1927 -2023)</figcaption>
+    <figcaption class="svg-caption">Harry Markowitz (1927 - 2023)</figcaption>
 </div>
 
  A portfólióelmélet célja, hogy segítséget nyújtson a befektetőknek abban, hogyan állítsanak össze optimális portfóliókat, amelyek minimalizálják a kockázatot adott hozam mellett, vagy maximalizálják a hozamot adott kockázati szint mellett. 
@@ -38,6 +39,27 @@ William Sharpe továbbfejlesztette a portfólióelméletet azáltal, hogy kidolg
 
 ## Feltételezések
 Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelmélet keretrendszerét.
+
+
+### Feltevések a befektetőkről
+1. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy perióduson.
+2. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
+3. A befektetők kockázatkerülők, tehát a várható hasznosság a szórásban csökkenő.
+4. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
+5. A várakozások homogének, azaz a befektetők vélekedése a hozamok együttes eloszlásáról azonos.
+
+
+<div class="custom-text-box-elmeleti">
+    <h2>Hasznossági függvény</h2>
+    <p>A közgazdaságtan legtöbb ágában a racionális befektetők nem a vagyonukat maximalizálják, hanem annak egy úgynevezett <b>Neumann-Morgenstern hasznossági függvény</b> várható értékét. Ennek oka, hogy egy megkeresett forint okozta boldogság függhet vagyoni állapotunktól, például boldogabbá tesz az utcán talált 1 000 forintos egy földönfutót, mint egy milliomost. Általában feltesszük, hogy a hasznossági függvény <b>szigorúan monoton növekvő</b> (hiszen minden pénznek örülünk), de <b>konkáv</b>, azaz minél több pénzünk van, annál kevésbé örülünk 1 Ft összegnek. Ezen megkötések mellett azonban a befektetők hasznossági függvényei lehetnek <b>különbözők</b>, hiszen mindenki máshogy gondolkozik. Bizonyítható, hogy egy befektető pontosan akkor kockázatkerülő, ha hasznossági függvénye konkáv.
+    </p>
+</div>
+<div class="custom-text-box">
+    <h2>Kilátáselmélet</h2>
+    <p>Tudat alatt valóban minden befektető egy konkáv hasznossági függvény várható értéklét maximalizálja? Erre a feltételezésre épült a modern közgazdaságtan, viszont <b>Daniel Kahneman</b> és <b>Amos Tversky</b> 1979-ben ellenőrzött pszichológiai kísérlettekkel cáfolta a hasznossági függvény létezését, többek között asszimetriát fedezve fel az elszenvedett veszteségek okozta fájdalom és a megszerzett nyereségek okozta öröm között. Elméletük összetettebb rendszerbe foglalja az emberek viselkedését és viszonyát a pénzhez.
+    </p>
+</div>
+
 
 1. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
 2. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
@@ -61,10 +83,10 @@ Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befe
 
 Elegendő, ha csak egy adott időszakon nézzük a hozamokat. Jelölje az $i.$ eszköz hozamát $r_i$ ezen az időszakon.
 
-Több kockázatos eszköz esetén azt, hogy mennyi várható hozamot hoznak, azt az eszközökből álló vektorváltozó várható értékeként kapjuk meg: $\underline{\mu}:=\text{E}(\underline{r})$. Ebből megkaphatjuk a portfólió várható hozamát: $$\text{E}(r_P)=\underline{w}^T\underline{\mu}$$. 
+Több kockázatos eszköz esetén azt, hogy mennyi várható hozamot hoznak, azt az eszközökből álló vektorváltozó várható értékeként kapjuk meg: $\underline{\mu}:=\mathbb{E}(\underline{r})$. Ebből megkaphatjuk a portfólió várható hozamát: $$\mathbb{E}(r_P)=\underline{w}^T\underline{\mu}$$. 
 
-Több kockázatos eszköz esetén nem csak az egyedi szórások érdekelnek minket, hanem az eszközök közötti korreláció is, tehát az eszközökből álló vektorváltozó szórásmátrixát (kovarianciamátrixát) használjuk fel: $$\Sigma:=\text{V}(\underline{r}) = \text{E}((\underline{r}-\text{E}(\underline{r}))(\underline{r}-\text{E}(\underline{r}))^T) $$. Ez egy pozitív szemidefinit, szimmetrikus mátrix, főátlójában az egyes eszközök szórásnégyzeteivel.
-A portfólió kockázatának mérésére a hozamok varianciáját használjuk: $$\sigma_P:=\text{Var}(r_P)=\text{E} \left[(r_P-\text{E} [r_P])^{2}\right]=\underline{w}^T\Sigma\underline{w}$$.
+Több kockázatos eszköz esetén nem csak az egyedi szórások érdekelnek minket, hanem az eszközök közötti korreláció is, tehát az eszközökből álló vektorváltozó szórásmátrixát (kovarianciamátrixát) használjuk fel: $$\Sigma:=\text{V}(\underline{r}) = \mathbb{E}((\underline{r}-\mathbb{E}(\underline{r}))(\underline{r}-\mathbb{E}(\underline{r}))^T) $$. Ez egy pozitív szemidefinit, szimmetrikus mátrix, főátlójában az egyes eszközök szórásnégyzeteivel.
+A portfólió kockázatának mérésére a hozamok varianciáját használjuk: $$\sigma_P:=\text{Var}(r_P)=\mathbb{E} \left[(r_P-\mathbb{E} [r_P])^{2}\right]=\underline{w}^T\Sigma\underline{w}$$.
 <!-- <div style="display: flex; justify-content: center;">
     <img src="/MPT/PortfolioWeights.gif" alt="My GIF" style="max-width: 100%; height: auto;" />
 </div> -->
@@ -210,7 +232,7 @@ A kockázatmentes eszköz, gyakran államkötvények formájában, alapvető sze
     </p>
 </div>
 
-Legyen $P$ egy kockázatos eszközökből álló portfólió $r_P$ hozammal, $\mu_P$ várható hozammal és $\sigma_P$ szórással. Állítsunk össze egy olyan $Q$ portfóliót, amiben $P$-be $\alpha$, a kockázatmentes eszközbe $1-\alpha$ arányban tesszük a pénzünket. Ekkor ennek várható hozama és szórása:
+Tudjuk, hogy a lehetséges előállítható portfóliók halmaza tisztán kockázatos eszközökből a hiperbolánk belseje. Hogyan változik ez a kockázatmentes eszköz bevonásával? Mostantól bármely tisztán kockázatos portfólióból és a kockázatmentes eszközből lineárisan kikombinálhatunk egy új portfóliót. Legyen $P$ egy kockázatos eszközökből álló portfólió $r_P$ hozammal, $\mu_P$ várható hozammal és $\sigma_P$ szórással. Állítsunk össze egy olyan $Q$ portfóliót, amiben $P$-be $\alpha$, a kockázatmentes eszközbe $1-\alpha$ arányban tesszük a pénzünket. Ekkor ennek várható hozama és szórása:
 $$
 \mu_Q=\alpha\cdot\mu_P+(1-\alpha)\cdot r_f
 \\
@@ -223,20 +245,34 @@ Ez a $P$ portfólióhoz tartozó **tőkeallokációs egyenest**, azaz **Capital 
   <img src="/MPT/MPT1.svg" alt="Határportfóliók" class="dynamic-svg" />
   <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
 </div>
+<br/><br/>
 
-Vegyük észre, hogy egy portfólióhoz tartozó tőkeallokációs egyenes áthalad a portfólión és az x tengelyt $r_f$-ben metszi. Ez a két eset rendre $\alpha=1$-hez és $\alpha=0$-hoz tartozik, azaz, ha csak a portfólióba, vagy csak a kockázatos eszközbe fektetünk. Vegyük továbbá észre, hogy a CAL túlhalad a portfólión, hiszen a kockázatmentes eszközt is tudjuk rövidre eladni, azaz hitelt felvenni.
+Így **a lehetséges előállítható portfóliók halmaza az összes tőkeallokációs egyenes úniója**. 
+
+Vegyük észre, hogy egy portfólióhoz tartozó CAL átmegy a portfólión és az x tengelyt $r_f$-ben metszi. Ez a két eset rendre $\alpha=1$-hez és $\alpha=0$-hoz tartozik, azaz, ha csak a portfólióba, vagy csak a kockázatos eszközbe fektetünk. Vegyük továbbá észre, hogy a CAL túlhalad a portfólión, hiszen a kockázatmentes eszközt is tudjuk rövidre eladni, azaz hitelt felvenni.
 
 Mit mond meg a Sharpe ráta? A $\mu_P-r_f$ értéket hívjuk **kockázati prémiumnak**, azaz, hogy a kockázatmentes kamatlábnál mennyivel tudunk magasabb várható hozamot elérni a kockázatos portfólióval. Mivel a befektetők kockázatkerülők, ezért nyilván csak nagyobbat fogadnak el, tehát a kockázati prémium pozitív. Így a Sharpe-ráta ($\frac{\mu_P-r_f}{\sigma_P}$) **megadja az egységnyi szórásra jutó kockázati prémiumot**. Ez a portfólió teljesítményének egy logikus mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért.
 
+Hogyan maximalizáljuk a Sharpe-rátát a kockázatos portfóliók között? Ezt az a portfólió maximalizálja, amelyhez tartozó CAL a legmeredekebb mind közül. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
 
-Hogyan maximalizáljuk a Sharpe-rátát? Ezt az a portfólió maximalizálja, amelyhez a legmeredekebb CAL tartozik. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
 
 <div class="svg-container">
   <img src="/MPT/MPT2.svg" alt="fgdsg" class="dynamic-svg" />
   <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
 </div>
 
+Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincsen azonos szórású, nagyobb várható hozamú (azaz az ábrán nincsen felette) portfólió. Ebből könnyen leolvasható, hogy **a hatékony portfóliók halmaza maga a tőkepiaci egyenes (CML)**.
+
 ## Capital Asset Pricing Model (CAPM)
+
+Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti.
+
+<div class="custom-text-box">
+    <h2>Proxy</h2>
+    <p>A valóságban nehezen lenne megvalósítható a világ összes cégébe befektetni, ezért a gyakorlatban a piaci portfóliót csak egy közelítő portfólióval (proxy) helyettesítjük. Erre általában olyan indexportfóliók alkalmasak, amelyekben szerepelnek a piac legnagyobb piaci kapitalizációjú cégei annak arányában. Erre leggyakrabban a Standard & Poor's 500 indexet használják.</p>
+</div>
+
+**A CAPM fő állítása: egyensúlyban a piaci portfólió hatékony.** Mivel a piaci portfólió tisztán kockázatos eszközökből áll, ebből következik, hogy egyensúlyban a **piaci portfólió az érintési portfólió**.
 
 **Security Market Line (SML)**
 **piaci portfólió**

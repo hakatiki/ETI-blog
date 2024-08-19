@@ -4,6 +4,7 @@ import SidebarIndex from "../components/sidebar-index"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -30,7 +31,7 @@ const BlogIndex = ({ data, location }) => {
       <ol  style={{ listStyle: 'none', padding: 0, margin: 0 }}>
         {posts.map(post => {
           var cardColor = "#ffffff"
-          if (publishedArticleCounter % 2 == 0){
+          if (publishedArticleCounter % 2 === 0){
             cardColor = "#f5f5f5"
           }
           publishedArticleCounter += 1

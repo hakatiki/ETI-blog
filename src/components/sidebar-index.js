@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "gatsby";
 import EmailCopyButton from "../components/emailcopy";
-import { FaTwitter, FaEnvelope } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 
 const SidebarIndex = ({ }) => {

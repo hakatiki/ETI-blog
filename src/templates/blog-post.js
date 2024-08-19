@@ -1,8 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import Bio from "../components/bio"
 import LayoutArticle from "../components/layout-article"
-import Seo from "../components/seo"
 import "katex/dist/katex.min.css"
 import Sidebar from "../components/sidebar";
 

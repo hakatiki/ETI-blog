@@ -43,6 +43,7 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 2. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
 3. A befektetők kockázatkerülők, tehát a várható hasznosság a szórásban csökkenő.
 4. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
+5. A várakozások homogének, azaz a befektetők vélekedése a hozamok együttes eloszlásáról azonos.
 
 
 <div class="custom-text-box-elmeleti">
@@ -259,7 +260,14 @@ Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincs
 
 ## Capital Asset Pricing Model (CAPM)
 
-**A CAPM fő állítása: egyensúlyban a piaci portfólió hatékony.**
+Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti.
+
+<div class="custom-text-box">
+    <h2>Proxy</h2>
+    <p>A valóságban nehezen lenne megvalósítható a világ összes cégébe befektetni, ezért a gyakorlatban a piaci portfóliót csak egy közelítő portfólióval (proxy) helyettesítjük. Erre általában olyan indexportfóliók alkalmasak, amelyekben szerepelnek a piac legnagyobb piaci kapitalizációjú cégei annak arányában. Erre leggyakrabban a Standard & Poor's 500 indexet használják.</p>
+</div>
+
+**A CAPM fő állítása: egyensúlyban a piaci portfólió hatékony.** Mivel a piaci portfólió tisztán kockázatos eszközökből áll, ebből következik, hogy egyensúlyban a **piaci portfólió az érintési portfólió**.
 
 **Security Market Line (SML)**
 **piaci portfólió**

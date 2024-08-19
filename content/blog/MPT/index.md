@@ -1,8 +1,10 @@
 ---
-title: "Modern Portfólióelmélet és a CAPM"
-date: "2024-08-11"
-description: ""
-released: "No"
+title:  "Modern Portfólióelmélet és a CAPM"
+date: "2024-08-18"
+description: "A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait Portfolio Selection című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára."
+released: "Yes"
+author: "Egri Máté és Takáts Bálint"
+image: "/MPT/Harry-Markowitz.jpg"
 ---
 <!-- !!!! -->
 <!-- 
@@ -10,9 +12,6 @@ ffmpeg -i input.gif -vf "palettegen=max_colors=32:stats_mode=diff" -y palette.pn
 ffmpeg -i input.gif -i palette.png -lavfi "paletteuse=dither=bayer:bayer_scale=3" -b:v 300k output.gif 
 
 -->
-
-
-
 A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait "Portfolio Selection" című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára.
 
 <div class="responsive-image">

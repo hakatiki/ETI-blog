@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "gatsby";
 
 const Sidebar = ({ headings }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const sidebarRef = useRef(null);
+  const hamburgerRef = useRef(null); // Add ref for the hamburger button
 
   useEffect(() => {
     const handleResize = () => {
-      // Calculate available width for TOC
       const tocWidth = parseFloat(
         getComputedStyle(document.documentElement).getPropertyValue("--toc-width")
       );
       const windowWidth = window.innerWidth;
 
-      // If TOC fits and it's a desktop view, open it by default
       if (windowWidth > 768 && windowWidth >= tocWidth) {
         setIsOpen(false);
       } else {
@@ -20,11 +20,30 @@ const Sidebar = ({ headings }) => {
       }
     };
 
-    handleResize(); // Set initial state based on current screen size
+    handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        sidebarRef.current &&
+        !sidebarRef.current.contains(event.target) &&
+        hamburgerRef.current &&
+        !hamburgerRef.current.contains(event.target) // Check if click is outside both sidebar and hamburger button
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -38,15 +57,18 @@ const Sidebar = ({ headings }) => {
 
   return (
     <>
-      <button className="hamburger" onClick={toggleSidebar}>
+      <button ref={hamburgerRef} className="hamburger" onClick={toggleSidebar}>
         ☰
       </button>
-      <div className={`sidebar ${isOpen ? "open" : ""}`}>
-      <div class="padding-sidebar"></div>
-      <a href="/" className="root-link-sidebar">
-        ETI Blog
-      </a>
-      <h4 className="toc-heading">Tartalomjegyzék</h4>
+      <div
+        ref={sidebarRef}
+        className={`sidebar ${isOpen ? "open" : ""}`}
+      >
+        <div className="padding-sidebar"></div>
+        <a href="/" className="root-link-sidebar">
+          ETI Blog
+        </a>
+        <h4 className="toc-heading">Tartalomjegyzék</h4>
         <nav className="toc">
           {headings.map((heading) => (
             <li key={heading.id}>

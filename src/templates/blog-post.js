@@ -1,10 +1,10 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
-import Layout from "../components/layout"
+import LayoutArticle from "../components/layout-article"
 import Seo from "../components/seo"
 import "katex/dist/katex.min.css"
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/sidebar";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -44,7 +44,7 @@ const BlogPostTemplate = ({
   }));
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <LayoutArticle location={location} title={siteTitle}>
       <article
         className="blog-post"
         itemScope
@@ -91,7 +91,7 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-    </Layout>
+    </LayoutArticle>
   )
 }
 
@@ -114,9 +114,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        author
         date(formatString: "MMMM DD, YYYY")
         description
         released
+        image
       }
       headings {
         id

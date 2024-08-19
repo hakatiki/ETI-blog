@@ -10,7 +10,7 @@ const LayoutArticle = ({ location, title, children }) => {
     header = (
       <h1 className="main-heading"
       style={{
-        marginTop:"2.5rem"
+        marginTop:"1.5rem"
       }}>
         <Link to="/">{title}</Link>
       </h1>
@@ -24,8 +24,8 @@ const LayoutArticle = ({ location, title, children }) => {
   }
 
   return (
-    <div data-is-root-path={isRootPath}>
-      <header className="global-header-article article-header-top-padding">{header}</header>
+    <div className="global-wrapper" data-is-root-path={isRootPath}>
+      <header className="global-header">{header}</header>
       <main>{children}</main>
     </div>
   )

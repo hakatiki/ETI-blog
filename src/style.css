@@ -413,6 +413,7 @@ a:focus {
 }
 
 .global-header {
+  max-width: var(--maxWidth-wrapper);
   margin-top: 1rem;
   margin-bottom: var(--spacing-1);
 }

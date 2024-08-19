@@ -31,7 +31,7 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
+    <div className="bio global-header-article">
       {author?.name && (
         <p>
           A blogot <strong>{author.name}</strong> írta. {author?.summary || null}

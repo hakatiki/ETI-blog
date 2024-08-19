@@ -250,14 +250,12 @@ Mit mond meg a Sharpe ráta? A $\mu_P-r_f$ értéket hívjuk **kockázati prémi
 
 Hogyan maximalizáljuk a Sharpe-rátát a kockázatos portfóliók között? Ezt az a portfólió maximalizálja, amelyhez tartozó CAL a legmeredekebb mind közül. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
 
-Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincsen azonos szórású, nagyobb várható hozamú (azaz az ábrán nincsen felette) portfólió. Ebből könnyen leolvasható, hogy **a hatékony portfóliók halmaza maga a tőkepiaci egyenes (CML)**.
-
 <div class="svg-container">
   <img src="/MPT/MPT2.svg" alt="fgdsg" class="dynamic-svg" />
   <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
 </div>
 
-
+Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincsen azonos szórású, nagyobb várható hozamú (azaz az ábrán nincsen felette) portfólió. Ebből könnyen leolvasható, hogy **a hatékony portfóliók halmaza maga a tőkepiaci egyenes (CML)**.
 
 ## Capital Asset Pricing Model (CAPM)
 

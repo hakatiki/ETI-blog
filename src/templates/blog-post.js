@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import LayoutArticle from "../components/layout-article"
 import "katex/dist/katex.min.css"
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/Sidebar";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },

@@ -33,7 +33,7 @@ Markowitz úttörő felismerése volt, hogy a befektetések közötti korreláci
 </div>
 
 
-William Sharpe továbbfejlesztette a portfólióelméletet azáltal, hogy kidolgozta a Capital Asset Pricing Model (CAPM) modellt, amely megmutatja, hogyan lehet az egyes eszközök várható hozamát meghatározni a piaci kockázat figyelembevételével. Sharpe modellje arra tanítja a befektetőket, hogy ne csak az egyes eszközök önmagukban vett kockázatát vegyék figyelembe, hanem azt is, hogy ezek az eszközök miként hatnak a teljes portfólió kockázatára és hozamára. Ezzel Sharpe elmélyítette a diverzifikáció fontosságát, és lehetővé tette, hogy a befektetők hatékonyabban alakítsák ki portfólióikat, optimalizálva a hozam-kockázat arányt.
+William Sharpe továbbfejlesztette a portfólióelméletet azáltal, hogy 1964-ben kidolgozta a Tőkepiaci Árfolyamok Modelljét (Capital Asset Pricing Model), felhasználva Markowitz elméletét piaci egyensúly mellett. Sharpe modellje arra tanítja a befektetőket, hogy ne csak az egyes eszközök önmagukban vett kockázatát vegyék figyelembe, hanem azt is, hogy milyen összefüggésben van a piac egészével. A CAPM megmutatja, hogyan lehet az egyes eszközök várható hozamát meghatározni a piaci kockázatból és a piac mozgásából. 1990-ben megosztva Sharpe-ot is közgazdasági Nobel-díjjal jutalmazták.
 
 <br/><br/>
 

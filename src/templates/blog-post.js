@@ -4,6 +4,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "katex/dist/katex.min.css"
+import Sidebar from "../components/Sidebar";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -37,6 +38,10 @@ const BlogPostTemplate = ({
   };
 
   const formattedDate = formatDate(post.frontmatter.date);
+  const headings = post.headings.map(heading => ({
+    id: heading.id,
+    title: heading.value,
+  }));
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -45,6 +50,7 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
+       <Sidebar headings={headings} />
         <header style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
@@ -111,6 +117,10 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         released
+      }
+      headings {
+        id
+        value
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

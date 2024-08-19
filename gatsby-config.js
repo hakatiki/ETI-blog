@@ -71,6 +71,14 @@ module.exports = {
             },
           },
           `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false, // Optionally disable the link icon
+              maintainCase: false, // Optional: lowercased `id`s
+              removeAccents: true, // Optional: Remove accents from headings
+            },
+          },
         ],
       },
     },

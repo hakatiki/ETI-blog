@@ -5,14 +5,13 @@ description: "Megéri diákhitelt felvennem akkor is, ha nem szorulok rá? Menny
 released: "Yes"
 ---
 
-
 **Megéri diákhitelt felvennem akkor is, ha nem szorulok rá?** Mennyire kockázatos vállalkozás? Melyik diákhitelre van szükségem? Mekkora várható profitot tudok elérni? 
 **Kezdjük az elsővel röviden: igen, megéri.**
 Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is közöljük. A magyarországi diákhitelek nem csupán a felsőoktatás finanszírozására szolgálnak, hanem stratégiai befektetési lehetőségeket is kínálnak a tudatos hallgatók számára. Ez a cikk részletesen bemutatja a diákhitel típusait, a kapcsolódó befektetési stratégiákat, valamint az adóügyi vonatkozásokat. Célunk, hogy a leleményes hallgatóknak anyagilag segítsünk az életben való elindulásban, valamint belépési lehetőséget kínáljunk a befektetések világába. 
 
 **Fontos**: a diákhitelt befektetési eszközként szeretnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
 
-**Az cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem minősül befektetési, adóügyi vagy jogi tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
+**A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető meg a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
 <div class="custom-text-box">
     <h2>A Corvinus tantermében hangzott el pénzügyi matematikusok képzése során:</h2>
@@ -109,7 +108,7 @@ Most, hogy megismertük a diákhitelek konstrukcióját, gondoljuk végig a hogy
 
 ### Diákhitel1 Befektetése                       
 -  Ha az **állampapírok hozama magasabb, mint a diákhitel kamatlába, akkor mindenképp megéri felvenni a Diákhitel1-et.** Ez kockázatmentes profitot (szakszóval arbitrázst) biztosít, hiszen a felvett hitelből állampapírt vásárolunk. Ezt kétféleképpen is tehetjük:
-    - **Stratégia 1:** Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülöbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
+    - **Stratégia 1:** Az egész összeget állampapírra költjük, a törlesztés végén a **hozamok fedezik a diákhitel kamatát**, a kamatkülönbözetet pedig zsebre rakjuk. Így a futamidőben nem nyerünk, de nem is vesztünk, és **végtörlesztéskor jelentősek lesznek a profitjaink**.
     - **Stratégia 2:** A hitelnek csak pont akkora részét befektetjük állampapírba, amelyből lejáratkor éppen vissza tudjuk fizetni a tartozásunk felkamatoztatott értékét. A megmaradt összeget felélhetjük, vagy kockázatos termékekbe fektethetjük (legfeljebb a garantált nyereségünket veszíthetjük el).
   Mi történik, ha megváltozik a kamat? Ekkor újratervezünk. Ha a kamat még mindig kisebb, mint az állampapírjaink hozama, akkor nincs miért aggódni. Ha nem, de van olyan újabb állampapír, aminél kisebb, akkor csak eladjuk a régieket és megvesszük az újakat. Ha nincs ilyen, akkor csak likvidáljuk az egész pozíciónkat az állampapírok visszaváltásával és a hitel végtörlesztésével. **A magyar állampapírok általában 1%-os díjért szabadon visszaválthatók**. 
 
@@ -164,14 +163,14 @@ Annak ellenére, hogy az olvasók változatos háttérrel és lehetőségekkel r
 Mennyit kereshet egy (a kezét feltevő:) mérnökhallgató, aki államilag támogatott képzésen tanul? Tegyük fel, hogy 8% hozamú  állampapírba tudja fektetni a pénzét, míg a diákhitel kamata csak 4% és 10 év múlva végtörleszti adósságát.
 
 <div class="svg-container">
-  <img src="/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
+  <img src="/DH/Financial_Data_Chart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">1. Ábra: 1. Stratégia, Tandíj: 0 Ft, Diákhitel kamata: 4%, Elért hozamunk: 8%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
 Mennyit kereshet egy corvinusos hallgató, akit nem vettek fel államilag támogatott képzésre? Tegyük fel, hogy 500 ezer forint a tandíja, viszont kockázatos befektetésekkel 10% hozamot ér el évente a portfóiója és 10 év múlva végtörleszti adósságát.
 
 <div class="svg-container">
-  <img src="/Financial_Data_Chart_Risky.svg" alt="Számításaink2" class="dynamic-svg" />
+  <img src="/DH/Financial_Data_Chart_Risky.svg" alt="Számításaink2" class="dynamic-svg" />
   <figcaption class="svg-caption">2. Ábra: 3. Stratégia, Tandíj: 500.000 Ft, Diákhitel kamata: 4%, Átlagos hozam: 10%, Képzés féléveinek száma: 10.</figcaption>
 </div>
 
@@ -184,7 +183,7 @@ Mennyit kereshet egy corvinusos hallgató, akit nem vettek fel államilag támog
 A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magyarországon, amely lehetőséget biztosít a kamat- és árfolyamnyereség-adó minimalizálására. Ez különösen előnyös lehet hosszú távú befektetők számára, akik részvényekbe vagy más pénzügyi eszközökbe fektetnek be.
 
 <div class="svg-container">
-  <img src="/tbsz_infograph.svg" alt="Számításaink" class="dynamic-svg" />
+  <img src="/DH/tbsz_infograph.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">3. Ábra: A TBSZ működése. Forrás:
     <a href="https://www.erstemarket.hu/oldalak/tbsz-szamla-nyitas" target="_blank" rel="noopener noreferrer">Erste</a>
   </figcaption>
@@ -208,7 +207,7 @@ A Tartós Befektetési Számla (TBSZ) egy kedvezményes befektetési forma Magya
 ### Stratégiaválasztás
 
 <div class="svg-container">
-  <img src="/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
+  <img src="/DH/flowchart.svg" alt="Számításaink" class="dynamic-svg" />
   <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption>
 </div>
 

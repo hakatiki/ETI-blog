@@ -1,0 +1,51 @@
+.responsive-image {
+    float: right;
+    margin: 0 0 1em 1em;
+    max-width: 20%;
+    text-align: center;
+  }
+
+  .responsive-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
+  
+  .responsive-image figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5em;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-image {
+      float: none;
+      margin: 1em 0;
+      max-width: 100%;
+    }
+  }
+  .responsive-image-left {
+    float: left;
+    margin: 0 1em 1em 0;
+    max-width: 20%;
+    text-align: center;
+  }
+  .responsive-image-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
+  
+  .responsive-image-left figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5em;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-image-left {
+      float: none;
+      margin: 1em 0;
+      max-width: 100%;
+    }
+  }

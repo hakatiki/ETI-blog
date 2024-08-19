@@ -39,24 +39,25 @@ William Sharpe továbbfejlesztette a portfólióelméletet azáltal, hogy kidolg
 ## Feltételezések
 Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelmélet keretrendszerét.
 
-1. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy időintervallumon.
-2. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
-3. A befektetők kockázatkerülők, tehát a várható hasznosság a szórásban csökkenő.
-4. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
-5. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
-6. A piacon lehet eszközöket rövidre eladni (shortolni) és hitelt felvenni.
+1. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
+2. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
+3. A piacon lehet eszközöket rövidre eladni (shortolni) és hitelt felvenni.
+4. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
+5. A befektetők kockázatkerülők, tehát a várható hasznosság csökken a szórás növekedésével.
+6. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy időintervallumon.
+
 
 
 ## Portfóliók csak kockázatos eszközökből
 
 <div class="custom-text-box">
     <h2>Mit jelent ez?</h2>
-    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A keretrendszer egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Bár a mögöttes matematikai alapok bonyolultak, a lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
+    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Bár a mögöttes matematikai alapok bonyolultak, a lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
     </p>
 </div>
 
 
-Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mennyi pénzt fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Itt persze az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
+Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mennyi pénzt fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
 
 Elegendő, ha csak egy adott időszakon nézzük a hozamokat. Jelölje az $i.$ eszköz hozamát $r_i$ ezen az időszakon.
 
@@ -115,7 +116,7 @@ De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan egy
 Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
 <div class="custom-text-box">
     <h2>Ipari szegmensek és korreláció</h2>
-    <p>Az ugyanazon iparágban működő cégek árfolyamai gyakran együtt mozognak. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni, mivel ezek árfolyamai általában korrelálnak. Ilyen helyzetben szükségessé válik más szektorokba történő befektetés. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függnek az olajáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételei minimálisan függenek az olaj ár ingadozásaitól, például gyógyszeripari cégeket, félvezetőgyártókat vagy szoftvercégeket. Bár ezek csak általános irányelvek, az optimális portfólió allokáció érdekében érdemes matematikai módszereket alkalmazni. 
+    <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj ár ingadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
     </p>
 </div>
 
@@ -200,7 +201,7 @@ A hiperbola csúcsán van a **minimális variancia portfólió**. Az ennél nagy
 
  ## Portfóliók kockázatmentes eszközzel
 
-Mostantól fogva $n$ helyett legyen $n+1$ darab eszközünk, amiből a $0.$ eszköz a kockázatmentes befektetés, aminek hozama $r_f$ konstans: $\text{Var}(r_f)=0$. A portfóliónkat mostantól eközött az $n+1$ eszköz között osztjuk el: $\sum_{i=0}^n w_i=1$.
+Mostantól fogva $n$ helyett legyen $n+1$ darab eszközünk, amiből a $0.$ eszköz a kockázatmentes befektetés, aminek hozama $r_f$ konstans; $\text{Var}(r_f)=0$. A portfóliónkat mostantól eközött az $n+1$ eszköz között osztjuk el: $\sum_{i=0}^n w_i=1$.
 
 <div class="custom-text-box">
     <h2>Hitelezés és tőkeáttét</h2>
@@ -225,9 +226,10 @@ Ez a $P$ portfólióhoz tartozó **tőkeallokációs egyenest**, azaz **Capital 
 
 Vegyük észre, hogy egy portfólióhoz tartozó tőkeallokációs egyenes áthalad a portfólión és az x tengelyt $r_f$-ben metszi. Ez a két eset rendre $\alpha=1$-hez és $\alpha=0$-hoz tartozik, azaz, ha csak a portfólióba, vagy csak a kockázatos eszközbe fektetünk. Vegyük továbbá észre, hogy a CAL túlhalad a portfólión, hiszen a kockázatmentes eszközt is tudjuk rövidre eladni, azaz hitelt felvenni.
 
-Mit mond meg a Sharpe ráta? A $\mu_P-r_f$ értéket hívjuk **kockázati prémiumnak**, azaz, hogy a kockázatmentes kamatlábnál mennyivel tudunk magasabb várható hozamot elérni a kockázatos portfólióval. Mivel a befektetők kockázatkerülők, ezért nyilván csak nagyobbat fogadnak el, tehát a kockázati prémium pozitív. Így a Sharpe-ráta ($\frac{\mu_P-r_f}{\sigma_P}$) megadja az egységnyi szórásra jutó kockázati prémiumot. Ez a portfólió teljesítményének egy logikus mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért.
+Mit mond meg a Sharpe ráta? A $\mu_P-r_f$ értéket hívjuk **kockázati prémiumnak**, azaz, hogy a kockázatmentes kamatlábnál mennyivel tudunk magasabb várható hozamot elérni a kockázatos portfólióval. Mivel a befektetők kockázatkerülők, ezért nyilván csak nagyobbat fogadnak el, tehát a kockázati prémium pozitív. Így a Sharpe-ráta ($\frac{\mu_P-r_f}{\sigma_P}$) **megadja az egységnyi szórásra jutó kockázati prémiumot**. Ez a portfólió teljesítményének egy logikus mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért.
 
-Hogyan maximalizáljuk a Sharpe-rátát? Ezt az a portfólió maximalizálja, amelyhez tartozó CAL a legmeredekebb mind közül. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
+
+Hogyan maximalizáljuk a Sharpe-rátát? Ezt az a portfólió maximalizálja, amelyhez a legmeredekebb CAL tartozik. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
 
 <div class="svg-container">
   <img src="/MPT/MPT2.svg" alt="fgdsg" class="dynamic-svg" />

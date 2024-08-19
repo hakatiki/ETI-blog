@@ -14,7 +14,7 @@ Ezen bejegyzésben minden fenti kérdésre válaszolunk és számításainkat is
 
 **Fontos**: a diákhitelt befektetési eszközként szeretnénk használni, tehát a továbbiakban feltesszük, hogy az olvasónak nincsen szüksége a diákhitelre megélhetési költségeinek fedezésére.
 
-**A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető meg a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
+**A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
 <div class="custom-text-box">
     <h2>A Corvinus tantermében hangzott el pénzügyi matematikusok képzése során:</h2>

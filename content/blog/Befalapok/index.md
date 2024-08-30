@@ -2,7 +2,7 @@
 title: "Magyar befektetési alapok összehasonlítása"
 date: "2024-08-25"
 description: "Kíváncsiak voltunk, a magyar befektetési alapok közül melyikre érdemes valóban rábízni a pénzünket. A felületes reklámadatokon túl komoly kvantitatív analízisnek vetettük alá idősoraikat, modelleztük hozamaikat és összevetettük teljesítményüket több kockázati mérőszám mentén is."
-released: "Yes"
+released: "No"
 author: "Egri Máté és Takáts Bálint"
 image: "/Befalapok/bét.jpg"
 ---

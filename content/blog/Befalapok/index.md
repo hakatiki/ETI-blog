@@ -49,16 +49,16 @@ Az Erste Stock Hungary Indexkövető Részvény Alap célja, hogy a hazai részv
 </div>
 
 ### Gránit Apollo
-Idéntől a Diófa Zrt. már a Tiborcz István többségi tulajdonában álló Gránit Bank része, ezentúl Gránit Alapkezelő néven. A Takarék Apollo Származtatott Részvény Befektetési Alap elsődleges célja a fejlett részvénypiacokon jegyzett részvények teljesítményéből közvetett módon, ETF-eken keresztül történő részesedés. Magas részvényarányának következtében egy viszonylag kockázatos (volatilis) alapról beszélünk.
+Idéntől a Diófa Zrt. már a Tiborcz István többségi tulajdonában álló Gránit Bank része, ezentúl Gránit Alapkezelő néven fogjuk emlegetni. A Takarék Apollo Származtatott Részvény Befektetési Alap célja, hogy az ETF-ek révén közvetett módon profitáljon a fejlett részvénypiacokon jegyzett részvények teljesítményéből. Így tehát nem meglepő, hogy az alap referenciaindexe: **45% S&P500 index + 45% Euro Stoxx 50 index + 10% RMAX**. Magas részvényarányának következtében egy viszonylag kockázatos (volatilis) alapról beszélünk. 
 
 ### Accorde Prizma
-Az Accorde alapkezelőben a Concorde csoport egy másik szellemi örökösét tisztelhetjük. Az Accorde Prizma Alap A sorozat célja, hogy alacsony volatilitás mellett érjen el a kockázatmentes hozamot meghaladó teljesítményt.  alap elsősorban közép-kelet-európai részvényekbe fektet, fundamentális és technikai elemzések alapján választva ki a befektetési célpontokat. Az aktív portfóliókezelés és egyedi részvénypozíciók révén igyekszik maximalizálni a hozamot.
+Az Accorde alapkezelőben a Concorde csoport egy másik szellemi örökösét tisztelhetjük. Az Accorde Prizma Alap A sorozat célja, hogy alacsony volatilitás mellett érjen el a kockázatmentes hozamot meghaladó teljesítményt. A közel 17 milliárdos  alap elsősorban közép-kelet-európai részvényekbe fektet, fundamentális és technikai elemzések alapján. 
 
 ### Platina Delta
-A Platina Delta Származtatott Befektetési Alap célja, hogy az állampapírok hozamánál magasabb hozamot érjen el, addicionális kockázat vállalása mellett. A 2024. júliusi nettó eszközértéke 2,8 milliárd forint volt, a tőkeáttétel mértéke pedig 223%. Az elmúlt évek teljesítménye ingadozó volt, de hosszú távon 11,36%-os évesített hozamot ért el indulása óta.
+A HOLD alapkezelő egy másik terméke, a Platina Delta Származtatott Befektetési Alap célja, hogy az állampapírok hozamát meghaladó eredményeket érjen el, további tőkepiaci kockázatok vállalásáért cserébe. Az alap eszközértéke 2,8 milliárd forint volt, ami a vizsgált alapok között a legkisebb. Ennek dacára a tőkeáttétel aránya 223%, ami a legmagasabb a vizsgált termékek között. Az alap teljesítménye az elmúlt években változékony volt, de indulása óta éves szinten 11,36%-os hozamot ért el.
 
 ### Erste Duett
-Az Erste Duett Nyíltvégű Alapok Alapja egy Magyarországi befektetési alap, amely mérsékelt kockázat mellett magasabb hozamot céloz meg a pénzpiaci hozamoknál. Az osztrák bank alapja nyilvános ingatlanalapokba, bankbetétekbe, valamint rövid futamidejű értékpapírokba fektet, és befektetési stratégiája az eszközök újrabefektetésére épül. Azoknak a befektetőknek ajánlott, akik magasabb hozampotenciállal és ingatlanpiaci kockázatokkal járó, könnyen hozzáférhető befektetési lehetőséget keresnek. 
+Az Erste Duett Nyíltvégű Alapok Alapja egy magyarországi befektetési alap, amely a pénzpiaci hozamok legyőzését tűzte ki céljának. Az osztrák pénzintézet alapja jelentős, közel 400 milliárd forintos vagyonnal gazdálkodik. Népszerűségét egyrészt az Erste pénzügyi tanácsadóinak meggyőző munkája magyarázza, másrészt az alap minimális kockázata. Nem meglepő módon a stratégiája is rendkívül defenzív: nyilvános ingatlanalapokba, bankbetétekbe, valamint rövid futamidejű értékpapírokba fektet.
 
 <div class="svg-container">
   <img src="/Befalapok/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />

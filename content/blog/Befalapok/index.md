@@ -163,7 +163,7 @@ A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P
 
 <div class="custom-text-box">
     <p> 
-A klaszterezés célja, hogy segítsen átlátni a komplex kapcsolatrendszereket a különböző alapok között. Az ábrán jól látható, hogy a Gránit Apolló és az S&P 500 között van a legnagyobb hasonlóság, ami nem meglepő, hiszen az alap referenciaindexe 45%-ban erre épül. Emellett a HOLD Alapkezelő Orion és Columbus alapjai közötti összhang azt sugallja, hogy a két alapkezelő gyakran cserél véleményt és használ hasonló befektetési stratégiákat.</p>
+A klaszterezés célja, hogy segítsen átlátni a komplex kapcsolatrendszereket a különböző alapok között. Az ábrán jól látható, hogy a Gránit Apolló és az S&P 500 között van a legnagyobb hasonlóság, ami nem meglepő, hiszen az alap referenciaindexe 45%-ban erre épül. Emellett a HOLD Alapkezelő Orion és Columbus alapjai közötti összhang azt sugallja, hogy a portfóliómenedzsereik gyakran cserélnek véleményt és használnak hasonló befektetési stratégiákat.</p>
 </div>  
 
 ## Teljesítményelemzés

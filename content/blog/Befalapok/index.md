@@ -45,7 +45,7 @@ Az Erste Stock Hungary Indexkövető Részvény Alap célja, hogy a hazai részv
 
 <div class="svg-container">
   <img src="/Befalapok/dijak.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, Erste Duett és HOLD Orion árfolyamai díjakkal.</figcaption>
+  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai díjakkal.</figcaption>
 </div>
 
 ### Gránit Apollo
@@ -62,7 +62,7 @@ Az Erste Duett Nyíltvégű Alapok Alapja egy magyarországi befektetési alap, 
 
 <div class="svg-container">
   <img src="/Befalapok/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">2. Ábra: Gránit Apollo, HOLD Columbus, Platina Delta és Accorde Prizma árfolyamai díjakkal.</figcaption>
+  <figcaption class="svg-caption">2. Ábra: Gránit Apollo, Accorde Prizma, Platina Delta és Erste Duett árfolyamai díjakkal.</figcaption>
 </div>
 
 

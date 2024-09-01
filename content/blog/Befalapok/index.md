@@ -2,7 +2,7 @@
 title: "Magyar befektetési alapok összehasonlítása"
 date: "2024-08-25"
 description: "Kíváncsiak voltunk, a magyar befektetési alapok közül melyikre érdemes valóban rábízni a pénzünket. A felületes reklámadatokon túl komoly kvantitatív analízisnek vetettük alá idősoraikat, modelleztük hozamaikat és összevetettük teljesítményüket több kockázati mérőszám mentén is."
-released: "No"
+released: "Yes"
 author: "Egri Máté és Takáts Bálint"
 image: "/Befalapok/bét.jpg"
 ---
@@ -49,20 +49,20 @@ Az Erste Stock Hungary Indexkövető Részvény Alap célja, hogy a hazai részv
 </div>
 
 ### Gránit Apollo
-2024-től a Diófa Zrt. anyacége már a Tiborcz István többségi tulajdonában álló Gránit Bank, ezentúl Gránit Alapkezelő néven. A Takarék Apollo Származtatott Részvény Befektetési Alap elsődleges célja a fejlett részvénypiacokon jegyzett részvények teljesítményéből közvetett módon, ETF-eken keresztül történő részesedés. Magas részvényarányának következtében egy viszonylag kockázatos (volatilis) alapról beszélünk.
+Idéntől a Diófa Zrt. már a Tiborcz István többségi tulajdonában álló Gránit Bank része, ezentúl Gránit Alapkezelő néven. A Takarék Apollo Származtatott Részvény Befektetési Alap elsődleges célja a fejlett részvénypiacokon jegyzett részvények teljesítményéből közvetett módon, ETF-eken keresztül történő részesedés. Magas részvényarányának következtében egy viszonylag kockázatos (volatilis) alapról beszélünk.
 
 ### Accorde Prizma
 Az Accorde alapkezelőben a Concorde csoport egy másik szellemi örökösét tisztelhetjük. Az Accorde Prizma Alap A sorozat célja, hogy alacsony volatilitás mellett érjen el a kockázatmentes hozamot meghaladó teljesítményt.  alap elsősorban közép-kelet-európai részvényekbe fektet, fundamentális és technikai elemzések alapján választva ki a befektetési célpontokat. Az aktív portfóliókezelés és egyedi részvénypozíciók révén igyekszik maximalizálni a hozamot.
 
 ### Platina Delta
-
 A Platina Delta Származtatott Befektetési Alap célja, hogy az állampapírok hozamánál magasabb hozamot érjen el, addicionális kockázat vállalása mellett. A 2024. júliusi nettó eszközértéke 2,8 milliárd forint volt, a tőkeáttétel mértéke pedig 223%. Az elmúlt évek teljesítménye ingadozó volt, de hosszú távon 11,36%-os évesített hozamot ért el indulása óta.
 
 ### Erste Duett
+Az Erste Duett Nyíltvégű Alapok Alapja egy Magyarországi befektetési alap, amely mérsékelt kockázat mellett magasabb hozamot céloz meg a pénzpiaci hozamoknál. Az osztrák bank alapja nyilvános ingatlanalapokba, bankbetétekbe, valamint rövid futamidejű értékpapírokba fektet, és befektetési stratégiája az eszközök újrabefektetésére épül. Azoknak a befektetőknek ajánlott, akik magasabb hozampotenciállal és ingatlanpiaci kockázatokkal járó, könnyen hozzáférhető befektetési lehetőséget keresnek. 
 
 <div class="svg-container">
   <img src="/Befalapok/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">1. Ábra: Gránit Apollo, HOLD Columbus, Platina Delta és Accord Prizma árfolyamai díjakkal.</figcaption>
+  <figcaption class="svg-caption">1. Ábra: Gránit Apollo, HOLD Columbus, Platina Delta és Accorde Prizma árfolyamai díjakkal.</figcaption>
 </div>
 
 
@@ -129,8 +129,6 @@ Az alábbi táblázatban láthatunk három példát a költségek megoszlására
 </div>
 
 
-
-<!-- Kezdtenek vegyük számba -->
 <div class="svg-container">
   <img src="/Befalapok/hozamok.svg" alt="Árfolyamok" class="dynamic-svg" />
   <figcaption class="svg-caption">3. Ábra: Az összes alap relatív árfolyamának összehasonlítása.</figcaption>
@@ -154,7 +152,7 @@ Az alábbi táblázatban láthatunk három példát a költségek megoszlására
 </div>  
 
 
-A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P 500 indexszel, szorosan követi az amerikai tőzsdeindex mozgásait, hiszen nagyrészt amerikai részvényekből áll össze. Persze így magas hozamot tud elérni, csak nagyobb kockázat árán. Ezzel szemben például az Erste Duett elhanyagolható korrelációja minden más eszközzel betudható annak, hogy volatilitása rendkívül alacsony. Az alapok közül a HOLD Columbus és HOLD Orion korrelál legjobban, annak ellenére, hogy a két alapok mások kezelik és a megcélzott piacok is külöbnöznek hivatalos tájékoztatójuk szerint.
+A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P 500 indexszel, szorosan követi az amerikai tőzsdeindex mozgásait, hiszen nagyrészt amerikai részvényekből áll össze. Persze így magas hozamot tud elérni, csak nagyobb kockázat árán. Ezzel szemben például az Erste Duett elhanyagolható korrelációja minden más eszközzel betudható annak, hogy volatilitása rendkívül alacsony. Az alapok közül a HOLD Columbus és HOLD Orion korrelál legjobban, annak ellenére, hogy a két alapok mások kezelik és a megcélzott piacok is különböznek hivatalos tájékoztatójuk szerint.
 
 ### Klaszterezés
 
@@ -163,6 +161,10 @@ A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P
   <figcaption class="svg-caption">5. Ábra: Hierarchikus klaszterezés dendrogramja.</figcaption>
 </div>
 
+<div class="custom-text-box">
+    <p> 
+A klaszterezés célja, hogy segítsen átlátni a komplex kapcsolatrendszereket a különböző alapok között. Az ábrán jól látható, hogy a Gránit Apolló és az S&P 500 között van a legnagyobb hasonlóság, ami nem meglepő, hiszen az alap referenciaindexe 45%-ban erre épül. Emellett a HOLD Alapkezelő Orion és Columbus alapjai közötti összhang azt sugallja, hogy a két alapkezelő gyakran cserél véleményt és használ hasonló befektetési stratégiákat.</p>
+</div>  
 
 ## Teljesítményelemzés
 
@@ -201,9 +203,20 @@ A piactól való függés mértékét a korábban említett bétával mérjük, 
   <figcaption class="svg-caption">8. Ábra: Treynor-ráták összehasonlítása.</figcaption>
 </div>
 
-A HOLD Orion ebben kimagasló, ugyanis statégiájuk elsősorban közép-európai részvényeket céloz, így árfolyama kevésbé függ a nyugati piacoktól, emellett egészen elfogadható hozamot elérve.
+A HOLD Orion ebben kimagasló, ugyanis stratégiájuk elsősorban közép-európai részvényeket céloz, így árfolyama kevésbé függ a nyugati piacoktól, emellett egészen elfogadható hozamot elérve.
 
 Az Erste Duett Treynor-mutatója csalóka lehet, alacsony függése a piactól csak ront rajta, hiszen a negatív kockázati prémiumát skálázza nagyra.
 
 
-ÖSszességében elmondható, hogy a legtöbb befektetési alap alulteljesíti az amerikai piacot, néhány még a kockázat mentes hozamot is. Továbbá, a helyzet még csúfosabbá vállik  ha a számításainkhoz hozzávesszük a díjak hozampusztító hatását. 
+
+### Összefoglalás
+
+Komoly feladat legyőzni a piac általános teljesítményét az alapkezelőknek, főleg, ha még díjat is fel akarnak számolni. Mint láttuk, ez a feladat kevesüknek és nekik is csak részlegesen sikerül. 
+- Az itt vizsgált alapok közül a **Platina Delta** tűnt legmeggyőzőbbnek, ugyanis több mutatóban - például a Sharpe és Sortino rátákban - is legjobbnak bizonyult. 
+- A **HOLD Orion alacsony bétája** révén kevésbé függ a globális piaci mozgásoktól, így stabilabb, de gyengébb alternatívát kínál a mérsékelt kockázatot kereső befektetőknek.
+- **HOLD Columbus**-ról hasonló mondható el, mint az Orionról (egy kicsit rosszabb eredménnyel). Érdekes, mert bár azonos cég kezeli, a befektetési stratégia céljában és célpontjaiban is különbözik.
+- Zsiday Viktor **Citadella** alapja ugyan nem mutatott fel ehhez mérhető eredményeket, de pár ponton ügyesen navigálta a tőzsde viharos tengerét. A hatékony kockázatkezelés következtében, ugyanis például az alap elkerülte a Covid-19 márciusi tőzsdekrachját.
+- Az **Accorde Prizma** alapvetően alacsony kockázattal nagyszerű hozamot ért el, de cserébe hatalmas a költsége, így ez is bőven elmarad a piac teljesítményétől.
+- A **Gránit Apollo** nagyrészt amerikai részvényeket céloz, azonban ezekbe alacsonyabb díjak mellett be tudunk fektetni, ami felveti a kérdést, miért vennénk e drágább alapot. 
+- Az **Erste Duett** teljesen kockázatmentesen generál hozamot, a probléma csak az, hogy olyan befektetési stratégiáért fizetünk díjat, amit egy egyszerű állampapírvásárlással is reprodukálni tudnánk.
+- Az **OTP Supra** esete egyértelmű: alulteljesít hozamokban, de felül díjakban.

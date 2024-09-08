@@ -1,0 +1,212 @@
+{
+  "fields": [
+    {
+      "name": "location",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "property_type",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "price",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "area",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "rooms",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "condition",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "year_of_construction",
+      "type": "year",
+      "format": "default"
+    },
+    {
+      "name": "comfort",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "floor",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "building_levels",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "elevator",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "ceiling_height",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "air_conditioning",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "accessible",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "balcony_size",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "parking",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "parking_price",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "energy_certificate",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "avg_gas_consumption",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "avg_electricity_consumption",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "maintenance_costs",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "maintenance_cost_details",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "common_costs",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "common_cost_details",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "heating",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "insulation",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "project_name",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "project_completion_date",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "number_of_apartments",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "price_range",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "price_range_bottom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "price_range_top",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "area_range",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "area_range_bottom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "area_range_top",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "developer",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "nearby_universities",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "nearby_schools",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "public_transport_nearby",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "historical_note",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

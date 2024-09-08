@@ -1,0 +1,319 @@
+{
+  "columns": [
+    {
+      "width": 51,
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false
+    },
+    {
+      "field": "location",
+      "title": "location",
+      "width": 282,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "property_type",
+      "title": "property_type",
+      "width": 143,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "price",
+      "title": "price",
+      "width": 96,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "area",
+      "title": "area",
+      "width": 83,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "rooms",
+      "title": "rooms",
+      "width": 96,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "condition",
+      "title": "condition",
+      "width": 115,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "year_of_construction",
+      "title": "year_of_construction",
+      "width": 183,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "comfort",
+      "title": "comfort",
+      "width": 108,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "floor",
+      "title": "floor",
+      "width": 85,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "building_levels",
+      "title": "building_levels",
+      "width": 147,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "elevator",
+      "title": "elevator",
+      "width": 106,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "ceiling_height",
+      "title": "ceiling_height",
+      "width": 142,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "air_conditioning",
+      "title": "air_conditioning",
+      "width": 156,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "accessible",
+      "title": "accessible",
+      "width": 118,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "balcony_size",
+      "title": "balcony_size",
+      "width": 133,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "parking",
+      "title": "parking",
+      "width": 345,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "parking_price",
+      "title": "parking_price",
+      "width": 139,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "energy_certificate",
+      "title": "energy_certificate",
+      "width": 165,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "avg_gas_consumption",
+      "title": "avg_gas_consumption",
+      "width": 209,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "avg_electricity_consumption",
+      "title": "avg_electricity_consumption",
+      "width": 230,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "maintenance_costs",
+      "title": "maintenance_costs",
+      "width": 173,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "common_costs",
+      "title": "common_costs",
+      "width": 436,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "heating",
+      "title": "heating",
+      "width": 265,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "insulation",
+      "title": "insulation",
+      "width": 116,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "project_name",
+      "title": "project_name",
+      "width": 225,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "alphanum",
+      "headerSort": true
+    },
+    {
+      "field": "project_completion_date",
+      "title": "project_completion_date",
+      "width": 209,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "number_of_apartments",
+      "title": "number_of_apartments",
+      "width": 199,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "price_range",
+      "title": "price_range",
+      "width": 259,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "area_range",
+      "title": "area_range",
+      "width": 159,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "developer",
+      "title": "developer",
+      "width": 177,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "nearby_universities",
+      "title": "nearby_universities",
+      "width": 1392,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "nearby_schools",
+      "title": "nearby_schools",
+      "width": 176,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "public_transport_nearby",
+      "title": "public_transport_nearby",
+      "width": 602,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "historical_note",
+      "title": "historical_note",
+      "width": 1168,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    }
+  ]
+}

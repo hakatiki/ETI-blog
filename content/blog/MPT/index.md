@@ -74,12 +74,6 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 
 ## Portfóliók csak kockázatos eszközökből
 
-<div class="custom-text-box">
-    <h2>Mit jelent ez?</h2>
-    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. A lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
-    </p>
-</div>
-
 
 Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mekkora arányban fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
 
@@ -294,6 +288,13 @@ Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír
 
 
 Így viszont tudjuk, hogy a piaci portfólió és a kockázatmentes eszközből elkészíthető portfóliók halmaza maga a CML, tehát bármely hatékony portfólió előáll ebben a formában. Tehát **egyensúlyban minden befektetőnek csak a piaci portfólióba érdemes befektetni**, hasznossági függvényét pedig csak az reprezentálja, vagyonának mekkora részét fekteti be (akár tőkeáttéttel).
+
+<!-- 
+<div class="custom-text-box">
+    <h2>Mit jelent ez?</h2>
+    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Ha feltételeink igazak, akkor az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
+    </p>
+</div> -->
 
 A CAPM leghíresebb egyenletét kapjuk vissza, ha az SML egyenletébe behelyettesítjük a piaci portfóliót:
 

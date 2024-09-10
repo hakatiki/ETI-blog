@@ -76,12 +76,12 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 
 <div class="custom-text-box">
     <h2>Mit jelent ez?</h2>
-    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Bár a mögöttes matematikai alapok bonyolultak, a lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
+    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. A lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
     </p>
 </div>
 
 
-Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mennyi pénzt fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
+Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mekkora arányban fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
 
 Elegendő, ha csak egy adott időszakon nézzük a hozamokat. Jelölje az $i.$ eszköz hozamát $r_i$ ezen az időszakon.
 
@@ -93,7 +93,7 @@ A portfólió kockázatának mérésére a hozamok varianciáját használjuk: $
     <img src="/MPT/PortfolioWeights.gif" alt="My GIF" style="max-width: 100%; height: auto;" />
 </div> -->
 
-Az eszközök várható hozamának és kovarianciamátrixának becslése kulcsfontosságú lépés az optimális portfólió kialakításában. Ehhez gyakran a múltbeli (historikus) adatokat használjuk fel, mivel ezek alapján próbálunk következtetni a jövőbeli teljesítményre. Nézzük meg, hogyan történik mindez.
+Az eszközök várható hozamának és kovarianciamátrixának becslése fontos lépés az optimális portfólió kialakításában. Ehhez gyakran a múltbeli (historikus) adatokat használjuk fel, mivel ezek alapján próbálunk következtetni a jövőbeli teljesítményre.
 
 ### Várható hozam és a kovarianciamátrix becslése
 A várható hozamot ($\underline{\mu}$) az egyes eszközök múltbeli hozamai alapján is megbecsülhetjük. Tegyük fel, hogy rendelkezésünkre áll egy időszakra vonatkozó historikus adatsor, ahol az $i.$ eszköz hozama $r_i^t$ a $t.$ időpontban. Ekkor az $i.$ eszköz átlagos hozamát a következőképpen számíthatjuk ki:

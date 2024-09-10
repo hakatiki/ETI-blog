@@ -261,7 +261,7 @@ Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincs
 
 Legyen T az érintési portfólió, legyen $r_T$ annak hozama, $\mu_T$ várható hozama, $\sigma_T$ pedig szórása. Legyen továbbá 
 $$
-\beta_P:=\frac{\text{Cov}(r_P,r_T)}{\sigma^2_T}
+\beta_P:=\frac{\text{Cov}(r_P,r_T)}{\sigma^2_M}
 $$
 
 valamely tetszőleges P portfólió **bétája**. Ekkor igaz az alábbi összefüggés:
@@ -275,7 +275,7 @@ azaz egy portfólió várható hozama megegyezik azzal, ha a kockázatmentes hoz
 
 Az alábbiakban a Tőkepiaci Árfolyamok Modelljét (CAPM) tárgyaljuk.
 
-Képzeljünk el eddig kiépített keretrendszerben (kockázatmentes eszközzel) kereskedő $N$ befektetőt. A piac egyensúlyban van, ha minden befektető olyan portfóliót alakított ki, amely számára optimális, továbbá az egyes értékpapírok iránti összkereslet megegyezik azok kínálatával. Bizonyítható, hogy az egyensúly létezik.
+Képzeljünk el az eddig kiépített keretrendszerben (kockázatmentes eszközzel) kereskedő $N$ befektetőt. A piac egyensúlyban van, ha minden befektető olyan portfóliót alakított ki, amely számára optimális, továbbá az egyes értékpapírok iránti összkereslet megegyezik azok kínálatával. Bizonyítható, hogy az egyensúly létezik.
 
 Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti. Nevezzük ezt **piaci portfólió-nak**, és legyen ennek hozama $r_M$, várható hozama $\mu_M$, szórása pedig $\sigma_M$.
 

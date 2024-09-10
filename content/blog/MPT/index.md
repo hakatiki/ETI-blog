@@ -51,7 +51,7 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 
 <div class="custom-text-box-elmeleti">
     <h2>Hasznossági függvény</h2>
-    <p>A közgazdaságtan legtöbb ágában a racionális befektetők nem a vagyonukat maximalizálják, hanem annak egy úgynevezett <b>Neumann-Morgenstern hasznossági függvény</b> várható értékét. Ennek oka, hogy egy megkeresett forint okozta boldogság függhet vagyoni állapotunktól, például boldogabbá tesz az utcán talált 1 000 forintos egy földönfutót, mint egy milliomost. Általában feltesszük, hogy a hasznossági függvény <b>szigorúan monoton növekvő</b> (hiszen minden pénznek örülünk), de <b>konkáv</b>, azaz minél több pénzünk van, annál kevésbé örülünk 1 Ft összegnek. Ezen megkötések mellett azonban a befektetők hasznossági függvényei lehetnek <b>különbözők</b>, hiszen mindenki máshogy gondolkozik. Bizonyítható, hogy egy befektető pontosan akkor kockázatkerülő, ha hasznossági függvénye konkáv.
+    <p>A közgazdaságtan legtöbb ágában a racionális befektetők nem a vagyonukat maximalizálják, hanem annak egy úgynevezett <b>Neumann-Morgenstern hasznossági függvény</b> várható értékét. Ennek oka, hogy egy megkeresett forint okozta boldogság sok mindentől függhet, például boldogabbá tesz az utcán talált 1 000 forintos egy földönfutót, mint egy milliomost. Általában feltesszük, hogy a hasznossági függvény <b>szigorúan monoton növekvő</b> (hiszen minden pénznek örülünk), de <b>konkáv</b>, azaz minél több pénzünk van, annál kevésbé örülünk 1 Ft összegnek. Ezen megkötések mellett azonban a befektetők hasznossági függvényei lehetnek <b>különbözők</b>, hiszen mindenki máshogy gondolkozik. Bizonyítható, hogy egy befektető pontosan akkor kockázatkerülő, ha hasznossági függvénye konkáv.
     </p>
 </div>
 <div class="custom-text-box">
@@ -61,12 +61,14 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 </div>
 
 
-1. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
-2. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
+### Feltevések az eszközökről
+1. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
+2. Nincs arbitrázs, azaz minden kockázatmentes portfólió hozama azonos.
 3. A piacon lehet eszközöket rövidre eladni (shortolni) és hitelt felvenni.
-4. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
-5. A befektetők kockázatkerülők, tehát a várható hasznosság csökken a szórás növekedésével.
-6. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy időintervallumon.
+4. Az eszközök korlátlanul oszthatók.
+5. Nincs redundáns értékpapír, azaz az eszközök hozamainak eloszlásai lineárisan függetlenek.
+6. Legalább két értékpapír várható hozama különböző.
+7. Az értékpapírok hozamai véges szórásúak.
 
 
 
@@ -106,7 +108,7 @@ $$
 \hat{\sigma}_{ij} = \frac{1}{T-1} \sum_{t=1}^T (r_i^t - \hat{\mu}_i)(r_j^t - \hat{\mu}_j),
 $$
 
-ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapasztalati szórást használ. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
+ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapasztalati szórást használja. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
 
 <!-- <video width="600" controls>
   <source src="/Diversification.mp4" type="video/mp4">
@@ -138,7 +140,7 @@ De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan egy
 Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
 <div class="custom-text-box">
     <h2>Ipari szegmensek és korreláció</h2>
-    <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj ár ingadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
+    <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj áringadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
     </p>
 </div>
 

@@ -51,7 +51,7 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 
 <div class="custom-text-box-elmeleti">
     <h2>Hasznossági függvény</h2>
-    <p>A közgazdaságtan legtöbb ágában a racionális befektetők nem a vagyonukat maximalizálják, hanem annak egy úgynevezett <b>Neumann-Morgenstern hasznossági függvény</b> várható értékét. Ennek oka, hogy egy megkeresett forint okozta boldogság függhet vagyoni állapotunktól, például boldogabbá tesz az utcán talált 1 000 forintos egy földönfutót, mint egy milliomost. Általában feltesszük, hogy a hasznossági függvény <b>szigorúan monoton növekvő</b> (hiszen minden pénznek örülünk), de <b>konkáv</b>, azaz minél több pénzünk van, annál kevésbé örülünk 1 Ft összegnek. Ezen megkötések mellett azonban a befektetők hasznossági függvényei lehetnek <b>különbözők</b>, hiszen mindenki máshogy gondolkozik. Bizonyítható, hogy egy befektető pontosan akkor kockázatkerülő, ha hasznossági függvénye konkáv.
+    <p>A közgazdaságtan legtöbb ágában a racionális befektetők nem a vagyonukat maximalizálják, hanem annak egy úgynevezett <b>Neumann-Morgenstern hasznossági függvény</b> várható értékét. Ennek oka, hogy egy megkeresett forint okozta boldogság sok mindentől függhet, például boldogabbá tesz az utcán talált 1 000 forintos egy földönfutót, mint egy milliomost. Általában feltesszük, hogy a hasznossági függvény <b>szigorúan monoton növekvő</b> (hiszen minden pénznek örülünk), de <b>konkáv</b>, azaz minél több pénzünk van, annál kevésbé örülünk 1 Ft összegnek. Ezen megkötések mellett azonban a befektetők hasznossági függvényei lehetnek <b>különbözők</b>, hiszen mindenki máshogy gondolkozik. Bizonyítható, hogy egy befektető pontosan akkor kockázatkerülő, ha hasznossági függvénye konkáv.
     </p>
 </div>
 <div class="custom-text-box">
@@ -61,25 +61,21 @@ Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelm
 </div>
 
 
-1. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
-2. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
+### Feltevések az eszközökről
+1. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
+2. Nincs arbitrázs, azaz minden kockázatmentes portfólió hozama azonos.
 3. A piacon lehet eszközöket rövidre eladni (shortolni) és hitelt felvenni.
-4. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
-5. A befektetők kockázatkerülők, tehát a várható hasznosság csökken a szórás növekedésével.
-6. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy időintervallumon.
+4. Az eszközök korlátlanul oszthatók.
+5. Nincs redundáns értékpapír, azaz az eszközök hozamainak eloszlásai lineárisan függetlenek.
+6. Legalább két értékpapír várható hozama különböző.
+7. Az értékpapírok hozamai véges szórásúak.
 
 
 
 ## Portfóliók csak kockázatos eszközökből
 
-<div class="custom-text-box">
-    <h2>Mit jelent ez?</h2>
-    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Bár a mögöttes matematikai alapok bonyolultak, a lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
-    </p>
-</div>
 
-
-Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mennyi pénzt fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
+Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mekkora arányban fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
 
 Elegendő, ha csak egy adott időszakon nézzük a hozamokat. Jelölje az $i.$ eszköz hozamát $r_i$ ezen az időszakon.
 
@@ -91,7 +87,7 @@ A portfólió kockázatának mérésére a hozamok varianciáját használjuk: $
     <img src="/MPT/PortfolioWeights.gif" alt="My GIF" style="max-width: 100%; height: auto;" />
 </div> -->
 
-Az eszközök várható hozamának és kovarianciamátrixának becslése kulcsfontosságú lépés az optimális portfólió kialakításában. Ehhez gyakran a múltbeli (historikus) adatokat használjuk fel, mivel ezek alapján próbálunk következtetni a jövőbeli teljesítményre. Nézzük meg, hogyan történik mindez.
+Az eszközök várható hozamának és kovarianciamátrixának becslése fontos lépés az optimális portfólió kialakításában. Ehhez gyakran a múltbeli (historikus) adatokat használjuk fel, mivel ezek alapján próbálunk következtetni a jövőbeli teljesítményre.
 
 ### Várható hozam és a kovarianciamátrix becslése
 A várható hozamot ($\underline{\mu}$) az egyes eszközök múltbeli hozamai alapján is megbecsülhetjük. Tegyük fel, hogy rendelkezésünkre áll egy időszakra vonatkozó historikus adatsor, ahol az $i.$ eszköz hozama $r_i^t$ a $t.$ időpontban. Ekkor az $i.$ eszköz átlagos hozamát a következőképpen számíthatjuk ki:
@@ -106,7 +102,7 @@ $$
 \hat{\sigma}_{ij} = \frac{1}{T-1} \sum_{t=1}^T (r_i^t - \hat{\mu}_i)(r_j^t - \hat{\mu}_j),
 $$
 
-ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapasztalati szórást használ. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
+ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapasztalati szórást használja. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
 
 <!-- <video width="600" controls>
   <source src="/Diversification.mp4" type="video/mp4">
@@ -138,7 +134,7 @@ De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan egy
 Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
 <div class="custom-text-box">
     <h2>Ipari szegmensek és korreláció</h2>
-    <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj ár ingadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
+    <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj áringadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
     </p>
 </div>
 
@@ -265,7 +261,7 @@ Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincs
 
 Legyen T az érintési portfólió, legyen $r_T$ annak hozama, $\mu_T$ várható hozama, $\sigma_T$ pedig szórása. Legyen továbbá 
 $$
-\beta_P:=\frac{\text{Cov}(r_P,r_T)}{\sigma^2_T}
+\beta_P:=\frac{\text{Cov}(r_P,r_T)}{\sigma^2_M}
 $$
 
 valamely tetszőleges P portfólió **bétája**. Ekkor igaz az alábbi összefüggés:
@@ -279,7 +275,7 @@ azaz egy portfólió várható hozama megegyezik azzal, ha a kockázatmentes hoz
 
 Az alábbiakban a Tőkepiaci Árfolyamok Modelljét (CAPM) tárgyaljuk.
 
-Képzeljünk el eddig kiépített keretrendszerben (kockázatmentes eszközzel) kereskedő $N$ befektetőt. A piac egyensúlyban van, ha minden befektető olyan portfóliót alakított ki, amely számára optimális, továbbá az egyes értékpapírok iránti összkereslet megegyezik azok kínálatával. Bizonyítható, hogy az egyensúly létezik.
+Képzeljünk el az eddig kiépített keretrendszerben (kockázatmentes eszközzel) kereskedő $N$ befektetőt. A piac egyensúlyban van, ha minden befektető olyan portfóliót alakított ki, amely számára optimális, továbbá az egyes értékpapírok iránti összkereslet megegyezik azok kínálatával. Bizonyítható, hogy az egyensúly létezik.
 
 Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti. Nevezzük ezt **piaci portfólió-nak**, és legyen ennek hozama $r_M$, várható hozama $\mu_M$, szórása pedig $\sigma_M$.
 
@@ -292,6 +288,13 @@ Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír
 
 
 Így viszont tudjuk, hogy a piaci portfólió és a kockázatmentes eszközből elkészíthető portfóliók halmaza maga a CML, tehát bármely hatékony portfólió előáll ebben a formában. Tehát **egyensúlyban minden befektetőnek csak a piaci portfólióba érdemes befektetni**, hasznossági függvényét pedig csak az reprezentálja, vagyonának mekkora részét fekteti be (akár tőkeáttéttel).
+
+<!-- 
+<div class="custom-text-box">
+    <h2>Mit jelent ez?</h2>
+    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Ha feltételeink igazak, akkor az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
+    </p>
+</div> -->
 
 A CAPM leghíresebb egyenletét kapjuk vissza, ha az SML egyenletébe behelyettesítjük a piaci portfóliót:
 

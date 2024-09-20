@@ -208,7 +208,9 @@ A HOLD Orion ebben kimagasló, ugyanis stratégiájuk elsősorban közép-európ
 Az Erste Duett Treynor-mutatója csalóka lehet, alacsony függése a piactól csak ront rajta, hiszen a negatív kockázati prémiumát skálázza nagyra.
 
 
+<div class="custom-text-box-elmeleti"> <h2>Sortino-ráta</h2> <p> **Mit mond meg a Sortino ráta?** A Sortino-ráta hasonló a Sharpe-rátához, de csak a negatív hozamok (veszteségek) szórását veszi figyelembe. Ezáltal pontosabb képet ad arról, hogy a befektetés mennyire kockázatos a veszteségek szempontjából. Magasabb Sortino-ráta jobb kockázat-hozam arányt jelez a negatív kilengések tekintetében. <a href="/MPT">Bővebben itt.</a> </p> </div>
 
+ <div class="custom-text-box-elmeleti"> <h2>Treynor-ráta</h2> <p> **Mit mond meg a Treynor ráta?** A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő. <a href="/MPT">Bővebben itt.</a> </p> </div>
 ### Összefoglalás
 
 Komoly feladat legyőzni a piac általános teljesítményét az alapkezelőknek, főleg, ha még díjat is fel akarnak számolni. Mint láttuk, ez a feladat kevesüknek és nekik is csak részlegesen sikerül. 

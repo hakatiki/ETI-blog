@@ -1,6 +1,6 @@
 ---
 title: "Magyar befektetési alapok összehasonlítása"
-date: "2024-08-25"
+date: "2024-09-24"
 description: "Kíváncsiak voltunk, a magyar befektetési alapok közül melyikre érdemes valóban rábízni a pénzünket. A felületes reklámadatokon túl komoly kvantitatív analízisnek vetettük alá idősoraikat, modelleztük hozamaikat és összevetettük teljesítményüket több kockázati mérőszám mentén is."
 released: "Yes"
 author: "Egri Máté és Takáts Bálint"
@@ -46,7 +46,8 @@ A HOLD Columbust könnyen nevezhetjük a cég zászlóshajójának is, nem csoda
 
 <div class="svg-container">
   <img src="/Befalapok/dijak.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai díjakkal. Érdekes a Citadella alap teljesítménye a Covid krach idején.</figcaption>
+  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai díjakkal. 
+  <br>Érdekes a Citadella alap teljesítménye a Covid krach idején.</figcaption>
 </div>
 
 ### Gránit Apollo
@@ -201,6 +202,7 @@ Az alábbi táblázatban láthatunk három példát a költségek megoszlására
 </div>
 
 <div class="custom-text-box">
+<h2>Béta</h2>
     <p>
         Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
     </p>

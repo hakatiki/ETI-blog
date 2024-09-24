@@ -46,7 +46,7 @@ A HOLD Columbust könnyen nevezhetjük a cég zászlóshajójának is, nem csoda
 
 <div class="svg-container">
   <img src="/Befalapok/dijak.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai díjakkal.</figcaption>
+  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai díjakkal. Érdekes a Citadella alap teljesítménye a Covid krach idején.</figcaption>
 </div>
 
 ### Gránit Apollo
@@ -301,11 +301,11 @@ Az Erste Duett Treynor-mutatója csalóka lehet, alacsony függése a piactól c
 ### Összefoglalás
 A piac általános teljesítményének túlszárnyalása komoly kihívást jelent az alapkezelők számára, különösen akkor, ha díjakat is felszámítanak. Ahogy láthattuk, ez a feladat csak keveseknek sikerül, és nekik is csak részben.
 
-- Az általunk vizsgált alapok közül a **Platina Delta** bizonyult a legkiemelkedőbbnek, több mutatóban—például a Sharpe és Sortino rátákban—is a legjobb eredményt érte el.
+- Az általunk vizsgált alapok közül a **Platina Delta** bizonyult a legjobbnak, több mutatóban—például a Sharpe és Sortino rátákban—is a legjobb eredményt érte el.
 - A **HOLD Orion** alacsony bétája révén kevésbé függ a globális piaci mozgásoktól, így stabilabb, bár alacsonyabb hozamú alternatívát kínál a mérsékelt kockázatot kereső befektetőknek.
-- A **HOLD Columbus** hasonlóan teljesített, mint az Orion, bár kissé gyengébb eredményekkel. Érdekes módon, bár ugyanaz a cég kezeli őket, befektetési stratégiájuk céljában és célpontjaiban is különböznek.
+- A **HOLD Columbus** hasonlóan teljesített, mint az Orion, bár kissé gyengébb eredményekkel. Bár ugyanaz a cég kezeli őket, befektetési stratégiájuk céljában és célpontjaiban is különböznek. Érdekes módon ennek ellenére a két alap idősora közel azonos.
 - Zsiday Viktor **Citadella** alapja nem ért el hasonló szintű eredményeket, de bizonyos időszakokban ügyesen navigált a tőzsde változó környezetében. Hatékony kockázatkezelésének köszönhetően például elkerülte a COVID-19 márciusi tőzsdekrachját.
 - Az **Accorde Prizma** alapvetően alacsony kockázattal ért el jelentős hozamot, azonban magas költségei miatt teljesítménye elmarad a piac átlagától.
-- A **Gránit Apollo** elsősorban amerikai részvényeket céloz meg, de ezekbe alacsonyabb díjak mellett is befektethetünk, ami felveti a kérdést, miért választanánk ezt a drágább alapot.
-- Az **Erste Duett** valóban kockázatmentes hozamot generál, de felmerül a kérdés, hogy érdemes-e díjat fizetni olyan befektetési stratégiáért, amelyet egy egyszerű állampapír-vásárlással is elérhetünk.
-- Az **OTP Supra** esetében a helyzet egyértelmű: hozamokban alul teljesít, miközben díjai magasak.
+- A **Gránit Apollo** elsősorban amerikai részvényeket céloz meg, ezáltal nagyon hasonlít a piaci portfólióra, de ebbe alacsonyabb költségek mellett is befektethetünk. Ami felveti a kérdést, miért választanánk ezt a drágább alapot?
+- Az **Erste Duett** valóban kockázatmentes hozamot generál, de szintúgy felmerül a kérdés, hogy érdemes-e díjat fizetni olyan befektetési stratégiáért, amelyet egy egyszerű állampapír-vásárlással is elérhetünk, aminek a nyereségei adómentesek. 
+- Az **OTP Supra** esetében a helyzet egyértelmű: hozamokban alulteljesít, míg díjakban felül. Befektetésre nem ajánljuk.

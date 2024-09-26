@@ -1,21 +1,19 @@
 ---
 
-title: "Budapesti Ingatlanpiac Elemzése: Adatok, Trendek és Előrejelzések"
-date: "2024-10-01"
-description: "Átfogó elemzést készítettünk a budapesti ingatlanpiacról, bemutatva a legfontosabb trendeket, statisztikákat és előrejelzéseket. Megvizsgáltuk az árak és területek eloszlását, valamint a legfontosabb tényezőket, amelyek befolyásolják az ingatlanok értékét."
+title: "A Budapesti Ingatlanpiac Elemzése"
+date: "2024-09-26"
+description: "A budapesti ingatlanpiacot az elmúlt évek során jelentős strukturális változások jellemezték, melyek mind a keresleti, mind a kínálati oldalon markánsan befolyásolták az árakat és a piaci trendeket. Az olyan szabályozási tényezők, mint a rövid távú bérleti piacra vonatkozó szigorítások, tovább árnyalják a helyzetet. Ebben a cikkben a célunk, hogy részletesen áttekintsük az aktuális piaci helyzetet és feltérképezzük a fő mozgatórugókat."
 released: "Yes"
-author: "Kovács Péter"
-image: "/ingatlanok/terulet_eloszlas.png"
+author: "Schneider Ákos, Takáts Bálint, Egri Máté"
+image: "/ingatlanok/map_flat.png"
 
 ---
 
-Az ingatlanpiac mindig is központi szerepet játszott mind a befektetők, mind a lakosság életében. Budapest különösen izgalmas terület, ahol a folyamatosan változó kereslet és kínálat jelentősen befolyásolja az árakat és a trendeket. A rövid távú lakáskiadás szabályozásának változásai, mint például az Airbnb tevékenységére vonatkozó korlátozások, szintén befolyásolhatják a piaci dinamikát. **Kíváncsian várjuk, hogy ezek a tényezők milyen hatással lesznek a budapesti ingatlanpiacra.**
-
+A budapesti ingatlanpiacot az elmúlt évek során jelentős strukturális változások jellemezték, melyek mind a keresleti, mind a kínálati oldalon markánsan befolyásolták az árakat és a piaci trendeket. Az olyan szabályozási tényezők, mint a rövid távú bérleti piacra vonatkozó szigorítások, tovább árnyalják a helyzetet. **Ebben a cikkben a célunk, hogy részletesen áttekintsük az aktuális piaci helyzetet és feltérképezzük a fő mozgatórugókat.**
 
 ## Adatgyűjtés és módszertan
 
-Elemzésünk egy **2112 budapesti ingatlan** hirdetéséből álló adatbázison alapul. Az adatokat az internetről gyűjtöttük össze manuálisan, strukturálatlan formában. A hirdetések szövegéből kinyertük a releváns információkat és egységesítettük őket. Az OpenAI API-t használtuk a szöveges adatok elemzésére és a szükséges információk kinyerésére, míg a LangChain eszközzel automatizáltuk az adatfeldolgozás folyamatát. A Pydantic könyvtár segítségével ellenőriztük és validáltuk az adatokat, biztosítva azok pontosságát és konzisztenciáját. Az így létrehozott, tisztított adatbázist CSV formátumban tároltuk. Külön köszönet illeti **Schneider Ákost**, aki jelentős szerepet vállalt az adatgyűjtés és feldolgozás során.
-
+Elemzésünk egy **2112 budapesti ingatlan** hirdetéséből álló adatbázison alapul. Az adatokat az internetről gyűjtöttük össze manuálisan, strukturálatlan formában. A hirdetések szövegéből kinyertük a releváns információkat és egységesítettük őket. Az adatfeldolgozási folyamat automatizálására az OpenAI API-t valamint LangChain-t használtunk. Végül, az így létrehozott, tisztított adatbázist CSV formátumban tároltuk. Külön köszönet illeti **Schneider Ákost**, aki jelentős szerepet vállalt az adatgyűjtés és feldolgozás során.
 
 Az adatbázis kizárólag budapesti ingatlanokat tartalmaz, és olyan kulcsfontosságú jellemzőket foglal magában, mint az ár, alapterület, szobák száma, építés éve, emelet, erkély mérete, fenntartási költségek és egyéb fontos paraméterek. **Az adatminőség javítása érdekében az ingatlanokat 25 és 200 millió forint közötti árkategóriára szűrtük**, így kizártuk az extrém értékeket és biztosítottuk az adatok megbízhatóságát.
 
@@ -75,21 +73,15 @@ Az alábbi térképek szemléltetik az ingatlanok eloszlását és a négyzetmé
 
 ### Ingatlanok eloszlása térképen
 
-<div class="svg-container"> <img src="/ingatlanok/map_flat.png" alt="Budapesti ingatlanok sík térképen" class="dynamic-svg" /> <figcaption class="svg-caption">3. Ábra: Ingatlanok eloszlása a térképen.</figcaption> </div>
+<div class="svg-container"> <img src="/ingatlanok/map_flat.png" alt="Budapesti ingatlanok sík térképen" class="dynamic-svg" /> <figcaption class="svg-caption">1. Ábra: Ingatlanok eloszlása a térképen.</figcaption> </div>
 
-Az első ábrán Budapest térképe látható, ahol az ingatlanokat különböző színű és méretű pontok jelölik. A színek és a méretek az ingatlanok bizonyos jellemzőit az árat és a négyzetméterárat—reprezentálják. Érdekes módon a pontok hiánya jól kirajzolja a város zöldterületeit, valamint a Nyugati pályaudvar és a Duna vonalát.
-<!-- 
-### Budapesti ingatlanok elhelyezkedése
+Az első ábrán Budapest térképe látható, ahol az ingatlanokat különböző méretű és színű körök jelölik. A körök színe a sárgától a pirosig terjed, ahol a világos sárga a magasabb, míg a piros az alacsonyabb árú ingatlanokat jelzi. A körök mérete az ingatlan alapterületét mutatja: minél nagyobb az ingatlan, annál nagyobb a kör. A pontok elhelyezkedése szépen kirajzolja a város zöldterületeit, valamint a Nyugati pályaudvar és a Duna vonalát, amely szintén jól látható a térképen.
 
-<div class="svg-container"> <img src="/ingatlanok/map.png" alt="Budapesti ingatlanok térképen" class="dynamic-svg" /> <figcaption class="svg-caption">4. Ábra: Budapesti ingatlanok elhelyezkedése.</figcaption> </div>
-A második ábrán egy hagyományos Budapest térképet láthatunk, amelyen kék színű jelölők mutatják az ingatlanok földrajzi eloszlását. Ezek a pin-szerű jelzések sűrűn lefedik a város különböző részeit, különösen a központi kerületeket és a Duna menti területeket. A jelölők nemcsak a belvárosban, hanem a város külső részein, például a budai hegyekben és a pesti külvárosi területeken is jelentős számban megtalálhatók. Ez az ábra jól szemlélteti az ingatlanpiac aktivitását Budapesten, és azt, hogy az ingatlanok elérhetősége és sűrűsége hogyan oszlik meg a különböző városrészek között.
-
-## Az ingatlanárak és területek eloszlása -->
 ### Az adatok kerületenként
 
-<div class="svg-container"> <img src="/ingatlanok/district_map.png" alt="Kerületenkénti négyzetméterárak térképe" class="dynamic-svg" /> <figcaption class="svg-caption">5. Ábra: Az átlagos négyzetméterárak Budapest kerületeiben.</figcaption> </div>
+<div class="svg-container"> <img src="/ingatlanok/district_map.png" alt="Kerületenkénti négyzetméterárak térképe" class="dynamic-svg" /> <figcaption class="svg-caption">2. Ábra: Az átlagos négyzetméterárak Budapest kerületeiben.</figcaption> </div>
 
-Valamint a pontos számadatok:
+Valamint a pontos számadatok a teljesség kedvéért:
 
 <div class="table-container">
   <table class="custom-table">
@@ -273,20 +265,110 @@ Az ingatlanok négyzetméterárai jelentős eltéréseket mutatnak Budapest egye
 
 ## Az ingatlanok árát befolyásoló legfontosabb tényezők
 
-A budapesti ingatlanok árait számos tényező alakítja, melyek közül néhány kiemelkedő hatással bír. Gépi tanulási modell segítségével elemeztük az adatokat, hogy meghatározzuk, mely jellemzők gyakorolják a legnagyobb befolyást az ingatlanok értékére.
-<div class="custom-text-box-elmeleti">
-    <h2>Hogyan határoztuk meg a jellemzők fontosságát az XGBRegressor modellben?</h2>
-    <p>
-        Az ingatlanárak előrejelzéséhez az <b>XGBRegressor</b> algoritmust használtuk, amely gradienst boostoló döntési fákat alkalmaz.. A modell betanítása után a <code>feature_importances_</code> attribútum segítségével kinyertük a jellemzők fontossági értékeit. Ezek az értékek numerikus súlyokként reprezentálják az egyes jellemzők relatív hozzájárulását a modell predikcióihoz. A kapott eredményeket csökkenő sorrendbe rendeztük, így azonosítva a legmeghatározóbb tényezőket az ingatlanárak alakulásában.
-    </p>
-</div>
 
+A budapesti ingatlanok árait számos tényező alakítja, melyek közül néhány itt bemutatunk. Lineáris regresszió segítségével modelleztük az ingatlanárak és a független változók közötti összefüggéseket:
 
+**Adatelőkészítés**: Tisztítottuk az adatokat, kezeltük a hiányzó értékeket, és a kategóriákat numerikus formára alakítottuk.
 
-### Mi fontos a piacon?
+**Modellbetanítás**: Iteratívan elilimináltuk a nem szignifikáns változókat. Majd a végső jellemzőkre illesztettük a regressziós modellt.
+
+**Koefficiensek elemzése**: A modell koefficiensei és a p-értékek alapján meghatároztuk az egyes jellemzők fontosságát. A pozitív koefficiensek az adott jellemző árnövelő, a negatívak pedig árcsökkentő hatását jelzik.
+
 
 Az alábbi táblázatban összefoglaltuk a legfontosabb tényezőket amik a modell szerint az árat nagyban befolyásolják:
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Sorszám</th>
+        <th>Jellemző</th>
+        <th>Koefficiens</th>
+        <th>p-érték</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- <tr>
+        <td>1.</td>
+        <td><strong>A házban a kazán nemrég lett felújítva</strong></td>
+        <td>0.6998</td>
+        <td>0.00012</td>
+      </tr> -->
+      <tr>
+        <td>1.</td>
+        <td><strong>Gázkonvektor, padlófűtés, hűtő-fűtő klíma</strong></td>
+        <td>0.6423</td>
+        <td>0.00042</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><strong>Gázkazán, padlófűtés</strong></td>
+        <td>0.3207</td>
+        <td>1.819e-09</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><strong>Hőszivattyú, padlófűtés, mennyezeti hűtés</strong></td>
+        <td>0.2956</td>
+        <td>0.00499</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td><strong>Mennyezeti hűtés-fűtés, hőszivattyú</strong></td>
+        <td>0.1836</td>
+        <td>2.137e-08</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
+Jól látható, hogy a modern fűtéstechnológiáért a vevők hajlandóak többet fizetni. 
+
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Sorszám</th>
+        <th>Jellemző</th>
+        <th>Koefficiens</th>
+        <th>p-érték</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td><strong>Gázkonvektor</strong></td>
+        <td>-0.1450</td>
+        <td>2.585e-20</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><strong>Távfűtés</strong></td>
+        <td>-0.1262</td>
+        <td>4.013e-14</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><strong>Távfűtés egyedi méréssel</strong></td>
+        <td>-0.1252</td>
+        <td>1.211e-09</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td><strong>Gázkonvektor, elektromos fűtőpanel</strong></td>
+        <td>-0.1565</td>
+        <td>0.00321</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td><strong>Gázkonvektor, hűtő-fűtő klíma</strong></td>
+        <td>-0.1467</td>
+        <td>0.00289</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+A régi, elavult fűtés viszont rontja az ingatlanok értékét. 
 
 
 <div class="table-container">
@@ -295,51 +377,49 @@ Az alábbi táblázatban összefoglaltuk a legfontosabb tényezőket amik a mode
       <tr>
         <th>Sorszám</th>
         <th>Jellemző</th>
-        <th>Relatív fontosság (%)</th>
+        <th>Koefficiens</th>
+        <th>p-érték</th>
       </tr>
     </thead>
     <tbody>
-      <!-- Pozitív Koefficiensek -->
       <tr>
         <td>1.</td>
-        <td><strong>Padlófűtés, falfűtés</strong></td>
-        <td>49,27%</td>
+        <td><strong>A kerületi lakosoknak ingyenes a parkolás</strong></td>
+        <td>0.7063</td>
+        <td>0.00014</td>
       </tr>
+      <!-- <tr>
+        <td>2.</td>
+        <td><strong>Gépkocsibeálló</strong></td>
+        <td>0.5684</td>
+        <td>0.00214</td>
+      </tr> -->
       <tr>
         <td>2.</td>
-        <td><strong>Gázfűtés</strong></td>
-        <td>22,81%</td>
+        <td><strong>Önálló garázs - megvásárolható</strong></td>
+        <td>0.2105</td>
+        <td>0.00001</td>
       </tr>
       <tr>
         <td>3.</td>
-        <td><strong>Gázkazán, padlófűtés</strong></td>
-        <td>10,23%</td>
+        <td><strong>Önálló garázs - bérelhető</strong></td>
+        <td>-0.1579</td>
+        <td>0.00885</td>
       </tr>
       <tr>
         <td>4.</td>
-        <td><strong>Infrafűtés, hűtő-fűtő klíma</strong></td>
-        <td>7,62%</td>
-      </tr>
-      <tr>
-        <td>5.</td>
-        <td><strong>Hőszivattyú</strong></td>
-        <td>6,08%</td>
-      </tr>
-      <tr>
-        <td>8.</td>
-        <td><strong>Gáz (konvektor)</strong></td>
-        <td>-2,93%</td>
+        <td><strong>Utca, közterület - fizetős</strong></td>
+        <td>-0.0530</td>
+        <td>0.00551</td>
       </tr>
     </tbody>
   </table>
 </div>
 
+A parkolást is nagyra becsülik a vevők egy jó parkolóhely az ingatlan árát is megnövelheti. 
+
 
 
 ## Összegzés
 
-Elemzésünk rámutatott, hogy a budapesti ingatlanpiacon az árakat nem csupán az ingatlan mérete vagy alapvető jellemzői határozzák meg. A modern technológiai felszereltség, a luxuskomfort és az előnyös elhelyezkedés olyan kulcsfontosságú tényezők, amelyek jelentősen befolyásolják az ingatlanok értékét. Ezen szempontok figyelembevételével a piaci trendek jobban megérthetők, és megalapozottabb döntéseket hozhatunk, legyen szó vásárlásról vagy befektetésről.
-
----
-
-**Megjegyzés**: Az elemzés során felhasznált adatok és modellek a rendelkezésre álló információk alapján készültek, és tájékoztató jellegűek.
+A budapesti ingatlanpiacon az árak mindenütt magasak, különösen az V. és II. kerületben. A belvárosi kerületek közül a VIII. kerület a legolcsóbb, az egész várost nézve Csepel a legmegengedhetőbb. A vásárlók számára kiemelten fontos a modern technológiai felszereltség és az ingatlanok energetikai hatékonysága. A zöld technológiák és alacsony energiafogyasztású rendszerek, mint a hőszivattyú, vonzóvá teszik az ingatlanokat, míg a parkolási lehetőségek, mint az önálló garázs vagy ingyenes parkolás, tovább növelik azok értékét.

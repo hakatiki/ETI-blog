@@ -5,7 +5,7 @@ date: "2024-09-26"
 description: "A budapesti ingatlanpiacot az elmúlt évek során jelentős strukturális változások jellemezték, melyek mind a keresleti, mind a kínálati oldalon markánsan befolyásolták az árakat és a piaci trendeket. Az olyan szabályozási tényezők, mint a rövid távú bérleti piacra vonatkozó szigorítások, tovább árnyalják a helyzetet. Ebben a cikkben a célunk, hogy részletesen áttekintsük az aktuális piaci helyzetet és feltérképezzük a fő mozgatórugókat."
 released: "Yes"
 author: "Schneider Ákos, Takáts Bálint, Egri Máté"
-image: "/ingatlanok/map_flat.png"
+image: "/ingatlanok/budapest_latkep.jpg"
 
 ---
 

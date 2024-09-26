@@ -13,7 +13,7 @@ A budapesti ingatlanpiacot az elmúlt évek során jelentős strukturális vált
 
 ## Adatgyűjtés és módszertan
 
-Elemzésünk egy **2112 budapesti ingatlan** hirdetéséből álló adatbázison alapul. Az adatokat az internetről gyűjtöttük össze manuálisan, strukturálatlan formában. A hirdetések szövegéből kinyertük a releváns információkat és egységesítettük őket. Az adatfeldolgozási folyamat automatizálására az OpenAI API-t valamint LangChain-t használtunk. Végül, az így létrehozott, tisztított adatbázist CSV formátumban tároltuk. Külön köszönet illeti **Schneider Ákost**, aki jelentős szerepet vállalt az adatgyűjtés és feldolgozás során.
+Elemzésünk egy **2112 budapesti ingatlan** hirdetéséből álló adatbázison alapul. Az adatokat az internetről gyűjtöttük össze manuálisan, strukturálatlan formában. A hirdetések szövegéből kinyertük a releváns információkat és egységesítettük őket. Az adatfeldolgozási folyamat automatizálására az OpenAI API-t valamint LangChain-t használtunk. Végül, az így létrehozott, tisztított adatbázist CSV formátumban tároltuk. Külön köszönet illeti [Schneider Ákost](https://www.linkedin.com/in/akos-schneider), aki jelentős szerepet vállalt az adatgyűjtés és feldolgozás során.
 
 Az adatbázis kizárólag budapesti ingatlanokat tartalmaz, és olyan kulcsfontosságú jellemzőket foglal magában, mint az ár, alapterület, szobák száma, építés éve, emelet, erkély mérete, fenntartási költségek és egyéb fontos paraméterek. **Az adatminőség javítása érdekében az ingatlanokat 25 és 200 millió forint közötti árkategóriára szűrtük**, így kizártuk az extrém értékeket és biztosítottuk az adatok megbízhatóságát.
 

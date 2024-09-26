@@ -238,7 +238,7 @@ A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P
 
 Az ábrán jól látható, hogy a Gránit Apollo és az S&P 500 között van a legnagyobb hasonlóság, ami nem meglepő, hiszen az alap referenciaindexe 45%-ban az S&P 500-at követi. Emellett a HOLD Alapkezelő Orion és Columbus alapjai közötti erős korreláció arra utal, hogy portfóliómenedzsereik hasonló befektetési stratégiákat alkalmaznak, és esetleg gyakran egyeztetnek egymással.
 
-## Teljesítményelemzés
+### Teljesítményelemzés
 
 Az alábbiakban feltesszük, hogy a kockázatmentes hozam 5.5%, ugyanis a vizsgált időszakon ekkora hozamot lehetett elérni kockázatmentes állampapírok vásárlásával.
 

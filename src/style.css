@@ -160,11 +160,10 @@
 .custom-table {
   width: 100%;
   border-collapse: collapse;
-  margin: var(--spacing-4) auto; /* Centered margin for all screen sizes */
+  margin: var(--spacing-4) auto;
   font-size: var(--fontSize-1);
   text-align: left;
-  overflow-x: auto; /* Allows scrolling on x-axis if table is wider than screen */
-  display: block; /* Allows horizontal scrolling */
+  overflow-x: auto;
 }
 
 .custom-table th, .custom-table td {

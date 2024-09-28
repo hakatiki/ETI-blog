@@ -316,7 +316,7 @@ Az Erste Duett Treynor-mutatója csalóka lehet, alacsony függése a piactól c
   - Az **OTP Supra** esete egyértelmű: alulteljesít hozamokban, de felül díjakban. -->
 
 ### Összefoglalás
-A piac általános teljesítményének túlszárnyalása komoly kihívást jelent az alapkezelők számára. Ahogy láthattuk, ez a feladat csak az alapok közel felének sikerült kielégítően. Azonban az alapok amik elérték ezt a célt minden kétséget kizáróan sok értéket teremtettek a befektetőiknek.
+A piac általános teljesítményének túlszárnyalása komoly kihívást jelent az alapkezelők számára. Ahogy láthattuk, ez a feladat csak az alapok közel felének sikerült kielégítően. Azonban az alapok, amik elérték ezt a célt minden kétséget kizáróan sok értéket teremtettek a befektetőiknek.
 
 - Az általunk vizsgált alapok közül a **Platina Delta** bizonyult a legjobbnak, több mutatóban—például a Sharpe és Sortino rátákban—is az egyik legjobb eredményt érte el.
 - Az **Accorde Prizma** teljesíténye hasonló a Platina Delta-hoz. A vizsgált alapok között ennek a legjobb a Sortino-rátája és Sharpe-rátában is kiemelkedik.

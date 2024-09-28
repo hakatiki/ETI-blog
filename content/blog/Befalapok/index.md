@@ -18,7 +18,7 @@ Kíváncsiságtól hajtva úgy döntöttünk, hogy mélyebbre ásunk: a felület
 
 <div class="custom-text-box-red">
     <h2>Pontosítás</h2>
-    <p>2024 szeptember 28.-án a cikket frissítettük mert a díjak modellezésében hibát vétettünk. Köszönjük a HOLD alapkezelőnek, hogy tudomásunkra hozták a hibát!</p>
+    <p>2024 szeptember 28.-án a cikket frissítettük mert a díjak modellezésében hibát vétettünk. Köszönjük a HOLD alapkezelőnek, hogy tudomásunkra hozták a hibát! </p>
 </div>
 
 ## Alapok bemutatása

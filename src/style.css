@@ -155,7 +155,7 @@
   color: var(--color-text);
   font-family: var(--font-body);
 }
-.custom-text-box-red h2 {
+.custom-text-box-red h2 { 
   text-align: left;
   color: #df2541; /* Morgan Stanley blue */
   font-family: var(--font-heading);

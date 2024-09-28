@@ -16,6 +16,11 @@ Kíváncsiságtól hajtva úgy döntöttünk, hogy mélyebbre ásunk: a felület
 
 **A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
+<div class="custom-text-box-red">
+    <h2>Pontosítás</h2>
+    <p>2024 szeptember 28.-án a cikket frissítettük mert a díjak modellezésében hibát vétettünk. Köszönjük a HOLD alapkezelőnek, hogy tudomásunkra hozták a hibát!</p>
+</div>
+
 ## Alapok bemutatása
 
 ### Citadella
@@ -46,7 +51,7 @@ A HOLD Columbust könnyen nevezhetjük a cég zászlóshajójának is, nem csoda
 
 <div class="svg-container">
   <img src="/Befalapok/dijak.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai díjakkal. 
+  <figcaption class="svg-caption">1. Ábra: Citadella, OTP Supra, HOLD Orion és HOLD Columbus árfolyamai. 
   <br>Érdekes a Citadella alap teljesítménye a Covid krach idején.</figcaption>
 </div>
 
@@ -64,18 +69,24 @@ Az Erste Duett Nyíltvégű Alapok Alapja egy magyarországi befektetési alap, 
 
 <div class="svg-container">
   <img src="/Befalapok/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">2. Ábra: Gránit Apollo, Accorde Prizma, Platina Delta és Erste Duett árfolyamai díjakkal.</figcaption>
+  <figcaption class="svg-caption">2. Ábra: Gránit Apollo, Accorde Prizma, Platina Delta és Erste Duett árfolyamai.</figcaption>
 </div>
 
 
 ### S&P 500
-Az **S&P 500 egy amerikai, dollárban jegyzett tőzsdeindex, amely az USA 500 legnagyobb tőzsdén jegyzett vállalatát foglalja magában így egy piaci portfóliónak is tekinthető**. Ez azt jelenti, hogy az egyes részvények a piaci kapitalizációjuk alapján vannak súlyozva. Az előző cikkünkben bemutattuk a modern portfólióelméletet és a CAPM-et, amelyek egyik fő tanulsága, hogy a piaci portfóliónak van a legmagasabb Sharpe-rátája. Felmerülhet a kérdés az olvasóban, hogy van-e olyan alap, ami le tudja győzni a piacot vagy Markowitznak és Sharpenak van igaza. Erre a kérdésre már most választ adunk: **nem tudják legyőzni**. A pontos válasz azonban ennél bonyolultabb. Megjegyzendő, hogy az általunk vizsgált alapok mind forintban vannak jegyezve, míg az S&P 500 dollárban. A pontos összehasonlítás érdekében a napi árfolyamokat dollárról forintra váltottuk, ami az index hozamát tovább növelte a forint utóbbi években tapasztalt gyengülése miatt.
+Az **S&P 500 egy amerikai, dollárban jegyzett tőzsdeindex, amely az USA 500 legnagyobb tőzsdén jegyzett vállalatát foglalja magában így egy piaci portfóliónak is tekinthető**. Ez azt jelenti, hogy az egyes részvények a piaci kapitalizációjuk alapján vannak súlyozva. Az előző cikkünkben bemutattuk a modern portfólióelméletet és a CAPM-et, amelyek egyik fő tanulsága, hogy a piaci portfóliónak van a legmagasabb Sharpe-rátája. Felmerülhet a kérdés az olvasóban, hogy van-e olyan alap, ami le tudja győzni a piacot vagy Markowitznak és Sharpenak van igaza. Erre a kérdésre már most választ adunk: **úgy néz ki van!** A pontos válasz azonban ennél bonyolultabb. Megjegyzendő, hogy az általunk vizsgált alapok mind forintban vannak jegyezve, míg az S&P 500 dollárban. A pontos összehasonlítás érdekében a napi árfolyamokat dollárról forintra váltottuk, ami az index hozamát tovább növelte a forint utóbbi években tapasztalt gyengülése miatt.
 
 ### Adatok és díjak
 
 Az idősoros adatokat a Befektetési Alapkezelők és Vagyonkezelők Magyarországi Szövetsége ([BAMOSZ](https://www.bamosz.hu/)) oldaláról gyűjtöttük össze. Azonban a hozamok pontos modellezéséhez ez önmagában nem elegendő, mivel a legtöbb vizsgált alap **jelentős díjakat számol fel** a szolgáltatásaiért. A költségekre vonatkozó adatokat az egyes alapok "Kiemelt Befektetői Információk" dokumentumaiból gyűjtöttük ki.
 
-A díjak két fő kategóriára oszthatók: egyszeri és éves költségekre. Az egyszeri költségek közé tartoznak a belépési, kilépési és tranzakciós díjak, amelyek mértéke 0%-tól akár a már-már hihetetlen 5%-ig terjedhet. Az éves, vagy folyó költségek tipikus példái a kezelési díj és a sikerdíj. Különösen érdekes a sikerdíj, amelyet akkor kell megfizetni, ha az alap teljesítménye meghaladja az előre meghatározott referenciaértéket (benchmarkot). Ez lehet például a magyar állampapír hozama. Meglepő módon az OTP Supra is felszámít 1% sikerdíjat, bár a teljesítménye ezt nem feltétlenül indokolja. Emiatt a sikerdíjat is folyamatos költségként kezeljük az elemzés során.
+
+A díjak két fő kategóriára oszthatók: egyszeri és éves költségekre. Az egyszeri költségek közé tartoznak a belépési, kilépési és tranzakciós díjak, amelyek mértéke 0%-tól akár a már-már hihetetlen 5%-ig terjedhet. Az éves, vagy folyó költségek tipikus példái a kezelési díj és a sikerdíj. Különösen érdekes a sikerdíj, amelyet akkor kell megfizetni, ha az alap teljesítménye meghaladja az előre meghatározott referenciaértéket (benchmarkot). Ez lehet például a magyar állampapír hozama. Meglepő módon az OTP Supra is felszámít 1% sikerdíjat, bár a teljesítménye ezt nem feltétlenül indokolja.
+
+<div class="custom-text-box-red">
+    <h2>Díjak és az idősor</h2>
+    <p><b>A BAMOSZ-on található idősorok minden fix és sikerdíjat tartalmaznak.</b> Így a díjak számításánál csak az alábbi feltételezésekkel éltünk: a vizsgált időszak elején belépési díjat, míg a végén kilépési díjat számoltunk fel. Ha az alap rendelkezik tranzakciós díjjal is, akkor a két díjtétel közül a magasabbat alkalmaztuk. <b>A szerzők külön köszönettel tartoznak a HOLD alapkezelőnek a segítségért, amit nekünk nyújtottak a díjak értelmezésében.</b></p>
+</div>
 
 Az alábbi táblázatban három alap költségeinek megoszlását mutatjuk be:
 
@@ -120,10 +131,12 @@ Az alábbi táblázatban három alap költségeinek megoszlását mutatjuk be:
   </table>
 </div>
 
+
+<!-- 
 <div class="custom-text-box-elmeleti">
     <h2>Technikai információk</h2>
     <p>A díjak számításánál az alábbi feltételezésekkel éltünk: a vizsgált időszak elején belépési díjat, míg a végén kilépési díjat számoltunk fel. Ha az alap rendelkezik tranzakciós díjjal is, akkor a két díjtétel közül a magasabbat alkalmaztuk. A teljesítmény- és kezelési költségeket minden év január 1-jén vontuk le. Feltételeztük továbbá, hogy a költségek a vizsgált időszak alatt nem változnak.</p>
-</div>
+</div> -->
 
 <!-- 
 
@@ -255,7 +268,7 @@ Nézzük meg az alapok különböző teljesítménymutatóit empirikus adataink 
   <figcaption class="svg-caption">6. Ábra: Sharpe-ráták összehasonlítása.</figcaption>
 </div>
 
-Láthatjuk, hogy a Platina Delta az egyetlen alap, ami képes volt felülmúlni e tekintetben a piacot. 
+Láthatjuk, hogy a Platina Delta, Accorde Prizma és a HOLD Columbus is képes volt felülmúlni e tekintetben a piacot. 
 
 Megjegyzendő, hogy a negatív Sharpe-ráta negatív kockázati prémiumot jelent, azaz ezeket az alapokat még az állampapírpiac is legyőzte. Ez nem olyan meglepő például egy olyan alap esetén, mint az Erste Duett, ami ugyanúgy nagyrészt kötvényekből áll, csak még díjat is felszámolnak a portfólió kezelői.
 
@@ -268,7 +281,9 @@ Egy hasonló mutató a Sortino ráta, amiben szintén az egységnyi szórásra j
   <figcaption class="svg-caption">7. Ábra: Sortino-ráták összehasonlítása.</figcaption>
 </div>
 
-Itt ismét a Platina Delta tűnik legjobbnak, ráadásul a többi alap sorrendje is megegyezik. 
+Itt a sorrend egy picit változik, az Accorde Prizma tűnik legjobbnak. Érdemes megjegyezni, hogy a HOLD Orion is legyőzi a piacot ebben a tekintetben. Érdekes módon az az OTP Supra legyőzi az Erste Duett-et Sortino-ráta tekintetében.
+
+
 A piactól való függés mértékét a korábban említett bétával mérjük, ami szintén lehet mérőszáma egy portfólió kockázatának. Ezzel számol az ún. Treynor-ráta, mely az egységnyi bétára jutó kockázati prémiumot adja meg.
 
  <div class="custom-text-box-elmeleti"> <h2>Treynor-ráta</h2> <p> A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő.</a> </p> </div>
@@ -301,13 +316,13 @@ Az Erste Duett Treynor-mutatója csalóka lehet, alacsony függése a piactól c
   - Az **OTP Supra** esete egyértelmű: alulteljesít hozamokban, de felül díjakban. -->
 
 ### Összefoglalás
-A piac általános teljesítményének túlszárnyalása komoly kihívást jelent az alapkezelők számára, különösen akkor, ha díjakat is felszámítanak. Ahogy láthattuk, ez a feladat csak keveseknek sikerül, és nekik is csak részben.
+A piac általános teljesítményének túlszárnyalása komoly kihívást jelent az alapkezelők számára. Ahogy láthattuk, ez a feladat csak az alapok közel felének sikerült kielégítően. Azonban az alapok amik elérték ezt a célt minden kétséget kizáróan sok értéket teremtettek a befektetőiknek.
 
-- Az általunk vizsgált alapok közül a **Platina Delta** bizonyult a legjobbnak, több mutatóban—például a Sharpe és Sortino rátákban—is a legjobb eredményt érte el.
-- A **HOLD Orion** alacsony bétája révén kevésbé függ a globális piaci mozgásoktól, így stabilabb, bár alacsonyabb hozamú alternatívát kínál a mérsékelt kockázatot kereső befektetőknek.
-- A **HOLD Columbus** hasonlóan teljesített, mint az Orion, bár kissé gyengébb eredményekkel. Bár ugyanaz a cég kezeli őket, befektetési stratégiájuk céljában és célpontjaiban is különböznek. Érdekes módon ennek ellenére a két alap idősora közel azonos.
+- Az általunk vizsgált alapok közül a **Platina Delta** bizonyult a legjobbnak, több mutatóban—például a Sharpe és Sortino rátákban—is az egyik legjobb eredményt érte el.
+- Az **Accorde Prizma** teljesíténye hasonló a Platina Delta-hoz. A vizsgált alapok között ennek a legjobb a Sortino-rátája és Sharpe-rátában is kiemelkedik.
+- A **HOLD Columbus** Sortino-rátában és Sharpe-rátában is az S&P500 felett teljesít. Mindemellett, az alapot a HOLD két tapasztalt partnere kezeli és nagy presztízsű múltra tekint vissza.
+- A **HOLD Orion** alacsony bétája révén kevésbé függ a globális piaci mozgásoktól, így stabilabb, bár alacsonyabb hozamú alternatívát kínál a mérsékelt kockázatot kereső befektetőknek. Hasonlóan teljesített, mint a HOLD Columbus, bár kissé gyengébb eredményekkel. Bár ugyanaz a cég kezeli őket, befektetési stratégiájuk céljában és célpontjaiban is különböznek. Érdekes módon ennek ellenére a két alap idősora közel azonos.
 - Zsiday Viktor **Citadella** alapja nem ért el hasonló szintű eredményeket, de bizonyos időszakokban ügyesen navigált a tőzsde változó környezetében. Hatékony kockázatkezelésének köszönhetően például elkerülte a COVID-19 márciusi tőzsdekrachját.
-- Az **Accorde Prizma** alapvetően alacsony kockázattal ért el jelentős hozamot, azonban magas költségei miatt teljesítménye elmarad a piac átlagától.
 - A **Gránit Apollo** elsősorban amerikai részvényeket céloz meg, ezáltal nagyon hasonlít a piaci portfólióra, de ebbe alacsonyabb költségek mellett is befektethetünk. Ami felveti a kérdést, miért választanánk ezt a drágább alapot?
 - Az **Erste Duett** valóban kockázatmentes hozamot generál, de szintúgy felmerül a kérdés, hogy érdemes-e díjat fizetni olyan befektetési stratégiáért, amelyet egy egyszerű állampapír-vásárlással is elérhetünk, aminek a nyereségei adómentesek. 
 - Az **OTP Supra** esetében a helyzet egyértelmű: hozamokban alulteljesít, míg díjakban felül. Befektetésre nem ajánljuk.

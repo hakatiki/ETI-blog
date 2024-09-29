@@ -141,6 +141,39 @@
   font-size: var(--fontSize-1); /* Use font size from the stylesheet */
 }
 
+
+.custom-text-box-red {
+  border: 2px solid #3c0709; /* Morgan Stanley blue */
+  background-color: #f1d1d5;
+  padding: var(--spacing-3); /* Adjusted padding for all screen sizes */
+  border-radius: var(--spacing-2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: var(--maxWidth-full);
+  width: auto; /* Ensures it does not force larger than the screen */
+  margin: var(--spacing-2) auto; /* Centralized margin */
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+.custom-text-box-red h2 { 
+  text-align: left;
+  color: #df2541; /* Morgan Stanley blue */
+  font-family: var(--font-heading);
+  font-size: var(--fontSize-2); /* Use font size from the stylesheet */
+  margin-top: var(--spacing-0);
+}
+
+.custom-text-box-red p {
+  margin: var(--spacing-0);
+  line-height: var(--lineHeight-relaxed);
+}
+.custom-text-box-red .source {
+  font-style: italic; /* Italics for the source text */
+  text-align: right; /* Align the source text to the right */
+  margin-top: var(--spacing-1); /* Add space above the source line */
+  font-size: var(--fontSize-1); /* Use font size from the stylesheet */
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .custom-text-box {
@@ -160,11 +193,10 @@
 .custom-table {
   width: 100%;
   border-collapse: collapse;
-  margin: var(--spacing-4) auto; /* Centered margin for all screen sizes */
+  margin: var(--spacing-4) auto;
   font-size: var(--fontSize-1);
   text-align: left;
-  overflow-x: auto; /* Allows scrolling on x-axis if table is wider than screen */
-  display: block; /* Allows horizontal scrolling */
+  overflow-x: auto;
 }
 
 .custom-table th, .custom-table td {

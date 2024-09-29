@@ -1,304 +1,425 @@
 ---
-title:  "ingatlanok"
-date: "1999-08-18"
-description: "A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait Portfolio Selection című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára."
-released: "No"
-author: "Egri Máté és Takáts Bálint"
-image: "/MPT/Harry-Markowitz.jpg"
+
+title: "A Budapesti Ingatlanpiac Elemzése"
+date: "2024-09-26"
+description: "A budapesti ingatlanpiacot az elmúlt évek során jelentős strukturális változások jellemezték, melyek mind a keresleti, mind a kínálati oldalon markánsan befolyásolták az árakat és a piaci trendeket. Az olyan szabályozási tényezők, mint a rövid távú bérleti piacra vonatkozó szigorítások, tovább árnyalják a helyzetet. Ebben a cikkben a célunk, hogy részletesen áttekintsük az aktuális piaci helyzetet és feltérképezzük a fő mozgatórugókat."
+released: "Yes"
+author: "Schneider Ákos, Takáts Bálint, Egri Máté"
+image: "/ingatlanok/budapest_latkep.jpg"
+
 ---
 
+A budapesti ingatlanpiacot az elmúlt évek során jelentős strukturális változások jellemezték, melyek mind a keresleti, mind a kínálati oldalon markánsan befolyásolták az árakat és a piaci trendeket. Az olyan szabályozási tényezők, mint a rövid távú bérleti piacra vonatkozó szigorítások, tovább árnyalják a helyzetet. **Ebben a cikkben a célunk, hogy részletesen áttekintsük az aktuális piaci helyzetet és feltérképezzük a fő mozgatórugókat.**
 
-asdfas 
+## Adatgyűjtés és módszertan
 
-A modern portfólióelmélet (Modern Portfolio Theory, MPT) Harry Markowitz amerikai közgazdász nevéhez fűződik, aki 1952-ben publikálta az elmélet alapjait "Portfolio Selection" című tanulmányában, majd ez 1990-ben közgazdasági Nobel-díjat hozott számára.
+Elemzésünk egy **2112 budapesti ingatlan** hirdetéséből álló adatbázison alapul. Az adatokat az internetről gyűjtöttük össze manuálisan, strukturálatlan formában. A hirdetések szövegéből kinyertük a releváns információkat és egységesítettük őket. Az adatfeldolgozási folyamat automatizálására az OpenAI API-t valamint LangChain-t használtunk. Végül, az így létrehozott, tisztított adatbázist CSV formátumban tároltuk. Külön köszönet illeti [Schneider Ákost](https://www.linkedin.com/in/akos-schneider), aki jelentős szerepet vállalt az adatgyűjtés és feldolgozás során.
 
-<div class="responsive-image">
-  <img src="/MPT/Harry-Markowitz.jpg" alt="Description of the image" />
-    <figcaption class="svg-caption">Harry Markowitz (1927 - 2023)</figcaption>
+Az adatbázis kizárólag budapesti ingatlanokat tartalmaz, és olyan kulcsfontosságú jellemzőket foglal magában, mint az ár, alapterület, szobák száma, építés éve, emelet, erkély mérete, fenntartási költségek és egyéb fontos paraméterek. **Az adatminőség javítása érdekében az ingatlanokat 25 és 200 millió forint közötti árkategóriára szűrtük**, így kizártuk az extrém értékeket és biztosítottuk az adatok megbízhatóságát.
+
+## Statisztikai elemzés
+
+Az alábbi táblázat összefoglalja az adatok legfontosabb statisztikai mutatóit:
+
+  <table class="custom-table">
+    <tr>
+      <th></th>
+      <th>Átlag</th>
+      <th>Medián</th>
+      <th>Minimum</th>
+      <th>Maximum</th>
+    </tr>
+    <tr>
+      <td><strong>Ár (millió Ft)</strong></td>
+      <td>75,3</td>
+      <td>65,9</td>
+      <td>25,9</td>
+      <td>199,9</td>
+    </tr>
+    <tr>
+      <td><strong>Terület (m²)</strong></td>
+      <td>60,8</td>
+      <td>57,0</td>
+      <td>19,0</td>
+      <td>434,0</td>
+    </tr>
+    <tr>
+      <td><strong>Szobák száma</strong></td>
+      <td>2,5</td>
+      <td>2,0</td>
+      <td>1,0</td>
+      <td>7,0</td>
+    </tr>
+    <tr>
+      <td><strong>Építés éve</strong></td>
+      <td>1982</td>
+      <td>1981</td>
+      <td>1882</td>
+      <td>2026</td>
+    </tr>
+    <tr>
+      <td><strong>Négyzetméterár (ezer Ft/m²)</strong></td>
+      <td>1 257</td>
+      <td>1 178</td>
+      <td>230</td>
+      <td>4 865</td>
+    </tr>
+  </table>
+
+<!-- Az adatokból látható, hogy az átlagos ingatlanár Budapesten **75,3 millió forint**, míg az átlagos terület **60,8 négyzetméter**. A négyzetméterárak jelentős szórást mutatnak, ami a különböző kerületek és ingatlantípusok közötti eltéréseknek köszönhető.
+
+Budapesti ingatlanok térképes megjelenítése
+Az alábbi térképek szemléltetik az ingatlanok eloszlását és a négyzetméterárak földrajzi megoszlását Budapesten. -->
+
+### Ingatlanok eloszlása térképen
+
+<div class="svg-container"> <img src="/ingatlanok/map_flat.png" alt="Budapesti ingatlanok sík térképen" class="dynamic-svg" /> <figcaption class="svg-caption">1. Ábra: Ingatlanok eloszlása a térképen.</figcaption> </div>
+
+Az első ábrán Budapest térképe látható, ahol az ingatlanokat különböző méretű és színű körök jelölik. A körök színe a sárgától a pirosig terjed, ahol a világos sárga a magasabb, míg a piros az alacsonyabb árú ingatlanokat jelzi. A körök mérete az ingatlan alapterületét mutatja: minél nagyobb az ingatlan, annál nagyobb a kör. A pontok elhelyezkedése szépen kirajzolja a város zöldterületeit, valamint a Nyugati pályaudvar és a Duna vonalát, amely szintén jól látható a térképen.
+
+### Az adatok kerületenként
+
+<div class="svg-container"> <img src="/ingatlanok/district_map.png" alt="Kerületenkénti négyzetméterárak térképe" class="dynamic-svg" /> <figcaption class="svg-caption">2. Ábra: Az átlagos négyzetméterárak Budapest kerületeiben.</figcaption> </div>
+
+Valamint a pontos számadatok a teljesség kedvéért:
+
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Átlagos négyzetméterár (M Ft)</th>
+        <th>Medián (M Ft)</th>
+        <th>Minimum (M Ft)</th>
+        <th>Maximum (M Ft)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Budapest I. kerület</strong></td>
+        <td>1.52</td>
+        <td>1.40</td>
+        <td>0.94</td>
+        <td>3.14</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest II. kerület</strong></td>
+        <td>1.55</td>
+        <td>1.47</td>
+        <td>1.01</td>
+        <td>2.86</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest III. kerület</strong></td>
+        <td>1.27</td>
+        <td>1.21</td>
+        <td>0.65</td>
+        <td>2.41</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest V. kerület</strong></td>
+        <td>1.79</td>
+        <td>1.67</td>
+        <td>1.07</td>
+        <td>4.86</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest VI. kerület</strong></td>
+        <td>1.38</td>
+        <td>1.34</td>
+        <td>0.81</td>
+        <td>2.71</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest VII. kerület</strong></td>
+        <td>1.21</td>
+        <td>1.13</td>
+        <td>0.47</td>
+        <td>2.27</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest VIII. kerület</strong></td>
+        <td>1.18</td>
+        <td>1.08</td>
+        <td>0.59</td>
+        <td>2.51</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest IX. kerület</strong></td>
+        <td>1.28</td>
+        <td>1.21</td>
+        <td>0.23</td>
+        <td>2.09</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XI. kerület</strong></td>
+        <td>1.47</td>
+        <td>1.41</td>
+        <td>0.54</td>
+        <td>2.98</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XII. kerület</strong></td>
+        <td>1.48</td>
+        <td>1.40</td>
+        <td>0.90</td>
+        <td>2.81</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XIII. kerület</strong></td>
+        <td>1.40</td>
+        <td>1.38</td>
+        <td>0.63</td>
+        <td>2.18</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XIV. kerület</strong></td>
+        <td>1.13</td>
+        <td>1.07</td>
+        <td>0.77</td>
+        <td>2.11</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XIX. kerület</strong></td>
+        <td>1.00</td>
+        <td>1.00</td>
+        <td>0.65</td>
+        <td>1.59</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XX. kerület</strong></td>
+        <td>0.83</td>
+        <td>0.83</td>
+        <td>0.56</td>
+        <td>1.21</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XXI. kerület</strong></td>
+        <td>0.82</td>
+        <td>0.80</td>
+        <td>0.64</td>
+        <td>1.30</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XXII. kerület</strong></td>
+        <td>1.16</td>
+        <td>1.10</td>
+        <td>0.89</td>
+        <td>1.61</td>
+      </tr>
+      <tr>
+        <td><strong>Budapest XXIII. kerület</strong></td>
+        <td>1.07</td>
+        <td>1.07</td>
+        <td>0.72</td>
+        <td>1.34</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
- A portfólióelmélet célja, hogy segítséget nyújtson a befektetőknek abban, hogyan állítsanak össze optimális portfóliókat, amelyek minimalizálják a kockázatot adott hozam mellett, vagy maximalizálják a hozamot adott kockázati szint mellett. 
+Az adatokból egyértelműen látszik, hogy a legmagasabb átlagos négyzetméterárakat a belvárosi kerületekben találjuk. Különösen az V. kerület emelkedik ki, ahol az átlagos négyzetméterár közel 1,79 millió forint. Ezt szorosan követi a II. kerület 1,55 millió forintos átlaggal, valamint az I. kerület 1,52 millió forintos értékkel.
+
+Ezzel szemben a külső kerületekben, mint például a XXI. kerületben, az átlagos négyzetméterár mindössze 823 ezer forint, ami jelentősen alacsonyabb a belső kerületek áraihoz képest.
+
+
+A térkép és a táblázat együttesen jól szemlélteti, hogy az ingatlanok értékét erősen befolyásolja az elhelyezkedés. A belvárosi területek presztízse, a kiváló infrastruktúra és a kulturális lehetőségek magasabb árakat eredményeznek, míg a külső kerületekben az ingatlanok elérhetőbb áron kaphatók.
 
 
 
-Markowitz úttörő felismerése volt, hogy a befektetések közötti korreláció figyelembevétele kulcsfontosságú a portfóliók összetételének optimalizálásában. Korábban a befektetők egyedi részvények kockázatára összpontosítottak, de Markowitz rámutatott, hogy a portfóliók teljes kockázata nem pusztán az egyedi befektetések kockázatainak összessége, hanem a befektetések közötti korrelációk is jelentős hatással vannak. Ez a diverzifikáció alapelve, amely szerint a különböző eszközökbe történő befektetés csökkenti a portfólió kockázatát.
-
-
-<div class="responsive-image-left">
-  <img src="/MPT/William_sharpe_2007.jpg" alt="Description of the image" />
-    <figcaption class="svg-caption">William F. Sharpe (1934 -)</figcaption>
-</div>
-
-
-William Sharpe továbbfejlesztette a portfólióelméletet azáltal, hogy 1964-ben kidolgozta a Tőkepiaci Árfolyamok Modelljét (Capital Asset Pricing Model), felhasználva Markowitz elméletét piaci egyensúly mellett. Sharpe modellje arra tanítja a befektetőket, hogy ne csak az egyes eszközök önmagukban vett kockázatát vegyék figyelembe, hanem azt is, hogy milyen összefüggésben van a piac egészével. A CAPM megmutatja, hogyan lehet az egyes eszközök várható hozamát meghatározni a piaci kockázatból és a piac mozgásából. 1990-ben megosztva Sharpe-ot is közgazdasági Nobel-díjjal jutalmazták.
-
-<br/><br/>
-
-## Feltételezések
-Kezdjük a feltételekkel, amelyek mellet kidolgozhatjuk a modern portfólióelmélet keretrendszerét.
-
-
-### Feltevések a befektetőkről
-1. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy perióduson.
-2. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
-3. A befektetők kockázatkerülők, tehát a várható hasznosság a szórásban csökkenő.
-4. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
-5. A várakozások homogének, azaz a befektetők vélekedése a hozamok együttes eloszlásáról azonos.
-
-
-<div class="custom-text-box-elmeleti">
-    <h2>Hasznossági függvény</h2>
-    <p>A közgazdaságtan legtöbb ágában a racionális befektetők nem a vagyonukat maximalizálják, hanem annak egy úgynevezett <b>Neumann-Morgenstern hasznossági függvény</b> várható értékét. Ennek oka, hogy egy megkeresett forint okozta boldogság függhet vagyoni állapotunktól, például boldogabbá tesz az utcán talált 1 000 forintos egy földönfutót, mint egy milliomost. Általában feltesszük, hogy a hasznossági függvény <b>szigorúan monoton növekvő</b> (hiszen minden pénznek örülünk), de <b>konkáv</b>, azaz minél több pénzünk van, annál kevésbé örülünk 1 Ft összegnek. Ezen megkötések mellett azonban a befektetők hasznossági függvényei lehetnek <b>különbözők</b>, hiszen mindenki máshogy gondolkozik. Bizonyítható, hogy egy befektető pontosan akkor kockázatkerülő, ha hasznossági függvénye konkáv.
-    </p>
-</div>
-<div class="custom-text-box">
-    <h2>Kilátáselmélet</h2>
-    <p>Tudat alatt valóban minden befektető egy konkáv hasznossági függvény várható értéklét maximalizálja? Erre a feltételezésre épült a modern közgazdaságtan, viszont <b>Daniel Kahneman</b> és <b>Amos Tversky</b> 1979-ben ellenőrzött pszichológiai kísérletekkel cáfolta a hasznossági függvény létezését, többek között aszimmetriát fedezve fel az elszenvedett veszteségek okozta fájdalom és a megszerzett nyereségek okozta öröm között. Elméletük összetettebb rendszerbe foglalja az emberek viselkedését és viszonyát a pénzhez.
-    </p>
-</div>
-
-
-1. A piacon sok, elhanyagolható vagyonú, árelfogadó befektető van.
-2. A piac tökéletes, tehát nincsenek tranzakciós költségek, adók vagy egyéb piaci súrlódások.
-3. A piacon lehet eszközöket rövidre eladni (shortolni) és hitelt felvenni.
-4. A befektetők várható hasznossága csak a portfólió hozamának várható értékétől és szórásától függ.
-5. A befektetők kockázatkerülők, tehát a várható hasznosság csökken a szórás növekedésével.
-6. A befektetők racionálisan döntenek, és céljuk a várható hasznosságuk maximalizálása egy időintervallumon.
 
 
 
-## Portfóliók csak kockázatos eszközökből
-
-<div class="custom-text-box">
-    <h2>Mit jelent ez?</h2>
-    <p>Minden befektető alapvető célja a magas hozam elérése alacsony kockázat mellett. Ennek érdekében nem érdemes egyetlen eszközre támaszkodni; helyette célszerűbb többféle eszközt választani, hogy csökkentsük a kockázatot. A portfólióelmélet keretrendszere egy szisztematikus megközelítést kínál, amely nemcsak az eszközök kiválasztásában nyújt iránymutatást, hanem abban is, hogy milyen arányban érdemes ezeket a portfóliónkba helyezni. Bár a mögöttes matematikai alapok bonyolultak, a lényeg egyszerű: az átlagos befektetők is könnyedén megvalósíthatják az optimális portfóliót, ha a piaci portfólióba fektetnek. Napjainkban könnyen hozzáférhetők azok az ETF-ek, amelyek ezt a stratégiát követik, például az S&P 500 vagy a DJIA indexet követő alapok.
-    </p>
-</div>
 
 
-Mi az a portfólió? Adott mennyiségű tőkét osztunk szét különböző befektetési eszközök között. Az egyszerűség kedvéért legyen az összes tőkénk $1$, az eszközök száma $n$, ekkor a portfólió nem más, mint egy $n$ hosszú, egyösszegű vektor, ahol az $i.$ elem azt határozza meg, mennyi pénzt fektetünk az $i.$ eszközbe: $\underline{w}:\sum_{i=1}^n w_i=1$. Fontos megjegyezni, hogy az egyes súlyok lehetnek negatívak is, hiszen feltételezzük, hogy az adott piacon lehet eszközöket rövidre eladni (shortolni).
-
-Elegendő, ha csak egy adott időszakon nézzük a hozamokat. Jelölje az $i.$ eszköz hozamát $r_i$ ezen az időszakon.
-
-Több kockázatos eszköz esetén azt, hogy mennyi várható hozamot hoznak, azt az eszközökből álló vektorváltozó várható értékeként kapjuk meg: $\underline{\mu}:=\mathbb{E}(\underline{r})$. Ebből megkaphatjuk a portfólió várható hozamát: $$\mathbb{E}(r_P)=\underline{w}^T\underline{\mu}$$. 
-
-Több kockázatos eszköz esetén nem csak az egyedi szórások érdekelnek minket, hanem az eszközök közötti korreláció is, tehát az eszközökből álló vektorváltozó szórásmátrixát (kovarianciamátrixát) használjuk fel: $$\Sigma:=\text{V}(\underline{r}) = \mathbb{E}((\underline{r}-\mathbb{E}(\underline{r}))(\underline{r}-\mathbb{E}(\underline{r}))^T) $$. Ez egy pozitív szemidefinit, szimmetrikus mátrix, főátlójában az egyes eszközök szórásnégyzeteivel.
-A portfólió kockázatának mérésére a hozamok varianciáját használjuk: $$\sigma_P:=\text{Var}(r_P)=\mathbb{E} \left[(r_P-\mathbb{E} [r_P])^{2}\right]=\underline{w}^T\Sigma\underline{w}$$.
-<!-- <div style="display: flex; justify-content: center;">
-    <img src="/MPT/PortfolioWeights.gif" alt="My GIF" style="max-width: 100%; height: auto;" />
-</div> -->
-
-Az eszközök várható hozamának és kovarianciamátrixának becslése kulcsfontosságú lépés az optimális portfólió kialakításában. Ehhez gyakran a múltbeli (historikus) adatokat használjuk fel, mivel ezek alapján próbálunk következtetni a jövőbeli teljesítményre. Nézzük meg, hogyan történik mindez.
-
-### Várható hozam és a kovarianciamátrix becslése
-A várható hozamot ($\underline{\mu}$) az egyes eszközök múltbeli hozamai alapján is megbecsülhetjük. Tegyük fel, hogy rendelkezésünkre áll egy időszakra vonatkozó historikus adatsor, ahol az $i.$ eszköz hozama $r_i^t$ a $t.$ időpontban. Ekkor az $i.$ eszköz átlagos hozamát a következőképpen számíthatjuk ki:
-
-$$
-\hat{\mu}_i = \frac{1}{T} \sum_{t=1}^T r_i^t,
-$$
-
-ahol $T$ az időszakok száma. A kovarianciamátrix elemei a következőképpen számíthatók ki:
-
-$$
-\hat{\sigma}_{ij} = \frac{1}{T-1} \sum_{t=1}^T (r_i^t - \hat{\mu}_i)(r_j^t - \hat{\mu}_j),
-$$
-
-ahol $\hat{\mu}_i$ és $\hat{\mu}_j$ az $i.$ és $j.$ eszköz várható hozamai, $\hat{\sigma}_{ij}$ pedig az $i.$ és $j.$ eszközök közötti kovarianciát jelenti. A képlet a korrigált tapasztalati szórást használ. Bár ezek a **becslések nem garantálnak pontos előrejelzést**, megfelelő alapot nyújtanak az optimális portfólió kialakításához.
-
-<!-- <video width="600" controls>
-  <source src="/Diversification.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> -->
-## Diverzifikáció
-Minél több különböző eszközbe fektetünk be, annál kisebb a portfólió kockázata.
-
-<div style="display: flex; flex-direction: column; align-items: center;">
-   <img src="/MPT/Diversification.gif" alt="Diversification" style="max-width: 100%; height: auto;" />    
-    <figcaption class="svg-caption">1. Ábra: Eszközöket véletlen szimulálunk, a portfólió pedig az eszközök számtani átlaga. Ahogyan az eszközök száma növekszik, úgy csökken a szórás, tehát egyre "simább" lesz a portfólió fejlődése.</figcaption>
-</div>
-
-Jelen esetben a portfólió hozama független, azonos eloszlású valószínűségi változók számtani átlaga. Így az $n$ eszközből álló portfólió hozamának szórásnégyzetét megkapjuk, mint:
-
-$$
-\begin{align*}
-\text{Var}\left(\frac{1}{n}\sum_{i=1}^n X_i\right) 
-&= \frac{1}{n^2}\text{Var}\left(\sum_{i=1}^n X_i\right) \\
-&= \frac{1}{n^2}\cdot n \cdot \sigma^2 \\
-&= \frac{\sigma^2}{n} \xrightarrow{n\rightarrow \infty} 0.
-\end{align*}
-$$
-
-Más szóval a hozamok átlagolása négyzetesen csökkenti, míg a hozamok összeadása csak lineárisan növeli a szórásnégyzetet.
-
-De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan együttesen normálisak? Ekkor is felbonthatóak független normálisok összegére, például Cholesky felbontással. Például legyenek $Y_1, Y_2$ független standard normális változók és szeretnénk $X_1$ és $X_2$ együttesen standard normális változókat $\text{Corr}(X_1, X_2)=\rho$ korrelációval. Ekkor ez teljesül, ha $X_1:= Y_1$ és $X_2:= \rho \cdot Y_1 + \sqrt{1-\rho^2}\cdot Y_2$.
-
-Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
-<div class="custom-text-box">
-    <h2>Ipari szegmensek és korreláció</h2>
-    <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj ár ingadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
-    </p>
-</div>
 
 
-### Kockázatminimalizálás
 
-A portfóliók kialakítása során a befektetők egyik fő célja a kockázat minimalizálása, miközben elérik a kívánt hozamot. 
 
-A feladat az, hogy egy adott célzott hozam ($\mu^*$) mellett minimalizáljuk a portfólió kockázatát, amit a következő optimalizálási probléma segítségével fejezhetünk ki:
 
-<p style="text-align: center; margin-bottom: 0px;">Minimalizálandó:</p>
 
-$$
-\frac{1}{2} \underline{w}^T \Sigma \underline{w}
-$$
 
-<p style="text-align: center; margin-bottom: 0px;">Feltéve, hogy:</p>
+<!-- ### Terület eloszlása
 
-$$
-\underline{w}^T \underline{\mu} = \mu^*
-$$
-$$
-\sum_{i=1}^n w_i=1
-$$
-
-<div class="custom-text-box">
-    <h2>Mit jelent ez?</h2>
-    <p>
-A fenti minimalizációs probléma célja, hogy egy portfólió kockázatát – azaz a hozamok szórását – a lehető legkisebbre csökkentsük, miközben biztosítjuk, hogy a portfólió hozama megegyezzen egy előre meghatározott célértékkel. A portfólió súlyvektora azt határozza meg, hogy a befektető milyen arányban osztja el a tőkéjét a különböző eszközök között. A kovarianciamátrix leírja, hogy az egyes eszközök hozamai hogyan mozognak együtt, azaz milyen kapcsolatban állnak egymással a kockázat szempontjából. Az első feltétel biztosítja, hogy a portfólió eléri a kívánt hozamot, míg a második feltétel garantálja, hogy a portfólió összsúlya 1 legyen, vagyis az összes rendelkezésre álló tőkét befektetjük.
-    </p>
-</div>
-
-A fenti minimalizációs probléma megadja a **határportfóliók** halmazát.
-
-Minden portfóliót ábrázolhatunk hozamának várható értéke és szórása szerint egy kétdimenziós síkban. Itt a határportfóliók halmaza egy hiperbolát rajzol ki.
-
-<!-- <img src="/MPT/Diversification.gif" alt="My GIF"  /> -->
-
-<div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/MPT/Markowitz.gif" alt="Markowitz" style="max-width: 100%; height: auto;" />    
-    <figcaption class="svg-caption">2. Ábra: Portfóliók véletlen szimulációja felfedi a piac határportfólióit. Az elkészítéséhez az Apple, Google, Microsoft és az Amazon 2023 és 2024 közötti részvényárfolyamát használtuk. Ezekből az adatokból becsüljük a kovarianciamátrixot és a várható hozamot.</figcaption>
-</div>
-
-Fontos, hogy egy portfólió ábrán felvett helyzete nem mond el semmit a súlyairól, azaz arról, hogy milyen arányban szerepelnek benne az eszközök, csak azt, hogy mennyi a várható hozama és szórása.
-
-Vizsgáljuk meg, hogy hol helyezkednek el a portfóliók terében az egyedi részvények. Az alábbi ábrán látható négy cég mind a hatékony portfóliók belső határán tartózkodnak. A legnagyobb Sharpe-rátájú portfóliót nem lehet elérni csakis egy eszköz tartásával ebben az esetben. 
-
+Az ingatlanok területének eloszlását vizsgálva megállapítottuk, hogy a legtöbb lakás mérete 30 és 80 négyzetméter között mozog. Az adatok eloszlásának modellezésére Gamma és Lognormális eloszlást illesztettünk a mintára. A Kolmogorov–Szmirnov teszt eredményei alapján a Lognormális eloszlás bizonyult jobb illeszkedésnek, amelynek p-értéke 0,0525 volt.
 <div class="svg-container">
-  <img src="/MPT/MPT4.svg" alt="Részvények a szimulációk között" class="dynamic-svg" />
-  <figcaption class="svg-caption">4. Ábra: MSFT, APPL, GOOGL és AMZN a lehetséges portfóliók terében.</figcaption>
+  <img src="/ingatlanok/terulet_eloszlas.png" alt="Terület eloszlása" class="dynamic-svg" />
+  <figcaption class="svg-caption">1. Ábra: Az ingatlanok területének eloszlása.</figcaption>
 </div>
+Az illeszkedés javulását a p-értékek tükrözik: a lognormális eloszlás p-értéke 0,0525 azt jelzi, hogy a nullhipotézist—miszerint az adatok lognormális eloszlást követnek—nem utasíthatjuk el az 5%-os szignifikanciaszinten. Ez arra utal, hogy a lognormális eloszlás megfelelő modell az ingatlanok területének eloszlására, és jól leírja a méretbeli különbségeket a budapesti ingatlanpiacon.
 
-### Hozammaximalizálás
+### Négyzetméterár eloszlása
 
-Mi van, ha megfordítjuk a feladatot, és adott szórás mellett maximalizáljuk a hozamot? 
-
-A feladat az, hogy egy adott célzott szórás ($\sigma^*$) mellett maximalizáljuk a portfólió várható hozamát, amit a következő optimalizálási probléma segítségével fejezhetünk ki:
-
-<p style="text-align: center; margin-bottom: 0px;">Maximalizálandó:</p>
-
-$$
-\underline{w}^T \underline{\mu}
-$$
-
-<p style="text-align: center; margin-bottom: 0px;">Feltéve, hogy:</p>
-
-$$
-\frac{1}{2} \underline{w}^T \Sigma \underline{w} = (\sigma^*)^2
-$$
-$$
-\sum_{i=1}^n w_i=1
-$$
-
-Ugyanazt a halmazt kapjuk vissza? Majdnem. Megfigyelhetjük, hogy a fenti hiperbolán egy adott szóráshoz két különböző várható hozamú portfólió is határportfólió. Persze semmi értelme a kisebbet választani, ennek a hiperbolának a felső felét kapjuk vissza a hozammaximalizálási problémából, ezt hívjuk a **hatékony portfóliók** halmazának.
-
-A hiperbola csúcsán van a **minimális variancia portfólió**. Az ennél nagyobb várható hozamú határportfóliók a hatékony portfóliók.
-
+A négyzetméterárak esetében is megvizsgáltuk az eloszlást. A legtöbb ingatlan négyzetméterára 800 000 és 1 500 000 Ft között található. Itt is a Gamma és Lognormális eloszlást illesztettük az adatokra. A statisztikai tesztek alapján a Lognormális eloszlás adta a jobb illeszkedést, bár a p-értéke 0,0035 alacsonyabb volt, mint a terület esetében.
 <div class="svg-container">
-  <img src="/MPT/MPT3.svg" alt="Határportfóliók" class="dynamic-svg" />
-  <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
+  <img src="/ingatlanok/nm_eloszlas.png" alt="Négyzetméterár eloszlása" class="dynamic-svg" />
+  <figcaption class="svg-caption">2. Ábra: Az ingatlanok négyzetméterárának eloszlása.</figcaption>
+</div>
+A p-érték 0,0035 azt jelzi, hogy a lognormális eloszlás illeszkedése a négyzetméterárakra kevésbé erős, mivel ez az érték kisebb az 5%-os szignifikanciaszintnél. Ez azt sugallja, hogy bár a lognormális eloszlás jobb illeszkedést mutat, mint a Gamma eloszlás, az ingatlanok négyzetméterárai esetében az eloszlás nem teljes mértékben követi a lognormális mintát. Ennek oka lehet a piaci árakban tapasztalható nagyobb variabilitás vagy az extrém értékek jelenléte, amelyek torzíthatják az eloszlást.
+
+Négyzetméterárak kerületenkénti elemzése
+Az ingatlanok négyzetméterárai jelentős eltéréseket mutatnak Budapest egyes kerületeiben. Az alábbi táblázatban összefoglaltuk a legfontosabb statisztikai adatokat kerületenként, amelyek segítségével mélyebb betekintést nyerhetünk a főváros ingatlanpiacának területi különbségeibe.
+ -->
+
+
+
+## Az ingatlanok árát befolyásoló legfontosabb tényezők
+
+
+A budapesti ingatlanok árait számos tényező alakítja, melyek közül néhány itt bemutatunk. Lineáris regresszió segítségével modelleztük az ingatlanárak és a független változók közötti összefüggéseket:
+
+**Adatelőkészítés**: Tisztítottuk az adatokat, kezeltük a hiányzó értékeket, és a kategóriákat numerikus formára alakítottuk.
+
+**Modellbetanítás**: Iteratívan elilimináltuk a nem szignifikáns változókat. Majd a végső jellemzőkre illesztettük a regressziós modellt.
+
+**Koefficiensek elemzése**: A modell koefficiensei és a p-értékek alapján meghatároztuk az egyes jellemzők fontosságát. A pozitív koefficiensek az adott jellemző árnövelő, a negatívak pedig árcsökkentő hatását jelzik.
+
+
+Az alábbi táblázatban összefoglaltuk a legfontosabb tényezőket amik a modell szerint az árat nagyban befolyásolják:
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Sorszám</th>
+        <th>Jellemző</th>
+        <th>Koefficiens</th>
+        <th>p-érték</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- <tr>
+        <td>1.</td>
+        <td><strong>A házban a kazán nemrég lett felújítva</strong></td>
+        <td>0.6998</td>
+        <td>0.00012</td>
+      </tr> -->
+      <tr>
+        <td>1.</td>
+        <td><strong>Gázkonvektor, padlófűtés, hűtő-fűtő klíma</strong></td>
+        <td>0.6423</td>
+        <td>0.00042</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><strong>Gázkazán, padlófűtés</strong></td>
+        <td>0.3207</td>
+        <td>1.819e-09</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><strong>Hőszivattyú, padlófűtés, mennyezeti hűtés</strong></td>
+        <td>0.2956</td>
+        <td>0.00499</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td><strong>Mennyezeti hűtés-fűtés, hőszivattyú</strong></td>
+        <td>0.1836</td>
+        <td>2.137e-08</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
- ## Portfóliók kockázatmentes eszközzel
+Jól látható, hogy a modern fűtéstechnológiáért a vevők hajlandóak többet fizetni. 
 
-Mostantól fogva $n$ helyett legyen $n+1$ darab eszközünk, amiből a $0.$ eszköz a kockázatmentes befektetés, aminek hozama $r_f$ konstans; $\text{Var}(r_f)=0$. A portfóliónkat mostantól eközött az $n+1$ eszköz között osztjuk el: $\sum_{i=0}^n w_i=1$.
-
-<div class="custom-text-box">
-    <h2>Hitelezés és tőkeáttét</h2>
-    <p>
-A kockázatmentes eszköz, gyakran államkötvények formájában, alapvető szerepet játszik a portfólióelméletben, mivel lehetővé teszi a befektetők számára, hogy a kockázatot és hozamot egyensúlyozzák. A <strong>kockázatmentes eszköz eladása</strong>, azaz a shortolás, a <strong>tőkeáttételhez hasonlítható</strong>, a befektetők a kockázatmentes kamatlábon keresztül hitelt vesznek fel, hogy kockázatosabb eszközökbe fektessenek, növelve a potenciális hozamokat és a kockázatot. Ezzel szemben a <strong>kockázatmentes eszköz vásárlása</strong> a hitelezéshez hasonlít, amikor a befektetők <strong>pénzt kölcsönöznek az államnak</strong>, csökkentve ezzel portfóliójuk volatilitását.
-    </p>
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Sorszám</th>
+        <th>Jellemző</th>
+        <th>Koefficiens</th>
+        <th>p-érték</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td><strong>Gázkonvektor</strong></td>
+        <td>-0.1450</td>
+        <td>2.585e-20</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><strong>Távfűtés</strong></td>
+        <td>-0.1262</td>
+        <td>4.013e-14</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><strong>Távfűtés egyedi méréssel</strong></td>
+        <td>-0.1252</td>
+        <td>1.211e-09</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td><strong>Gázkonvektor, elektromos fűtőpanel</strong></td>
+        <td>-0.1565</td>
+        <td>0.00321</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td><strong>Gázkonvektor, hűtő-fűtő klíma</strong></td>
+        <td>-0.1467</td>
+        <td>0.00289</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-Tudjuk, hogy a lehetséges előállítható portfóliók halmaza tisztán kockázatos eszközökből a hiperbolánk belseje. Hogyan változik ez a kockázatmentes eszköz bevonásával? Mostantól bármely tisztán kockázatos portfólióból és a kockázatmentes eszközből lineárisan kikombinálhatunk egy új portfóliót. Legyen $P$ egy kockázatos eszközökből álló portfólió $r_P$ hozammal, $\mu_P$ várható hozammal és $\sigma_P$ szórással. Állítsunk össze egy olyan $Q$ portfóliót, amiben $P$-be $\alpha$, a kockázatmentes eszközbe $1-\alpha$ arányban tesszük a pénzünket. Ekkor ennek várható hozama és szórása:
-$$
-\mu_Q=\alpha\cdot\mu_P+(1-\alpha)\cdot r_f
-\\
-\sigma_Q=\alpha\cdot\sigma_P.
-$$
-
-Ez a $P$ portfólióhoz tartozó **tőkeallokációs egyenest**, azaz **Capital Allocation Line-t (CAL)** rajzolja ki, ahogy $\alpha$ végigfut a valós számokon. Ennek meredeksége nem más, mint $\frac{\mu_P-r_f}{\sigma_P}$, amit úgy hívunk, mint a $P$ portfólió **Sharpe-rátája**. 
-
-<div class="svg-container">
-  <img src="/MPT/MPT1.svg" alt="Határportfóliók" class="dynamic-svg" />
-  <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
-</div>
-<br/><br/>
-
-Így **a lehetséges előállítható portfóliók halmaza az összes tőkeallokációs egyenes úniója**. 
-
-Vegyük észre, hogy egy portfólióhoz tartozó CAL átmegy a portfólión és az x tengelyt $r_f$-ben metszi. Ez a két eset rendre $\alpha=1$-hez és $\alpha=0$-hoz tartozik, azaz, ha csak a portfólióba, vagy csak a kockázatos eszközbe fektetünk. Vegyük továbbá észre, hogy a CAL túlhalad a portfólión, hiszen a kockázatmentes eszközt is tudjuk rövidre eladni, azaz hitelt felvenni.
-
-Mit mond meg a Sharpe ráta? A $\mu_P-r_f$ értéket hívjuk **kockázati prémiumnak**, azaz, hogy a kockázatmentes kamatlábnál mennyivel tudunk magasabb várható hozamot elérni a kockázatos portfólióval. Mivel a befektetők kockázatkerülők, ezért nyilván csak nagyobbat fogadnak el, tehát a kockázati prémium pozitív. Így a Sharpe-ráta ($\frac{\mu_P-r_f}{\sigma_P}$) **megadja az egységnyi szórásra jutó kockázati prémiumot**. Ez a portfólió teljesítményének egy értelmes mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért.
-
-Hogyan maximalizáljuk a Sharpe-rátát a kockázatos portfóliók között? Ezt az a portfólió maximalizálja, amelyhez tartozó CAL a legmeredekebb mind közül. Ez nyilván az, amelyik a hiperbolát felülről érinti. Ezt a CAL-t hívjuk **tőkepiaci egyenesnek**, azaz **Capital Market Line-nak (CML)**. A hozzá tartozó (optimális) portfólió pedig az **érintési portfólió**.
+A régi, elavult fűtés viszont rontja az ingatlanok értékét. 
 
 
-<div class="svg-container">
-  <img src="/MPT/MPT2.svg" alt="fgdsg" class="dynamic-svg" />
-  <!-- <figcaption class="svg-caption">4. Ábra: Stratégiaválasztás</figcaption> -->
-</div>
-
-Mik a hatékony portfóliók kockázatmentes eszközzel? Ezek azok, amikre nincsen azonos szórású, nagyobb várható hozamú (azaz az ábrán nincsen felette) portfólió. Ebből könnyen leolvasható, hogy **a hatékony portfóliók halmaza maga a tőkepiaci egyenes (CML)**.
-
-Legyen T az érintési portfólió, legyen $r_T$ annak hozama, $\mu_T$ várható hozama, $\sigma_T$ pedig szórása. Legyen továbbá 
-$$
-\beta_P:=\frac{\text{Cov}(r_P,r_T)}{\sigma^2_T}
-$$
-
-valamely tetszőleges P portfólió **bétája**. Ekkor igaz az alábbi összefüggés:
-$$
-\mu_P=\beta_P\cdot(\mu_T-r_f)+r_f,
-$$
-azaz egy portfólió várható hozama megegyezik azzal, ha a kockázatmentes hozamhoz hozzáadjuk a kockázati prémiumot, felszorozva a portfólió bétájával. Ez az **értékpapírpiaci egyenes**, azaz a **Security Market Line (SML)** egyenlete.
-
-
-## Capital Asset Pricing Model (CAPM)
-
-Az alábbiakban a Tőkepiaci Árfolyamok Modelljét (CAPM) tárgyaljuk.
-
-Képzeljünk el eddig kiépített keretrendszerben (kockázatmentes eszközzel) kereskedő $N$ befektetőt. A piac egyensúlyban van, ha minden befektető olyan portfóliót alakított ki, amely számára optimális, továbbá az egyes értékpapírok iránti összkereslet megegyezik azok kínálatával. Bizonyítható, hogy az egyensúly létezik.
-
-Vegyünk egy olyan portfóliót, amiben a piacon szereplő összes értékpapír szerepel, mégpedig mindegyik olyan arányban, amennyi az adott értékpapírból összesen a piacon szerepel. Ez részvények esetében a cégek piaci kapitalizációjának arányát jelenti. Nevezzük ezt **piaci portfólió-nak**, és legyen ennek hozama $r_M$, várható hozama $\mu_M$, szórása pedig $\sigma_M$.
-
-<div class="custom-text-box">
-    <h2>Proxy</h2>
-    <p>A valóságban nehezen lenne megvalósítható a világ összes cégébe befektetni, ezért a gyakorlatban a piaci portfóliót csak egy közelítő portfólióval (proxy) helyettesítjük. Erre általában olyan indexportfóliók alkalmasak, amelyekben szerepelnek a piac legnagyobb piaci kapitalizációjú cégei annak arányában. Leggyakrabban a Standard & Poor's 500 (S&P500) indexet használják.</p>
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Sorszám</th>
+        <th>Jellemző</th>
+        <th>Koefficiens</th>
+        <th>p-érték</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td><strong>A kerületi lakosoknak ingyenes a parkolás</strong></td>
+        <td>0.7063</td>
+        <td>0.00014</td>
+      </tr>
+      <!-- <tr>
+        <td>2.</td>
+        <td><strong>Gépkocsibeálló</strong></td>
+        <td>0.5684</td>
+        <td>0.00214</td>
+      </tr> -->
+      <tr>
+        <td>2.</td>
+        <td><strong>Önálló garázs - megvásárolható</strong></td>
+        <td>0.2105</td>
+        <td>0.00001</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><strong>Önálló garázs - bérelhető</strong></td>
+        <td>-0.1579</td>
+        <td>0.00885</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td><strong>Utca, közterület - fizetős</strong></td>
+        <td>-0.0530</td>
+        <td>0.00551</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-**A CAPM fő állítása: egyensúlyban a piaci portfólió hatékony.** Mivel a piaci portfólió tisztán kockázatos eszközökből áll, ebből következik, hogy **egyensúlyban a piaci portfólió az érintési portfólió**.
+A parkolást is nagyra becsülik a vevők egy jó parkolóhely az ingatlan árát is megnövelheti. 
 
 
-Így viszont tudjuk, hogy a piaci portfólió és a kockázatmentes eszközből elkészíthető portfóliók halmaza maga a CML, tehát bármely hatékony portfólió előáll ebben a formában. Tehát **egyensúlyban minden befektetőnek csak a piaci portfólióba érdemes befektetni**, hasznossági függvényét pedig csak az reprezentálja, vagyonának mekkora részét fekteti be (akár tőkeáttéttel).
 
-A CAPM leghíresebb egyenletét kapjuk vissza, ha az SML egyenletébe behelyettesítjük a piaci portfóliót:
+## Összegzés
 
-$$
-\boxed{\mu_P=\beta_P\cdot(\mu_M-r_f)+r_f},
-$$
-
-ahol $\beta_P=\frac{\text{Cov}(r_P,r_M)}{\sigma^2_T}$.
-
-<div class="custom-text-box">
-    <h2>Béta</h2>
-    <p>Egy portfólió bétája azt fejezi ki, mennyire mozog együtt a piaci portfólióval, tágabb értelemben a piaccal. Az egyenletből kiolvasható, hogy a piaci portfólió bétája 1.</p>
-</div>
+A budapesti ingatlanpiacon az árak mindenütt magasak, különösen az V. és II. kerületben. A belvárosi kerületek közül a VIII. kerület a legolcsóbb, az egész várost nézve Csepel a legmegengedhetőbb. A vásárlók számára kiemelten fontos a modern technológiai felszereltség és az ingatlanok energetikai hatékonysága. A zöld technológiák és alacsony energiafogyasztású rendszerek, mint a hőszivattyú, vonzóvá teszik az ingatlanokat, míg a parkolási lehetőségek, mint az önálló garázs vagy ingyenes parkolás, tovább növelik azok értékét.

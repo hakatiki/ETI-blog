@@ -1,0 +1,212 @@
+[
+    {
+      "company": "Smurfit WestRock",
+      "ticker": "SW",
+      "publish_date": "2024-07-08",
+      "effective_date": "2024-07-08"
+    },
+    {
+      "company": "CrowdStrike",
+      "ticker": "CRWD",
+      "publish_date": "2024-06-07",
+      "effective_date": "2024-06-24"
+    },
+    {
+      "company": "KKR",
+      "ticker": "KKR",
+      "publish_date": "2024-06-07",
+      "effective_date": "2024-06-24"
+    },
+    {
+      "company": "GoDaddy",
+      "ticker": "GDDY",
+      "publish_date": "2024-06-07",
+      "effective_date": "2024-06-24"
+    },
+    {
+      "company": "Vistra",
+      "ticker": "VST",
+      "publish_date": "2024-05-03",
+      "effective_date": "2024-05-08"
+    },
+    {
+      "company": "GE Vernova",
+      "ticker": "GEV",
+      "publish_date": "2024-03-27",
+      "effective_date": "2024-04-02"
+    },
+    {
+      "company": "Solventum",
+      "ticker": "SOLV",
+      "publish_date": "2024-03-27",
+      "effective_date": "2024-04-01"
+    },
+    {
+      "company": "Deckers Brands",
+      "ticker": "DECK",
+      "publish_date": "2024-03-01",
+      "effective_date": "2024-03-18"
+    },
+    {
+      "company": "Supermicro",
+      "ticker": "SMCI",
+      "publish_date": "2024-03-01",
+      "effective_date": "2024-03-18"
+    },
+    {
+      "company": "Builders FirstSource",
+      "ticker": "BLDR",
+      "publish_date": "2023-12-01",
+      "effective_date": "2023-12-18"
+    },
+    {
+      "company": "Uber",
+      "ticker": "UBER",
+      "publish_date": "2023-12-01",
+      "effective_date": "2023-12-18"
+    },
+    {
+      "company": "Jabil",
+      "ticker": "JBL",
+      "publish_date": "2023-12-01",
+      "effective_date": "2023-12-18"
+    },
+    {
+      "company": "Lululemon Athletica",
+      "ticker": "LULU",
+      "publish_date": "2023-10-13",
+      "effective_date": "2023-10-18"
+    },
+    {
+      "company": "Hubbell",
+      "ticker": "HUBB",
+      "publish_date": "2023-10-13",
+      "effective_date": "2023-10-18"
+    },
+    {
+      "company": "Veralto",
+      "ticker": "VLTO",
+      "publish_date": "2023-09-28",
+      "effective_date": "2023-10-02"
+    },
+    {
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "publish_date": "2023-09-01",
+      "effective_date": "2023-09-18"
+    },
+    {
+      "company": "Blackstone",
+      "ticker": "BX",
+      "publish_date": "2023-09-01",
+      "effective_date": "2023-09-18"
+    },
+    {
+      "company": "Kenvue",
+      "ticker": "KVUE",
+      "publish_date": "2023-08-09",
+      "effective_date": "2023-08-25"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "ticker": "PANW",
+      "publish_date": "2023-06-02",
+      "effective_date": "2023-06-20"
+    },
+    {
+      "company": "Axon Enterprise",
+      "ticker": "AXON",
+      "publish_date": "2023-05-01",
+      "effective_date": "2023-05-04"
+    },
+    {
+      "company": "Fair Isaac",
+      "ticker": "FICO",
+      "publish_date": "2023-03-03",
+      "effective_date": "2023-03-20"
+    },
+    {
+      "company": "Bunge Limited",
+      "ticker": "BG",
+      "publish_date": "2023-03-13",
+      "effective_date": "2023-03-15"
+    },
+    {
+      "company": "Insulet Corporation",
+      "ticker": "PODD",
+      "publish_date": "2023-03-10",
+      "effective_date": "2023-03-15"
+    },
+    {
+      "company": "GE HealthCare",
+      "ticker": "GEHC",
+      "publish_date": "2022-12-28",
+      "effective_date": "2023-01-04"
+    },
+    {
+      "company": "Steel Dynamics",
+      "ticker": "STLD",
+      "publish_date": "2022-12-19",
+      "effective_date": "2022-12-22"
+    },
+    {
+      "company": "First Solar",
+      "ticker": "FSLR",
+      "publish_date": "2022-12-12",
+      "effective_date": "2022-12-19"
+    },
+    {
+      "company": "Arch Capital Group",
+      "ticker": "ACGL",
+      "publish_date": "2022-10-27",
+      "effective_date": "2022-11-01"
+    },
+    {
+      "company": "Targa Resources",
+      "ticker": "TRGP",
+      "publish_date": "2022-10-06",
+      "effective_date": "2022-10-12"
+    },
+    {
+      "company": "EQT Corporation",
+      "ticker": "EQT",
+      "publish_date": "2022-09-23",
+      "effective_date": "2022-10-03"
+    },
+    {
+      "company": "PG&E Corporation",
+      "ticker": "PCG",
+      "publish_date": "2022-09-23",
+      "effective_date": "2022-10-03"
+    },
+    {
+      "company": "CoStar Group",
+      "ticker": "CSGP",
+      "publish_date": "2022-09-02",
+      "effective_date": "2022-09-19"
+    },
+    {
+      "company": "Invitation Homes",
+      "ticker": "INVH",
+      "publish_date": "2022-09-02",
+      "effective_date": "2022-09-19"
+    },
+    {
+      "company": "Keurig Dr Pepper",
+      "ticker": "KDP",
+      "publish_date": "2022-06-03",
+      "effective_date": "2022-06-21"
+    },
+    {
+      "company": "ON Semiconductor",
+      "ticker": "ON",
+      "publish_date": "2022-06-03",
+      "effective_date": "2022-06-21"
+    },
+    {
+      "company": "VICI Properties",
+      "ticker": "VICI",
+      "publish_date": "2022-06-03",
+      "effective_date": "2022-06-08"
+    }
+  ]

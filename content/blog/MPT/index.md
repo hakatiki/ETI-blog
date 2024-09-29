@@ -129,9 +129,12 @@ $$
 
 Más szóval a hozamok átlagolása négyzetesen csökkenti, míg a hozamok összeadása csak lineárisan növeli a szórásnégyzetet.
 
-De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan együttesen normálisak? Ekkor is felbonthatóak független normálisok összegére, például Cholesky felbontással. Például legyenek $Y_1, Y_2$ független standard normális változók és szeretnénk $X_1$ és $X_2$ együttesen standard normális változókat $\text{Corr}(X_1, X_2)=\rho$ korrelációval. Ekkor ez teljesül, ha $X_1:= Y_1$ és $X_2:= \rho \cdot Y_1 + \sqrt{1-\rho^2}\cdot Y_2$.
+<div class="custom-text-box-elmeleti">
+    <p>
+      De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan együttesen normálisak? Ekkor is felbonthatóak független normálisok összegére, például Cholesky felbontással. Például legyenek $Y_1, Y_2$ független standard normális változók és szeretnénk $X_1$ és $X_2$ együttesen standard normális változókat $\text{Corr}(X_1, X_2)=\rho$ korrelációval. Ekkor ez teljesül, ha $X_1:= Y_1$ és $X_2:= \rho \cdot Y_1 + \sqrt{1-\rho^2}\cdot Y_2$. Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
+    </p>
+</div>
 
-Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
 <div class="custom-text-box">
     <h2>Ipari szegmensek és korreláció</h2>
     <p>Cégek árfolyama közti korrelációt okozhatja az, hogy ugyanabban az iparágban tevékenykednek. Például az olajvállalatok részvényei szorosan követik az olaj világpiaci árának változásait. Ha portfóliónkban sok olajkockázat van jelen, nehéz azt más olajcégek részvényeivel diverzifikálni. Ilyen helyzetben előnyös lehet a más szektorokba történő befektetés, hiszen ezek gyakran kevésbé korreláltak. Azonban az ipari termékeket gyártó cégek, a szállítmányozási vállalatok és az autógyártók is jelentős mértékben függenek az energiaáraktól. Érdemes olyan vállalatokat keresni, amelyek bevételeit és költségeit minimálisan befolyásolják csak az olaj áringadozásai. Ilyenek lehetnek a gyógyszeripari cégek, félvezetőgyártók vagy a szoftvercégek. 
@@ -180,7 +183,7 @@ Minden portfóliót ábrázolhatunk hozamának várható értéke és szórása 
 
 Fontos, hogy egy portfólió ábrán felvett helyzete nem mond el semmit a súlyairól, azaz arról, hogy milyen arányban szerepelnek benne az eszközök, csak azt, hogy mennyi a várható hozama és szórása.
 
-Vizsgáljuk meg, hogy hol helyezkednek el a portfóliók terében az egyedi részvények. Az alábbi ábrán látható négy cég mind a hatékony portfóliók belső határán tartózkodnak. A legnagyobb Sharpe-rátájú portfóliót nem lehet elérni csakis egy eszköz tartásával ebben az esetben. 
+Vizsgáljuk meg, hogy hol helyezkednek el a portfóliók terében az egyedi részvények. Az alábbi ábrán látható négy cég mind a hatékony portfóliók belső határán tartózkodnak. A legnagyobb Sharpe-rátájú portfóliót nem lehet elérni csak egy eszköz tartásával ebben az esetben. 
 
 <div class="svg-container">
   <img src="/MPT/MPT4.svg" alt="Részvények a szimulációk között" class="dynamic-svg" />

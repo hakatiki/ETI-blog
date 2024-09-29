@@ -1,14 +1,14 @@
 ---
-title: "Az árulók"
-date: "2024-09-24"
-description: "Az Árulók – Gyilkosság a kastélyban nem csupán egy izgalmas magyar reality műsor, hanem egy élő laboratórium a játékelmélet gyakorlati alkalmazására. A versenyzők között rejtett árulók jelenléte és a taktikai döntések folyamatosan próbára teszik a stratégiai gondolkodást, a bizalomépítést és a manipuláció művészetét. A szavazások és gyilkosságok során a résztvevőknek folyamatosan mérlegelniük kell szövetségeik erősségét és a potenciális árulók azonosítását, ami lenyűgöző betekintést nyújt a kooperáció és versengés dinamikájába. Ez a műsor remek példa arra, hogyan ötvözhető a szórakoztatás a mélyebb stratégiai elemzésekkel."
+title: "Az Árulók stratégiai elemzése"
+date: "2024-09-29"
+description: "Az Árulók – Gyilkosság a kastélyban egy új, izgalmas magyar reality műsor, amely egyben példa a játékelmélet gyakorlati alkalmazására. A versenyzők között rejtett árulók jelenléte és a taktikai döntések folyamatosan próbára teszik a stratégiai gondolkodást, a bizalomépítést és a manipuláció művészetét."
 released: "No"
 author: "Egri Máté és Takáts Bálint"
-image: "/Befalapok/bét.jpg"
+image: "/arulok/arulok_cover.jpg"
 ---
 
 ## Bevezetés
-Az Árulók – Gyilkosság a kastélyban nem csupán egy izgalmas magyar reality műsor, hanem egy élő laboratórium a játékelmélet gyakorlati alkalmazására. A versenyzők között rejtett árulók jelenléte és a taktikai döntések folyamatosan próbára teszik a stratégiai gondolkodást, a bizalomépítést és a manipuláció művészetét. A szavazások és gyilkosságok során a résztvevőknek folyamatosan mérlegelniük kell szövetségeik erősségét és a potenciális árulók azonosítását, ami lenyűgöző betekintést nyújt a kooperáció és versengés dinamikájába. Ez a műsor remek példa arra, hogyan ötvözhető a szórakoztatás a mélyebb stratégiai elemzésekkel.
+Az Árulók – Gyilkosság a kastélyban egy új, izgalmas magyar reality műsor, amely egyben példa a játékelmélet gyakorlati alkalmazására. A versenyzők között rejtett árulók jelenléte és a taktikai döntések folyamatosan próbára teszik a stratégiai gondolkodást, a bizalomépítést és a manipuláció művészetét. A műsor 2023 novemberben megjelent nagysikerű első évadot követően idén már a második évaddal tért vissza, ezúttal újabb 22 közszereplővel, viszont változatlan műsorvezetővel, Árpa Attila szeméyében.
 
 
 ## Szabályok
@@ -42,5 +42,20 @@ Az optimális stratégia kialakításához a következő feltevésekkel élünk:
 
 ## Stratégia
 
-A legfontosabb észrevétel az, hogy mivel csak akkor juthatunk pénznyereményhez, ha élünk a játék végén, ezért minden játékosnak egyetlen célja van: hogy túléljen. 
+A gyilkosságok nem hagynak nyomot, tehát az egyetlen materiális információ, amin a nyomozás elindulhat, hogy ki hogyan szavazott. Hogyan szavazzanak az Ártatlanok és hogyan az Árulók? Érdemes-e az Árulóknak befolyásolni a szavazást, hogy egy Ártatlan kiejtését segítsék elő, vagy érdemes inkább beépülniük, hogy ne fedezzék fel őket? Ha valaki egy Árulóra szavaz, biztos-e, hogy Ártatlan, vagy lehet, hogy blöffölt? Mint sok játékelméleti kérdésre, ezekre is a **kevert stratégia** adja a megoldást.
+
+### Kő-Papír-Olló
+
+Mi az optimális stratégia a Kő-Papír-Olló játékban? Természetesen az egyenletes kevert stratégia. Ha $\frac{1}{3}$-$\frac{1}{3}$-$\frac{1}{3}$ eséllyel mutatok követ-papírt-ollót, akkor $\frac{1}{3}$-$\frac{1}{3}$-$\frac{1}{3}$ eséllyel nyerek-vesztek-játszom döntetlent, **függetlenül az ellenfelem stratégiájától**. A kérdés, tudok-e ezeknél az egyenlő esélyeknél jobbat elérni valamilyen stratégiával? Nem, ugyanis az ellenfelem alkalmazhatja az $\frac{1}{3}$-$\frac{1}{3}$-$\frac{1}{3}$ stratégiát, amivel **az én stratégiámtól függetlenül** eléri, hogy egyenlőek legyenek az esélyeink.
+
+<div class="custom-text-box-elmeleti">
+    <h2>Nash-egyensúly</h2>
+    <p>
+        Tegyük fel, hogy minden játékos valamilyen stratégiát alkalmaz egy játékban. Ha egyikük sem tud jobb eredményt elérni azzal, ha változtatna a stratégiáján, akkor ezt az állapotot <b>Nash-egyensúlynak</b> hívjuk.
+    </p>
+</div>
+
+Ugyanez a mechanizmus érvényes az Árulók játékban is. Az Árulók elérhetik **az Ártatlanok stratégiájától függetlenül**, hogy ne fedezzék fel őket úgy, hogy csak véletlenszerűen szavaznak. Tudnak-e ennél jobb esélyeket adni maguknak, ha megpróbálnak egy Ártatlant kiejteni valamilyen furfangosabb stratégiával? Nem, hiszen az Ártatlanok is használhatnak teljesen véletlenszerű stratégiát, például felírnak minden minden nevet egy cetlire és egyet kihúznak. Ezzel az Ártatlan **az Árulók stratégiájától függetlenül** garantálják maguknak a véletlenszerű szavazást.
+
+
 ## Analízis

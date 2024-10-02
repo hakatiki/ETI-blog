@@ -39,10 +39,10 @@ Célkitűzésük, hogy 3 éves átlagban a kockázatmentes banki hozamokat 5 sz�
 
 ### OTP Supra
 
-77 milliárd forintnyi vagyont égetnek az otp kuruzslói ebben a pénznyelőben. Hogy hogyan sikerült 1% hozamot elérni (eltekintve a díjaktól...) az elmúlt 10 év konjunktúra fűtött gazdaságában, arról csak a portfóliót kezelő Honics István tud beszámolni. Az alap (félre)tájékoztató oldalán megtévesztő ábrákból és hibás számadatokból sincs hiány. 
+77 milliárd forintnyi vagyont égetnek az OTP kuruzslói ebben a pénznyelőben. Hogy hogyan sikerült 1% hozamot elérni (eltekintve a díjaktól...) az elmúlt 10 év konjunktúra fűtött gazdaságában, arról csak a portfóliót kezelő Honics István tud beszámolni. Az alap (félre)tájékoztató oldalán megtévesztő ábrákból és hibás számadatokból sincs hiány. 
 
 ### HOLD Orion
-A Concorde Alapkezelő utódja, a HOLD szakmai díjakban nem szűkölködik, egyebek mellett nyolcszor választották hazánk legjobb alapkezelőjének. Alapokból nagy választékot kínálnak, mi itt hármat veszünk górcső alá. A HOLD Orion Származtatott Befektetési Alap célja, hogy értékalapú aktív részvénykiválasztással és dinamikusan változtatott részvényaránnyal minél magasabb hozamot érjen el. Az alap elsősorban globális alulértékelt energia, közmű és nyersanyagpiaci részvényekbe, valamint közép-európai részvényekbe fektet. A 2024. júliusi nettó eszközértéke 25,9 milliárd forint volt, míg a tőkeáttétel mértéke 116%. Az elmúlt évben az alap 22,49%-os hozamot ért el, és indulása óta 12,08%-os évesített hozamot produkált.
+A Concorde Alapkezelő utódja, a HOLD szakmai díjakban nem szűkölködik, egyebek mellett nyolcszor választották hazánk legjobb alapkezelőjének. Alapokból nagy választékot kínálnak, mi itt hármat veszünk górcső alá. A HOLD Orion Származtatott Befektetési Alap célja, hogy értékalapú aktív részvénykiválasztással és dinamikusan változtatott részvényaránnyal minél magasabb hozamot érjen el. Az alap elsősorban alulértékelt energia, közmű és nyersanyagpiaci részvényekbe, valamint közép-európai részvényekbe fektet. A 2024. júliusi nettó eszközértéke 25,9 milliárd forint volt, míg a tőkeáttétel mértéke 116%. Az elmúlt évben az alap 22,49%-os hozamot ért el, és indulása óta 12,08%-os évesített hozamot produkált.
 
 ### HOLD Columbus
 A HOLD Columbust könnyen nevezhetjük a cég zászlóshajójának is, nem csoda, hogy a cég két partnere - Cser Tamás és Móricz Dániel - kezeli. Az alap 2023-ban és 2024-ben is elnyerte "Az elmúlt 10 év legjobb abszolút hozamú alapja" díjat az Alapkezelő Klasszis gálán. Stratégiájának célja, hogy fundamentális elemzések alapján globálisan alulértékelt vállalatokba fektessen. A 2024. júliusi nettó eszközértéke meghaladta a 83,6 milliárd forintot, a tőkeáttétel mértéke 158%. Az alap 2024-ben 16,12%-os éves hozamot ért el, míg indulása óta 7,72%-os évesített hozamot.
@@ -228,7 +228,7 @@ Az alábbi táblázatban láthatunk három példát a költségek megoszlására
 </div>   -->
 
 
-A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P 500 indexszel, szorosan követi az amerikai tőzsdeindex mozgásait, hiszen nagyrészt amerikai részvényekből áll össze. Persze így magas hozamot tud elérni, csak nagyobb kockázat árán. Ezzel szemben például az Erste Duett elhanyagolható korrelációja minden más eszközzel betudható annak, hogy volatilitása rendkívül alacsony. Az alapok közül a HOLD Columbus és HOLD Orion korrelál legjobban, annak ellenére, hogy a két alapok mások kezelik és a megcélzott piacok is különböznek hivatalos tájékoztatójuk szerint.
+A vizsgált alapok közül csak a Gránit Apollo mutat nagy korrelációt az S&P 500 indexszel, szorosan követi az amerikai tőzsdeindex mozgásait, hiszen nagyrészt amerikai részvényekből áll össze. Persze így magas hozamot tud elérni, csak nagyobb kockázat árán. Ezzel szemben például az Erste Duett elhanyagolható korrelációja minden más eszközzel betudható annak, hogy volatilitása rendkívül alacsony. Az alapok közül a HOLD Columbus és HOLD Orion korrelál legjobban, annak ellenére, hogy a két alapot mások kezelik, és a megcélzott piacok is különböznek hivatalos tájékoztatójuk szerint.
 
 ### Klaszterezés
 <div class="custom-text-box-elmeleti">
@@ -272,7 +272,7 @@ Láthatjuk, hogy a Platina Delta, Accorde Prizma és a HOLD Columbus is képes v
 
 Megjegyzendő, hogy a negatív Sharpe-ráta negatív kockázati prémiumot jelent, azaz ezeket az alapokat még az állampapírpiac is legyőzte. Ez nem olyan meglepő például egy olyan alap esetén, mint az Erste Duett, ami ugyanúgy nagyrészt kötvényekből áll, csak még díjat is felszámolnak a portfólió kezelői.
 
-Egy hasonló mutató a Sortino ráta, amiben szintén az egységnyi szórásra jutó kockázati prémiumot számoljuk ki, viszont a szórást csak a negatív hozamokra (veszteségekre) számoljuk ki.
+Egy hasonló mutató a Sortino-ráta, amiben szintén az egységnyi szórásra jutó kockázati prémiumot számoljuk ki, viszont a szórást csak a negatív hozamokra (veszteségekre) számoljuk ki.
 
 <div class="custom-text-box-elmeleti"> <h2>Sortino-ráta</h2> <p>A Sortino-ráta hasonló a Sharpe-rátához, de csak a negatív hozamok (veszteségek) szórását veszi figyelembe. Ezáltal pontosabb képet ad arról, hogy a befektetés mennyire kockázatos a veszteségek szempontjából. Magasabb Sortino-ráta jobb kockázat-hozam arányt jelez a negatív kilengések tekintetében.</a> </p> </div>
 
@@ -281,7 +281,7 @@ Egy hasonló mutató a Sortino ráta, amiben szintén az egységnyi szórásra j
   <figcaption class="svg-caption">7. Ábra: Sortino-ráták összehasonlítása.</figcaption>
 </div>
 
-Itt a sorrend egy picit változik, az Accorde Prizma tűnik legjobbnak. Érdemes megjegyezni, hogy a HOLD Orion is legyőzi a piacot ebben a tekintetben. Érdekes módon az az OTP Supra legyőzi az Erste Duett-et Sortino-ráta tekintetében.
+Itt a sorrend egy picit változik, az Accorde Prizma tűnik legjobbnak. Érdemes megjegyezni, hogy a HOLD Orion is legyőzi a piacot ebben a tekintetben. Érdekes módon az OTP Supra legyőzi az Erste Duett-et Sortino-ráta tekintetében.
 
 
 A piactól való függés mértékét a korábban említett bétával mérjük, ami szintén lehet mérőszáma egy portfólió kockázatának. Ezzel számol az ún. Treynor-ráta, mely az egységnyi bétára jutó kockázati prémiumot adja meg.

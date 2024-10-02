@@ -79,7 +79,7 @@ Az első ábrán Budapest térképe látható, ahol az ingatlanokat különböz�
 
 ### Az adatok kerületenként
 
-<div class="svg-container"> <img src="/ingatlanok/district_map.png" alt="Kerületenkénti négyzetméterárak térképe" class="dynamic-svg" /> <figcaption class="svg-caption">2. Ábra: Az átlagos négyzetméterárak Budapest kerületeiben.</figcaption> </div>
+<div class="svg-container"> <img src="/ingatlanok/district_map.png" alt="Kerületenkénti négyzetméterárak térképe" class="dynamic-svg" /> <figcaption class="svg-caption">2. Ábra: Az átlagos négyzetméterárak Budapest kerületeiben. (Millió Ft)</figcaption> </div>
 
 Valamint a pontos számadatok a teljesség kedvéért:
 
@@ -266,7 +266,7 @@ Az ingatlanok négyzetméterárai jelentős eltéréseket mutatnak Budapest egye
 ## Az ingatlanok árát befolyásoló legfontosabb tényezők
 
 
-A budapesti ingatlanok árait számos tényező alakítja, melyek közül néhány itt bemutatunk. Lineáris regresszió segítségével modelleztük az ingatlanárak és a független változók közötti összefüggéseket:
+A budapesti ingatlanok árait számos tényező alakítja, melyek közül néhányat itt bemutatunk. Lineáris regresszió segítségével modelleztük az ingatlanárak és a független változók közötti összefüggéseket:
 
 **Adatelőkészítés**: Tisztítottuk az adatokat, kezeltük a hiányzó értékeket, és a kategóriákat numerikus formára alakítottuk.
 
@@ -275,7 +275,7 @@ A budapesti ingatlanok árait számos tényező alakítja, melyek közül néhá
 **Koefficiensek elemzése**: A modell koefficiensei és a p-értékek alapján meghatároztuk az egyes jellemzők fontosságát. A pozitív koefficiensek az adott jellemző árnövelő, a negatívak pedig árcsökkentő hatását jelzik.
 
 
-Az alábbi táblázatban összefoglaltuk a legfontosabb tényezőket amik a modell szerint az árat nagyban befolyásolják:
+Az alábbi táblázatban összefoglaltuk a legfontosabb tényezőket, amik a modell szerint az árat nagyban befolyásolják:
 <div class="table-container">
   <table class="custom-table">
     <thead>

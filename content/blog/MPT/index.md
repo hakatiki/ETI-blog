@@ -129,11 +129,9 @@ $$
 
 Más szóval a hozamok átlagolása négyzetesen csökkenti, míg a hozamok összeadása csak lineárisan növeli a szórásnégyzetet.
 
-<div class="custom-text-box-elmeleti">
-    <p>
-      De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan együttesen normálisak? Ekkor is felbonthatóak független normálisok összegére, például Cholesky felbontással. Például legyenek $Y_1, Y_2$ független standard normális változók és szeretnénk $X_1$ és $X_2$ együttesen standard normális változókat $\text{Corr}(X_1, X_2)=\rho$ korrelációval. Ekkor ez teljesül, ha $X_1:= Y_1$ és $X_2:= \rho \cdot Y_1 + \sqrt{1-\rho^2}\cdot Y_2$. Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
-    </p>
-</div>
+
+ De mi van akkor, ha a hozamok nem függetlenek, hanem például korreláltan együttesen normálisak? Ekkor is felbonthatóak független normálisok összegére, például Cholesky felbontással. Például legyenek $Y_1, Y_2$ független standard normális változók és szeretnénk $X_1$ és $X_2$ együttesen standard normális változókat $\text{Corr}(X_1, X_2)=\rho$ korrelációval. Ekkor ez teljesül, ha $X_1:= Y_1$ és $X_2:= \rho \cdot Y_1 + \sqrt{1-\rho^2}\cdot Y_2$. Lényeg a lényeg: korrelált portfólió esetén is működik a fenti indoklás, azaz a diverzifikáció csökkenti a kockázatot.
+
 
 <div class="custom-text-box">
     <h2>Ipari szegmensek és korreláció</h2>

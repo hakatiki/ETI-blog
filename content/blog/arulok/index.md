@@ -57,5 +57,48 @@ Mi az optimális stratégia a Kő-Papír-Olló játékban? Természetesen az egy
 
 Ugyanez a mechanizmus érvényes az Árulók játékban is. Az Árulók elérhetik **az Ártatlanok stratégiájától függetlenül**, hogy ne fedezzék fel őket úgy, hogy csak véletlenszerűen szavaznak. Tudnak-e ennél jobb esélyeket adni maguknak, ha megpróbálnak egy Ártatlant kiejteni valamilyen furfangosabb stratégiával? Nem, hiszen az Ártatlanok is használhatnak teljesen véletlenszerű stratégiát, például felírnak minden minden nevet egy cetlire és egyet kihúznak. Ezzel az Ártatlan **az Árulók stratégiájától függetlenül** garantálják maguknak a véletlenszerű szavazást.
 
+### Csapatjáték
+
+A szabályok első hallásra egy izgalmas csapatjátékos sejtetnek. 
+<!-- Szurkolhatunk Krajnyák Lucának az Árulónak vagy az Ártatlan Bereczki Zolinak.  -->
+Azonban csapatban gondolkodni ebben a játékban szó szerint végzetes. A műsor során több játékos is elvéti ezt a stratégiai hibát. Az első évad második epizódjában Nagy Zsolt az Áruló védi Lucát és nem szavaz a tömeggel, ezzel garantálva a lelepleződését. A második évad negyedik részében az egyik gyilkosságot egy mérgezett alma átadásával kellett elvégezni. A négy gyilkos egymás között megbeszélhette, melyikük teszi ezt meg a csapatért. Végül Dér Heni vállalta, kockáztatva lelepleződését.
+Bármelyik csapat is nyer, a nyereményen csak a túlélő tagok osztoznak. Az elemzésünk kimutatta, hogy bár a győzelmi valószínűség csökken, **a várható nyereménye növekszik egy Árulónak, ha csapattársát szavazzák ki**, hiszen kevesebb felé kell osztozkodni.
+<!-- A játékban a nyereményünk nem a csapatunk teljesítményétől függ, sosem származik semmi előnyünk a kooperációból. Például gyilkosként nő a várható nyereményünk, ha kiszavazzuk gyilkostársunkat. Hiszen abban az esetben, ha három helyett csak ketten nyerünk a pénzt három helyett csak két felé kell osztanunk. -->
+
+
+<div class="svg-container"> <img src="/arulok/alma.png" alt="Kerületenkénti négyzetméterárak térképe" class="dynamic-svg" /> <figcaption class="svg-caption">1. Ábra: Az alma.</figcaption> </div>
+
+### Árulónak jobb lenni vagy Ártatlannak?
+
+A játék során minden körben két játékos kiesik.
+
+A gyilkosok véletlenszerűen választanak az $n$ Ártatlan közül, így a valószínűsége, hogy meghalunk ha Ártatlanok vagyunk $\frac{1}{n}$. 
+
+$$\mathbb{P}(\text{meghalunk}|\text{ártatlan}) = \frac{1}{n}$$, valamint $$\mathbb{P}(\text{meghalunk}|\text{áruló}) =0$$.
+
+
+A játékosok a szavazás során ugyanígy járnak el, az $n + k - 1$  játékosból egyet kiszavaznak.
+
+$$\mathbb{P}(\text{meghalunk}|\text{ártatlan}) = \frac{1}{n + k - 1}$$, valamint $$\mathbb{P}(\text{meghalunk}|\text{áruló}) =\frac{1}{n + k - 1}$$.
+
+Tehát elmondható, hogy **ha Árulók vagyunk nagyjából kétszer jobbak az esélyeink**.
+
+### Zsarolás és Hívás
+
+Mivel az Árulók várható nyereménye növekszik ha a társaik kiszavazódnak, emiatt a legjobb stratégia Árulóként, hogy sosem hívunk vagy zsarolunk. Ez alól kivétel amikor csak egy Áruló van, amikor muszály egy új társat keresni.
+
+Ha Ártatlanként megzsarolnak vagy hívnak az a Jack-pottal egyenlő. Hiszen a túlélési esélyeink megduplázódtak, és a várható nyereményünk megsokszorozódott. 
+
+## A stratégia elemzése
+
+Ezekkel az észrevételekkel felvértezve már közel optimális a stratégiánk. Mivel a műsor legtöbb szereplője nem játszik jól, helye lehet más kihasználásra alapuló stratégiának is. Mint a szavazatok elemzése ami könnyen lebuktathatta volna Nagy Zsoltot.
+
+A játék további elemzése érdekében írtunk egy Monte Carlo szimulációt, ami az itt leírt stratégiát követve, egy milliószor lejátszotta nekünk a játékot. 
+<div class="custom-text-box-elmeleti">
+    <h2>Monte Carlo-módszer</h2>
+    <p>
+        A Monte Carlo-módszer egy numerikus technika, amely véletlenszerű mintavételt alkalmaz a matematikai és fizikai problémák megoldására. A módszer lényege, hogy véletlenszerűen generált adatok segítségével közelítsük a kívánt eredményeket. Ez különösen hasznos a komplex rendszerek szimulációjában és a valószínűségi folyamatok modellezésében. A "Monte Carlo" név a kaszinóvárosból ered, utalva a módszer véletlen természetére. A Monte Carlo-szimuláció széles körben használatos a pénzügyekben, mérnöki tervezésben és a tudomány számos területén.
+    </p>
+</div>
 
 ## Analízis

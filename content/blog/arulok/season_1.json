@@ -1,0 +1,376 @@
+[
+    {
+        "name": "Szabados Ágnes",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Alive",
+            "10": "Alive",
+            "11": "Alive",
+            "12": "Winner"
+        }
+    },
+    {
+        "name": "Tapasztó Orsi",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Alive",
+            "10": "Alive",
+            "11": "Alive",
+            "12": "Winner"
+        }
+    },
+    {
+        "name": "Mohai Tamás",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Alive",
+            "10": "Alive",
+            "11": "Alive",
+            "12": "Winner"
+        }
+    },
+    {
+        "name": "Törőcsik Dániel",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Traitor",
+            "7": "Traitor",
+            "8": "Traitor",
+            "9": "Traitor",
+            "10": "Traitor",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Nádai Anikó",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Traitor",
+            "10": "Traitor",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Nyáry Luca",
+        "episodes": {
+            "1": "Alive",
+            "2": "Out",
+            "3": "Out",
+            "4": "Out",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Alive",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Gyenesei Leila",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Alive",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Szalay Bence",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Traitor",
+            "7": "Traitor",
+            "8": "Traitor",
+            "9": "Traitor",
+            "10": "Traitor",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Varga Ferenc",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Solti Ádám",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Alive",
+            "9": "Alive",
+            "10": "Quit",
+            "11": "Quit",
+            "12": "Quit"
+        }
+    },
+    {
+        "name": "Vásáry André",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Risk",
+            "7": "Risk",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Horváth Éva",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Alive",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Visváder Tamás",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Alive",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Henry Kettner",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Nagy Zsolt",
+        "episodes": {
+            "1": "Traitor",
+            "2": "Traitor",
+            "3": "Traitor",
+            "4": "Traitor",
+            "5": "Traitor",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Görgényi Fruzsina",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Dead",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Dobos Evelin",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Alive",
+            "5": "Alive",
+            "6": "Traitor",
+            "7": "Quit",
+            "8": "Quit",
+            "9": "Quit",
+            "10": "Quit",
+            "11": "Quit",
+            "12": "Quit"
+        }
+    },
+    {
+        "name": "Görög Zita",
+        "episodes": {
+            "1": "Traitor",
+            "2": "Traitor",
+            "3": "Traitor",
+            "4": "Traitor",
+            "5": "Quit",
+            "6": "Quit",
+            "7": "Quit",
+            "8": "Quit",
+            "9": "Quit",
+            "10": "Quit",
+            "11": "Quit",
+            "12": "Quit"
+        }
+    },
+    {
+        "name": "Tóth Szabolcs",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Alive",
+            "4": "Dead",
+            "5": "Dead",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Schumacher Vanda",
+        "episodes": {
+            "1": "Alive",
+            "2": "Alive",
+            "3": "Dead",
+            "4": "Dead",
+            "5": "Dead",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Krajnyák Luca",
+        "episodes": {
+            "1": "Traitor",
+            "2": "Traitor",
+            "3": "Dead",
+            "4": "Dead",
+            "5": "Dead",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    },
+    {
+        "name": "Sváby András",
+        "episodes": {
+            "1": "Alive",
+            "2": "Dead",
+            "3": "Dead",
+            "4": "Dead",
+            "5": "Dead",
+            "6": "Dead",
+            "7": "Dead",
+            "8": "Dead",
+            "9": "Dead",
+            "10": "Dead",
+            "11": "Dead",
+            "12": "Dead"
+        }
+    }
+]

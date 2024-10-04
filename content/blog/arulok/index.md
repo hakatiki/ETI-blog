@@ -27,6 +27,7 @@ Továbbá:
 
 - Feladatok: A játékosok minden nap közösen dolgozva próbatételekkel nyerhetnek pénzt a közös nyereményalapba. 
 - Szavazás: Este az összes játékos leül egy asztalhoz, majd (megbeszélés után) mindenki leír egy-egy nevet a táblájára. A legtöbb szavazatot kapott játékost elárulja szerepét és száműzik, tehát szintén kiesik a játékból (döntetlen esetén újra szavaznak).
+- Pajzs: A feladatok során véletlenszerűen időnként egy-egy játékos Pajzsot kap, ami védi egy napig a Gyilkosság ellen.
 
 ### Játék vége
 
@@ -59,10 +60,14 @@ Ugyanez a mechanizmus érvényes az Árulók játékban is. Az Árulók elérhet
 
 ### Csapatjáték
 
-A szabályok első hallásra egy izgalmas csapatjátékos sejtetnek. 
+A szabályok első hallásra egy izgalmas csapatjátékos sejtetnek. Azonban csapatban gondolkodni ebben a játékban gyenge stratégia. Bármelyik csapat is nyer, a nyereményen csak a túlélő tagok osztoznak, tehát mindenkinek csak a saját túlélését érdemes szem előtt tartania. 
+
+Sőt, az elemzésünk kimutatta, hogy bár a győzelmi valószínűség csökken, **a várható nyereménye növekszik egy Árulónak, ha csapattársát szavazzák ki**, hiszen kevesebb felé kell osztozkodni.
 <!-- Szurkolhatunk Krajnyák Lucának az Árulónak vagy az Ártatlan Bereczki Zolinak.  -->
-Azonban csapatban gondolkodni ebben a játékban szó szerint végzetes. A műsor során több játékos is elvéti ezt a stratégiai hibát. Az első évad második epizódjában Nagy Zsolt az Áruló védi Lucát és nem szavaz a tömeggel, ezzel garantálva a lelepleződését. A második évad negyedik részében az egyik gyilkosságot egy mérgezett alma átadásával kellett elvégezni. A négy gyilkos egymás között megbeszélhette, melyikük teszi ezt meg a csapatért. Végül Dér Heni vállalta, kockáztatva lelepleződését.
-Bármelyik csapat is nyer, a nyereményen csak a túlélő tagok osztoznak. Az elemzésünk kimutatta, hogy bár a győzelmi valószínűség csökken, **a várható nyereménye növekszik egy Árulónak, ha csapattársát szavazzák ki**, hiszen kevesebb felé kell osztozkodni.
+ A műsor során több játékos is elvéti ezt a stratégiai hibát, például:
+ - Az első évad második epizódjában Nagy Zsolt védi Áruló társát, Lucát és nem szavaz a tömeggel, ezzel segítve lelepleződését. 
+ - A második évad negyedik részében az egyik gyilkosságot egy mérgezett alma átadásával kellett elvégezni. A négy gyilkos egymás között megbeszélhette, melyikük teszi ezt meg a csapatért. Végül Dér Heni vállalta, feleslegesen kockáztatva lelepleződését.
+
 <!-- A játékban a nyereményünk nem a csapatunk teljesítményétől függ, sosem származik semmi előnyünk a kooperációból. Például gyilkosként nő a várható nyereményünk, ha kiszavazzuk gyilkostársunkat. Hiszen abban az esetben, ha három helyett csak ketten nyerünk a pénzt három helyett csak két felé kell osztanunk. -->
 
 
@@ -70,9 +75,9 @@ Bármelyik csapat is nyer, a nyereményen csak a túlélő tagok osztoznak. Az e
 
 ### Árulónak jobb lenni vagy Ártatlannak?
 
-A játék során minden körben két játékos kiesik.
+A játék során minden körben két játékos kiesik. Ha mindkét csapat véletlenszerűen választ (ami a Nash-egyensúly), akkor az alábbi táblázat valószínűségei szerint esnek ki a játékosok.
 
-A gyilkosok véletlenszerűen választanak az $n$ Ártatlan közül, így a valószínűsége, hogy meghalunk ha Ártatlanok vagyunk $\frac{1}{n}$. 
+<!-- A gyilkosok véletlenszerűen választanak az $n$ Ártatlan közül, így a valószínűsége, hogy meghalunk ha Ártatlanok vagyunk $\frac{1}{n}$. 
 
 $$\mathbb{P}(\text{meghalunk}|\text{ártatlan}) = \frac{1}{n}$$, valamint $$\mathbb{P}(\text{meghalunk}|\text{áruló}) =0$$.
 
@@ -81,17 +86,39 @@ A játékosok a szavazás során ugyanígy járnak el, az $n + k - 1$  játékos
 
 $$\mathbb{P}(\text{meghalunk}|\text{ártatlan}) = \frac{1}{n + k - 1}$$, valamint $$\mathbb{P}(\text{meghalunk}|\text{áruló}) =\frac{1}{n + k - 1}$$.
 
-Tehát elmondható, hogy **ha Árulók vagyunk nagyjából kétszer jobbak az esélyeink**.
+Tehát elmondható, hogy **ha Árulók vagyunk nagyjából kétszer jobbak az esélyeink**. -->
 
-### Zsarolás és Hívás
+<div class="table-container">
+  <table class="custom-table">
+    <tr>
+      <th></th>
+      <th>Gyilkosság</th>
+      <th>Szavazás</th>
+    </tr>
+    <tr>
+      <td><strong>Ártatlan</strong></td>
+      <td><sup>1</sup>&frasl;<sub>n</sub></td>
+      <td><sup>1</sup>&frasl;<sub>(n+k-1)</sub></td>
+    </tr>
+    <tr>
+      <td><strong>Áruló</strong></td>
+      <td>0</td>
+      <td><sup>1</sup>&frasl;<sub>(n+k-1)</sub></td>
+    </tr>
+  </table>
+</div>
 
-Mivel az Árulók várható nyereménye növekszik ha a társaik kiszavazódnak, emiatt a legjobb stratégia Árulóként, hogy sosem hívunk vagy zsarolunk. Ez alól kivétel amikor csak egy Áruló van, amikor muszály egy új társat keresni.
+<!-- ### Zsarolás és Hívás -->
 
-Ha Ártatlanként megzsarolnak vagy hívnak az a Jack-pottal egyenlő. Hiszen a túlélési esélyeink megduplázódtak, és a várható nyereményünk megsokszorozódott. 
+Ennek megfelelően, ha Ártatlanként hívnak (vagy megzsarolnak) minket, azt mindenképpen el kell fogadnunk, hiszen ettől a várható nyereményünk megsokszorozódik. 
+
+Viszont az Árulók várható nyereménye annál nagyobb, minél kevesebb társuk van, tehát a legjobb stratégia Árulóként, ha sosem használjuk a Hívást (a Zsarolást persze kötelező, ha egyedül marad az Áruló).
+
+
 
 ## A stratégia elemzése
 
-Ezekkel az észrevételekkel felvértezve már közel optimális a stratégiánk. Mivel a műsor legtöbb szereplője nem játszik jól, helye lehet más kihasználásra alapuló stratégiának is. Mint a szavazatok elemzése ami könnyen lebuktathatta volna Nagy Zsoltot.
+Ezekkel az észrevételekkel felvértezve már közel optimális a stratégiánk. Mivel a műsor legtöbb szereplője nem játszik jól, helye lehet más kihasználásra alapuló stratégiának is. Mint a szavazatok elemzése, ami könnyen lebuktathatta volna Nagy Zsoltot.
 
 A játék további elemzése érdekében írtunk egy Monte Carlo szimulációt, ami az itt leírt stratégiát követve, egy milliószor lejátszotta nekünk a játékot. 
 <div class="custom-text-box-elmeleti">

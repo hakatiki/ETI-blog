@@ -1,6 +1,6 @@
 ---
 title: "Az Árulók stratégiai elemzése"
-date: "2024-10-15"
+date: "2024-11-02"
 description: "Az Árulók – Gyilkosság a kastélyban egy új, izgalmas magyar reality műsor, amely egyben példa a játékelmélet gyakorlati alkalmazására. A versenyzők között rejtett árulók jelenléte és a taktikai döntések folyamatosan próbára teszik a stratégiai gondolkodást, a bizalomépítést és a manipuláció művészetét."
 released: "Yes"
 author: "Egri Máté és Takáts Bálint"
@@ -187,4 +187,3 @@ Ezen kívül az első évad minden epizódjára kiszámolhatjuk, mennyi minden e
 <div class="svg-container">
   <img src="/arulok/batch_6.svg" alt="Árfolyamok" class="dynamic-svg" />
 </div>
-

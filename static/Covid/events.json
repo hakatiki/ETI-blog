@@ -1,0 +1,415 @@
+[{
+    "company": "Apple",
+    "ticker": "AAPL",
+    "publish_date": "2020-07-30",
+    "event": "Apple iPhone 12 Production Delays due to COVID-19."
+},
+{
+    "company": "Boeing",
+    "ticker": "BA",
+    "publish_date": "2019-03-13",
+    "event": "Boeing 737 MAX Grounding after two fatal crashes."
+},
+{
+    "company": "Facebook (Meta)",
+    "ticker": "META",
+    "publish_date": "2019-07-24",
+    "event": "Facebook fined $5 billion by FTC for privacy violations."
+},
+{
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "publish_date": "2019-04-21",
+    "event": "Tesla Model S Fire Incident in Shanghai."
+},
+{
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "publish_date": "2018-08-07",
+    "event": "Elon Musk tweets about taking Tesla private at $420 per share."
+},
+{
+    "company": "Luckin Coffee",
+    "ticker": "LK",
+    "publish_date": "2020-04-02",
+    "event": "Luckin Coffee admits to fabricating $310 million in sales."
+},
+{
+    "company": "Nikola",
+    "ticker": "NKLA",
+    "publish_date": "2020-09-10",
+    "event": "Nikola fraud allegations by Hindenburg Research."
+},
+{
+    "company": "Robinhood",
+    "ticker": "HOOD",
+    "publish_date": "2021-01-28",
+    "event": "Robinhood restricts trading during GameStop short squeeze."
+},
+{
+    "company": "Evergreen Marine",
+    "ticker": "EMC",
+    "publish_date": "2021-03-23",
+    "event": "Ever Given container ship blocks the Suez Canal."
+},
+{
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "publish_date": "2020-12-11",
+    "event": "Pfizer COVID-19 vaccine granted EUA by FDA."
+},
+{
+    "company": "Peloton",
+    "ticker": "PTON",
+    "publish_date": "2021-05-05",
+    "event": "Peloton recalls treadmills due to safety concerns."
+},
+{
+    "company": "Boeing",
+    "ticker": "BA",
+    "publish_date": "2019-12-23",
+    "event": "Boeing CEO steps down amid 737 MAX crisis."
+},
+{
+    "company": "Microsoft",
+    "ticker": "MSFT",
+    "publish_date": "2022-01-18",
+    "event": "Microsoft announces acquisition of Activision Blizzard."
+},
+{
+    "company": "Intel",
+    "ticker": "INTC",
+    "publish_date": "2020-07-23",
+    "event": "Intel delays 7nm chip production."
+},
+{
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "publish_date": "2017-06-16",
+    "event": "Amazon acquires Whole Foods for $13.7 billion."
+},
+{
+    "company": "Hertz",
+    "ticker": "HTZ",
+    "publish_date": "2020-05-22",
+    "event": "Hertz files for bankruptcy due to the COVID-19 pandemic."
+},
+{
+    "company": "WeWork",
+    "ticker": "WE",
+    "publish_date": "2019-09-30",
+    "event": "WeWork cancels IPO amid investor backlash."
+},
+{
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "publish_date": "2019-11-21",
+    "event": "Tesla Cybertruck windows shatter during live demo."
+},
+{
+    "company": "Facebook (Meta)",
+    "ticker": "META",
+    "publish_date": "2021-10-28",
+    "event": "Facebook rebrands to Meta."
+},
+{
+    "company": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "publish_date": "2021-04-13",
+    "event": "U.S. pauses Johnson & Johnson vaccine over blood clot concerns."
+},
+{
+    "company": "Disney",
+    "ticker": "DIS",
+    "publish_date": "2020-03-12",
+    "event": "Disney closes parks worldwide due to COVID-19."
+},
+{
+    "company": "ByteDance",
+    "ticker": "Private",
+    "publish_date": "2020-06-29",
+    "event": "India bans TikTok amid security concerns."
+},
+{
+    "company": "Facebook (Meta)",
+    "ticker": "META",
+    "publish_date": "2020-06-18",
+    "event": "Facebook halts Libra cryptocurrency project."
+},
+{
+    "company": "Boeing",
+    "ticker": "BA",
+    "publish_date": "2019-12-20",
+    "event": "Boeing Starliner spacecraft test failure."
+},
+{
+    "company": "Uber",
+    "ticker": "UBER",
+    "publish_date": "2019-11-25",
+    "event": "Uber loses London operating license over safety concerns."
+},
+{
+    "company": "General Electric",
+    "ticker": "GE",
+    "publish_date": "2018-10-30",
+    "event": "General Electric cuts dividend to a penny as part of restructuring."
+},
+{
+    "company": "Wirecard",
+    "ticker": "WDI",
+    "publish_date": "2020-06-23",
+    "event": "Wirecard CEO arrested after admitting to $2 billion fraud."
+},
+{
+    "company": "Apple",
+    "ticker": "AAPL",
+    "publish_date": "2020-08-13",
+    "event": "Epic Games sues Apple over App Store fees."
+},
+{
+    "company": "Zoom",
+    "ticker": "ZM",
+    "publish_date": "2020-03-30",
+    "event": "Zoom privacy issues surface during COVID-19."
+},
+{
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "publish_date": "2020-07-01",
+    "event": "Tesla surpasses Toyota as the world’s most valuable automaker."
+},
+    {
+        "company": "Ford",
+        "ticker": "F",
+        "publish_date": "2021-09-09",
+        "event": "Ford announces $11.4 billion investment in electric vehicle production."
+    },
+    {
+        "company": "Roku",
+        "ticker": "ROKU",
+        "publish_date": "2021-11-17",
+        "event": "Roku signs major distribution deal with Google for YouTube."
+    },
+    {
+        "company": "Meta",
+        "ticker": "META",
+        "publish_date": "2022-02-02",
+        "event": "Meta loses over $230 billion in market value after earnings report."
+    },
+    {
+        "company": "Twitter",
+        "ticker": "TWTR",
+        "publish_date": "2021-11-29",
+        "event": "Jack Dorsey steps down as Twitter CEO."
+    },
+    {
+        "company": "Snapchat",
+        "ticker": "SNAP",
+        "publish_date": "2021-10-21",
+        "event": "Snap stock plunges 25% after weak earnings due to Apple's privacy changes."
+    },
+    {
+        "company": "Robinhood",
+        "ticker": "HOOD",
+        "publish_date": "2021-07-29",
+        "event": "Robinhood IPO underperforms, stock drops 8% on the first trading day."
+    },
+    {
+        "company": "DoorDash",
+        "ticker": "DASH",
+        "publish_date": "2021-12-21",
+        "event": "DoorDash expands internationally by acquiring Wolt for $8 billion."
+    },
+    {
+        "company": "Square (Block)",
+        "ticker": "SQ",
+        "publish_date": "2021-12-01",
+        "event": "Square rebrands as Block to reflect expansion into blockchain and cryptocurrency."
+    },
+    {
+        "company": "Intel",
+        "ticker": "INTC",
+        "publish_date": "2022-02-15",
+        "event": "Intel announces $20 billion investment in Ohio semiconductor plant."
+    },
+    {
+        "company": "Lucid Motors",
+        "ticker": "LCID",
+        "publish_date": "2021-11-15",
+        "event": "Lucid Motors stock soars after reporting first deliveries of its luxury EV."
+    },
+    {
+        "company": "Pinterest",
+        "ticker": "PINS",
+        "publish_date": "2021-10-21",
+        "event": "PayPal explores acquisition of Pinterest for $45 billion, stock surges."
+    },
+    {
+        "company": "Uber",
+        "ticker": "UBER",
+        "publish_date": "2022-02-10",
+        "event": "Uber posts record revenue and signals growth in food delivery."
+    },
+    {
+        "company": "Adobe",
+        "ticker": "ADBE",
+        "publish_date": "2021-12-16",
+        "event": "Adobe stock plunges after weak guidance for 2022 growth."
+    },
+    {
+        "company": "Peloton",
+        "ticker": "PTON",
+        "publish_date": "2021-11-04",
+        "event": "Peloton shares plummet after it slashes full-year sales forecast."
+    },
+    {
+        "company": "NIO",
+        "ticker": "NIO",
+        "publish_date": "2022-01-19",
+        "event": "NIO expands European presence with launch of Norway sales."
+    },
+    {
+        "company": "Spotify",
+        "ticker": "SPOT",
+        "publish_date": "2022-02-03",
+        "event": "Spotify under fire after Joe Rogan controversy, stock drops 17%."
+    },
+    {
+        "company": "NVIDIA",
+        "ticker": "NVDA",
+        "publish_date": "2021-11-17",
+        "event": "NVIDIA reports record Q3 earnings, boosted by demand for gaming GPUs."
+    },
+    {
+        "company": "AMC Entertainment",
+        "ticker": "AMC",
+        "publish_date": "2021-06-02",
+        "event": "AMC shares soar 95% as meme stock frenzy continues."
+    },
+    {
+        "company": "Apple",
+        "ticker": "AAPL",
+        "publish_date": "2021-10-18",
+        "event": "Apple announces new MacBook Pro models featuring M1 Pro and M1 Max chips."
+    },
+    {
+        "company": "Microsoft",
+        "ticker": "MSFT",
+        "publish_date": "2022-01-26",
+        "event": "Microsoft stock surges after strong Q2 earnings beat expectations."
+    },
+    {
+        "company": "Visa",
+        "ticker": "V",
+        "publish_date": "2021-10-26",
+        "event": "Visa posts better-than-expected earnings as consumer spending rebounds."
+    },
+    {
+        "company": "PayPal",
+        "ticker": "PYPL",
+        "publish_date": "2021-02-03",
+        "event": "PayPal stock surges after announcing entry into the cryptocurrency market."
+    },
+    {
+        "company": "Tesla",
+        "ticker": "TSLA",
+        "publish_date": "2021-02-08",
+        "event": "Tesla announces it has purchased $1.5 billion in Bitcoin, stock rises."
+    },
+    {
+        "company": "Chewy",
+        "ticker": "CHWY",
+        "publish_date": "2021-09-01",
+        "event": "Chewy shares fall 10% after posting a wider-than-expected loss in Q2."
+    },
+    {
+        "company": "Best Buy",
+        "ticker": "BBY",
+        "publish_date": "2021-11-23",
+        "event": "Best Buy stock plunges 12% after reporting weak Q3 sales."
+    },
+    {
+        "company": "Pfizer",
+        "ticker": "PFE",
+        "publish_date": "2021-08-23",
+        "event": "Pfizer COVID-19 vaccine receives full FDA approval, stock rises."
+    },
+    {
+        "company": "Coinbase",
+        "ticker": "COIN",
+        "publish_date": "2021-11-09",
+        "event": "Coinbase reports weaker-than-expected Q3 earnings, stock drops 15%."
+    },
+    {
+        "company": "Moderna",
+        "ticker": "MRNA",
+        "publish_date": "2021-11-04",
+        "event": "Moderna stock drops 17% after lowering COVID-19 vaccine sales forecast."
+    },
+    {
+        "company": "Alibaba",
+        "ticker": "BABA",
+        "publish_date": "2021-11-18",
+        "event": "Alibaba reports slowest-ever revenue growth, stock plummets."
+    },
+    {
+        "company": "Kroger",
+        "ticker": "KR",
+        "publish_date": "2021-06-17",
+        "event": "Kroger stock jumps after raising full-year guidance following strong earnings."
+    },
+    {
+        "company": "Target",
+        "ticker": "TGT",
+        "publish_date": "2021-11-17",
+        "event": "Target posts strong Q3 earnings but warns of higher costs, stock dips."
+    },
+    {
+        "company": "Starbucks",
+        "ticker": "SBUX",
+        "publish_date": "2021-10-28",
+        "event": "Starbucks stock falls after missing revenue expectations in Q4."
+    },
+    {
+        "company": "Coca-Cola",
+        "ticker": "KO",
+        "publish_date": "2021-10-27",
+        "event": "Coca-Cola reports strong Q3 earnings, boosted by reopening of restaurants."
+    },
+    {
+        "company": "General Electric",
+        "ticker": "GE",
+        "publish_date": "2021-11-09",
+        "event": "General Electric announces breakup into three separate companies."
+    },
+    {
+        "company": "Beyond Meat",
+        "ticker": "BYND",
+        "publish_date": "2021-11-10",
+        "event": "Beyond Meat stock falls after reporting declining sales."
+    },
+    {
+        "company": "Rivian",
+        "ticker": "RIVN",
+        "publish_date": "2021-12-16",
+        "event": "Rivian stock plummets after missing production targets."
+    },
+    {
+        "company": "Ford",
+        "ticker": "F",
+        "publish_date": "2022-02-04",
+        "event": "Ford shares drop after missing earnings and warning of chip shortage impact."
+    },
+    {
+        "company": "Qualcomm",
+        "ticker": "QCOM",
+        "publish_date": "2021-11-03",
+        "event": "Qualcomm stock jumps after strong Q4 earnings report."
+    },
+    {
+        "company": "Lyft",
+        "ticker": "LYFT",
+        "publish_date": "2021-11-02",
+        "event": "Lyft reports stronger-than-expected Q3 earnings, stock rises."
+    }
+    ]

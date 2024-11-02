@@ -50,16 +50,11 @@ Az optimális stratégia kialakításához a következő feltevésekkel élünk:
 
 ## Stratégia
 
-### Zsarolás és Hívás
-
-Analízisünk kimutatta, hogy **ha Árulóként kezdjük a játékot, sokkal nagyobb a várható nyereményünk**.
-Ennek megfelelően, ha Ártatlanként hívnak vagy zsarolnak minket, azt mindenképpen el kell fogadnunk, mert ettől a várható nyereményünk megtöbbszöröződik. 
-
-Szintén kimutattuk, hogy **az Árulók várható nyereménye annál nagyobb, minél kevesebb társuk van**. Tehát a legjobb stratégia Árulóként, ha **sosem használjuk a Hívást**. A Zsarolást persze továbbra is kötelező, ha egyedül marad az Áruló.
-
-A gyilkosságok nem hagynak nyomot, tehát az egyetlen materiális információ, amin a nyomozás elindulhat, hogy ki hogyan szavazott. Hogyan szavazzanak az Ártatlanok és hogyan az Árulók? Érdemes-e az Árulóknak befolyásolni a szavazást, hogy egy Ártatlan kiejtését segítsék elő, vagy érdemes inkább beépülniük, hogy ne fedezzék fel őket? Ha valaki egy Árulóra szavaz, biztos-e, hogy Ártatlan, vagy lehet, hogy blöffölt? Mint sok játékelméleti kérdésre, ezekre is a **kevert stratégia** adja a megoldást.
+A legfontosabb észrevétel: a játékban **nincsenek nyomok**, tehát csak a játékosok viselkedéséből és a szavazataikból lehet következtetni szerepükre. De miért is viselkednék máshogyan, ha nem kell semmit sem lepleznem? Bár Áruló vagyok, nincs tárgyi bizonyíték, ami rám terelné a gyanút. Ha az Árulók rájönnek, hogy nem bukhatnak le, teljesen véletlenszerű szavazást garantálhatnak az alábbi logika szerint.
 
 ### Kő-Papír-Olló
+
+A gyilkosságok nem hagynak nyomot, tehát az egyetlen materiális információ, amin a nyomozás elindulhat, hogy ki hogyan szavazott. Hogyan szavazzanak az Ártatlanok és hogyan az Árulók? Érdemes-e az Árulóknak befolyásolni a szavazást, hogy egy Ártatlan kiejtését segítsék elő, vagy érdemes inkább beépülniük, hogy ne fedezzék fel őket? Ha valaki egy Árulóra szavaz, biztos-e, hogy Ártatlan, vagy lehet, hogy blöffölt? Mint sok játékelméleti kérdésre, ezekre is a **kevert stratégia** adja a megoldást.
 
 Mi az optimális stratégia a Kő-Papír-Olló játékban? Természetesen az egyenletes kevert stratégia. Ha $\frac{1}{3}$-$\frac{1}{3}$-$\frac{1}{3}$ eséllyel mutatok követ-papírt-ollót, akkor $\frac{1}{3}$-$\frac{1}{3}$-$\frac{1}{3}$ eséllyel nyerek-vesztek-játszom döntetlent, **függetlenül az ellenfelem stratégiájától**. A kérdés, tudok-e ezeknél az egyenlő esélyeknél jobbat elérni valamilyen stratégiával? Nem, ugyanis az ellenfelem alkalmazhatja az $\frac{1}{3}$-$\frac{1}{3}$-$\frac{1}{3}$ stratégiát, amivel **az én stratégiámtól függetlenül** eléri, hogy egyenlőek legyenek az esélyeink.
 
@@ -73,6 +68,14 @@ Ugyanez a mechanizmus érvényes az Árulók játékban is. Az Árulók elérhet
 </div>
 
 **Ha mindkét csapat teljesen véletlenül szavaz, Nash-egyensúlyt ér el.** Ekkor az ellenfél csapat nem tudja kihasználni a másik stratégiáját, míg bármelyik másik stratégia esetén ez lehetséges volna.
+
+### Zsarolás és Hívás
+
+Analízisünk kimutatta, hogy **ha Árulóként kezdjük a játékot, sokkal nagyobb a várható nyereményünk**.
+Ennek megfelelően, ha Ártatlanként hívnak vagy zsarolnak minket, azt mindenképpen el kell fogadnunk, mert ettől a várható nyereményünk megtöbbszöröződik. 
+
+Szintén kimutattuk, hogy **az Árulók várható nyereménye annál nagyobb, minél kevesebb társuk van**. Tehát a legjobb stratégia Árulóként, ha **sosem használjuk a Hívást**. A Zsarolást persze továbbra is kötelező, ha egyedül marad az Áruló.
+
 
 ### A játék vége
 

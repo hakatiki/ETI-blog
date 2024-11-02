@@ -69,3 +69,5 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+static/Egyéb/Strategies.xlsx
+content/blog/ingatlanok/cache

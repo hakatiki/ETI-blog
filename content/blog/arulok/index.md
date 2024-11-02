@@ -111,17 +111,17 @@ A játékosok rendszeresen csapatban gondolkodnak, **amit mi súlyos hibának te
 
 ### Árulónak vagy Ártatlannak jobb lenni?
 
-A játék során minden körben két játékos esik ki: egyet az Árulók ölnek meg, egyet pedig a játékosok közösen szavaznak ki. Ha mindkét csapat véletlenszerűen választ—ami a Nash-egyensúlynak felel meg—akkor az alábbi valószínűségekkel eshetünk ki egy adott körben:
+A játék során minden körben két játékos esik ki. Egyet az Árulók ölnek meg, egyet pedig a játékosok közösen szavaznak ki. Legyen az Ártatlanok száma $$i$$ és az Árulók száma $$j$$ egy adott kör elején. Ha mindkét csapat véletlenszerűen választ—ami a Nash-egyensúlynak felel meg—akkor az alábbi valószínűségekkel eshetünk ki egy adott körben:
 
-**A gyilkosság során** az Árulók véletlenszerűen választanak egy játékost az $$ n $$ Ártatlan közül. Így az Ártatlan játékosok esetében a gyilkosság áldozatává válás valószínűsége: $$\frac{1}{n}.$$ Az Árulók nem ölhetik meg egymást, így számukra ez a valószínűség: $$  0. $$
+**A gyilkosság során** az Árulók véletlenszerűen választanak egy játékost az $$ i $$ Ártatlan közül. Így az Ártatlan játékosok esetében a gyilkosság áldozatává válás valószínűsége: $$\frac{1}{i}.$$ Az Árulók nem ölhetik meg egymást, így számukra ez a valószínűség: $$  0. $$
 
-**A szavazás során** a játékosok az összes fennmaradó játékos közül választanak ki egyet, beleértve az Árulókat is. A fennmaradó játékosok száma $$ n + k - 1 $$. Az Ártatlanok és az Árulók esetében a kiszavazás valószínűsége megegyezik:$$ \frac{1}{n + k - 1}.$$
+**A szavazás során** a játékosok az összes fennmaradó játékos közül választanak ki egyet, beleértve az Árulókat is. A fennmaradó játékosok száma $$ i + j - 1 $$. Az Ártatlanok és az Árulók esetében a kiszavazás valószínűsége megegyezik:$$ \frac{1}{i + j - 1}.$$
 
-**Összesített kiesési valószínűség** az alábbi **Ártatlan játékosként:**  $$\frac{1}{n} + \left( \frac{n - 1}{n} \times \frac{1}{n + k - 1} \right)$$
+**Összesített kiesési valószínűség** az alábbi **Ártatlan játékosként:**  $$\frac{1}{i} + \left( \frac{i - 1}{i} \times \frac{1}{i + j - 1} \right)$$
 
-Valamint **Árulóként:** $$ \frac{1}{n + k - 1}. $$ Elmondható, hogy **Árulóként közel kétszer jobbak a túlélési esélyeink körönként!**
+Valamint **Árulóként:** $$ \frac{1}{i + j - 1}. $$ Nagy általánosságban elmondható, hogy **Árulóként közel kétszer jobbak a túlélési esélyeink körönként!** (Ehhez szükséges, hogy $$i$$ jelentősen több legyen mint $$j$$ ami a játék szabályai szerint igaz a legtöbb esetben.)
 
-<div class="custom-text-box-elmeleti"> <h2>Kölcsönösen kizáró események</h2> <p> A kiesési valószínűség annak az esélye, hogy egy játékos egy adott körben elhagyja a játékot – akár egy gyilkosság, akár a szavazás révén. Ha Ártatlan vagy, az esélyed a kiesésre két részből áll össze: először is annak az esélye, hogy az Árulók éjjel pont téged választanak; másodszor pedig annak az esélye, hogy túléled az éjszakát, de nappal a szavazáson pont rád esik a többi játékos választása. Mivel egy körben csak egyszer eshetsz ki, ezt a két esélyt nem összeadjuk, hanem csak akkor vesszük figyelembe a szavazást, ha túlélted az éjszakát. Így kapjuk meg a teljes kiesési valószínűséget. </p> </div>
+<div class="custom-text-box-elmeleti"> <h2>Kizáró események</h2> <p> A kiesési valószínűség annak az esélye, hogy egy játékos egy adott körben elhagyja a játékot – akár egy gyilkosság, akár a szavazás révén. Ha Ártatlan vagy, az esélyed a kiesésre két részből áll össze: először is annak az esélye, hogy az Árulók éjjel pont téged választanak; másodszor pedig annak az esélye, hogy túléled az éjszakát, de nappal a szavazáson pont rád esik a többi játékos választása. Mivel egy körben csak egyszer eshetsz ki, ezt a két esélyt nem összeadjuk, hanem csak akkor vesszük figyelembe a szavazást, ha túlélted az éjszakát. Így kapjuk meg a teljes kiesési valószínűséget. </p> </div>
 
 ## Analízis
 

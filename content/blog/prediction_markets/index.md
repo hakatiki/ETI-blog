@@ -1,5 +1,5 @@
 ---
-title: "Fogadási piacok alkalmazása a befektetésekben"
+title: "Predikciós piacok"
 date: "2024-11-10"
 description: "A bizonytalanság kezelése kulcsfontosságú a gazdasági és piaci döntéshozatalban, és az előrejelző piacok ebben úttörő szerepet játszanak. A Nobel-díjas Kenneth Arrow és más szakértők mint Vitalik Buterin szerint ezek a piacok kivételes pontossággal képesek aggregálni az információkat, hiszen a résztvevők különböző nézőpontjait egyesítik egy közös előrejelzésben. "
 released: "Yes"
@@ -8,11 +8,13 @@ image: "/prediction_markets/Polymarket.jpg"
 ---
 
 ## Bevezetés
+
+A bizonytalanság kezelése kulcsfontosságú a gazdasági és piaci döntéshozatalban, és az előrejelző piacok ebben úttörő szerepet játszanak. A Nobel-díjas Kenneth Arrow és más szakértők szerint ezek a piacok kivételes pontossággal képesek aggregálni az információkat, hiszen a résztvevők különböző nézőpontjait egyesítik egy közös előrejelzésben. Például az Eli Lilly (és más nagyvállalatok) előrejelző piacokat alkalmaznak a gyógyszerkutatási eredményeik sikerének becslésére.
+
 <div class="responsive-image">
   <img src="/prediction_markets/arrow.webp" alt="Kenneth Arrow" />
     <figcaption class="svg-caption">Kenneth Arrow (1921-2017)</figcaption>
 </div>
-A bizonytalanság kezelése kulcsfontosságú a gazdasági és piaci döntéshozatalban, és az előrejelző piacok ebben úttörő szerepet játszanak. A Nobel-díjas Kenneth Arrow és más szakértők szerint ezek a piacok kivételes pontossággal képesek aggregálni az információkat, hiszen a résztvevők különböző nézőpontjait egyesítik egy közös előrejelzésben. Például az Eli Lilly (és más nagyvállalatok) előrejelző piacokat alkalmaznak a gyógyszerkutatási eredményeik sikerének becslésére.
 
 Több kutatás is kimutatja, hogy az előrejelző piacok pontosabbak, mint a hagyományos módszerek, például a közvélemény-kutatások, amelyek gyakran torzítottak és nem reagálnak olyan gyorsan az új információkra. Ebben a cikkben az előrejelző piacok matematikai alapjával és pénzügyi felhasználásával ismerkedhet meg az olvasó. 
 
@@ -21,19 +23,18 @@ Több kutatás is kimutatja, hogy az előrejelző piacok pontosabbak, mint a hag
 Az előrejelző piacok hasonlóak a hagyományos fogadóirodákhoz, mivel mindkettő lehetőséget nyújt az embereknek arra, hogy fogadjanak bizonyos események kimenetelére. A fő különbség azonban az, hogy míg a fogadóirodákban a szorzókat általában a bukmékerek határozzák meg, az előrejelző piacokon a szerződések árait a piaci kereslet és kínálat alakítja, így azok dinamikusan tükrözik a résztvevők kollektív véleményét és információit.
 
 
-### Hogyan működnek?
+### Hogyan működik?
 
-- **Szerződések:** A kereskedők olyan szerződéseket vásárolnak, amelyek fix összeget fizetnek, ha egy bizonyos esemény bekövetkezik. Például egy szerződés 1 dollárt fizet, ha Kamala Harris nyeri a választást. Abban az esetben, ha veszít a szerződés 0$-t fizet.
+- **Szerződések:** A kereskedők olyan szerződéseket vásárolnak, amelyek fix összeget fizetnek, ha egy bizonyos esemény bekövetkezik. Például egy szerződés 1 dollárt fizet, ha Kamala Harris nyeri a választást, különben pedig 0$-t
 - **Elszámolás:** Az esemény bekövetkezése után a szerződéseket elszámolják. A nyertes szerződések tulajdonosai megkapják a kifizetést, míg a vesztes szerződések értéktelenek.
-- **Árazás:** A szerződés ára a piaci konszenzus szerinti esemény bekövetkezésének valószínűségét reprezentálja. Ha a szerződés ára 0,70 dollár, a piac 70% esélyt ad A jelölt győzelmére.
-- **Piac:** Mint egy tőzsdén, **kereskedni lehet a szerződéseinkkel**, szabadon lehet bármikor adni vagy venni a piac likviditásának a függvényében.
+- **Piac:** A fogadásokkal ellentétben itt a szerződésekkel bármikor kereskedhetünk, az árakat pedig csak a kereslet és kínálat határozza meg, így az új információk függvényében az árak változnak az időben. 
 - **Információ:** A piac résztvevői az **új információkra gyorsan és hatékonyan tudnak reagálni** a szerződések kereskedésével. Ez a piaci mechanizmus aggregálja több ezer ember véleményét az árfolyamban.
 - **Hatékonyság:** Mivel minden résztvevőnek a **saját** pénzét kell kockáztatnia, ezért várhatóan a döntésük meghozatala elött alaposan megvizsgálják az elérhető információt.
 
 
 # Arrow-Debreu termékek
 
-Matematikailag formalizálva a predikciós piacokon egy speciális típusú termékkel, az **Arrow-Debreu termékkel** kereskedünk. Ez a termék pontosan egy meghatározott időpontban, a világ egy adott állapotában fizet $1$ egységet (jelen esetben $1$ dollárt), míg minden más állapotban $0$-át fizet.
+Matematikailag formalizálva a predikciós piacokon egy speciális típusú termékkel, az **Arrow-Debreu termékkel** kereskedünk. Ez a termék pontosan egy meghatározott időpontban, a világ egy adott állapotában fizet $1$ egységet (jelen esetben $1$ dollárt), míg minden más állapotban $0$-át fizet. Ezeket elképzelhetjük bármilyen piac $1 \times 1$-es építőkockájaként is, amiből kilegózható bármely más bonyolultabb termék.
 
 Ha a világállapotokat faként képzeljük el, az Arrow-Debreu termék egy adott csúcsban fizet $1$-et. Egy ilyen termék ára megegyezik a diszkontált várható kifizetésével, azaz a $t$ időpont $i$-edik állapotában fizető Arrow-Debreu termékre:
 
@@ -63,11 +64,6 @@ $$
 \sum_i p_i = 1
 $$
 
-
-
-
-
-
 ## Kalibráció
 
 A piacok hatékonyságának mérésére használhatjuk a kalibráció fogalmát (ez ismerős lehet a gépi tanulásban jártas olvasóink számára). A kalibráció célja, hogy megmérje azt, hogy mennyire egyeznek meg előrejelzéseink a valósággal. Ha egy esemény sokszor megismételhető, mint például egy pénzfeldobás, akkor a valószínűséget könnyen tudjuk értelmezni. Fej dobásának valószínűségét megbecsülhetjük úgy, mint a fejek aránya egy nagy mintában (1000 dobásból nagyjából 500 fej nagyjából 50% valószínűséget jelent).
@@ -96,10 +92,10 @@ Az optimális kalibrációt az $x=y$ egyenes jelzi, minél közelebb van ehhez a
 A Brier-pontszám egy másik gépi-tanulásban sokszor használt metrika előrejelző modellek kiértékelésére. A pontszámot így definiáljuk:
 
 $$
-\text{Br(f, o)} = \frac{1}{N} \sum_{i=1}^{N} (f_i - o_i)^2.
+\text{Br(f, x)} = \frac{1}{N} \sum_{i=1}^{N} (f_i - x_i)^2.
 $$
 - $$ f_i $$: Előrejelzett valószínűség.
-- $$ o_i $$: Tényleges kimenetel (1, ha az esemény bekövetkezett, 0, ha nem).
+- $$ x_i $$: Tényleges kimenetel (1, ha az esemény bekövetkezett, 0, ha nem).
 - $$ N $$: A minták száma.
 A Brier-pontszám mindig 0 és 1 közötti értéket vesz fel. Annál jobb egy modell minél közelebb van a Brier-pontszáma a 0-hoz. Azt állítjuk, hogy egy jól kalibrált predikciós modell minimalizálja a Brier-pontot.
 
@@ -204,30 +200,33 @@ A választások után is beigazolódott a platform pontossága, hiszen 60/40-es 
 
 <div class="custom-text-box">
 <h2>Egy francia kereskedő története</h2>
-    <p>Az amerikai választásokra több mint 3 milliárd dollár értékben spekuláltak, de kiemelkedő egy francia állampolgár, Théo, aki 40 millió dollár értékben fogadott Trump győzelmére. Egy a <a href="https://www.wsj.com/finance/how-the-trump-whale-correctly-called-the-election-cb7eef1d" target="_blank">Wall Street Journal</a>nek tett interjúja során elmondta, hogy egy megbízott egy közvélemény kutató céget, hogy az úgy nevezett "szomszéd effektust" használva mérjék fel a választás kimenetelét. Az elképzelés az, hogy az emberek lehet, hogy nem akarják felfedni a saját preferenciáikat, de közvetetten mégis felfedik azokat, amikor arra kérik őket, hogy találják ki, kire szándékoznak szavazni a szomszédaik.
-	Théo azzal érvelt, hogy ezt a módszert használva pontosabban fel lehet mérni a választás kimenetelét. Az általa megrendelt felmérés eredményei nagymértékben Trumpnak kedveztek, így ennek tudatában rá  fogadott. 
+    <p>Az amerikai választásokra több mint 3 milliárd dollár értékben spekuláltak, de érdekes egy francia állampolgár, Théo stratégiája, aki 40 millió dollár értékben fogadott Donald Trump győzelmére. Egy a <a href="https://www.wsj.com/finance/how-the-trump-whale-correctly-called-the-election-cb7eef1d" target="_blank">Wall Street Journal</a>-nek tett interjúja során elmondta, hogy megbízott egy közvéleménykutató-céget, hogy az úgynevezett "szomszéd effektust" használva mérjék fel a választás kimenetelét. Az elképzelés az, hogy az emberek lehet, hogy nem akarják felfedni a saját preferenciáikat, de közvetetten mégis felfedik azokat, amikor arra kérik őket, hogy találják ki, kire szándékoznak szavazni a szomszédaik.
+	Théo azzal érvelt, hogy ezt a módszert használva pontosabban fel lehet mérni a választás kimenetelét. Az általa megrendelt felmérés eredményei nagymértékben Trumpnak kedveztek, így ennek tudatában rá fogadott. 
     </p>
 </div>
 
 
 ## Kritikák
 
-A választásokra való fogadás a fogadási piacok első sikeres felhasználása. Azonban a hatalmas siker mellett a Polymarket több vihart is kavart. [Például egyes országok bejelentették a platform betiltását](https://www.politico.eu/article/french-regulator-opens-probe-into-election-betting-platform-polymarket/). Sokan kritizálják, hogy a felhasználók jelentős része pénzt veszít, és hogy a platform kizsákmányolja az átlagos felhasználót, hiszen a [statisztikák](https://x.com/hmalviya9/status/1854166393786364293) szerint a felhasználók 89%-a veszít. Társadalmi kritikaként felmerül az is, hogy a választásokra feltett milliárdokat produktívabb eszközökbe is lehetne fektetni, amelyek az egész társadalom számára teremtenek értéket. Mi nem szeretnénk ezekben a kérdésekben állást foglalni; helyette vizsgáljuk meg, hogyan lehet az eddig megismert mechanizmust az átlagember szolgálatába állítani.
+A választásokra való fogadás a fogadási piacok első sikeres felhasználása. Azonban a hatalmas siker mellett a Polymarket több vihart is kavart. [Például egyes országok bejelentették a platform betiltását](https://www.politico.eu/article/french-regulator-opens-probe-into-election-betting-platform-polymarket/). Sokan kritizálják, hogy a felhasználók jelentős része pénzt veszít, és hogy a platform kizsákmányolja az átlagos felhasználót, hiszen a [statisztikák](https://x.com/hmalviya9/status/1854166393786364293) szerint a felhasználók 89%-a veszít. Társadalmi kritikaként felmerül az is, hogy a választásokra feltett milliárdokat produktívabb eszközökbe is lehetne fektetni, amelyek az egész társadalom számára teremtenek értéket.
 
 ## Döntési piacok
-
+A predikciós piacok egyik lehetséges felhasználása a valós életbeli kérdések megválaszolása az általuk generált információk segítségével.
 A döntési piacok olyan speciális előrejelzési piacok, amelyek célja nem csupán egy jövőbeli esemény bekövetkezésének valószínűségét meghatározni, hanem azt is, hogy melyik döntés hozza a legjobb eredményt egy adott mérőszám szerint. Míg az előrejelzési piacok arra fókuszálnak, hogy mi fog történni, addig a döntési piacok azt próbálják előre jelezni, melyik döntés vezet a kívánt kimenetelhez.
 
-Például, ha szeretnénk eldönteni, hogy melyik ellenzéki politikust indítsuk Orbán Viktor ellen a következő választáson, a következő módon használhatjuk a döntési piacokat. Tegyük fel, hogy a két lehetséges kihívó Magyar Péter és Gyurcsány Ferenc. Létrehozhatunk két feltételes piacot az alábbi fogadásokkal:
+Tegyük fel, hogy azt szeretnénk eldönteni, melyik ellenzéki politikust indítsuk Orbán Viktor ellen a következő választáson. A két lehetséges kihívó Magyar Péter és Gyurcsány Ferenc. Hogyan használhatunk döntési piacokat a kérdés eldöntésére? Létrehozhatunk két feltételes piacot az alábbi fogadásokkal:
 
 - Ha Magyar Péter az ellenzéki jelölt, ki nyeri a választást: Orbán Viktor vagy Magyar Péter?
 - Ha Gyurcsány Ferenc az ellenzéki jelölt, ki nyeri a választást: Orbán Viktor vagy Gyurcsány Ferenc?
 
 
 A piacok alapján azt a jelöltet választjuk, akinek esetében a piac magasabb győzelmi valószínűséget jelez. Ha végül Magyar Péter lesz az ellenzék jelöltje, akkor a Gyurcsány Ferencre vonatkozó piac érvénytelen lesz, és mindenki visszakapja a befizetett összeget. Az első piac viszont aktív marad, és a választás eredménye alapján történik a kifizetés.
+
+Egy másik lehetőség a szociálisan fontos piacok anyagi támogatása. Ezzel a piacon való részvétel pozitív várható nyereségű lesz, ami ösztönzi a részvételt. Például, ha a Magyar Nemzeti Bankot érdekli a jövő évi infláció, ahelyett hogy sok munkaórát és pénzt fordítana saját modellek építésére, létrehozhat egy inflációra vonatkozó predikciós piacot, ezzel támogatva a monetáris politika döntéshozatalát.
+
 <div class="responsive-image">
-  <img src="/prediction_markets/vitalik.jpg" alt="Kenneth Arrow" />
+  <img src="/prediction_markets/vitalik.jpg" alt="Vitalik Buterin" />
     <figcaption class="svg-caption">Vitalik Buterin az Ethereum alapítója</figcaption>
 </div>
 
-Ezzel a mechanizmussal sokkal jobb döntéseket lehetne hozni – érvel [Vitalik Buterin a blogjában](https://vitalik.eth.limo/general/2024/11/09/infofinance.html). Azonban a piacok likviditása nagyban nehezíti az alkalmazhatóságukat, mivel az illikvid piac manipulálható és megbízhatatlan. Vitalik mégis mellettük érvel, mert ahogy a Wall Streeten, úgy a Polymarketen is lehetséges a kereskedési folyamatok automatizálása. Nem nehéz elképzelni egy olyan jövőt, ahol a fogadások nagy részét nyelvi modellek serege végzi el. Ennek egy kezdetleges példája a Perplexity integrációja a Polymarkettel, ami lehetővé teszi a kereskedők számára, hogy elolvassanak egy frissen generált összefoglalót az interneten elérhető információkból. 
+A piaci mechanizmussal sokkal jobb döntéseket lehetne hozni – érvel [Vitalik Buterin a blogjában](https://vitalik.eth.limo/general/2024/11/09/infofinance.html). Azonban a piacok likviditása nagyban nehezíti az alkalmazhatóságukat, mivel az illikvid piac manipulálható és megbízhatatlan. Vitalik mégis mellettük érvel, mert ahogy a Wall Streeten, úgy a Polymarketen is lehetséges a kereskedési folyamatok automatizálása. Nem nehéz elképzelni egy olyan jövőt, ahol a fogadások nagy részét nyelvi modellek serege végzi el. Ennek egy kezdetleges példája a Perplexity integrációja a Polymarkettel, ami lehetővé teszi a kereskedők számára, hogy elolvassanak egy frissen generált összefoglalót az interneten elérhető információkból. 

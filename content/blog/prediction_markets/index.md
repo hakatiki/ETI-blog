@@ -1,7 +1,7 @@
 ---
 title: "Fogadási piacok alkalmazása a befektetésekben"
 date: "2024-11-10"
-description: "A bizonytalanság kezelése kulcsfontosságú a gazdasági és piaci döntéshozatalban, és az előrejelző piacok ebben úttörő szerepet játszanak. A Nobel-díjas Kenneth Arrow és más szakértők mint Vitalik Buterin szerint ezek a piacok kivételes pontossággal képesek aggregálni az információkat, hiszen a résztvevők különböző nézőpontjait egyesítik egy közös előrejelzésben. Például az Eli Lilly (és más nagyvállalatok) előrejelző piacokat alkalmaznak a gyógyszerkutatási eredményeik sikerének becslésére. Ebben a cikkben az előrejelző piacok matematikai alapjával és pénzügyi felhasználásával ismerkedhet meg az olvasó."
+description: "A bizonytalanság kezelése kulcsfontosságú a gazdasági és piaci döntéshozatalban, és az előrejelző piacok ebben úttörő szerepet játszanak. A Nobel-díjas Kenneth Arrow és más szakértők mint Vitalik Buterin szerint ezek a piacok kivételes pontossággal képesek aggregálni az információkat, hiszen a résztvevők különböző nézőpontjait egyesítik egy közös előrejelzésben. "
 released: "Yes"
 author: "Egri Máté és Takáts Bálint"
 image: "/prediction_markets/Polymarket.jpg"

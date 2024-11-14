@@ -188,7 +188,9 @@
   }
 }
 
-
+.align-right {
+  text-align: right;
+}
 
 .custom-table {
   width: 100%;
@@ -202,6 +204,7 @@
 .custom-table th, .custom-table td {
   padding: var(--spacing-2);
   border-bottom: 1px solid var(--color-accent);
+
 }
 
 .custom-table th {

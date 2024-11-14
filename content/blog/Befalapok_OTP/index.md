@@ -4,7 +4,7 @@ date: "2024-11-24"
 description: "Folytatjuk a magyar befektetési alapok elemzését, ezúttal az OTP alapokra fókuszálva. Vajon valóban megéri ezekbe fektetni, vagy csak a marketing fogások áldozatai vagyunk?"
 released: "Yes"
 author: "Egri Máté és Takáts Bálint"
-image: "/Befalapok2/bét.jpg"
+image: "/Befalapok2/csányi.jpg"
 ---
 
 Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ahogy megkerestük, akkor nem vagyunk egyedül. Az OTP befektetési alapjai között böngészve ugyanis felmerül a kérdés: vajon hová tűnik a hozam? Előző cikkünkben már bemutattuk a magyar befektetési alapok világát, most azonban mélyebbre ásunk, és kizárólag az OTP által kínált alapokat vesszük górcső alá.
@@ -167,10 +167,6 @@ Utolsó lehetőségként az OTP Ingatlannak sikerül legyőznie a piacot legalá
 
 Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutatót:
 
-<div class="svg-container">
-  <img src="/Befalapok2/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />
-  <figcaption class="svg-caption">2. Ábra: Maxima, Klímaváltozás, Ingatlan és a Prémium Aktív alapok árfolyamai.</figcaption>
-</div>
 <div class="table-container">
  <table class="custom-table">
        <tr>
@@ -267,10 +263,8 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
 
 ### Összefoglalás
 
-Az OTP által kezelt alapok teljesítménye sajnálatos módon messze elmarad a befektetők jogos elvárásaitól. Az alul teljesítés mértéke nem csupán a piaci körülményekkel vagy átmeneti ingadozásokkal magyarázható, hanem rendszerszintű problémákra utal a befektetési stratégiákban és a portfóliókezelésben.
+Az OTP által kezelt alapok teljesítménye sajnálatos módon jelentősen elmarad a befektetők jogos elvárásaitól. Az alulteljesítés mértéke nem magyarázható pusztán piaci körülményekkel vagy átmeneti ingadozásokkal; inkább rendszerszintű problémákra utal a befektetési stratégiákban és a portfóliókezelésben.
 
-**Megdöbbentő tény, hogy a magyar GDP közel 5,87%-a van ilyen alul teljesítő alapokban befektetve**. Ez azt jelenti, hogy a magyar megtakarítók jelentős része nem részesül a pénzügyi piacok nyújtotta lehetőségekben, miközben az alapkezelők és a részvényesek profitálnak.
-
-**Az ügyfelek érdekeinek előtérbe helyezése nem csak etikai kötelesség, hanem üzletileg is indokolt lenne** az OTP számára, ha hosszú távon meg kívánja tartani piaci pozícióját és ügyfélkörét.
+**Megdöbbentő tény, hogy a magyar GDP közel 5,87%-a ilyen alulteljesítő alapokban van befektetve.** Ez azt jelenti, hogy a magyar megtakarítók jelentős része nem részesül a pénzügyi piacok nyújtotta lehetőségekben, miközben az alapkezelők és a részvényesek profitálnak. **Az ügyfelek érdekeinek előtérbe helyezése nemcsak etikai kötelesség, hanem üzletileg is indokolt lenne** az OTP számára, ha hosszú távon meg kívánja tartani piaci pozícióját és ügyfélkörét.
 
 Hogy mindenki számára egyértelmű legyen: **az alapok befektetésre alkalmatlanok**.

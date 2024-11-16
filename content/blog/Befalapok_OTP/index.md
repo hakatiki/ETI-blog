@@ -1,5 +1,5 @@
 ---
-title: "Magyar befektetési alapok összehasonlítása 2. rész: Hová tűnik a hozam az OTP alapokban?"
+title: "Magyar befektetési alapok összehasonlítása 2. rész"
 date: "2024-11-24"
 description: "Folytatjuk a magyar befektetési alapok elemzését, ezúttal az OTP alapokra fókuszálva. Vajon valóban megéri ezekbe fektetni, vagy csak a marketing fogások áldozatai vagyunk?"
 released: "Yes"
@@ -7,8 +7,9 @@ author: "Egri Máté és Takáts Bálint"
 image: "/Befalapok2/csányi.jpg"
 ---
 
-Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ahogy megkerestük, akkor nem vagyunk egyedül. Az OTP befektetési alapjai között böngészve ugyanis felmerül a kérdés: vajon hová tűnik a hozam? Előző cikkünkben már bemutattuk a magyar befektetési alapok világát, most azonban mélyebbre ásunk, és kizárólag az OTP által kínált alapokat vesszük górcső alá.
+Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ahogy megkerestük, akkor nem vagyunk egyedül. Az OTP befektetési alapjai között böngészve felmerül a kérdés: vajon hová tűnik a hozam? [Előző cikkünkben](/Befalapok) bemutattuk a magyar befektetési alapok világát, most azonban mélyebbre ásunk, és kizárólag az OTP által kínált alapokat vesszük górcső alá. A választásunk oka az OTP Supra Alap, melynek silány teljesítménye és félrevezető marketingje különösen szembetűnő volt számunkra.
 
+Az OTP Supra Alapról azóta megtudtuk, hogy bár [2020-ban Magyarország egyik legnagyobb abszolút hozamú alapja volt](https://www.portfolio.hu/befektetes/20200312/hatalmasat-zuhant-a-supra-mi-lesz-vele-reagalt-az-otp-419113), **egy nap alatt mégis 13,87%-ot esett**. Az alapkezelő szerint az árfolyamesést elsősorban az „olajpiac irracionális, előre nem látható zuhanása” okozta. Közölték, hogy „az OTP Supra Alap risk-on módban volt, eszközei között olaj vételi pozíciót, illetve MOL, Petrom és amerikai palaolaj-részvény kitettséget egyaránt tartott.” Kiemelték továbbá, hogy az OTP Supra Alap a jelentős, hétfői nyitáskori áresés ellenére is megtartotta olajpozícióit. **Az esést azóta sem sikerül ledolgozniuk**.
 
 **A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
@@ -17,7 +18,7 @@ Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ah
 
 Az OTP Alapkezelő Magyarország egyik vezető befektetési alapkezelője, amely 2024 harmadik negyedévében is jelentős eredményeket ért el. A vállalat adózás utáni eredménye a negyedévre meghaladta az 5 milliárd forintot, így az első kilenc hónap profitja év/év közel 50%-kal, 16,6 milliárd forintra emelkedett. **Éves szinten az alapkezelő több mint 20 milliárd forint profitot termel az OTP Csoportnak**.
 
-Az alapkezelő által kezelt alapok állománya 2024 szeptemberének végére 4.404 milliárd forintra duzzadt, **ez a magyar éves GDP  5.87%-a**. Hihetetlen módon az alap vagyona 44%-al nőt éves alapon! A társaság továbbra is piacvezető pozícióval rendelkezik az értékpapíralapok piacán, 31,9%-os piaci részesedéssel. 
+Az alapkezelő által kezelt alapok állománya 2024 szeptemberének végére 4404 milliárd forintra duzzadt, **ez a magyar éves GDP  5,87%-a**. Hihetetlen módon az alap vagyona 44%-al nőt éves alapon! A társaság továbbra is piacvezető pozícióval rendelkezik az értékpapíralapok piacán, 31,9%-os piaci részesedéssel. 
 
 ## Alapok bemutatása
 
@@ -53,6 +54,10 @@ Az OTP Ingatlanbefektetési Alap fő célja, hogy hosszú távon stabil, inflác
 
 ### OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja
 Az OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja egy óvatos vegyes alap, amely rugalmas, bármikor hozzáférhető befektetési lehetőséget kínál. A portfólió döntően OTP értékpapíralapok befektetési jegyeiből áll, előre meghatározott arányokban: pénzpiaci eszközök, kötvényalapok, abszolút hozamú alapok és vegyes alapok. Az alap célja, hogy mérsékelt kockázat mellett versenyképes hozamot érjen el.
+<div class="svg-container">
+  <img src="/Befalapok2/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />
+  <figcaption class="svg-caption">2. Ábra: Maxima, Klímaváltozás, Ingatlan és az OTP Prémium Aktív alapok árfolyamai.</figcaption>
+</div>
 
 
 
@@ -72,50 +77,8 @@ A díjak két fő kategóriára oszthatók: egyszeri és éves költségekre. Az
   <figcaption class="svg-caption">3. Ábra: Az összes alap relatív árfolyamának összehasonlítása.</figcaption>
 </div>
 
-## Kapcsolatok feltárása
 
-### Korreláció
-
-<div class="custom-text-box-elmeleti"> <h2>Korrelációs mátrix</h2> <p> A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a></p> </div>
-
-<div class="svg-container">
-  <img src="/Befalapok2/korrelacio.svg" alt="Korrelációs mátrix" class="dynamic-svg" />
-  <figcaption class="svg-caption">4. Ábra: Korrelációs mátrix az alapok hozamai között.</figcaption>
-</div>
-
-<div class="custom-text-box">
-<h2>Béta</h2>
-    <p>
-        Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
-    </p>
-</div>
-
-
-
-A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas korrelációt egymással, ami arra utalhat, hogy hasonló befektetési stratégiát követnek vagy portfóliójuk jelentős átfedést mutat. A piaccal való korreláció tekintetében egyedül az OTP Klímaváltozás Alap mutat erősebb összefüggést, valószínűleg azért, mert portfóliójában sok amerikai részvényt tartalmaz. Ennek eredményeként érzékenyebben reagál az amerikai tőzsdeindex mozgásaira, magasabb hozamot érhet el, de nagyobb kockázat mellett.
-
-### Klaszterezés
-<div class="custom-text-box-elmeleti">
-    <h2>Hierarchikus klaszterezés és dendrogram</h2>
-    <p>
-    A hierarchikus klaszterezés egy <b>adatcsoportosítási módszer</b>, amely az adatok közötti hasonlóságok vagy különbségek alapján szervezi azokat hierarchikus struktúrába. A módszer során az adatokból kiindulva fokozatosan építünk fel klasztereket, amelyek egyre nagyobb csoportokat alkotnak.
-    </p>
-    <p>
-        A dendrogram egy fa struktúrájú ábra, amely vizuálisan megjeleníti a klaszterek hierarchiáját és a közöttük lévő távolságokat. Az ábra segítségével könnyen áttekinthető, mely alapok hasonlítanak leginkább egymásra.
-    </p>
-    <p>
-        A klaszterezés során <b>a korrelációt használtuk távolságmetrikaként</b>. Ez azt jelenti, hogy az alapok közötti korrelációs értékek alapján határoztuk meg, mennyire "távol" vagy "közel" vannak egymáshoz. A magas korreláció alacsony távolságot, míg az alacsony vagy negatív korreláció nagyobb távolságot jelent. Így a dendrogramon azok az alapok kerülnek közelebb egymáshoz, amelyek hozamai hasonlóan mozognak.
-    </p>
-</div>
-
-<div class="svg-container">
-  <img src="/Befalapok2/dendogram.svg" alt="Dendrogram" class="dynamic-svg" />
-  <figcaption class="svg-caption">5. Ábra: Hierarchikus klaszterezés dendrogramja.</figcaption>
-</div>
-
-A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon látott adatokat. Az OTP Fundman és az OTP Prémium Aktív két nagyon hasonló alap. Valamint az OTP Klímaváltozás nagy része fejlett piaci részvény lehet.
-
-## Teljesítményelemzés
+### Teljesítményelemzés
 
 Az alábbiakban feltesszük, hogy a kockázatmentes hozam 5.5%, ugyanis a vizsgált időszakon (körülbelül) ekkora hozamot lehetett elérni kockázatmentes állampapírok vásárlásával.
 ### Sharpe-ráta
@@ -129,7 +92,7 @@ Nézzük meg az alapok különböző teljesítménymutatóit empirikus adataink 
 
 <div class="svg-container">
   <img src="/Befalapok2/sharpe.svg" alt="Sharpe ráták" class="dynamic-svg" />
-  <figcaption class="svg-caption">6. Ábra: Sharpe-ráták összehasonlítása.</figcaption>
+  <figcaption class="svg-caption">4. Ábra: Sharpe-ráták összehasonlítása.</figcaption>
 </div>
 
 
@@ -146,7 +109,7 @@ Egy hasonló mutató a Sortino-ráta, amiben szintén az egységnyi szórásra j
 
 <div class="svg-container">
   <img src="/Befalapok2/sortino.svg" alt="Sortino" class="dynamic-svg" />
-  <figcaption class="svg-caption">7. Ábra: Sortino-ráták összehasonlítása.</figcaption>
+  <figcaption class="svg-caption">5. Ábra: Sortino-ráták összehasonlítása.</figcaption>
 </div>
 
 A Sortino-rátában mérve is siralmas az OTP alapjainak a teljesítménye. 
@@ -158,7 +121,7 @@ A piactól való függés mértékét a korábban említett bétával mérjük, 
 
 <div class="svg-container">
   <img src="/Befalapok2/treynor.svg" alt="Treynor" class="dynamic-svg" />
-  <figcaption class="svg-caption">8. Ábra: Treynor-ráták összehasonlítása.</figcaption>
+  <figcaption class="svg-caption">6. Ábra: Treynor-ráták összehasonlítása.</figcaption>
 </div>
 
 Utolsó lehetőségként az OTP Ingatlannak sikerül legyőznie a piacot legalább Treynor-ráta tekintetében, de ez már semmit sem segít.
@@ -259,6 +222,49 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
         </tr>
     </table>
 </div>
+
+## Kapcsolatok feltárása
+
+### Korreláció
+
+<div class="custom-text-box-elmeleti"> <h2>Korrelációs mátrix</h2> <p> A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a></p> </div>
+
+<div class="svg-container">
+  <img src="/Befalapok2/korrelacio.svg" alt="Korrelációs mátrix" class="dynamic-svg" />
+  <figcaption class="svg-caption">7. Ábra: Korrelációs mátrix az alapok hozamai között.</figcaption>
+</div>
+
+<div class="custom-text-box">
+<h2>Béta</h2>
+    <p>
+        Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
+    </p>
+</div>
+
+
+
+A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas korrelációt egymással, ami arra utalhat, hogy hasonló befektetési stratégiát követnek vagy portfóliójuk jelentős átfedést mutat. A piaccal való korreláció tekintetében egyedül az OTP Klímaváltozás Alap mutat erősebb összefüggést, valószínűleg azért, mert portfóliójában sok amerikai részvényt tartalmaz. Ennek eredményeként érzékenyebben reagál az amerikai tőzsdeindex mozgásaira, magasabb hozamot érhet el, de nagyobb kockázat mellett.
+
+### Klaszterezés
+<div class="custom-text-box-elmeleti">
+    <h2>Hierarchikus klaszterezés és dendrogram</h2>
+    <p>
+    A hierarchikus klaszterezés egy <b>adatcsoportosítási módszer</b>, amely az adatok közötti hasonlóságok vagy különbségek alapján szervezi azokat hierarchikus struktúrába. A módszer során az adatokból kiindulva fokozatosan építünk fel klasztereket, amelyek egyre nagyobb csoportokat alkotnak.
+    </p>
+    <p>
+        A dendrogram egy fa struktúrájú ábra, amely vizuálisan megjeleníti a klaszterek hierarchiáját és a közöttük lévő távolságokat. Az ábra segítségével könnyen áttekinthető, mely alapok hasonlítanak leginkább egymásra.
+    </p>
+    <p>
+        A klaszterezés során <b>a korrelációt használtuk távolságmetrikaként</b>. Ez azt jelenti, hogy az alapok közötti korrelációs értékek alapján határoztuk meg, mennyire "távol" vagy "közel" vannak egymáshoz. A magas korreláció alacsony távolságot, míg az alacsony vagy negatív korreláció nagyobb távolságot jelent. Így a dendrogramon azok az alapok kerülnek közelebb egymáshoz, amelyek hozamai hasonlóan mozognak.
+    </p>
+</div>
+
+<div class="svg-container">
+  <img src="/Befalapok2/dendogram.svg" alt="Dendrogram" class="dynamic-svg" />
+  <figcaption class="svg-caption">8. Ábra: Hierarchikus klaszterezés dendrogramja.</figcaption>
+</div>
+
+A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon látott adatokat. Az OTP Fundman és az OTP Prémium Aktív két nagyon hasonló alap. Valamint az OTP Klímaváltozás nagy része fejlett piaci részvény lehet.
 
 
 ### Összefoglalás

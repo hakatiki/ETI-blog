@@ -77,9 +77,14 @@ A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és
             <h2>Tapasztalat</h2>
             <ul>
                 <li>
+                    <div class="job-title">Kvantitatív Elemző (Associate)</div>
+                    <div class="location">Morgan Stanley, Budapest, Magyarország</div>
+                    <span class="period">2024 - Jelenleg</span>
+                </li>
+                <li>
                     <div class="job-title">Kvantitatív Gyakornok</div>
                     <div class="location">Morgan Stanley, Budapest, Magyarország</div>
-                    <span class="period">2022 - Jelenleg</span>
+                    <span class="period">2022 - 2024</span>
                 </li>
                 <li>
                     <div class="job-title">Szoftverfejlesztő Gyakornok</div>
@@ -110,9 +115,14 @@ A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és
     <h2>Tapasztalat</h2>
     <ul>
         <li>
+            <div class="job-title">Kvantitatív Elemző (Associate)</div>
+            <div class="location">Morgan Stanley, Budapest, Magyarország</div>
+            <span class="period">2024 - Jelenleg</span>
+        </li>
+        <li>
             <div class="job-title">Modell Kockázatkezelő Gyakornok</div>
             <div class="location">Morgan Stanley, Budapest, Magyarország</div>
-            <span class="period">2022 - Jelenleg</span>
+            <span class="period">2022 - 2024</span>
         </li>
     </ul>
 </div>

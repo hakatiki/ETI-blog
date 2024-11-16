@@ -129,7 +129,6 @@ Utolsó lehetőségként az OTP Ingatlannak sikerül legyőznie a piacot legalá
 
 
 Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutatót:
-
 <div class="table-container">
  <table class="custom-table">
        <tr>
@@ -142,83 +141,83 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
         </tr>
         <tr>
           <td>S&P 500</td>
-          <td class="align-right">0.6668</td>
+          <td class="align-right">0.7602</td>
           <td class="align-right">0.8760</td>
           <td class="align-right">0.0006</td>
           <td class="align-right">23.07%</td>
-          <td class="align-right">1.46%</td>
+          <td class="align-right">23.11%</td>
         </tr>
         <tr>
           <td>OTP Ingatlanvilág</td>
-          <td class="align-right">0.5217</td>
+          <td class="align-right">0.5523</td>
           <td class="align-right">0.8059</td>
           <td class="align-right">-0.0082</td>
           <td class="align-right">6.28%</td>
-          <td class="align-right">0.09%</td>
+          <td class="align-right">1.41%</td>
         </tr>
         <tr>
           <td>OTP Klímaváltozás</td>
-          <td class="align-right">0.3994</td>
+          <td class="align-right">0.4400</td>
           <td class="align-right">0.5549</td>
           <td class="align-right">0.0005</td>
           <td class="align-right">15.04%</td>
-          <td class="align-right">1.37%</td>
+          <td class="align-right">21.68%</td>
         </tr>
         <tr>
           <td>OTP Sigma</td>
-          <td class="align-right">0.2654</td>
+          <td class="align-right">0.2861</td>
           <td class="align-right">0.3525</td>
           <td class="align-right">-0.0023</td>
           <td class="align-right">10.24%</td>
-          <td class="align-right">1.04%</td>
+          <td class="align-right">16.58%</td>
         </tr>
         <tr>
           <td>USD/HUF</td>
-          <td class="align-right">0.0796</td>
+          <td class="align-right">0.0844</td>
           <td class="align-right">0.1224</td>
           <td class="align-right">0.0001</td>
           <td class="align-right">6.54%</td>
-          <td class="align-right">0.78%</td>
+          <td class="align-right">12.35%</td>
         </tr>
         <tr>
           <td>OTP Fundman</td>
-          <td class="align-right">-0.0240</td>
+          <td class="align-right">-0.0252</td>
           <td class="align-right">-0.0281</td>
           <td class="align-right">0.0000</td>
           <td class="align-right">5.00%</td>
-          <td class="align-right">1.26%</td>
+          <td class="align-right">20.02%</td>
         </tr>
         <tr>
           <td>OTP Prémium Aktív</td>
-          <td class="align-right">-0.0992</td>
+          <td class="align-right">-0.1044</td>
           <td class="align-right">-0.1292</td>
           <td class="align-right">-0.0002</td>
           <td class="align-right">5.00%</td>
-          <td class="align-right">0.30%</td>
+          <td class="align-right">4.81%</td>
         </tr>
         <tr>
           <td>OTP Abszolút</td>
-          <td class="align-right">-0.0993</td>
+          <td class="align-right">-0.1044</td>
           <td class="align-right">-0.1442</td>
           <td class="align-right">-0.0002</td>
           <td class="align-right">4.73%</td>
-          <td class="align-right">0.47%</td>
+          <td class="align-right">7.40%</td>
         </tr>
         <tr>
           <td>OTP Ingatlan</td>
-          <td class="align-right">-0.3475</td>
+          <td class="align-right">-0.3659</td>
           <td class="align-right">-0.4163</td>
           <td class="align-right">0.0149</td>
           <td class="align-right">5.12%</td>
-          <td class="align-right">0.06%</td>
+          <td class="align-right">1.03%</td>
         </tr>
         <tr>
           <td>OTP Maxima</td>
-          <td class="align-right">-0.5092</td>
+          <td class="align-right">-0.5287</td>
           <td class="align-right">-0.6967</td>
           <td class="align-right">-0.0828</td>
           <td class="align-right">2.20%</td>
-          <td class="align-right">0.39%</td>
+          <td class="align-right">6.24%</td>
         </tr>
     </table>
 </div>

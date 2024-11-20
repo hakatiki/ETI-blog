@@ -21,8 +21,60 @@ Az OTP Alapkezelő Magyarország egyik vezető befektetési alapkezelője, amely
 Az alapkezelő által kezelt alapok állománya 2024 szeptemberének végére 4404 milliárd forintra duzzadt, **ez a magyar éves GDP  5,87%-a**. Hihetetlen módon az alap vagyona 44%-al nőt éves alapon! A társaság továbbra is piacvezető pozícióval rendelkezik az értékpapíralapok piacán, 31,9%-os piaci részesedéssel. 
 
 ## Alapok bemutatása
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Alap neve</th>
+        <th>Alap típusa</th>
+        <th>Befektetési fókusz</th>
+        <th>Portfóliókezelő(k)</th>
+        <th>Főbb jellemzők</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>OTP Ingatlanvilág Alapok Alapja</b></td>
+        <td>Alapok alapja</td>
+        <td>Globális ingatlanpiaci befektetések</td>
+        <td>Nem ismert</td>
+        <td>Más ingatlanbefektetési alapokba fektet, diverzifikált portfóliót és nemzetközi ingatlanpiaci részvételt kínál. 
+          <a href="https://www.portfolio.hu/befektetesi-alapok/otp-ingatlanvilag-alapok-alapja/HU0000716378">Forrás</a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>OTP Fundman Részvény Alap</b></td>
+        <td>Részvényalap</td>
+        <td>Globális részvények, alulértékelt, közepes méretű vállalatokra fókusz</td>
+        <td>Boér Levente, Lokietek Eszter, Kovács-Kvotidián Máté</td>
+        <td>Magas részvénykitettség (90–100%), hosszú távon jelentős hozam az állampapírokhoz képest, a piaci lehetőségekhez igazodva változtatják az arányokat. 
+          <a href="https://www.otpbank.hu/otpalapkezelo/en/Fundman">Forrás</a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>OTP Sigma Származtatott Abszolút Hozamú Alap</b></td>
+        <td>Származtatott abszolút hozamú alap</td>
+        <td>Globális eszközök: részvények, kötvények, devizák, árupiaci termékek</td>
+        <td>Tóth István</td>
+        <td>Legalább ötéves időtávon kockázatmentes hozam feletti eredményt céloz meg, származtatott ügyleteket használ, 2019-ben új stratégiával bővítette működését. 
+          <a href="https://www.otpbank.hu/otpalapkezelo/hu/Sigma">Forrás</a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>OTP Abszolút Hozamú Származtatott Alap</b></td>
+        <td>Származtatott abszolút hozamú alap</td>
+        <td>Globális eszközök: fejlett és feltörekvő piaci részvények, kötvények, devizák, árupiaci eszközök</td>
+        <td>Halas Zoltán, Czakó Ágnes, Gajdács Attila</td>
+        <td>Aktív befektetési politika, származtatott ügyletek aktív használata, célja a kockázatmentes hozam feletti eredmény elérése a minimális ajánlott időtávon. 
+          <a href="https://www.otpbank.hu/otpalapkezelo/hu/AbszolutHozam">Forrás</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-### OTP Ingatlanvilág Alapok Alapja
+
+<!-- ### OTP Ingatlanvilág Alapok Alapja
 Az OTP Ingatlanvilág Alapok Alapja egy olyan befektetési alap, amely globális ingatlanpiaci befektetéseket kínál. Az alap más ingatlanbefektetési alapokba fektet, lehetővé téve a nemzetközi ingatlanpiacokon való részvételt és a portfólió diverzifikálását. Ezáltal a befektetők kihasználhatják a különböző ingatlanpiacok nyújtotta lehetőségeket.
 
 
@@ -34,14 +86,57 @@ Az alapot Boér Levente befektetési igazgató vezeti, aki szenvedélyes sakkoz�
 Az OTP Sigma Származtatott Abszolút Hozamú Alap célja, hogy aktív befektetési politikával a kockázatmentes hozamot meghaladó megtérülést érjen el legalább ötéves befektetési időtávon. Az alap globális befektetési stratégiát követ, eszközeit a lehető legszélesebb befektetési területen helyezi el. Befektetési eszközei közé tartoznak a részvények, kötvények, devizák és árupiaci termékek. Az alap aktívan alkalmaz származtatott ügyleteket a hozam növelése és a kockázatok kezelése érdekében. Az alap 2019-ben megújult befektetési stratégiával folytatta működését, amely nagyobb rugalmasságot és szélesebb eszközkört tesz lehetővé, így jobban alkalmazkodhat a változó piaci környezethez.
 
 ### OTP Abszolút Hozamú Származtatott Alap
-Az OTP Abszolút Hozamú Származtatott Alap célja, hogy aktív befektetési politikával a kockázatmentes hozamot meghaladó megtérülést érjen el a minimálisan ajánlott befektetési időtávon. Az alap globális eszközökbe fektet, beleértve a fejlett és feltörekvő piaci részvényeket, kötvényeket, devizákat és árupiaci eszközöket. Az alapkezelő aktívan használ származtatott termékeket a hozam maximalizálása érdekében. Az alap portfóliómenedzserei között van Halas Zoltán, aki több mint egy évtizedes tapasztalattal rendelkezik a pénzügyi piacokon.
+Az OTP Abszolút Hozamú Származtatott Alap célja, hogy aktív befektetési politikával a kockázatmentes hozamot meghaladó megtérülést érjen el a minimálisan ajánlott befektetési időtávon. Az alap globális eszközökbe fektet, beleértve a fejlett és feltörekvő piaci részvényeket, kötvényeket, devizákat és árupiaci eszközöket. Az alapkezelő aktívan használ származtatott termékeket a hozam maximalizálása érdekében. Az alap portfóliómenedzserei között van Halas Zoltán, aki több mint egy évtizedes tapasztalattal rendelkezik a pénzügyi piacokon. -->
 
 <div class="svg-container">
   <img src="/Befalapok2/dijak.svg" alt="Árfolyamok" class="dynamic-svg" />
   <figcaption class="svg-caption">1. Ábra: Ingatlanvilág, Fundan, Sigma és az OTP Abszolút alapok árfolyamai.</figcaption>
 </div>
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Alap neve</th>
+        <th>Alap típusa</th>
+        <th>Befektetési fókusz</th>
+        <th>Portfóliókezelő(k)</th>
+        <th>Főbb jellemzők</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>OTP Maxima Kötvény Alap</b></td>
+        <td>Kötvényalap</td>
+        <td>Hosszú lejáratú hazai és nemzetközi államkötvények, vállalati kötvények, jelzáloglevelek</td>
+        <td>Czakó Ágnes</td>
+        <td>Aktív befektetési stratégia, célja a kockázatmentes hozamot meghaladó megtérülés elérése. <a href="https://www.otpbank.hu/otpalapkezelo/hu/A_Maxima">Forrás</a></td>
+      </tr>
+      <tr>
+        <td><b>OTP Klímaváltozás 130/30 Származtatott Részvény Alap</b></td>
+        <td>Származtatott részvényalap</td>
+        <td>Klímaváltozásra reagáló vállalatok részvényei, 130/30 stratégia alkalmazása</td>
+        <td>Lokietek Eszter, Kovács-Kvotidián Máté, Boér Levente</td>
+        <td>ESG szempontok figyelembevétele, célja a fenntartható fejlődést támogató befektetések megvalósítása. <a href="https://www.otpbank.hu/otpalapkezelo/hu/A_Klimavaltozas">Forrás</a></td>
+      </tr>
+      <tr>
+        <td><b>OTP Ingatlanbefektetési Alap</b></td>
+        <td>Ingatlanalap</td>
+        <td>Kereskedelmi ingatlanok: irodaházak, bevásárlóközpontok, logisztikai központok</td>
+        <td>Nem ismert</td>
+        <td>Stabil cash flow biztosítása bérbeadásból, hosszú távon infláció feletti hozam elérése. <a href="https://www.otpbank.hu/otpingatlanalap/hu/befektetesialapok/ingatlanbefektetesialap">Forrás</a></td>
+      </tr>
+      <tr>
+        <td><b>OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja</b></td>
+        <td>Vegyes alapok alapja</td>
+        <td>OTP értékpapíralapok: pénzpiaci eszközök, kötvényalapok, abszolút hozamú alapok</td>
+        <td>Boér Levente, Lokietek Eszter, Kovács-Kvotidián Máté</td>
+        <td>Rugalmas befektetési lehetőség, mérsékelt kockázat mellett versenyképes hozam elérése, előre meghatározott arányok alapján összeállított portfólió. <a href="https://www.otpbank.hu/otpalapkezelo/hu/A_PremiumAktiv">Forrás</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-
+<!-- 
 ### OTP Maxima Kötvény Alap
 Az OTP Maxima Kötvény Alap egy hosszú lejáratú kötvényalap, amely stabil, a kockázatmentes hozamot meghaladó megtérülést kíván biztosítani. Az alap elsősorban hosszabb lejáratú hazai és nemzetközi államkötvényekbe, vállalati kötvényekbe és jelzáloglevelekbe fektet. Aktív befektetési stratégiát követ, kihasználva a kötvénypiaci lehetőségeket és a piaci kamatlábak változásait.
 
@@ -53,7 +148,7 @@ Az OTP Ingatlanbefektetési Alap fő célja, hogy hosszú távon stabil, inflác
 
 
 ### OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja
-Az OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja egy óvatos vegyes alap, amely rugalmas, bármikor hozzáférhető befektetési lehetőséget kínál. A portfólió döntően OTP értékpapíralapok befektetési jegyeiből áll, előre meghatározott arányokban: pénzpiaci eszközök, kötvényalapok, abszolút hozamú alapok és vegyes alapok. Az alap célja, hogy mérsékelt kockázat mellett versenyképes hozamot érjen el.
+Az OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja egy óvatos vegyes alap, amely rugalmas, bármikor hozzáférhető befektetési lehetőséget kínál. A portfólió döntően OTP értékpapíralapok befektetési jegyeiből áll, előre meghatározott arányokban: pénzpiaci eszközök, kötvényalapok, abszolút hozamú alapok és vegyes alapok. Az alap célja, hogy mérsékelt kockázat mellett versenyképes hozamot érjen el. -->
 <div class="svg-container">
   <img src="/Befalapok2/dijak_2.svg" alt="Árfolyamok" class="dynamic-svg" />
   <figcaption class="svg-caption">2. Ábra: Maxima, Klímaváltozás, Ingatlan és az OTP Prémium Aktív alapok árfolyamai.</figcaption>

@@ -33,7 +33,7 @@ const Bio = () => {
     <div className="bio global-header-article">
       {author?.name && (
         <p>
-          A blogot <strong>{author.name}</strong> írta. {author?.summary || null}
+          {author?.summary || null}
         </p>
       )}
     </div>

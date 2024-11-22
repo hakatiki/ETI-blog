@@ -1,10 +1,10 @@
 ---
 title: "Magyar befektetési alapok összehasonlítása 2. rész"
-date: "2024-11-24"
+date: "2024-11-23"
 description: "Folytatjuk a magyar befektetési alapok elemzését, ezúttal az OTP alapokra fókuszálva. Vajon valóban megéri ezekbe fektetni, vagy csak a marketing fogások áldozatai vagyunk?"
 released: "Yes"
 author: "Egri Máté és Takáts Bálint"
-image: "/Befalapok2/csányi.jpg"
+image: "/Befalapok2/otp.jpg"
 ---
 
 Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ahogy megkerestük, akkor nem vagyunk egyedül. Az OTP befektetési alapjai között böngészve felmerül a kérdés: vajon hová tűnik a hozam? [Előző cikkünkben](/Befalapok) bemutattuk a magyar befektetési alapok világát, most azonban mélyebbre ásunk, és kizárólag az OTP által kínált alapokat vesszük górcső alá. A választásunk oka az OTP Supra Alap, melynek silány teljesítménye és félrevezető marketingje különösen szembetűnő volt számunkra.
@@ -15,6 +15,11 @@ Az OTP Supra Alapról azóta megtudtuk, hogy bár [2020-ban Magyarország egyik 
 
 
 ## Az OTP Alapkezelő bemutatása
+
+<div class="responsive-image">
+  <img src="/Befalapok2/csányi.jpg" alt="Csányi Sándor" />
+    <figcaption class="svg-caption">Csányi Sándor</figcaption>
+</div>
 
 Az OTP Alapkezelő Magyarország egyik vezető befektetési alapkezelője, amely 2024 harmadik negyedévében is jelentős eredményeket ért el. A vállalat adózás utáni eredménye a negyedévre meghaladta az 5 milliárd forintot, így az első kilenc hónap profitja év/év közel 50%-kal, 16,6 milliárd forintra emelkedett. **Éves szinten az alapkezelő több mint 20 milliárd forint profitot termel az OTP Csoportnak**.
 
@@ -179,10 +184,17 @@ Az alábbiakban feltesszük, hogy a kockázatmentes hozam 5.5%, ugyanis a vizsg�
 ### Sharpe-ráta
 Nézzük meg az alapok különböző teljesítménymutatóit empirikus adataink alapján. Kezdjük a Sharpe-rátával.
 
-<div class="custom-text-box-elmeleti">
-    <h2>Sharpe-ráta</h2>
-    <p>  A Sharpe-ráta  <b>megadja az egységnyi szórásra jutó kockázati prémiumot</b>. Ez a portfólió teljesítményének egy értelmes mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért. <a href="/MPT">Bővebben itt.</a></p>
+
+<div class="custom-dropdown-box">
+    <details>
+        <summary><h2>Sharpe-ráta</h2></summary>
+        <p>
+            A Sharpe-ráta <b>megadja az egységnyi szórásra jutó kockázati prémiumot</b>. Ez a portfólió teljesítményének egy értelmes mérőszáma, hiszen megmondja, mennyi plusz hozamot kapunk adott kockázat vállalásáért. <a href="/MPT">Bővebben itt.</a>
+        </p>
+    </details>
 </div>
+
+
 
 
 <div class="svg-container">
@@ -200,7 +212,19 @@ A negatív Sharpe-ráta negatív kockázati prémiumot jelent, vagyis ezeket az 
 ### Sortino-ráta
 Egy hasonló mutató a Sortino-ráta, amiben szintén az egységnyi szórásra jutó kockázati prémiumot számoljuk ki, viszont a szórást csak a negatív hozamokra (veszteségekre) számoljuk ki.
 
-<div class="custom-text-box-elmeleti"> <h2>Sortino-ráta</h2> <p>A Sortino-ráta hasonló a Sharpe-rátához, de csak a negatív hozamok (veszteségek) szórását veszi figyelembe. Ezáltal pontosabb képet ad arról, hogy a befektetés mennyire kockázatos a veszteségek szempontjából. Magasabb Sortino-ráta jobb kockázat-hozam arányt jelez a negatív kilengések tekintetében.</a> </p> </div>
+
+<!-- 
+<div class="custom-text-box-elmeleti"> <h2>Sortino-ráta</h2> <p>A Sortino-ráta hasonló a Sharpe-rátához, de csak a negatív hozamok (veszteségek) szórását veszi figyelembe. Ezáltal pontosabb képet ad arról, hogy a befektetés mennyire kockázatos a veszteségek szempontjából. Magasabb Sortino-ráta jobb kockázat-hozam arányt jelez a negatív kilengések tekintetében.</a> </p> </div> -->
+
+<div class="custom-dropdown-box">
+    <details>
+        <summary><h2>Sortino-ráta</h2></summary>
+        <p>
+            A Sortino-ráta hasonló a Sharpe-rátához, de csak a negatív hozamok (veszteségek) szórását veszi figyelembe. Ezáltal pontosabb képet ad arról, hogy a befektetés mennyire kockázatos a veszteségek szempontjából. Magasabb Sortino-ráta jobb kockázat-hozam arányt jelez a negatív kilengések tekintetében.
+        </p>
+    </details>
+</div>
+
 
 <div class="svg-container">
   <img src="/Befalapok2/sortino.svg" alt="Sortino" class="dynamic-svg" />
@@ -212,7 +236,15 @@ A Sortino-rátában mérve is siralmas az OTP alapjainak a teljesítménye.
 ### Treynor-ráta
 A piactól való függés mértékét a korábban említett bétával mérjük, ami szintén lehet mérőszáma egy portfólió kockázatának. Ezzel számol az ún. Treynor-ráta, mely az egységnyi bétára jutó kockázati prémiumot adja meg.
 
- <div class="custom-text-box-elmeleti"> <h2>Treynor-ráta</h2> <p> A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő.</a> </p> </div>
+ <!-- <div class="custom-text-box-elmeleti"> <h2>Treynor-ráta</h2> <p> A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő.</a> </p> </div> -->
+<div class="custom-dropdown-box">
+    <details>
+        <summary><h2>Treynor-ráta</h2></summary>
+        <p>
+            A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő.
+        </p>
+    </details>
+</div>
 
 <div class="svg-container">
   <img src="/Befalapok2/treynor.svg" alt="Treynor" class="dynamic-svg" />
@@ -321,26 +353,65 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
 
 ### Korreláció
 
-<div class="custom-text-box-elmeleti"> <h2>Korrelációs mátrix</h2> <p> A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a></p> </div>
+<!-- 
+<div class="custom-text-box-elmeleti"> <h2>Korrelációs mátrix</h2> <p> A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a></p> </div> -->
+
 
 <div class="svg-container">
   <img src="/Befalapok2/korrelacio.svg" alt="Korrelációs mátrix" class="dynamic-svg" />
   <figcaption class="svg-caption">7. Ábra: Korrelációs mátrix az alapok hozamai között.</figcaption>
 </div>
 
-<div class="custom-text-box">
-<h2>Béta</h2>
-    <p>
-        Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
-    </p>
+<div class="custom-dropdown-box">
+    <details>
+        <summary><h2>Korrelációs mátrix</h2></summary>
+        <p>
+            A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a>
+        </p>
+    </details>
 </div>
-
 
 
 A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas korrelációt egymással, ami arra utalhat, hogy hasonló befektetési stratégiát követnek vagy portfóliójuk jelentős átfedést mutat. A piaccal való korreláció tekintetében egyedül az OTP Klímaváltozás Alap mutat erősebb összefüggést, valószínűleg azért, mert portfóliójában sok amerikai részvényt tartalmaz. Ennek eredményeként érzékenyebben reagál az amerikai tőzsdeindex mozgásaira, magasabb hozamot érhet el, de nagyobb kockázat mellett.
 
+
+
+
+
+
+
+
+
+<!-- <div class="custom-text-box"> -->
+
+<!-- <h2>Béta</h2>
+    <p>
+        Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
+    </p>
+</div> -->
+
+<div class="custom-dropdown-box">
+    <details>
+        <summary><h2>Béta</h2></summary>
+        <p>
+            Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
+        </p>
+    </details>
+</div>
+
+
 ### Klaszterezés
-<div class="custom-text-box-elmeleti">
+
+
+<div class="svg-container">
+  <img src="/Befalapok2/dendogram.svg" alt="Dendrogram" class="dynamic-svg" />
+  <figcaption class="svg-caption">8. Ábra: Hierarchikus klaszterezés dendrogramja.</figcaption>
+</div>
+
+A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon látott adatokat. Az OTP Fundman és az OTP Prémium Aktív két nagyon hasonló alap. Valamint az OTP Klímaváltozás nagy része fejlett piaci részvény lehet.
+
+
+<!-- <div class="custom-text-box-elmeleti">
     <h2>Hierarchikus klaszterezés és dendrogram</h2>
     <p>
     A hierarchikus klaszterezés egy <b>adatcsoportosítási módszer</b>, amely az adatok közötti hasonlóságok vagy különbségek alapján szervezi azokat hierarchikus struktúrába. A módszer során az adatokból kiindulva fokozatosan építünk fel klasztereket, amelyek egyre nagyobb csoportokat alkotnak.
@@ -351,14 +422,22 @@ A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas
     <p>
         A klaszterezés során <b>a korrelációt használtuk távolságmetrikaként</b>. Ez azt jelenti, hogy az alapok közötti korrelációs értékek alapján határoztuk meg, mennyire "távol" vagy "közel" vannak egymáshoz. A magas korreláció alacsony távolságot, míg az alacsony vagy negatív korreláció nagyobb távolságot jelent. Így a dendrogramon azok az alapok kerülnek közelebb egymáshoz, amelyek hozamai hasonlóan mozognak.
     </p>
-</div>
+</div> -->
 
-<div class="svg-container">
-  <img src="/Befalapok2/dendogram.svg" alt="Dendrogram" class="dynamic-svg" />
-  <figcaption class="svg-caption">8. Ábra: Hierarchikus klaszterezés dendrogramja.</figcaption>
+<div class="custom-dropdown-box">
+    <details>
+        <summary><h2>Hierarchikus klaszterezés és dendrogram</h2></summary>
+        <p>
+            A hierarchikus klaszterezés egy <b>adatcsoportosítási módszer</b>, amely az adatok közötti hasonlóságok vagy különbségek alapján szervezi azokat hierarchikus struktúrába. A módszer során az adatokból kiindulva fokozatosan építünk fel klasztereket, amelyek egyre nagyobb csoportokat alkotnak.
+        </p>
+        <p>
+            A dendrogram egy fa struktúrájú ábra, amely vizuálisan megjeleníti a klaszterek hierarchiáját és a közöttük lévő távolságokat. Az ábra segítségével könnyen áttekinthető, mely alapok hasonlítanak leginkább egymásra.
+        </p>
+        <p>
+            A klaszterezés során <b>a korrelációt használtuk távolságmetrikaként</b>. Ez azt jelenti, hogy az alapok közötti korrelációs értékek alapján határoztuk meg, mennyire "távol" vagy "közel" vannak egymáshoz. A magas korreláció alacsony távolságot, míg az alacsony vagy negatív korreláció nagyobb távolságot jelent. Így a dendrogramon azok az alapok kerülnek közelebb egymáshoz, amelyek hozamai hasonlóan mozognak.
+        </p>
+    </details>
 </div>
-
-A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon látott adatokat. Az OTP Fundman és az OTP Prémium Aktív két nagyon hasonló alap. Valamint az OTP Klímaváltozás nagy része fejlett piaci részvény lehet.
 
 
 ### Összefoglalás

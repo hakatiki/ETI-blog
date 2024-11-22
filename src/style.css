@@ -82,6 +82,111 @@
   background-color: #27496d; /* Darken blue on hover for interactive feel */
   color: #e0e0e0; /* Slightly lighter text on hover */
 }
+
+/* Existing Styles for .custom-dropdown-box */
+.custom-dropdown-box {
+  border: 2px solid #070e3c; /* Morgan Stanley blue */
+  background-color: #D1E4F1;
+  padding: var(--spacing-3);
+  border-radius: var(--spacing-2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: var(--maxWidth-full);
+  width: auto;
+  margin: var(--spacing-2) auto;
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+/* Heading Styles */
+.custom-dropdown-box h2 {
+  text-align: left;
+  color: #335574; /* Morgan Stanley blue */
+  font-family: var(--font-heading);
+  font-size: var(--fontSize-2);
+  margin-top: var(--spacing-0);
+}
+
+/* Paragraph and Source Styles */
+.custom-dropdown-box p {
+  margin: var(--spacing-0);
+  line-height: var(--lineHeight-relaxed);
+}
+
+.custom-dropdown-box .source {
+  font-style: italic;
+  text-align: right;
+  margin-top: var(--spacing-1);
+  font-size: var(--fontSize-1);
+}
+
+/* Dropdown Functionality Styles */
+.custom-dropdown-box details {
+  position: relative;
+  overflow: hidden; /* Added to contain the animated content */
+}
+
+.custom-dropdown-box summary {
+  list-style: none;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-dropdown-box summary::-webkit-details-marker {
+  display: none;
+}
+
+.custom-dropdown-box summary h2 {
+  display: inline;
+  margin: 0;
+}
+
+/* Custom Arrow Indicator */
+.custom-dropdown-box summary::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #335574;
+  border-bottom: 2px solid #335574;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+  float: right;
+  margin-top: 5px;
+  margin-right: var(--spacing-1);
+}
+
+.custom-dropdown-box details[open] summary::after {
+  transform: rotate(-135deg);
+  margin-top: 2px;
+}
+
+/* Content Animation Styles */
+.custom-dropdown-box details > p,
+.custom-dropdown-box details > .source {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* Initially hide the content */
+}
+
+/* Show content when details is open */
+.custom-dropdown-box details[open] > p,
+.custom-dropdown-box details[open] > .source {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure the summary is always visible */
+.custom-dropdown-box summary {
+  display: block;
+}
+
+
+
 /* CSS for Custom Text Box */
 .custom-text-box {
   border: 2px solid #335574; /* Morgan Stanley blue */

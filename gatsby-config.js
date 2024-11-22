@@ -14,7 +14,8 @@ module.exports = {
       name:`Takáts Bálint és Egri Máté`,
       namebalint: `Takáts Bálint`,
       namemate: ``,
-      summary: `A pénzügyi szférában dolgozunk, Máté végzettsége szerint matematikus és kvantitatív elemző, Bálint informatikus. Érdekel minket a gazdaság, a befektetések és a piacok.`,
+      summary: `
+Takáts Bálint és Egri Máté vagyunk, a pénzügy és technológia metszetében dolgozunk, matematikai precizitással és innovatív megközelítéssel elemezve a piacok dinamikáját. Adatvezérelt és elemző szemléletünkkel a gazdasági folyamatok mélyebb megértésére törekszünk. Szenvedélyünk a befektetések és a piacok működésének feltárása.`,
     },
     description: `Minden ami minket érdekel: pénzügyek, befektetések, matematika és informatika.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,

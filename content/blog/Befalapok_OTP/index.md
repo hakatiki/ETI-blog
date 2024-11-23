@@ -7,9 +7,9 @@ author: "Egri Máté és Takáts Bálint"
 image: "/Befalapok2/otp.jpg"
 ---
 
-Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ahogy megkerestük, akkor nem vagyunk egyedül. Az OTP befektetési alapjai között böngészve felmerül a kérdés: vajon hová tűnik a hozam? [Előző cikkünkben](/Befalapok) bemutattuk a magyar befektetési alapok világát, most azonban mélyebbre ásunk, és kizárólag az OTP által kínált alapokat vesszük górcső alá. A választásunk oka az OTP Supra Alap, melynek silány teljesítménye és félrevezető marketingje különösen szembetűnő volt számunkra.
+Ha valaha is éreztük már úgy, hogy a pénzünk gyorsabban tűnik el, mint ahogy megkerestük, akkor nem vagyunk egyedül. Az Országos Takarékpénztár befektetési alapjai között böngészve felmerül a kérdés: vajon hová tűnik a hozam? [Előző cikkünkben](/Befalapok) bemutattuk a magyar befektetési alapok világát, most azonban mélyebbre ásunk, és kizárólag az OTP által kínált alapokat vesszük górcső alá. A választásunk oka az OTP Supra Alap, melynek silány teljesítménye és félrevezető marketingje különösen szembetűnő volt számunkra.
 
-Az OTP Supra Alapról azóta megtudtuk, hogy bár [2020-ban Magyarország egyik legnagyobb abszolút hozamú alapja volt](https://www.portfolio.hu/befektetes/20200312/hatalmasat-zuhant-a-supra-mi-lesz-vele-reagalt-az-otp-419113), 2020. márciusában **egy nap alatt mégis 13,87%-ot esett**. Az alapkezelő szerint az árfolyamesést elsősorban az „olajpiac irracionális, előre nem látható zuhanása” okozta. Közölték, hogy „az OTP Supra Alap risk-on módban volt, eszközei között olaj vételi pozíciót, illetve MOL, Petrom és amerikai palaolaj-részvény kitettséget egyaránt tartott.” Kiemelték továbbá, hogy az OTP Supra Alap a jelentős, nyitáskori áresés ellenére is megtartotta olajpozícióit. **Az esést azóta sem sikerül ledolgozniuk**.
+Az OTP Supra Alapról azóta megtudtuk, hogy bár [2020-ban Magyarország egyik legnagyobb abszolút hozamú alapja volt](https://www.portfolio.hu/befektetes/20200312/hatalmasat-zuhant-a-supra-mi-lesz-vele-reagalt-az-otp-419113), 2020. márciusában **egy nap alatt mégis 13,87%-ot esett**. Az alapkezelő szerint az árfolyamesést elsősorban az „olajpiac irracionális, előre nem látható zuhanása” okozta. Közölték, hogy „az OTP Supra Alap risk-on módban volt, eszközei között olaj vételi pozíciót, illetve MOL, Petrom és amerikai palaolaj-részvény kitettséget egyaránt tartott.” Kiemelték továbbá, hogy az OTP Supra Alap a jelentős, nyitáskori áresés ellenére is megtartotta olajpozícióit. **Az esést azóta sem sikerült ledolgozniuk**.
 
 **A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
@@ -23,7 +23,7 @@ Az OTP Supra Alapról azóta megtudtuk, hogy bár [2020-ban Magyarország egyik 
 
 Az OTP Alapkezelő Magyarország egyik vezető befektetési alapkezelője, amely 2024 harmadik negyedévében is jelentős eredményeket ért el. A vállalat adózás utáni eredménye a negyedévre meghaladta az 5 milliárd forintot, így az első kilenc hónap profitja év/év közel 50%-kal, 16,6 milliárd forintra emelkedett. **Éves szinten az alapkezelő több mint 20 milliárd forint profitot termel az OTP Csoportnak**.
 
-Az alapkezelő által kezelt alapok állománya 2024 szeptemberének végére 4404 milliárd forintra duzzadt, **ez a magyar éves GDP  5,87%-a**. Hihetetlen módon az alap vagyona 44%-al nőt éves alapon! A társaság továbbra is piacvezető pozícióval rendelkezik az értékpapíralapok piacán, 31,9%-os piaci részesedéssel. 
+Az alapkezelő által kezelt alapok állománya 2024 szeptemberének végére 4404 milliárd forintra duzzadt, **ez a magyar éves GDP  5,87%-a**. Hihetetlen módon az alap vagyona 44%-al nőtt éves alapon! A társaság továbbra is piacvezető pozícióval rendelkezik az értékpapíralapok piacán, 31,9%-os piaci részesedéssel. 
 
 ## Alapok bemutatása
 <div class="table-container">
@@ -160,15 +160,15 @@ Az OTP Prémium Aktív Klasszikus Vegyes Alapok Alapja egy óvatos vegyes alap, 
 </div>
 
 
-
+<!-- 
 ### S&P 500
-Az **S&P 500 egy amerikai, dollárban jegyzett tőzsdeindex, amely az USA 500 legnagyobb tőzsdén jegyzett vállalatát foglalja magában**. Ez azt jelenti, hogy az egyes részvények a piaci kapitalizációjuk alapján vannak súlyozva. Az előző cikkünkben bemutattuk a modern portfólióelméletet és a CAPM-et, amelyek egyik fő tanulsága, hogy a piaci portfóliónak van a legmagasabb Sharpe-rátája. Felmerülhet a kérdés az olvasóban, hogy van-e **OTP által kezel alap**, ami le tudja győzni a piacot vagy Markowitznak és Sharpenak van igaza? Erre a kérdésre már most választ adunk: **Nincs**. Megjegyzendő, hogy az általunk vizsgált alapok mind forintban vannak jegyezve, míg az S&P 500 dollárban. A pontos összehasonlítás érdekében a napi árfolyamokat dollárról forintra váltottuk, ami az index hozamát tovább növelte a forint utóbbi években tapasztalt gyengülése miatt.
+Az **S&P 500 egy amerikai, dollárban jegyzett tőzsdeindex, amely az USA 500 legnagyobb tőzsdén jegyzett vállalatát foglalja magában**. Ez azt jelenti, hogy az egyes részvények a piaci kapitalizációjuk alapján vannak súlyozva. Az előző cikkünkben bemutattuk a modern portfólióelméletet és a CAPM-et, amelyek egyik fő tanulsága, hogy a piaci portfóliónak van a legmagasabb Sharpe-rátája. Felmerülhet a kérdés az olvasóban, hogy van-e **az OTP által kezelt alap**, ami le tudja győzni a piacot vagy Markowitznak és Sharpenak van igaza? Erre a kérdésre már most választ adunk: **Nincs**. Megjegyzendő, hogy az általunk vizsgált alapok mind forintban vannak jegyezve, míg az S&P 500 dollárban. A pontos összehasonlítás érdekében a napi árfolyamokat dollárról forintra váltottuk, ami az index hozamát tovább növelte a forint utóbbi években tapasztalt gyengülése miatt. -->
 
-### Adatok és díjak
+<!-- ### Adatok és díjak -->
 
-Az idősoros adatokat a Befektetési Alapkezelők és Vagyonkezelők Magyarországi Szövetsége ([BAMOSZ](https://www.bamosz.hu/)) oldaláról gyűjtöttük össze. 
+Mint korábban, az idősoros adatokat a Befektetési Alapkezelők és Vagyonkezelők Magyarországi Szövetsége ([BAMOSZ](https://www.bamosz.hu/)) oldaláról gyűjtöttük össze. Ezek a folyó költségeket (pl. kezelési és sikerdíj) tartalmazzák. **Azonban az idősor nem tartalmazza a ki, illetve belépési díjakat, ami az OTP esetében akár 5%-ot is elérhetnek, ami a legtöbb alapjuk esetében közel két évnyi hozammal egyenlő!**
 
-A díjak két fő kategóriára oszthatók: egyszeri és éves költségekre. Az egyszeri költségek közé tartoznak a belépési, kilépési és tranzakciós díjak, amelyek mértéke 0%-tól akár a már-már hihetetlen 5%-ig terjedhet. Az éves, vagy folyó költségek tipikus példái a kezelési díj és a sikerdíj. Különösen érdekes a sikerdíj, amelyet akkor kell megfizetni, ha az alap teljesítménye meghaladja az előre meghatározott referenciaértéket (benchmarkot). Ez lehet például a magyar állampapír hozama. A BAMOSZ-on található idősorok minden fix és sikerdíjat tartalmaznak. **Azonban az idősor nem tartalmazza a ki, illetve belépési díjakat, ami az OTP esetében akár 5%-ot is elérhetnek, ami a legtöbb alapjuk esetében közel két évnyi hozammal egyenlő!**
+<!-- A díjak két fő kategóriára oszthatók: egyszeri és éves költségekre. Az egyszeri költségek közé tartoznak a belépési, kilépési és tranzakciós díjak, amelyek mértéke 0%-tól akár a már-már hihetetlen 5%-ig terjedhet. Az éves, vagy folyó költségek tipikus példái a kezelési díj és a sikerdíj. Különösen érdekes a sikerdíj, amelyet akkor kell megfizetni, ha az alap teljesítménye meghaladja az előre meghatározott referenciaértéket (benchmarkot). Ez lehet például a magyar állampapír hozama. A BAMOSZ-on található idősorok minden fix és sikerdíjat tartalmaznak.  -->
 
 
 
@@ -178,9 +178,10 @@ A díjak két fő kategóriára oszthatók: egyszeri és éves költségekre. Az
 </div>
 
 
-### Teljesítményelemzés
+## Teljesítmény elemzése
 
-Az alábbiakban feltesszük, hogy a kockázatmentes hozam 5.5%, ugyanis a vizsgált időszakon (körülbelül) ekkora hozamot lehetett elérni kockázatmentes állampapírok vásárlásával.
+Az alapok hozamait a cikk megírásának időpontját megelőző 5 éves intervallumon elemezzük. Továbbá feltesszük, hogy a kockázatmentes hozam 5.5%, ugyanis a vizsgált időszakon (körülbelül) ekkora hozamot lehetett elérni kockázatmentes állampapírok vásárlásával.
+
 ### Sharpe-ráta
 Nézzük meg az alapok különböző teljesítménymutatóit empirikus adataink alapján. Kezdjük a Sharpe-rátával.
 
@@ -203,11 +204,11 @@ Nézzük meg az alapok különböző teljesítménymutatóit empirikus adataink 
 </div>
 
 
-Jöjjön a feketeleves: a vizsgált alapok mind gyengébbek mint az S&P 500 részvényindex, még kockázattal kiigazítva is! Ráadásul nem is kicsit maradnak el, hiszen az alapok felének negatív a Sharpe-rátája. 
+Jöjjön a feketeleves: a vizsgált alapok mind gyengébbek mint az S&P 500 részvényindex, még kockázattal kiigazítva is! Ráadásul nem is kicsit maradnak el, hiszen az alapok felének negatív a Sharpe-rátája. A negatív Sharpe-ráta negatív kockázati prémiumot jelent, vagyis ezeket az alapokat még az állampapírpiac is felülmúlja. 
+<!-- 
+Ez talán nem is olyan meglepő például az olyan alapok esetében, mint az OTP Ingatlan, amely alacsony hozamú ingatlanbefektetésekből áll, és hozama a kötvénypiacéhoz hasonlít. A probléma azonban az, hogy a portfóliókezelők jelentős díjakat számolnak fel, ami tovább csökkenti a befektetők hozamát. -->
 
-A negatív Sharpe-ráta negatív kockázati prémiumot jelent, vagyis ezeket az alapokat még az állampapírpiac is felülmúlja. Ez talán nem is olyan meglepő például az olyan alapok esetében, mint az OTP Ingatlan, amely alacsony hozamú ingatlanbefektetésekből áll, és hozama a kötvénypiacéhoz hasonlít. A probléma azonban az, hogy a portfóliókezelők jelentős díjakat számolnak fel, ami tovább csökkenti a befektetők hozamát.
 
-*Így lassan összeáll egy kép az OTP alapjairól: mintha a magyarok megtakarításai inkább Csányi Sándor és a részvényesek vagyonát gyarapítanák.* Ilyen gyenge teljesítményt nem lehet piaci volatilitással vagy balszerencsével magyarázni, csakis intézményes inkompetenciával. 
 
 ### Sortino-ráta
 Egy hasonló mutató a Sortino-ráta, amiben szintén az egységnyi szórásra jutó kockázati prémiumot számoljuk ki, viszont a szórást csak a negatív hozamokra (veszteségekre) számoljuk ki.
@@ -231,46 +232,48 @@ Egy hasonló mutató a Sortino-ráta, amiben szintén az egységnyi szórásra j
   <figcaption class="svg-caption">5. Ábra: Sortino-ráták összehasonlítása.</figcaption>
 </div>
 
-A Sortino-rátában mérve is siralmas az OTP alapjainak a teljesítménye. 
+A Sortino-rátában mérve sem sokkal meggyőzőbb az OTP alapjainak a teljesítménye. 
 
-### Treynor-ráta
-A piactól való függés mértékét a korábban említett bétával mérjük, ami szintén lehet mérőszáma egy portfólió kockázatának. Ezzel számol az ún. Treynor-ráta, mely az egységnyi bétára jutó kockázati prémiumot adja meg.
+<!-- ### Treynor-ráta
+A piactól való függés mértékét a bétával mérjük, ami szintén lehet mérőszáma egy portfólió kockázatának. Ezzel számol az ún. Treynor-ráta, mely az egységnyi bétára jutó kockázati prémiumot adja meg. -->
 
  <!-- <div class="custom-text-box-elmeleti"> <h2>Treynor-ráta</h2> <p> A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő.</a> </p> </div> -->
-<div class="custom-dropdown-box">
+<!-- <div class="custom-dropdown-box">
     <details>
         <summary><h2>Treynor-ráta</h2></summary>
         <p>
             A Treynor-ráta a befektetés kockázati prémiumának és a piaci kockázatának arányát méri, ahol a piaci kockázatot a bétával fejezzük ki. Megmutatja, hogy egységnyi szisztematikus (piaci) kockázatra mennyi többlethozam jut. Hasznos eszköz a portfóliók összehasonlítására, különösen akkor, ha a diverzifikáció mértéke eltérő.
         </p>
     </details>
-</div>
+</div> -->
 
-<div class="svg-container">
+<!-- <div class="svg-container">
   <img src="/Befalapok2/treynor.svg" alt="Treynor" class="dynamic-svg" />
   <figcaption class="svg-caption">6. Ábra: Treynor-ráták összehasonlítása.</figcaption>
-</div>
+</div> -->
 
-Utolsó lehetőségként az OTP Ingatlannak sikerül legyőznie a piacot legalább Treynor-ráta tekintetében, de ez már semmit sem segít.
+<!-- Utolsó lehetőségként az OTP Ingatlannak sikerül legyőznie a piacot legalább Treynor-ráta tekintetében, de ez már semmit sem segít. -->
 
+*Így lassan összeáll egy kép az OTP alapjairól: mintha a magyarok megtakarításai inkább Csányi Sándor és a részvényesek vagyonát gyarapítanák.* Ilyen gyenge teljesítményt nehéz piaci volatilitással vagy balszerencsével magyarázni.
 
+## Összefoglalás
 
-Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutatót:
+Végül egy táblázatban összefoglaltuk az általunk vizsgált mutatókat:
 <div class="table-container">
  <table class="custom-table">
        <tr>
           <th>Alap neve</th>
           <th class="align-right">Sharpe-ráta</th>
           <th class="align-right">Sortino-ráta</th>
-          <th class="align-right">Treynor-ráta</th>
-          <th class="align-right">Hozam (%)</th>
-          <th class="align-right">Szórás (%)</th>
+          <!-- <th class="align-right">Treynor-ráta</th> -->
+          <th class="align-right">Hozam (éves)</th>
+          <th class="align-right">Szórás (éves)</th>
         </tr>
         <tr>
           <td>S&P 500</td>
           <td class="align-right">0.7602</td>
           <td class="align-right">0.8760</td>
-          <td class="align-right">0.0006</td>
+          <!-- <td class="align-right">0.0006</td> -->
           <td class="align-right">23.07%</td>
           <td class="align-right">23.11%</td>
         </tr>
@@ -278,7 +281,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Ingatlanvilág</td>
           <td class="align-right">0.5523</td>
           <td class="align-right">0.8059</td>
-          <td class="align-right">-0.0082</td>
+          <!-- <td class="align-right">-0.0082</td> -->
           <td class="align-right">6.28%</td>
           <td class="align-right">1.41%</td>
         </tr>
@@ -286,7 +289,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Klímaváltozás</td>
           <td class="align-right">0.4400</td>
           <td class="align-right">0.5549</td>
-          <td class="align-right">0.0005</td>
+          <!-- <td class="align-right">0.0005</td> -->
           <td class="align-right">15.04%</td>
           <td class="align-right">21.68%</td>
         </tr>
@@ -294,7 +297,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Sigma</td>
           <td class="align-right">0.2861</td>
           <td class="align-right">0.3525</td>
-          <td class="align-right">-0.0023</td>
+          <!-- <td class="align-right">-0.0023</td> -->
           <td class="align-right">10.24%</td>
           <td class="align-right">16.58%</td>
         </tr>
@@ -302,7 +305,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>USD/HUF</td>
           <td class="align-right">0.0844</td>
           <td class="align-right">0.1224</td>
-          <td class="align-right">0.0001</td>
+          <!-- <td class="align-right">0.0001</td> -->
           <td class="align-right">6.54%</td>
           <td class="align-right">12.35%</td>
         </tr>
@@ -310,7 +313,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Fundman</td>
           <td class="align-right">-0.0252</td>
           <td class="align-right">-0.0281</td>
-          <td class="align-right">0.0000</td>
+          <!-- <td class="align-right">0.0000</td> -->
           <td class="align-right">5.00%</td>
           <td class="align-right">20.02%</td>
         </tr>
@@ -318,7 +321,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Prémium Aktív</td>
           <td class="align-right">-0.1044</td>
           <td class="align-right">-0.1292</td>
-          <td class="align-right">-0.0002</td>
+          <!-- <td class="align-right">-0.0002</td> -->
           <td class="align-right">5.00%</td>
           <td class="align-right">4.81%</td>
         </tr>
@@ -326,7 +329,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Abszolút</td>
           <td class="align-right">-0.1044</td>
           <td class="align-right">-0.1442</td>
-          <td class="align-right">-0.0002</td>
+          <!-- <td class="align-right">-0.0002</td> -->
           <td class="align-right">4.73%</td>
           <td class="align-right">7.40%</td>
         </tr>
@@ -334,7 +337,7 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Ingatlan</td>
           <td class="align-right">-0.3659</td>
           <td class="align-right">-0.4163</td>
-          <td class="align-right">0.0149</td>
+          <!-- <td class="align-right">0.0149</td> -->
           <td class="align-right">5.12%</td>
           <td class="align-right">1.03%</td>
         </tr>
@@ -342,21 +345,21 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
           <td>OTP Maxima</td>
           <td class="align-right">-0.5287</td>
           <td class="align-right">-0.6967</td>
-          <td class="align-right">-0.0828</td>
+          <!-- <td class="align-right">-0.0828</td> -->
           <td class="align-right">2.20%</td>
           <td class="align-right">6.24%</td>
         </tr>
     </table>
 </div>
 
-## Kapcsolatok feltárása
+<!-- ## Kapcsolatok feltárása
 
-### Korreláció
+### Korreláció -->
 
 <!-- 
 <div class="custom-text-box-elmeleti"> <h2>Korrelációs mátrix</h2> <p> A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a></p> </div> -->
 
-
+<!-- 
 <div class="svg-container">
   <img src="/Befalapok2/korrelacio.svg" alt="Korrelációs mátrix" class="dynamic-svg" />
   <figcaption class="svg-caption">7. Ábra: Korrelációs mátrix az alapok hozamai között.</figcaption>
@@ -369,10 +372,10 @@ Végül egy táblázatban összefoglaltuk az összes általunk vizsgált mutató
             A korrelációs mátrix egy <b>statisztikai eszköz, amely megmutatja, hogyan mozognak együtt az egyes változók</b>. Ez segít megérteni a különböző eszközök közötti kapcsolatokat, és megmutatja, mennyire szorosan korrelálnak egymással. A korrelációs értékek -1 és 1 között mozognak, ahol az 1 teljes pozitív korrelációt, a -1 teljes negatív korrelációt, a 0 pedig semmilyen korrelációt nem jelent. <a href="/MPT">Bővebben itt.</a>
         </p>
     </details>
-</div>
+</div> -->
 
-
-A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas korrelációt egymással, ami arra utalhat, hogy hasonló befektetési stratégiát követnek vagy portfóliójuk jelentős átfedést mutat. A piaccal való korreláció tekintetében egyedül az OTP Klímaváltozás Alap mutat erősebb összefüggést, valószínűleg azért, mert portfóliójában sok amerikai részvényt tartalmaz. Ennek eredményeként érzékenyebben reagál az amerikai tőzsdeindex mozgásaira, magasabb hozamot érhet el, de nagyobb kockázat mellett.
+<!-- 
+A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas korrelációt egymással, ami arra utalhat, hogy hasonló befektetési stratégiát követnek vagy portfóliójuk jelentős átfedést mutat. A piaccal való korreláció tekintetében egyedül az OTP Klímaváltozás Alap mutat erősebb összefüggést, valószínűleg azért, mert portfóliójában sok amerikai részvényt tartalmaz. Ennek eredményeként érzékenyebben reagál az amerikai tőzsdeindex mozgásaira, magasabb hozamot érhet el, de nagyobb kockázat mellett. -->
 
 
 
@@ -390,16 +393,16 @@ A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas
     </p>
 </div> -->
 
-<div class="custom-dropdown-box">
+<!-- <div class="custom-dropdown-box">
     <details>
         <summary><h2>Béta</h2></summary>
         <p>
             Általában egy befektetési eszköz kívánatos tulajdonsága, hogy alacsony mértékben függjön a piac egészének mozgásától (azaz alacsony bétájú legyen), ezzel csökkentve a szisztematikus kockázatot. A CAPM fő képlete szerint az eszköz várható hozama a bétájának függvénye; magasabb béta magasabb várható hozamot, de nagyobb kockázatot is jelent. Egyes portfóliókezelők aktívan fedezik portfóliójukat a piaci mozgások ellen, például S&P 500 indexre szóló eladási (put) opciók vásárlásával, hogy csökkentsék a negatív piaci események hatását.
         </p>
     </details>
-</div>
+</div> -->
 
-
+<!-- 
 ### Klaszterezés
 
 
@@ -408,7 +411,7 @@ A vizsgált alapok közül az OTP Fundman és az OTP Prémium Aktív mutat magas
   <figcaption class="svg-caption">8. Ábra: Hierarchikus klaszterezés dendrogramja.</figcaption>
 </div>
 
-A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon látott adatokat. Az OTP Fundman és az OTP Prémium Aktív két nagyon hasonló alap. Valamint az OTP Klímaváltozás nagy része fejlett piaci részvény lehet.
+A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon látott adatokat. Az OTP Fundman és az OTP Prémium Aktív két nagyon hasonló alap. Valamint az OTP Klímaváltozás nagy része fejlett piaci részvény lehet. -->
 
 
 <!-- <div class="custom-text-box-elmeleti">
@@ -424,7 +427,7 @@ A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon lát
     </p>
 </div> -->
 
-<div class="custom-dropdown-box">
+<!-- <div class="custom-dropdown-box">
     <details>
         <summary><h2>Hierarchikus klaszterezés és dendrogram</h2></summary>
         <p>
@@ -437,13 +440,12 @@ A hirearchikus klaszterezés tovább megerősíti a korrelációs mátrixon lát
             A klaszterezés során <b>a korrelációt használtuk távolságmetrikaként</b>. Ez azt jelenti, hogy az alapok közötti korrelációs értékek alapján határoztuk meg, mennyire "távol" vagy "közel" vannak egymáshoz. A magas korreláció alacsony távolságot, míg az alacsony vagy negatív korreláció nagyobb távolságot jelent. Így a dendrogramon azok az alapok kerülnek közelebb egymáshoz, amelyek hozamai hasonlóan mozognak.
         </p>
     </details>
-</div>
+</div> -->
 
+Bár az analízist felettébb kiterjedt eszköztárral folytathatnánk, ez a vizsgált nyolc alap már a belépő próbán megbukott, így a mélyebb elemzés felesleges és rögtön konklúziót vonhatunk. Sajnos az OTP kezelt befektetési alapjainak teljesítménye jelentősen elmarad a befektetők jogos elvárásaitól. A piacon megtalálható többi alaphoz és a piachoz magához képest olyan nagy a lemaradás, hogy komoly kérdéseket vet fel az OTP Alapkezelő befektetési stratégiájával és portfóliókezelési készségeivel kapcsolatban.
 
-### Összefoglalás
-
-Az OTP által kezelt alapok teljesítménye sajnálatos módon jelentősen elmarad a befektetők jogos elvárásaitól. Az alulteljesítés mértéke nem magyarázható pusztán piaci körülményekkel vagy átmeneti ingadozásokkal; inkább rendszerszintű problémákra utal a befektetési stratégiákban és a portfóliókezelésben.
+<!-- Az OTP által kezelt alapok teljesítménye sajnálatos módon jelentősen elmarad a befektetők jogos elvárásaitól. Az alulteljesítés mértéke nem magyarázható pusztán piaci körülményekkel vagy átmeneti ingadozásokkal; inkább rendszerszintű problémákra utal a befektetési stratégiákban és a portfóliókezelésben. -->
 
 **Megdöbbentő tény, hogy a magyar GDP közel 5,87%-a ilyen alulteljesítő alapokban van befektetve.** Ez azt jelenti, hogy a magyar megtakarítók jelentős része nem részesül a pénzügyi piacok nyújtotta lehetőségekben, miközben az alapkezelők és a részvényesek profitálnak. **Az ügyfelek érdekeinek előtérbe helyezése nemcsak etikai kötelesség, hanem üzletileg is indokolt lenne** az OTP számára, ha hosszú távon meg kívánja tartani piaci pozícióját és ügyfélkörét.
 
-Hogy mindenki számára egyértelmű legyen: **az alapok befektetésre alkalmatlanok**.
+Hogy egyértelmű legyen: **az alapok befektetésre alkalmatlanok**.

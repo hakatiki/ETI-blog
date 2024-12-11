@@ -7,24 +7,105 @@ author: "Egri Máté és Takáts Bálint"
 image: "/Befalapok2/otp.jpg"
 ---
 
+Az NVIDIA mára elválaszthatatlanul összefonódott a mesterséges intelligencia fejlődésével. De hogyan vált ez a grafikus processzorairól ismert vállalat a neurális hálózatok forradalmának központi szereplőjévé? Ebben a cikkben mélyrehatóan elemezzük a mélytanulás matematikai korlátait, az algoritmusok hatékonyságának kihívásait és a fizikai megvalósítás nehézségeit. 
 
-Az NVIDIA mára elválaszthatatlanul összefonódott a mesterséges intelligencia fejlődésével. De hogyan vált ez a grafikus processzorairól ismert vállalat a neurális hálózatok forradalmának központi szereplőjévé? Ebben a cikkben mélyrehatóan elemezzük a mélytanulás matematikai korlátait, az algoritmusok hatékonyságának kihívásait és a fizikai megvalósítás nehézségeit. Rávilágítunk arra, hogy a hardverek—különösen az NVIDIA GPU-i—miként teszik lehetővé a mélytanulási algoritmusok gyakorlati alkalmazását, és hogyan kezelik a számítási kapacitás és energiafogyasztás kihívásait.
+<div  class="responsive-image-square" style="width: 200%;"> 
+  <img src="/NVIDIA/nvda.png" alt="Cickók" class="dynamic-svg" style="width: 100%;" /> 
+</div>
 
-Célunk, hogy az olvasó átfogó képet kapjon arról, miért vált az NVIDIA a mélytanulás ökoszisztémájának központi elemévé, és hogyan segíti elő a technológia további fejlődését. 
 
+Rávilágítunk arra, hogy a hardverek—különösen az NVIDIA GPU-i—miként teszik lehetővé a mélytanulási algoritmusok gyakorlati alkalmazását, és hogyan kezelik a számítási kapacitás és energiafogyasztás kihívásait.
+<!-- 
+Célunk, hogy az olvasó átfogó képet kapjon arról, miért vált az NVIDIA a mélytanulás ökoszisztémájának központi elemévé, és hogyan segíti elő a technológia további fejlődését.  -->
 
 
 
 **A cikk tájékoztató jellegű, a közlés időpontjában nyíltan elérhető információk alapján íródott, nem tekinthető a 2007. évi CXXXVIII törvény (Bszt.) 4. § (2). bek. 8. pontja szerinti befektetési elemzésnek vagy a 9. pont szerinti befektetési tanácsadásnak, továbbá nem veszi figyelembe az olvasó egyéni anyagi vagy jogi körülményeit.**
 
+## Hogy jutottunk idáig?
+
+ Tekintsünk vissza, hogyan alakult a neurális hálók tudománya az elmúlt évtizedben és hogy mely áttörések vezettek a tapasztalt nagyon gyors fejlődéshez.
+
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Év</th>
+        <th>Algoritmus/Technológia</th>
+        <th>Kulcsfontosságú Fejlesztés</th>
+        <th>Szerző(k)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>2012</b></td>
+        <td>AlexNet</td>
+        <td>GPU-alapú tanítás és képfelismerés új szintje.</td>
+        <td>Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton</td>
+      </tr>
+      <tr>
+        <td><b>2014</b></td>
+        <td>Generative Adversarial Networks (GANs)</td>
+        <td>Valósághű képek és szövegek generálása új megközelítéssel.</td>
+        <td>Ian Goodfellow</td>
+      </tr>
+      <!-- <tr>
+        <td><b>2016</b></td>
+        <td>AlphaGo</td>
+        <td>Emberfeletti teljesítmény a Go játékban.</td>
+        <td>DeepMind</td>
+      </tr> -->
+      <tr>
+        <td><b>2016</b></td>
+        <td>DeepStack</td>
+        <td>Mesterséges intelligencia alkalmazása a pókerjátékban.</td>
+        <td>Noam Brown, Tuomas Sandholm</td>
+      </tr>
+      <tr>
+        <td><b>2017</b></td>
+        <td>Transformers</td>
+        <td>Skálázható modell nagy adathalmazokra.</td>
+        <td>Ashish Vaswani et al.</td>
+      </tr>
+      <tr>
+        <td><b>2017</b></td>
+        <td>AlphaZero</td>
+        <td>Általánosított játék AI, amely emberfeletti teljesítményt ért el sakk, Go és shogi játékokban.</td>
+        <td>DeepMind</td>
+      </tr>
+      <tr>
+        <td><b>2019</b></td>
+        <td>GPT-2</td>
+        <td>Kifinomult nyelvgenerálási képességek.</td>
+        <td>OpenAI</td>
+      </tr>
+      <tr>
+        <td><b>2020</b></td>
+        <td>AlphaFold</td>
+        <td>Fehérjeszerkezetek pontos előrejelzése, áttörés az orvosi és biológiai kutatásokban.</td>
+        <td>DeepMind</td>
+      </tr>
+      <tr>
+        <td><b>2020</b></td>
+        <td>GPT-3</td>
+        <td>A nagyközönség számára ChatGPT néven vált ismertté.</td>
+        <td>OpenAI</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+A sok algoritmikus újítástól eltekintve, általánosságban elmondható, hogy a legnagyobb áttöréseknek egy fő oka volt, mégpedig az, hogy a a modellek tanítására szánt számítás exponenciálisan növekedett. Így a nagyobb modellek több adatot tudtak feldolgozni és egyre csak javultak. A számítási erő növekedése tehát már csak a tanítási időben is fejlődéshez vezet, egy kevésbé kiaknázott terület pedig a számítás növelése az inference fázisban, azaz a modell gondolkodására fordított számítás.
 
 ## A Mélytanulás Matematikai Alapjai (röviden)
-### Univerzális Közelítési Tétel
 
-Az **Univerzális Közelítési Tételt** először **George Cybenko** bizonyította 1989-ben szigmoid aktivációs függvényekre, majd később **Kurt Hornik** általánosította más aktivációs függvényekre is. Ez a tétel alapvető fontosságú a neurális hálók elméletében, mivel kimondja, hogy egy előrecsatolt neurális háló—amely legalább egy rejtett réteggel rendelkezik—képes tetszőleges folytonos függvényt közelíteni $$\mathbb{R}^n$$ egy kompakt részhalmazán, feltéve, hogy elegendő neuron és megfelelő aktivációs függvények állnak rendelkezésre.
+Mi is egy neurális háló? Valójában alfaja egy tágabb halmaznak, a statisztikai modelleknek, amik egy függvény közelítenek meg. Mit várünk el egy ilyen modelltől? A legfontosabb, hogy ha megfelelően sok adatot felhasználhatunk, akkor tetszőlegesen közel kerüljön a közelítendő függvényhez.
 
-Formálisan, legyen $$ f: \mathbb{R}^n \rightarrow \mathbb{R} $$ egy folytonos függvény. Minden $$ \varepsilon > 0 $$ esetén létezik egy neurális háló $$ \hat{f} $$, amelyre:
+### Universal Approximation Theorem
 
+Az **Univerzális Approximációs Tételt** először **George Cybenko** bizonyította 1989-ben szigmoid aktivációs függvényekre, majd később **Kurt Hornik** általánosította más aktivációs függvényekre is. A tétel kimondja, hogy egy neurális háló (amely legalább egy rejtett réteggel rendelkezik) képes tetszőleges folytonos függvényt közelíteni $$\mathbb{R}^n$$ egy kompakt részhalmazán, feltéve, hogy elegendő neuron és megfelelő aktivációs függvények állnak rendelkezésre.
+
+Formálisan, legyen $$ f: \mathbb{R}^n \rightarrow \mathbb{R} $$ egy folytonos függvény. Ekkor minden $$ \varepsilon > 0 $$ esetén létezik egy neurális háló $$ \hat{f} $$, amelyre:
 $$
 \sup_{x \in K} \left| f(x) - \hat{f}(x) \right| < \varepsilon,
 $$
@@ -35,31 +116,27 @@ ahol $$ K \subset \mathbb{R}^n $$ egy kompakt halmaz.
 <div class="custom-text-box">
     <h2>A Tétel jelentősége</h2>
     <p>
-        Ez a tétel azt mutatja, hogy a neurális hálók rendkívül rugalmas függvényközelítők; elméletileg képesek bármilyen folytonos függvényt tetszőleges pontossággal megközelíteni. Nincs matematikai korlátja annak, hogy akár az emberi agy komplexitását is modellezzük velük. Ha elegendő számú neuron és megfelelő struktúra áll rendelkezésre, a neurális hálók elvileg bármilyen összefüggést megtanulhatnak a bemenetek és a kimenetek között. Ez teszi őket rendkívül sokoldalúvá, lehetővé téve alkalmazásukat a legkülönbözőbb területeken, a képfelismeréstől a természetes nyelvfeldolgozásig.
+        Ez a tétel azt mutatja, hogy a neurális hálók rendkívül rugalmas függvényközelítők; elméletben képesek bármilyen folytonos függvényt tetszőleges pontossággal megközelíteni. Nincs matematikai korlátja annak, hogy akár az emberi agy komplexitását is modellezzük velük. Ha elegendő számú neuron és megfelelő struktúra áll rendelkezésre, a neurális hálók elvileg bármilyen összefüggést megtanulhatnak a bemenetek és a kimenetek között. Ez teszi őket rendkívül sokoldalúvá, lehetővé téve alkalmazásukat a legkülönbözőbb területeken, a képfelismeréstől a természetes nyelvfeldolgozásig.
     </p>
 </div>
 
-
-
----
 ### Skálázási Törvények
 
-Az **Empirikus Skálázási Törvények** azt mutatják meg, hogyan javulnak a mélytanulási modellek teljesítménymutatói az erőforrások—mint a modellméret, az adatmennyiség és a számítási kapacitás—növelésével. Ezek a törvények segítenek előre jelezni, milyen mértékben érdemes növelni az erőforrásokat a kívánt teljesítmény eléréséhez.
+De eddig csak azt mondtuk meg, hogy bármennyire meg tudjuk közelíteni a függvényt. Fontos azt is meghatározni, milyen sebességgel tudjuk közelíteni a bemeneteink függvényében. 
+Mik a bemeneteink? 
+ - **Modellméret:** Ahány változtatható paramétere van a modellünknek
+ - **Adatmennyiség:**  Az az adathalmaz, azaz példák a közelítendő függvényre, amit felhasználunk a modell tanításához
+ - **Számítási kapacitás:** A tanításnál elvégzett műveletek száma
+
+Az **Empirikus Skálázási Törvények** azt mutatják meg, hogyan javulnak a mélytanulási modellek teljesítménymutatói ezen erőforrások növelésével. 
 
 A veszteségfüggvény $$ L $$ gyakran az alábbi formában írható fel a modellméret $$ N $$, az adatmennyiség $$ D $$ és a számítási erőforrás $$ C $$ függvényében:
 
 $$
-L(N, D, C) = a N^{-\alpha} + b D^{-\beta} + c C^{-\gamma} + \text{konstans},
+L(N, D, C) = a N^{-\alpha} + b D^{-\beta} + c C^{-\gamma} + d,
 $$
 
-ahol:
-
-- $$ a, b, c > 0 $$ konstansok,
-- $$ \alpha, \beta, \gamma > 0 $$ empirikusan meghatározott kitevők.
-
-**Kulcsfontosságú megállapítások:**
-
-TODO kell kép is
+ahol $$ a, b, c, d, \alpha, \beta, \gamma > 0 $$ empirikusan meghatározott konstansok.
 
 <div class="custom-text-box">
     <h2>Történelmi háttér és kutatók hozzájárulása</h2>
@@ -68,169 +145,51 @@ TODO kell kép is
     </p>
 </div>
 
----
-<!-- 
-### Magas Dimenziós Geometria
+Összefoglalva, a neurális hálók teljesítménye az erőforrások növelésével skálázható, amit az empirikus skálázási törvények is alátámasztanak. Ez az előrejelezhetőség megkönnyíti a számítási kapacitás tervezését és a teljesítmény optimalizálását. De hogyan tudjuk mindezt hatékonyan felskálázni?
 
-A magas dimenziós terek ($$ n \gg 1 $$) olyan tulajdonságokkal bírnak, amelyek ellentmondanak a mindennapi tapasztalatainknak.
+<!-- **Kulcsfontosságú megállapítások:** -->
 
-**Jelentős jelenségek:**
-
-- **Mértékkoncentráció**: Magas dimenzióban egy gömb térfogatának nagy része a felszín közelében koncentrálódik.
-- **Közel ortogonalitás**: Ha $$ x, y \in \mathbb{R}^n $$ véletlen vektorok standard normál eloszlással, akkor:
-
-$$
-\cos \theta = \frac{x^\top y}{\| x \| \| y \|} \approx 0.
-$$
-
-Ez azt jelenti, hogy magas dimenzióban a véletlen vektorok majdnem merőlegesek egymásra.
-
-**Hatások a mélytanulásban:**
-
-- **Optimalizációs tájak**: A magas dimenziós terek lehetővé teszik, hogy a gradiens alapú módszerek hatékonyan navigáljanak a veszteségfelszínen, mivel a lokális minimumok ritkák és a nyeregpontok dominálnak.
-- **Jellemzők szétválasztása**: A magas dimenziós reprezentációk könnyebbé teszik az adatok lineáris elválasztását, ami megkönnyíti a tanulást.
-
-<div class="custom-dropdown-box">
-    <details>
-        <summary><h2>A dimenzionalitás átka és áldása</h2></summary>
-        <p>
-            A "dimenzionalitás átka" (<b>Richard Bellman</b>) arra utal, hogy a magas dimenziós terekben az adatok ritkává válnak, ami megnehezíti a statisztikai becsléseket. Ugyanakkor a "dimenzionalitás áldása" azt jelenti, hogy bizonyos problémák megoldása egyszerűbbé válik, például a lineáris elválasztás.
-        </p>
-    </details>
-</div>
-<!-- -->
-
-
-
-Összefoglalva, a neurális hálók teljesítménye előreláthatóan javul az erőforrások növelésével, amit az empirikus skálázási törvények is alátámasztanak. Az Univerzális Közelítési Tétel biztosítja, hogy a hálók elméletileg képesek bármilyen folytonos függvény, akár az emberi gondolkodás komplexitásának modellezésére, ha elegendő neuron és megfelelő struktúra áll rendelkezésre. Ez az előreláthatóság megkönnyíti a számítási kapacitás és a várható teljesítmény közötti kompromisszum tervezését, így lehetőséget teremt a befektetések optimalizálására és a pénzügyi források hatékony bevonására. 
-
-
-
-
-
-## A Mélytanulást Hajtó Algoritmusok
-
-A mélytanulás sikere nemcsak a matematikai alapoknak köszönhető, hanem azoknak az innovatív algoritmusoknak is, amelyek hatékonyan használják ki a rendelkezésre álló számítási erőforrásokat. Ebben a szekcióban áttekintjük a legfontosabb algoritmusokat és technikákat:
-
-1. [Transzformerek](#transzformerek)
-2. [Flash Attention](#flash-attention)
-3. [Fused CUDA Kernels](#fused-cuda-kernels)
-4. [Tesztidős Számítások](#tesztidős-számítások)
-
-### Transzformerek
-
-A **Transzformerek** forradalmasították a természetes nyelvfeldolgozást (NLP) azáltal, hogy teljes mértékben az **önfigyelmi mechanizmusokra** támaszkodnak, mellőzve a rekurens és konvolúciós rétegeket.
-
-#### Önszámú Figyelem (Self-Attention)
-
-Az önfigyelmi mechanizmus lehetővé teszi a modell számára, hogy egy mondat minden szavára figyeljen, amikor egy adott szót dolgoz fel.
-
-Az önfigyelmi mechanizmus képlete:
-
-$$
-\text{Attention}(Q, K, V) = \text{softmax}\left( \frac{Q K^\top}{\sqrt{d_k}} \right) V
-$$
-
-ahol:
-
-- $$ Q $$ (Queries), $$ K $$ (Keys), $$ V $$ (Values) a bemenetek lineáris transzformációi,
-- $$ d_k $$ a kulcsok dimenziója.
-
-#### Multi-Head Attention
-
-A **Multi-Head Attention** lehetővé teszi a modell számára, hogy több különböző reprezentációs térben figyeljen egyszerre.
-
-$$
-\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \dots, \text{head}_h) W^O
-$$
-
-ahol minden fej saját önfigyelmi számítást végez.
-
-#### Miért Jelentős?
-
-- **Párhuzamosítás**: Lehetővé teszi a hatékony tanítást azáltal, hogy a szekvencia minden pozícióját egyszerre dolgozza fel.
-- **Hosszú Távú Függőségek**: Hatékonyan modellezi a távoli elemek közötti kapcsolatokat.
-- **Skálázhatóság**: Jól működik nagy adathalmazok és modellek esetén is.
-
-<div class="custom-text-box">
-    <h2>Érdekesség</h2>
-    <p>
-        A Transzformereket **Vaswani et al.** vezették be 2017-ben a "Attention is All You Need" című cikkben, ami alapjaiban változtatta meg az NLP területét.
-    </p>
-</div>
+TODO kell kép is
 
 ---
 
-### Flash Attention
 
-A **Flash Attention** egy algoritmus, amely optimalizálja az önfigyelmi mechanizmus hatékonyságát, csökkentve a memóriahasználatot és a számítási időt.
+<!-- A mélytanulás világa az évek során látványos átalakuláson ment keresztül. Ha visszatekintünk a kezdetekre, a 2012-ben megjelent AlexNet (Krizhevsky et al., 2012) már akkor forradalmi teljesítményt ért el a képfelismerési feladatokban, megmutatva, hogy a GPU-k ereje miként nyitja meg az utat a mély neurális hálózatok előtt. Azóta a kutatók folyamatosan keresik azokat az algoritmikus újításokat, amelyek még hatékonyabbá, skálázhatóbbá és sokoldalúbbá teszik ezeket a rendszereket.
 
-#### Lényege
+A Transzformerek (Vaswani et al., 2017) áttörést hoztak a mélytanulásban azzal, hogy kimondottan a nagy modellek gyors és párhuzamos tanítását tették lehetővé. Ez az architektúra alapvetően azzal emelkedett ki, hogy rendkívül gyorsan futtatható GPU klasztereken. Ez lehetővé tette a nagy adathalmazokon való skálázható tanulást.
 
-- **Memóriahatékony Számítás**: Azáltal, hogy nem tárolja az egész figyelmi mátrixot, jelentős memória megtakarítást ér el.
-- **Algoritmikus Optimalizáció**: Csökkenti a számítási komplexitást, lehetővé téve hosszabb szekvenciák feldolgozását.
 
-#### Megvalósítás
+ A cél az volt, hogy a tanítási folyamat nemcsak gyorsabb, hanem erőforrás-hatékonyabb legyen, miközben az egyre növekvő modellméretek által támasztott igényeket is kielégítse. -->
 
-- **Fused CUDA Kernels** használata: Több GPU művelet egyetlen kernelbe való összevonása csökkenti az overheadet és javítja a teljesítményt.
 
-<div class="custom-text-box">
-    <h2>Érdekesség</h2>
-    <p>
-        A Flash Attention mögött álló kutatók között van **Tri Dao**, aki jelentős munkát végzett a memóriahatékony figyelmi mechanizmusok terén.
-    </p>
-</div>
+# A CUDA és a Mélytanulás Rejtett Infrastruktúrája
 
----
+A mélytanulási algoritmusok (pl. neurális hálózatok) sikere nem kizárólag a matematikai alapjaiknak köszönhető, hanem egy rendkívül fejlett technológiai háttérnek is, amelyet gyakran "rejtett infrastruktúrának" nevezünk. Ennek az infrastruktúrának egyik kulcsfontosságú eleme az NVIDIA által kifejlesztett CUDA platform, amely az NVIDIA GPU-ira optimalizált számítási környezetet biztosít.
 
-### Fused CUDA Kernels
+## Mi az a CUDA?
 
-A **Fused CUDA Kernels** technika lényege, hogy több GPU műveletet egyetlen kernelbe egyesítünk, ezzel csökkentve a kernel indítási overheadet és növelve a számítási hatékonyságot.
+A **CUDA** (Compute Unified Device Architecture) egy NVIDIA által kifejlesztett platform és programozási modell, amely lehetővé teszi, hogy a fejlesztők a GPU-k párhuzamos számítási kapacitását használják ki. Ez azért fontos, mert a GPU-k egyszerre sok ezer kis műveletet tudnak párhuzamosan végrehajtani, ami a mélytanulási modellekhez elengedhetetlen.
 
-#### Miért Hasznos?
+### Egyszerű példával élve:
+- Képzeljünk el egy táblázatot, ahol minden cellán egyszerre kell műveleteket végrehajtani! A hagyományos CPU (központi processzor) egyesével dolgozna rajta, míg a GPU több ezret tud egyszerre kezelni.
+- A CUDA segít abban, hogy a fejlesztők programjaikban egyszerűen és hatékonyan kihasználhassák ezt a párhuzamos feldolgozási képességet.
 
-- **Teljesítményjavulás**: Csökkenti a memória sávszélesség követelményét és az indítási időket.
-- **Hatékonyabb Erőforrás-kihasználás**: Jobban kihasználja a GPU-k párhuzamos számítási képességeit.
+## Miért fontos a CUDA a mélytanulásban?
 
-#### Alkalmazások
+1. **Gyors számítás**: A mélytanulási modellek hatalmas mennyiségű számítást igényelnek. A CUDA-alapú GPU-k ezek gyors és párhuzamos végrehajtását biztosítják.
+2. **Optimalizáció**: A CUDA lehetővé teszi a memóriahasználat és az algoritmusok futási sebességének optimalizálását.
+3. **Skálázhatóság**: Nemcsak egyetlen GPU-n működik jól, hanem nagy számítási clusterben is, ahol több GPU dolgozik együtt.
 
-- **Rétegnormalizáció (Layer Normalization)**: A normalizációs lépések összevonása egyetlen kernelbe.
-- **Aktivációs Függvények**: Aktivációs függvények és a hozzájuk kapcsolódó műveletek összevonása.
+## Milyen "rejtett" infrastruktúráról van szó?
 
-<div class="custom-text-box">
-    <h2>Érdekesség</h2>
-    <p>
-        Az ilyen optimalizációk mögött gyakran állnak olyan szakemberek, mint **Nvidia** mérnökei, akik a mélytanulási keretrendszerek teljesítményének javításán dolgoznak.
-    </p>
-</div>
+- **Kernel-fúziók**: Ezek olyan trükkök a CUDA-ban, amelyek több műveletet egyetlen lépésben hajtanak végre, hogy gyorsabb legyen a futás.
+- **Könyvtárak**: Az NVIDIA számos előre megírt, optimalizált könyvtárat biztosít (pl. cuDNN a mélytanuláshoz), amelyek egyszerűbbé teszik a fejlesztők dolgát.
+- **Low-level optimalizáció**: Az NVIDIA mérnökei a hardver és a szoftver szoros együttműködését biztosítják, hogy a modellek a lehető leggyorsabban fussanak.
+- **Cluster-szintű menedzsment**: Nagy adatközpontokban több GPU együttműködését irányítják, hogy a hatékonyság még tovább nőjön.
 
----
+## Miért fontos ez?
 
-### Tesztidős Számítások
-
-A **Tesztidős Számítások** (Inference Time Compute) optimalizálása kulcsfontosságú a modellek gyakorlati alkalmazásában, különösen erőforrás-korlátozott környezetekben.
-
-#### Technikák
-
-- **Modellpruning**: A kevésbé fontos súlyok eltávolítása a modellből a méret és a számítási igény csökkentése érdekében.
-- **Kvantalás (Quantization)**: A súlyok és aktivációk alacsonyabb precizitású reprezentációja (pl. 8 bites egész számok), ami csökkenti a memória- és számítási igényt.
-- **Tudásdesztilláció**: Egy kisebb "diák" modell tanítása egy nagyobb "tanár" modell kimeneteinek felhasználásával.
-
-#### Fontos Személyek
-
-- **Noam Brown**: Bár leginkább az AI és a játékok (pl. póker) területén végzett munkájáról ismert, hozzájárulásai a megerősítéses tanulásban és az optimalizációban inspirációul szolgálnak a tesztidős számítások fejlesztésében is.
-- **Song Han**: Jelentős munkát végzett a modellpruning és hatékony neurális hálók terén.
-
-<div class="custom-text-box">
-    <h2>Érdekesség</h2>
-    <p>
-        A tesztidős optimalizációk nemcsak a felhasználói élményt javítják (pl. gyorsabb válaszidők), hanem lehetővé teszik a mélytanulási modellek alkalmazását mobil eszközökön és beágyazott rendszereken.
-    </p>
-</div>
-
----
-
-Ezek az algoritmusok és technikák együttműködve teszik lehetővé, hogy a mélytanulási modellek hatékonyan tanuljanak és működjenek a gyakorlatban. Az innováció folyamatos, és a kutatók, mint **Noam Brown**, **Tri Dao** és **Song Han**, továbbra is új utakat keresnek a teljesítmény és hatékonyság javítására.
+A mélytanulási algoritmusok sikere nagyban múlik azon, hogy milyen gyorsan és mekkora skálán tudjuk futtatni őket. Az NVIDIA CUDA platformja gyakorlatilag szabvánnyá vált ezen a téren, és ezt a fejlett infrastruktúra támogatja.
 
 
 ## A Mesterséges Intelligencia Hardver Ellátási Lánca
@@ -407,6 +366,7 @@ A lemaradástól való félelem sok vállalatot és országot arra ösztönöz, 
 
 
 
+
 ### Nemzetközi Verseny és Együttműködés
 
 Az AI fejlesztése nem csak vállalati, hanem nemzeti szinten is versenyt generál. Országok stratégiákat dolgoznak ki az AI előmozdítására:
@@ -414,3 +374,34 @@ Az AI fejlesztése nem csak vállalati, hanem nemzeti szinten is versenyt gener�
 - **Nemzeti AI Stratégiák**: Számos ország, mint például az USA, Kína és az EU tagállamai, külön stratégiákat alkotnak az AI fejlesztésére és alkalmazására.
   
 - **Nemzetközi Szabályozás**: Az AI globális hatásai miatt felmerül az igény nemzetközi szabályozási keretek kialakítására.
+
+
+
+
+## a jövő 
+### Tesztidős Számítások
+
+A **Tesztidős Számítások** (Inference Time Compute) optimalizálása kulcsfontosságú a modellek gyakorlati alkalmazásában, különösen erőforrás-korlátozott környezetekben.
+
+#### Technikák
+
+- **Modellpruning**: A kevésbé fontos súlyok eltávolítása a modellből a méret és a számítási igény csökkentése érdekében.
+- **Kvantalás (Quantization)**: A súlyok és aktivációk alacsonyabb precizitású reprezentációja (pl. 8 bites egész számok), ami csökkenti a memória- és számítási igényt.
+- **Tudásdesztilláció**: Egy kisebb "diák" modell tanítása egy nagyobb "tanár" modell kimeneteinek felhasználásával.
+
+#### Fontos Személyek
+
+- **Noam Brown**: Bár leginkább az AI és a játékok (pl. póker) területén végzett munkájáról ismert, hozzájárulásai a megerősítéses tanulásban és az optimalizációban inspirációul szolgálnak a tesztidős számítások fejlesztésében is.
+- **Song Han**: Jelentős munkát végzett a modellpruning és hatékony neurális hálók terén.
+
+<div class="custom-text-box">
+    <h2>Érdekesség</h2>
+    <p>
+        A tesztidős optimalizációk nemcsak a felhasználói élményt javítják (pl. gyorsabb válaszidők), hanem lehetővé teszik a mélytanulási modellek alkalmazását mobil eszközökön és beágyazott rendszereken.
+    </p>
+</div>
+
+---
+
+Ezek az algoritmusok és technikák együttműködve teszik lehetővé, hogy a mélytanulási modellek hatékonyan tanuljanak és működjenek a gyakorlatban. Az innováció folyamatos, és a kutatók, mint **Noam Brown**, **Tri Dao** és **Song Han**, továbbra is új utakat keresnek a teljesítmény és hatékonyság javítására.
+

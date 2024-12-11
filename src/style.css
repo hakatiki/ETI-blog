@@ -317,6 +317,8 @@
   border-bottom: 1px solid var(--color-accent);
 }
 
+
+
 .custom-table th {
   background-color: var(--color-accent);
   font-weight: var(--fontWeight-bold);

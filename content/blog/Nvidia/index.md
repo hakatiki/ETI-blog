@@ -9,7 +9,7 @@ image: "/Befalapok2/otp.jpg"
 
 Az NVIDIA mára elválaszthatatlanul összefonódott a mesterséges intelligencia fejlődésével. De hogyan vált ez a grafikus processzorairól ismert vállalat a neurális hálózatok forradalmának központi szereplőjévé? Ebben a cikkben mélyrehatóan elemezzük a mélytanulás matematikai korlátait, az algoritmusok hatékonyságának kihívásait és a fizikai megvalósítás nehézségeit. 
 
-<div  class="responsive-image-square" style="width: 200%;"> 
+<div  class="responsive-image-square" style="width: 100%;"> 
   <img src="/NVIDIA/nvda.png" alt="Cickók" class="dynamic-svg" style="width: 100%;" /> 
 </div>
 

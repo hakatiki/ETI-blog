@@ -68,10 +68,12 @@ Kezdetnek vegyük végig a diákhitelek típusait és azok összes jellemzőjét
       <td colspan="2">Gyermekvállalás esetén nőknek a tartozás felét vagy akár egészét is elengedik egyéb kedvezmények mellett.</span></td>
     </tr>
   </table>
-<p style="text-align: right;">
+<!-- <p style="text-align: right;">
     <a href="https://diakhitel.hu" target="_blank" style="text-decoration: none; color: inherit; font-style: italic;">Diákhitel</a>
-</p>
+</p> -->
 </div>
+
+Forrás: [Diákhitel](https://diakhitel.hu)
 
 <!-- - **Gyermekek után járó támogatás:**
   - **1 Gyermek esetében:** Kérheted a törlesztési kötelezettség szüneteltetését a várandósság 91. napjától. Kamattámogatás is jár, ami azt jelenti, hogy ez idő alatt az ügyleti kamatok nem növelik az egyenlegedet. Továbbá, ha még nem töltötted be a 30. életévedet, és a tanulmányaid alatt vagy azok sikeres befejezését követő két éven belül gyermeked lesz, a fennálló diákhiteled 100%-át elengedjük. 

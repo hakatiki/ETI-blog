@@ -302,7 +302,7 @@
   overflow-x: auto;
   margin: var(--spacing-4) auto;
   border: 1px solid var(--color-accent); /* Optional: Add border for better visibility */
-  border-radius: var(--spacing-1); /* Optional: Smooth corners */
+  border-radius: 8px; /* Optional: Smooth corners */
 }
 
 .custom-table {
@@ -316,8 +316,6 @@
   padding: var(--spacing-1);
   border-bottom: 1px solid var(--color-accent);
 }
-
-
 
 .custom-table th {
   background-color: var(--color-accent);
@@ -334,6 +332,16 @@
   color: #335574;
 }
 
+/* table {
+  width: 100%;
+  margin-bottom: var(--spacing-8);
+  border-collapse: collapse;
+  border-spacing: 0.25rem;
+}
+
+table thead tr th {
+  border-bottom: 1px solid var(--color-accent);
+} */
 
 /*svg képek*/
 .svg-container {
@@ -526,16 +534,7 @@ blockquote > ol {
   list-style-position: inside;
 }
 
-table {
-  width: 100%;
-  margin-bottom: var(--spacing-8);
-  border-collapse: collapse;
-  border-spacing: 0.25rem;
-}
 
-table thead tr th {
-  border-bottom: 1px solid var(--color-accent);
-}
 
 /* Link */
 

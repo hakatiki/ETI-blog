@@ -9,12 +9,19 @@ image: "/Befalapok2/otp.jpg"
 
 Az NVIDIA mára elválaszthatatlanul összefonódott a mesterséges intelligencia fejlődésével. De hogyan vált ez a grafikus processzorairól ismert vállalat a neurális hálózatok forradalmának központi szereplőjévé? Ebben a cikkben mélyrehatóan elemezzük a mélytanulás matematikai korlátait, az algoritmusok hatékonyságának kihívásait és a fizikai megvalósítás nehézségeit. 
 
-<div  class="responsive-image-square" style="width: 100%;"> 
+<!-- <div  class="responsive-image-square" style="width: 100%;"> 
   <img src="/NVIDIA/nvda.png" alt="Cickók" class="dynamic-svg" style="width: 100%;" /> 
+      <figcaption class="svg-caption">Jensen Huang az NVIDIA vezérigazgatója</figcaption>
+
+</div> -->
+
+<div  class="page-wide-image" style="width: 100%;"> 
+  <img src="/NVIDIA/jensen-tits.webp" alt="Cickók" class="dynamic-svg" style="width: 100%;" /> 
+      <figcaption class="svg-caption">Jensen Huang az NVIDIA vezérigazgatója egy B100-as GPU-val</figcaption>
+
 </div>
 
-
-Rávilágítunk arra, hogy a hardverek—különösen az NVIDIA GPU-i—miként teszik lehetővé a mélytanulási algoritmusok gyakorlati alkalmazását, és hogyan kezelik a számítási kapacitás és energiafogyasztás kihívásait.
+Rávilágítunk arra, hogy a hardverek—különösen az NVIDIA GPU-i—miként teszik lehetővé a mélytanulási algoritmusok gyakorlati alkalmazását, és hogyan kezelik a számítási kapacitás és energiafogyasztás kihívásait. 
 <!-- 
 Célunk, hogy az olvasó átfogó képet kapjon arról, miért vált az NVIDIA a mélytanulás ökoszisztémájának központi elemévé, és hogyan segíti elő a technológia további fejlődését.  -->
 
@@ -24,7 +31,7 @@ Célunk, hogy az olvasó átfogó képet kapjon arról, miért vált az NVIDIA a
 
 ## Hogy jutottunk idáig?
 
- Tekintsünk vissza, hogyan alakult a neurális hálók tudománya az elmúlt évtizedben és hogy mely áttörések vezettek a tapasztalt nagyon gyors fejlődéshez.
+Tekintsünk vissza, hogyan alakult a neurális hálók tudománya az elmúlt évtizedben és hogy mely áttörések vezettek a tapasztalt nagyon gyors fejlődéshez.
 
 <div class="table-container">
   <table class="custom-table">
@@ -49,12 +56,6 @@ Célunk, hogy az olvasó átfogó képet kapjon arról, miért vált az NVIDIA a
         <td>Valósághű képek és szövegek generálása új megközelítéssel.</td>
         <td>Ian Goodfellow</td>
       </tr>
-      <!-- <tr>
-        <td><b>2016</b></td>
-        <td>AlphaGo</td>
-        <td>Emberfeletti teljesítmény a Go játékban.</td>
-        <td>DeepMind</td>
-      </tr> -->
       <tr>
         <td><b>2016</b></td>
         <td>DeepStack</td>
@@ -95,15 +96,22 @@ Célunk, hogy az olvasó átfogó képet kapjon arról, miért vált az NVIDIA a
   </table>
 </div>
 
-A sok algoritmikus újítástól eltekintve, általánosságban elmondható, hogy a legnagyobb áttöréseknek egy fő oka volt, mégpedig az, hogy a a modellek tanítására szánt számítás exponenciálisan növekedett. Így a nagyobb modellek több adatot tudtak feldolgozni és egyre csak javultak. A számítási erő növekedése tehát már csak a tanítási időben is fejlődéshez vezet, egy kevésbé kiaknázott terület pedig a számítás növelése az inference fázisban, azaz a modell gondolkodására fordított számítás.
+A sok algoritmikus újítástól eltekintve, általánosságban elmondható, hogy a legnagyobb áttöréseknek egy fő oka volt, mégpedig az, hogy a a modellek tanítására szánt számítás exponenciálisan növekedett. Így a nagyobb modellek több adatot tudtak feldolgozni és egyre csak javultak. A számítási erő növekedése tehát már csak a tanítási időben is fejlődéshez vezet, egy kevésbé kiaknázott terület pedig a számítás növelése az inferencia fázisban, de erről később.
 
 ## A Mélytanulás Matematikai Alapjai (röviden)
 
-Mi is egy neurális háló? Valójában alfaja egy tágabb halmaznak, a statisztikai modelleknek, amik egy függvény közelítenek meg. Mit várünk el egy ilyen modelltől? A legfontosabb, hogy ha megfelelően sok adatot felhasználhatunk, akkor tetszőlegesen közel kerüljön a közelítendő függvényhez.
+Mi is egy neurális háló? Valójában alfaja egy tágabb halmaznak, a statisztikai modelleknek, amik egy függvényt közelítenek meg. Mit várunk el egy ilyen modelltől? A legfontosabb, hogy ha megfelelően sok adatot felhasználhatunk, akkor tetszőlegesen közel kerüljön a közelítendő függvényhez.
 
 ### Universal Approximation Theorem
 
+<div class="responsive-image-disappear">
+  <img src="/NVIDIA/cybenko.jpg" alt="Description of the image" />
+    <figcaption class="svg-caption">George Cybenko</figcaption>
+</div>
+
+
 Az **Univerzális Approximációs Tételt** először **George Cybenko** bizonyította 1989-ben szigmoid aktivációs függvényekre, majd később **Kurt Hornik** általánosította más aktivációs függvényekre is. A tétel kimondja, hogy egy neurális háló (amely legalább egy rejtett réteggel rendelkezik) képes tetszőleges folytonos függvényt közelíteni $$\mathbb{R}^n$$ egy kompakt részhalmazán, feltéve, hogy elegendő neuron és megfelelő aktivációs függvények állnak rendelkezésre.
+
 
 Formálisan, legyen $$ f: \mathbb{R}^n \rightarrow \mathbb{R} $$ egy folytonos függvény. Ekkor minden $$ \varepsilon > 0 $$ esetén létezik egy neurális háló $$ \hat{f} $$, amelyre:
 $$
@@ -116,7 +124,7 @@ ahol $$ K \subset \mathbb{R}^n $$ egy kompakt halmaz.
 <div class="custom-text-box">
     <h2>A Tétel jelentősége</h2>
     <p>
-        Ez a tétel azt mutatja, hogy a neurális hálók rendkívül rugalmas függvényközelítők; elméletben képesek bármilyen folytonos függvényt tetszőleges pontossággal megközelíteni. Nincs matematikai korlátja annak, hogy akár az emberi agy komplexitását is modellezzük velük. Ha elegendő számú neuron és megfelelő struktúra áll rendelkezésre, a neurális hálók elvileg bármilyen összefüggést megtanulhatnak a bemenetek és a kimenetek között. Ez teszi őket rendkívül sokoldalúvá, lehetővé téve alkalmazásukat a legkülönbözőbb területeken, a képfelismeréstől a természetes nyelvfeldolgozásig.
+        Ez a tétel azt mutatja, hogy a neurális hálók rendkívül rugalmas függvényközelítők; elméletben képesek bármilyen folytonos függvényt tetszőleges pontossággal megközelíteni. Nincs matematikai korlátja annak, hogy akár az emberi agy komplexitását is modellezzük velük. Ez tulajdonságuk teszi őket különösen alkalmazássá a legkülönbözőbb területeken, a képfelismeréstől a természetes nyelvfeldolgozásig.
     </p>
 </div>
 
@@ -126,7 +134,7 @@ De eddig csak azt mondtuk meg, hogy bármennyire meg tudjuk közelíteni a függ
 Mik a bemeneteink? 
  - **Modellméret:** Ahány változtatható paramétere van a modellünknek
  - **Adatmennyiség:**  Az az adathalmaz, azaz példák a közelítendő függvényre, amit felhasználunk a modell tanításához
- - **Számítási kapacitás:** A tanításnál elvégzett műveletek száma
+ - **Számítási kapacitás:** A tanítás során elvégzett műveletek száma. Ez a gyakorlatban az elvégzett lebegőpontos összeadások és szorzások számát jelenti.
 
 Az **Empirikus Skálázási Törvények** azt mutatják meg, hogyan javulnak a mélytanulási modellek teljesítménymutatói ezen erőforrások növelésével. 
 
@@ -136,35 +144,21 @@ $$
 L(N, D, C) = a N^{-\alpha} + b D^{-\beta} + c C^{-\gamma} + d,
 $$
 
-ahol $$ a, b, c, d, \alpha, \beta, \gamma > 0 $$ empirikusan meghatározott konstansok.
+ahol $$ a, b, c, d, \alpha, \beta, \gamma > 0 $$ empirikusan meghatározott konstansok. A neurális halókról általánosan elmondható az, hogy annál jobb minnél alacsonyabb értéket ér el a veszteségfüggvény a tanítás során, néhány technikai részlettől eltekintve.
 
 <div class="custom-text-box">
     <h2>Történelmi háttér és kutatók hozzájárulása</h2>
     <p>
-        Az empirikus skálázási törvények fogalmát Jared Kaplan és munkatársai vezették be az OpenAI-nál. 2020-ban publikálták a nyelvi modellek skálázási törvényeiről szóló tanulmányukat, amelyben kimutatták, hogy a nyelvi modellek teljesítménye jól illeszkedik a fenti hatványfüggvényes formához. Eredményeik fontos iránymutatást adnak a nagy méretű modellek tervezéséhez és fejlesztéséhez.
+        Az empirikus skálázási törvények fogalmát Jared Kaplan és munkatársaihoz kötődik, akik 2020-ban publikálták a nyelvi modellek skálázási törvényeiről szóló tanulmányukat, amelyben amellett érveltek, hogy a nyelvi modellek teljesítménye jól illeszkedik a fenti hatványfüggvényes formához.
     </p>
 </div>
 
-Összefoglalva, a neurális hálók teljesítménye az erőforrások növelésével skálázható, amit az empirikus skálázási törvények is alátámasztanak. Ez az előrejelezhetőség megkönnyíti a számítási kapacitás tervezését és a teljesítmény optimalizálását. De hogyan tudjuk mindezt hatékonyan felskálázni?
-
-<!-- **Kulcsfontosságú megállapítások:** -->
-
-TODO kell kép is
-
----
+Összefoglalva, a **neurális hálók képesek az emberi intelligencia teljes reprezentálására és az empirikus skálázási törvények egy nehéz, de belátható utat sejtetnek**. Az állítás tehát az, hogy az emberi 
 
 
-<!-- A mélytanulás világa az évek során látványos átalakuláson ment keresztül. Ha visszatekintünk a kezdetekre, a 2012-ben megjelent AlexNet (Krizhevsky et al., 2012) már akkor forradalmi teljesítményt ért el a képfelismerési feladatokban, megmutatva, hogy a GPU-k ereje miként nyitja meg az utat a mély neurális hálózatok előtt. Azóta a kutatók folyamatosan keresik azokat az algoritmikus újításokat, amelyek még hatékonyabbá, skálázhatóbbá és sokoldalúbbá teszik ezeket a rendszereket.
+# Hogyan kapcsolódik ebben az NVIDIA?
 
-A Transzformerek (Vaswani et al., 2017) áttörést hoztak a mélytanulásban azzal, hogy kimondottan a nagy modellek gyors és párhuzamos tanítását tették lehetővé. Ez az architektúra alapvetően azzal emelkedett ki, hogy rendkívül gyorsan futtatható GPU klasztereken. Ez lehetővé tette a nagy adathalmazokon való skálázható tanulást.
-
-
- A cél az volt, hogy a tanítási folyamat nemcsak gyorsabb, hanem erőforrás-hatékonyabb legyen, miközben az egyre növekvő modellméretek által támasztott igényeket is kielégítse. -->
-
-
-# A CUDA és a Mélytanulás Rejtett Infrastruktúrája
-
-A mélytanulási algoritmusok (pl. neurális hálózatok) sikere nem kizárólag a matematikai alapjaiknak köszönhető, hanem egy rendkívül fejlett technológiai háttérnek is, amelyet gyakran "rejtett infrastruktúrának" nevezünk. Ennek az infrastruktúrának egyik kulcsfontosságú eleme az NVIDIA által kifejlesztett CUDA platform, amely az NVIDIA GPU-ira optimalizált számítási környezetet biztosít.
+A mélytanulási algoritmusok sikere nem kizárólag a matematikai alapjaiknak köszönhető, hanem egy rendkívül fejlett technológiai háttérnek is, amelyet gyakran "rejtett infrastruktúrának" nevezünk. Ennek az infrastruktúrának egyik kulcsfontosságú eleme az NVIDIA által kifejlesztett CUDA platform, amely az NVIDIA GPU-ira optimalizált számítási környezetet biztosít.
 
 ## Mi az a CUDA?
 

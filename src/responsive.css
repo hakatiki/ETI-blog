@@ -24,6 +24,9 @@
     max-width: 100%;
   }
 }
+
+
+
 .responsive-image-left {
   float: left;
   margin: 0 1em 1em 0;
@@ -50,6 +53,30 @@
   }
 }
 
+.responsive-image-disappear {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 20%;
+  text-align: center;
+}
+
+.responsive-image-disappear img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.responsive-image-disappear figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .responsive-image-disappear {
+    display: none;
+  }
+}
 
 
 
@@ -79,4 +106,11 @@
     margin: 1em 0;
     max-width: 100%;
   }
+}
+
+
+.page-wide-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
 }
